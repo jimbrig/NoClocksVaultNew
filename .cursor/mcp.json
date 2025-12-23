@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp?exaApiKey=91bb0553-f12e-4228-bb68-1095071adbca"
+    },
+    "firecrawl": {
+      "type": "stdio",
+      "command": "bunx",
+      "args": [
+        "-y",
+        "firecrawl-mcp@latest"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-717e6f15d1e54ca9998b1c1374a1bb25"
+      }
+    },
+    "tavily": {
+			"type": "stdio",
+			"command": "bunx",
+			"args": [
+				"-y",
+				"mcp-remote",
+				"https://mcp.tavily.com/mcp/?tavilyApiKey=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"
+			]
+		},
+    "repomix": {
+			"type": "stdio",
+			"command": "bunx",
+			"args": [
+				"-y",
+				"repomix",
+				"--mcp"
+			]
+		},
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "ctx7sk-910793d7-82ea-4079-997c-b5aa04268927"
+      }
+    },
+    "obsidian": {
+      "command": "uvx",
+      "args": [
+        "mcp-obsidian"
+      ],
+      "env": {
+        "OBSIDIAN_API_KEY": "96564ce9af7ed7bb6b3a1da3a0da8b1cd11d6e0cd092f95acf2293b28ee09003",
+        "OBSIDIAN_HOST": "http://127.0.0.1",
+        "OBSIDIAN_PORT": "27123"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+# Quartz Publishing Rules
+
+## Context
+
+The vault publishes to Quartz at docs.noclocks.dev/noclocksvault using a three-branch workflow.
+
+## Branch Workflow
+
+| Branch | Purpose |
+|--------|---------|
+| `develop` | Raw Obsidian content with wikilinks |
+| `main` | GitHub-viewable content (converted links) |
+| `gh-pages` | Deployed Quartz static site |
+
+## Quartz Configuration
+
+Configuration in `quartz/quartz.config.ts`:
+- Base URL: `docs.noclocks.dev/noclocksvault`
+- Ignored: `05-SYSTEM/Templates`, `99-ARCHIVES`, `.obsidian`, `private`
+
+## Publishing Considerations
+
+When creating publishable content:
+- Set `publish: true` in frontmatter
+- Avoid Obsidian-only plugin syntax in published notes
+- Ensure linked notes exist or are also published
+- Use standard markdown features for compatibility
+
+## Theme Configuration
+
+Light mode colors:
+- Primary: `#1a365d` (deep blue)
+- Secondary: `#2c5282`
+
+Dark mode colors:
+- Primary: `#63b3ed` (light blue)
+- Secondary: `#4299e1`
+
+Fonts:
+- Header: Schibsted Grotesk
+- Body: Source Sans Pro
+- Code: IBM Plex Mono
+
+## Static Assets
+
+- Place images in `04-RESOURCES/Assets/Images/`
+- Use relative paths for embeds
+- Banners in `04-RESOURCES/Assets/Banners/`
+- Logos in `04-RESOURCES/Assets/Logos/`

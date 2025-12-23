@@ -1,0 +1,77 @@
+# Templater Syntax Rules
+
+## Context
+
+Templates in `05-SYSTEM/Templates/` use the Templater plugin for dynamic content generation.
+
+## Core Syntax
+
+### File Metadata
+
+```javascript
+<% tp.file.title %>                           // Current file name (without .md)
+<% tp.file.folder(true) %>                    // Full folder path
+<% tp.file.folder(false) %>                   // Parent folder only
+<% tp.file.creation_date("YYYY-MM-DD") %>     // File creation date
+<% tp.file.last_modified_date("YYYY-MM-DD") %> // Last modified date
+<% tp.file.path(true) %>                      // Full file path
+```
+
+### Date Operations
+
+```javascript
+<% tp.date.now("YYYY-MM-DD") %>               // Current date
+<% tp.date.now("dddd, MMMM Do YYYY") %>       // Formatted: Saturday, December 20th 2024
+<% tp.date.now("YYYY-MM-DD", 1) %>            // Tomorrow
+<% tp.date.now("YYYY-MM-DD", -1) %>           // Yesterday
+<% tp.date.weekday("YYYY-MM-DD", 0) %>        // This week's Sunday
+```
+
+### Conditional Content
+
+```javascript
+<%* if (tp.file.title.includes("(")) { -%>
+  // content when condition is true
+<%* } -%>
+
+<%* if (condition) { -%>
+content A
+<%* } else { -%>
+content B
+<%* } -%>
+```
+
+### User Prompts
+
+```javascript
+<% await tp.system.prompt("Enter description") %>
+<% await tp.system.suggester(["Option 1", "Option 2"], ["value1", "value2"]) %>
+<% await tp.system.prompt("Title", "Default Value") %>
+```
+
+### Cursor Positioning
+
+```javascript
+<% tp.file.cursor() %>    // Place cursor here after template insertion
+<% tp.file.cursor(1) %>   // Multiple cursors with tab order
+```
+
+## Important Rules
+
+1. **Never execute Templater syntax** - preserve it exactly as written
+2. **Recognize the delimiters:**
+   - `<% %>` - Output expression
+   - `<%* %>` - Execute JavaScript without output
+   - `<% -%>` - Trim trailing newline
+   - `<%* -%>` - Execute and trim newline
+3. **Date format tokens:** Use Moment.js format strings (YYYY, MM, DD, etc.)
+
+## Existing Templates
+
+| Template | Location | Purpose |
+|----------|----------|---------|
+| Definition | `05-SYSTEM/Templates/Template-Definition.md` | Term/glossary entries |
+| Daily | `05-SYSTEM/Templates/Temporal/Template-Daily.md` | Daily journal |
+| Weekly | `05-SYSTEM/Templates/Temporal/Template-Weekly.md` | Weekly review |
+| Monthly | `05-SYSTEM/Templates/Temporal/Template-Monthly.md` | Monthly review |
+| Code | `05-SYSTEM/Templates/Code/Template-Code-*.md` | Code snippets |

@@ -1,0 +1,130 @@
+# Obsidian Vault Rules
+
+## Context
+
+This is the No Clocks Knowledge Vault - an Obsidian vault structured as a Zettelkasten with atomic, interlinked notes. The vault publishes to a Quartz static site at docs.noclocks.dev/noclocksvault.
+
+## Core Philosophy
+
+**Your vault stores YOUR knowledge, not duplicated documentation.**
+
+- Link to official docs rather than copying them
+- Capture insights, customizations, curated selections
+- No individual Tool notes - use curated Lists with external links
+- Project docs stay with projects - this vault is for cross-project knowledge
+
+## File Structure
+
+```
+00-INBOX/      → Quick capture entry point
+01-SLIPBOX/    → Atomic permanent notes (non-typed pure ideas)
+02-JOURNAL/    → Temporal notes (Daily, Weekly, Monthly)
+03-AREAS/      → MOCs - global knowledge indices
+04-RESOURCES/  → Typed reference knowledge
+05-SYSTEM/     → Vault configuration (Templates, Assets, Meta)
+99-ARCHIVES/   → Inactive content
+quartz/        → Quartz static site configuration
+```
+
+### Resources Subfolders
+
+```
+04-RESOURCES/
+  Code/           → Code snippets by language (R/, PowerShell/, SQL/, etc.)
+  Definitions/    → Term definitions (Acronyms/, Dictionary/, Glossary/)
+  Lists/          → Curated lists with external links
+  Guides/         → Step-by-step how-tos
+  Checklists/     → Actionable checklists
+  Quotes/         → Quotations
+```
+
+## File Naming (Prefixed by Type)
+
+| Type | Pattern | Example |
+|------|---------|---------|
+| MOC | `MOC - {Topic}.md` | `MOC - R.md` |
+| Code | `Code - {Lang} - {Desc}.md` | `Code - R - Shiny Helpers.md` |
+| Definition | `Definition - {Term}.md` | `Definition - API.md` |
+| List | `List - {Category}.md` | `List - DevOps Tools.md` |
+| Guide | `Guide - {Topic}.md` | `Guide - Local Dev Setup.md` |
+| Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
+| Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Optimization.md` |
+| Readme | `_README.md` | Folder index |
+
+Add clean aliases in frontmatter (e.g., `Definition - API.md` has alias `API`).
+
+## Frontmatter Requirements
+
+All markdown notes MUST include YAML frontmatter:
+
+```yaml
+---
+creation_date: YYYY-MM-DD
+modification_date: YYYY-MM-DD
+author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
+description: Brief description of the note
+tags:
+  - Status/{Complete|WIP|Draft|Ongoing}
+  - Type/{MOC|Code|Definition|List|Guide|Checklist|...}
+  - Topic/{Subject}
+aliases:
+  - Alternative names (clean, without prefix)
+publish: true|false
+---
+```
+
+## Tag Taxonomy (Flat, Combinable)
+
+**Status tags:**
+- `Status/Complete` - Finished, reviewed
+- `Status/WIP` - Work in progress
+- `Status/Draft` - Initial draft
+- `Status/Ongoing` - Continuously updated
+
+**Type tags:**
+- `Type/MOC`, `Type/Code`, `Type/Definition`, `Type/Acronym`
+- `Type/List`, `Type/Guide`, `Type/Checklist`, `Type/Quote`
+- `Type/Readme`, `Type/Note`, `Type/Daily`, `Type/Weekly`, `Type/Monthly`
+
+**Topic tags (flat, combine for specificity):**
+- Languages: `Topic/R`, `Topic/Python`, `Topic/PowerShell`, `Topic/SQL`, `Topic/JavaScript`
+- Domains: `Topic/GIS`, `Topic/Database`, `Topic/Cloud`, `Topic/DevOps`, `Topic/AI`, `Topic/Web`
+- Platforms: `Topic/Docker`, `Topic/Git`, `Topic/GitHub`, `Topic/AWS`, `Topic/Azure`
+- Business: `Topic/Business`, `Topic/Finance`, `Topic/Legal`
+- Meta: `Topic/PKM`, `Topic/Obsidian`
+
+## Linking Rules
+
+- Use wikilinks for internal references: `[[Note Title]]`
+- Use aliased links for readability: `[[Note Title|Display Text]]`
+- Use heading links for sections: `[[Note Title#Heading]]`
+- Embed content with `![[Note Title]]`
+- External links use standard markdown: `[text](url)`
+
+## Templates
+
+Templates in `05-SYSTEM/Templates/` use Templater plugin syntax.
+Preserve Templater syntax when editing - do not execute or modify it.
+
+## Writing Guidelines
+
+1. Atomic notes - one concept per note
+2. Meaningful, searchable titles
+3. Liberal use of wikilinks
+4. Follow existing formatting patterns
+5. Include backlinks section with Dataview query
+6. Add See Also section for related notes
+
+## What NOT to Create
+
+- **Individual Tool notes** - Add to Lists instead
+- **Copied documentation** - Link to official docs
+- **Project-specific docs** - Keep with the project
+- **Stub notes** - If minimal content, add to a List or skip
+
+## Restrictions
+
+- No emojis unless explicitly requested
+- Sparse, lowercase comments only
+- Preserve existing frontmatter structure
+- Match existing conventions exactly

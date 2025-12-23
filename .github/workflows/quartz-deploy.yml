@@ -1,0 +1,70 @@
+name: Deploy Quartz to GitHub Pages
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+on:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Convert Obsidian Vault"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+          fetch-depth: 0
+          ref: main
+
+      - name: Apply configurations
+        run: |
+          cp quartz.config.ts quartz.layout.ts quartz/
+          mkdir -p quartz/content
+          # copy all vault content except quartz submodule and config files
+          rsync -av --exclude='quartz/' --exclude='quartz.config.ts' --exclude='quartz.layout.ts' --exclude='.git/' --exclude='.github/' . quartz/content/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+          cache-dependency-path: quartz/package-lock.json
+
+      - name: Install Node.js dependencies
+        working-directory: quartz
+        run: npm ci --omit=dev
+
+      - name: Build website
+        run: npx quartz build
+        working-directory: quartz
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

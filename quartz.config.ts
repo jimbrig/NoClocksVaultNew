@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "docs.noclocks.dev/noclocksvault",
+    baseUrl: "docs.jimbrig.com/NoClocksVaultNew",
     ignorePatterns: ["private", "00-INBOX", "01-SLIPBOX", "02-JOURNAL", "05-SYSTEM/Templates", "99-ARCHIVES", ".obsidian"],
     defaultDateType: "created",
     theme: {

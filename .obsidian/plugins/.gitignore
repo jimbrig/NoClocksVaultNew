@@ -1,13 +1,18 @@
 # .obsidian/plugins/.gitignore
+# Only track manifest.json files - exclude JS, CSS, data, and cache
 
 !.gitignore
 
+# Plugin code (large, auto-downloaded)
 *.js
 *.css
+
+# Plugin data (contains secrets/tokens)
+**/data.json
+
+# Cache files
 **/cache.json
 **/cache/
-obsidian-git/obsidian_askpass.sh
 
-# SECRETS:
-obsidian-imgur-plugin/data.json
-obsidian-local-rest-api/data.json
+# Git plugin script
+obsidian-git/obsidian_askpass.sh

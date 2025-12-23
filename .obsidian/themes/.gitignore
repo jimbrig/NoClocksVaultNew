@@ -1,0 +1,5 @@
+# .obsidian/themes/.gitignore
+
+# only track manifest.json in each theme folder (ignore */*.css)
+
+**/theme.css

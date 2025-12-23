@@ -16,16 +16,8 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Rename _READMEs
-        run: |
-          find . -name '*_README.md' -execdir mv -i {} README.md ";"
-
       - name: Setup Rust
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          toolchain: stable
-          override: true
+        uses: dtolnay/rust-toolchain@stable
 
       - name: Setup Cargo Cache
         uses: actions/cache@v4
@@ -36,37 +28,66 @@ jobs:
             ~/.cargo/registry/index/
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
-            target/
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-cargo-obsidian-export
           restore-keys: ${{ runner.os }}-cargo-
 
       - name: Install obsidian-export
-        run: cargo install --locked obsidian-export || true
+        run: |
+          if ! command -v obsidian-export &> /dev/null; then
+            cargo install --locked obsidian-export
+          fi
+
+      - name: Rename _READMEs to README
+        run: |
+          find . -name '_README.md' -not -path "./.git/*" | while read -r file; do
+            dir=$(dirname "$file")
+            mv "$file" "$dir/README.md"
+            echo "Renamed: $file -> $dir/README.md"
+          done
 
       - name: Run obsidian-export
         run: |
-          mkdir tmp
-          obsidian-export . tmp --frontmatter never
-          # copy exported files back (preserving directory structure)
-          cp -r tmp/* . -f
-          rm -r tmp
+          mkdir -p tmp
+          # export with frontmatter preserved
+          obsidian-export . tmp --frontmatter always 2>&1 | head -100 || true
+          
+          # copy exported files back
+          rsync -av --remove-source-files tmp/ . || cp -r tmp/* . 2>/dev/null || true
+          rm -rf tmp
+          
+          echo "Export complete"
+
+      - name: Fix link paths and cleanup
+        run: |
+          find . -name "*.md" -type f -not -path "./.git/*" | while read -r file; do
+            # fix backslashes in markdown links (Windows path issue)
+            sed -i 's|\\|/|g' "$file"
+            
+            # fix URL-encoded spaces in local links
+            # convert ](%20 to ](  for readability (optional)
+            
+            # remove any remaining unconverted wikilinks - make them italic instead
+            # [[Note Name]] -> *Note Name*
+            perl -i -pe 's/\[\[([^\]|]+)\]\]/*$1*/g' "$file"
+            
+            # handle aliased wikilinks [[Note|Alias]] -> *Alias*
+            perl -i -pe 's/\[\[[^\]|]+\|([^\]]+)\]\]/*$1*/g' "$file"
+          done
+          
+          echo "Link paths fixed"
 
       - name: Strip Obsidian Plugin Blocks
         run: |
-          # strip dataview, dataviewjs, and table-of-contents blocks
-          # also replaces inline dataview queries with placeholders
-          
           find . -name "*.md" -type f -not -path "./.git/*" | while read -r file; do
-            # use perl for more reliable multiline regex handling
             perl -i -0pe '
-              # replace dataview/dataviewjs blocks with placeholder comment
-              s/`{3,4}dataview(js)?.*?`{3,4}/<!-- dataview query removed for github compatibility -->/gs;
+              # remove dataview/dataviewjs blocks
+              s/\n*```+dataview(js)?.*?```+\n*/\n<!-- dynamic content -->\n/gs;
               
-              # replace table-of-contents blocks with placeholder
-              s/`{3,4}table-of-contents.*?`{3,4}/<!-- table of contents removed for github compatibility -->/gs;
+              # remove table-of-contents blocks
+              s/\n*```+table-of-contents.*?```+\n*/\n/gs;
               
-              # replace inline dataview: `$= dv.xxx(...)` with optional bold markers
-              s/\*?\*?`\$= dv\.[^`]+`\*?\*?/*(dynamic content)*/g;
+              # remove inline dataview queries
+              s/\*?\*?`\$= dv\.[^`]+`\*?\*?//g;
             ' "$file"
           done
           
@@ -79,6 +100,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           author_email: dev@noclocks.dev
           author_name: 'No Clocks Bot'
-          message: 'chore: convert wikilinks, rename READMEs, strip plugin blocks'
+          message: 'chore: convert wikilinks for GitHub compatibility'
           branch: main
           force: true

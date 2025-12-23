@@ -94,6 +94,7 @@ const config: QuartzConfig = {
         openLinksInNewTab: false,
         lazyLoad: true,
         externalLinkIcon: true,
+        deadLinks: "relative",  // keep dead links but style them differently
       }),
       Plugin.Description({
         descriptionLength: 200,

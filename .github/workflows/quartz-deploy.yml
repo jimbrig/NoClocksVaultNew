@@ -45,49 +45,102 @@ jobs:
             --exclude='.cursor/' \
             --exclude='.scripts/' \
             --exclude='99-ARCHIVES/' \
+            --exclude='05-SYSTEM/Templates/' \
             . quartz-src/content/
 
-      - name: Setup favicons
+      - name: Setup static assets and favicons
         run: |
           mkdir -p quartz-src/static
+          
+          # copy favicon files from source (not from content)
           if [ -d "05-SYSTEM/Assets/Favicons" ]; then
             cp 05-SYSTEM/Assets/Favicons/favicon.ico quartz-src/static/ 2>/dev/null || true
             cp 05-SYSTEM/Assets/Favicons/favicon-16x16.png quartz-src/static/ 2>/dev/null || true
             cp 05-SYSTEM/Assets/Favicons/favicon-32x32.png quartz-src/static/ 2>/dev/null || true
             cp 05-SYSTEM/Assets/Favicons/apple-touch-icon.png quartz-src/static/ 2>/dev/null || true
             cp 05-SYSTEM/Assets/Favicons/android-chrome-96x96.png quartz-src/static/icon.png 2>/dev/null || true
+            cp 05-SYSTEM/Assets/Favicons/site.webmanifest quartz-src/static/ 2>/dev/null || true
             echo "Favicons copied to static folder"
+            ls -la quartz-src/static/
+          else
+            echo "Warning: Favicons folder not found"
           fi
 
       - name: Prepare content for Quartz
         run: |
           cd quartz-src/content
           
-          # use README.md as homepage (copy to index.md)
+          # Step 1: Create homepage from README.md with proper frontmatter
           if [ -f "README.md" ]; then
-            cp README.md index.md
+            # extract existing frontmatter or create new
+            if head -1 README.md | grep -q "^---"; then
+              # has frontmatter, inject title if missing
+              if ! grep -q "^title:" README.md; then
+                sed -i '1,/^---$/!b; /^---$/a title: "No Clocks Knowledge Vault"' README.md
+              fi
+            else
+              # no frontmatter, add it
+              cat > index.md << 'FRONTMATTER'
+---
+title: "No Clocks Knowledge Vault"
+---
+
+FRONTMATTER
+              cat README.md >> index.md
+            fi
+            cp README.md index.md 2>/dev/null || true
             echo "Homepage created from README.md"
           fi
           
-          # rename _README.md to index.md for folder indexes
-          find . -name '_README.md' -execdir mv {} index.md ";"
+          # Step 2: Process _README.md files - rename and add titles based on folder
+          find . -name '_README.md' | while read -r file; do
+            dir=$(dirname "$file")
+            folder_name=$(basename "$dir")
+            
+            # create proper title from folder name
+            # convert 00-INBOX to "Inbox", 04-RESOURCES to "Resources", etc.
+            title=$(echo "$folder_name" | sed 's/^[0-9]*-//' | sed 's/-/ /g')
+            
+            # check if file has frontmatter
+            if head -1 "$file" | grep -q "^---"; then
+              # inject title after first ---
+              if ! grep -q "^title:" "$file"; then
+                sed -i "0,/^---$/!b; /^---$/a title: \"$title\"" "$file"
+              fi
+            else
+              # add frontmatter with title
+              tmpfile=$(mktemp)
+              echo "---" > "$tmpfile"
+              echo "title: \"$title\"" >> "$tmpfile"
+              echo "---" >> "$tmpfile"
+              echo "" >> "$tmpfile"
+              cat "$file" >> "$tmpfile"
+              mv "$tmpfile" "$file"
+            fi
+            
+            # rename to index.md
+            mv "$file" "$dir/index.md"
+            echo "Processed: $dir/index.md (title: $title)"
+          done
           
-          # strip dataview/dataviewjs blocks (Quartz can't execute them)
+          # Step 3: Strip dataview/dataviewjs blocks (can't execute in Quartz)
+          echo "Stripping Obsidian plugin blocks..."
           find . -name "*.md" -type f | while read -r file; do
             perl -i -0pe '
-              # replace dataview/dataviewjs blocks with placeholder
-              s/`{3,4}dataview(js)?.*?`{3,4}//gs;
+              # remove dataview/dataviewjs code blocks entirely
+              s/\n*```+dataview(js)?.*?```+\n*/\n/gs;
               
-              # replace table-of-contents blocks (Quartz has its own TOC)
-              s/`{3,4}table-of-contents.*?`{3,4}//gs;
+              # remove table-of-contents blocks (Quartz has built-in TOC)
+              s/\n*```+table-of-contents.*?```+\n*/\n/gs;
               
-              # replace inline dataview: `$= dv.xxx(...)`
+              # remove inline dataview queries: `$= dv.xxx(...)`
               s/\*?\*?`\$= dv\.[^`]+`\*?\*?//g;
             ' "$file"
           done
           
-          echo "Content prepared for Quartz"
+          echo "Content preparation complete"
           echo "Total markdown files: $(find . -name '*.md' | wc -l)"
+          echo "Index files created: $(find . -name 'index.md' | wc -l)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

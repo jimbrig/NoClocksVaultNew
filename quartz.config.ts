@@ -99,7 +99,6 @@ const config: QuartzConfig = {
         descriptionLength: 200,
       }),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.HardLineBreaks(),
     ],
     filters: [
       Plugin.RemoveDrafts(),

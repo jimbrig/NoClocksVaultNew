@@ -38,87 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.Explorer({
-        title: "Explorer",
-        folderClickBehavior: "collapse",
-        folderDefaultState: "collapsed",
-        useSavedState: true,
-        sortFn: (a, b) => {
-          // folders first, then alphabetically
-          if ((!a.file && !b.file) || (a.file && b.file)) {
-            return a.displayName.localeCompare(b.displayName, undefined, {
-              numeric: true,
-              sensitivity: "base",
-            })
-          }
-          if (a.file && !b.file) return 1
-          return -1
-        },
-        filterFn: (node) => {
-          // hide certain folders from explorer
-          const hiddenFolders = ["99-ARCHIVES", ".obsidian", ".cursor", ".scripts"]
-          return !hiddenFolders.some((folder) => node.name.includes(folder))
-        },
-        mapFn: (node) => {
-          // clean up display names
-          if (node.displayName === "index") {
-            node.displayName = "Overview"
-          }
-          // remove common prefixes for cleaner display
-          node.displayName = node.displayName
-            .replace(/^MOC - /, "")
-            .replace(/^Code - /, "")
-            .replace(/^Definition - /, "")
-            .replace(/^List - /, "")
-            .replace(/^Guide - /, "")
-            .replace(/^Checklist - /, "")
-        },
-      })
-    ),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph({
-      localGraph: {
-        drag: true,
-        zoom: true,
-        depth: 2,
-        scale: 1.1,
-        repelForce: 0.5,
-        centerForce: 0.3,
-        linkDistance: 30,
-        fontSize: 0.6,
-        opacityScale: 1,
-        removeTags: [],
-        showTags: true,
-      },
-      globalGraph: {
-        drag: true,
-        zoom: true,
-        depth: -1,
-        scale: 0.9,
-        repelForce: 0.5,
-        centerForce: 0.3,
-        linkDistance: 30,
-        fontSize: 0.6,
-        opacityScale: 1,
-        removeTags: [],
-        showTags: true,
-      },
-    }),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 5,
-        filter: (f) =>
-          !f.slug!.startsWith("05-SYSTEM/") &&
-          !f.slug!.startsWith("99-ARCHIVES/"),
-        linkToMore: false,
-        showTags: false,
-      })
-    ),
   ],
 }
 
@@ -138,14 +63,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.Explorer({
-        title: "Explorer",
-        folderClickBehavior: "collapse",
-        folderDefaultState: "collapsed",
-        useSavedState: true,
-      })
-    ),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }

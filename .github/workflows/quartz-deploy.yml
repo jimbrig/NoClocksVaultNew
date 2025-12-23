@@ -39,9 +39,28 @@ jobs:
           # copy all vault content except quartz submodule and config files
           rsync -av --exclude='quartz/' --exclude='quartz.config.ts' --exclude='quartz.layout.ts' --exclude='.git/' --exclude='.github/' . quartz/content/
 
+      - name: Setup favicons
+        run: |
+          mkdir -p quartz/static
+          # copy favicon files if they exist
+          if [ -d "quartz/content/05-SYSTEM/Assets/Favicons" ]; then
+            cp quartz/content/05-SYSTEM/Assets/Favicons/favicon.ico quartz/static/ 2>/dev/null || true
+            cp quartz/content/05-SYSTEM/Assets/Favicons/favicon-16x16.png quartz/static/ 2>/dev/null || true
+            cp quartz/content/05-SYSTEM/Assets/Favicons/favicon-32x32.png quartz/static/ 2>/dev/null || true
+            cp quartz/content/05-SYSTEM/Assets/Favicons/apple-touch-icon.png quartz/static/ 2>/dev/null || true
+            cp quartz/content/05-SYSTEM/Assets/Favicons/android-chrome-96x96.png quartz/static/icon.png 2>/dev/null || true
+            echo "Favicons copied to static folder"
+          fi
+
       - name: Prepare content for Quartz
         run: |
           cd quartz/content
+          
+          # use README.md as homepage (copy to index.md)
+          if [ -f "README.md" ]; then
+            cp README.md index.md
+            echo "Homepage created from README.md"
+          fi
           
           # rename _README.md to index.md for folder indexes
           find . -name '_README.md' -execdir mv -i {} index.md ";"

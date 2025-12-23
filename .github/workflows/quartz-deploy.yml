@@ -22,9 +22,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'true'
           fetch-depth: 0
           ref: main
+
+      - name: Setup Quartz
+        run: |
+          if [ ! -d "quartz" ]; then
+            echo "Cloning Quartz..."
+            git clone --depth 1 https://github.com/jackyzha0/quartz.git quartz
+          fi
 
       - name: Apply configurations
         run: |

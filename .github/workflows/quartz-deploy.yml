@@ -94,11 +94,31 @@ jobs:
           cache: 'npm'
           cache-dependency-path: quartz-src/package-lock.json
 
-      - name: Install dependencies and build
+      - name: Install dependencies
         working-directory: quartz-src
+        run: npm ci
+
+      - name: Copy favicons to static folder (after npm install)
         run: |
-          npm ci
-          npx quartz build
+          # ensure favicon files are in quartz-src/static (overwrites any defaults)
+          mkdir -p quartz-src/static
+          cp -f 05-SYSTEM/Assets/Favicons/favicon.ico quartz-src/static/
+          cp -f 05-SYSTEM/Assets/Favicons/favicon-16x16.png quartz-src/static/
+          cp -f 05-SYSTEM/Assets/Favicons/favicon-32x32.png quartz-src/static/
+          cp -f 05-SYSTEM/Assets/Favicons/apple-touch-icon.png quartz-src/static/
+          cp -f 05-SYSTEM/Assets/Favicons/android-chrome-96x96.png quartz-src/static/icon.png
+          echo "Favicons in static folder:"
+          ls -la quartz-src/static/
+
+      - name: Build Quartz
+        working-directory: quartz-src
+        run: npx quartz build
+      
+      - name: Verify static files in public
+        run: |
+          echo "Static files in public folder:"
+          ls -la quartz-src/public/ | head -20 || true
+          ls -la quartz-src/public/static/ || echo "No static folder"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

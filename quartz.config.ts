@@ -10,6 +10,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "No Clocks Vault",
+    pageTitleSuffix: " | No Clocks",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,8 +18,8 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "docs.jimbrig.com/NoClocksVaultNew",
-    ignorePatterns: ["private", "00-INBOX", "01-SLIPBOX", "02-JOURNAL", "05-SYSTEM/Templates", "99-ARCHIVES", ".obsidian"],
-    defaultDateType: "created",
+    ignorePatterns: ["private", "99-ARCHIVES", ".obsidian", ".cursor", ".scripts"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -37,7 +38,7 @@ const config: QuartzConfig = {
           secondary: "#1a365d",
           tertiary: "#2c5282",
           highlight: "rgba(44, 82, 130, 0.15)",
-          textHighlight: "rgba(44, 82, 130, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
           light: "#161618",
@@ -48,7 +49,7 @@ const config: QuartzConfig = {
           secondary: "#63b3ed",
           tertiary: "#4299e1",
           highlight: "rgba(99, 179, 237, 0.15)",
-          textHighlight: "rgba(99, 179, 237, 0.15)",
+          textHighlight: "#b3aa0288",
         },
       },
     },
@@ -57,9 +58,8 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
-      Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -67,13 +67,43 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+        enableYouTubeEmbed: true,
+        enableVideoEmbed: true,
+        enableCheckbox: true,
+        parseTags: true,
+        parseArrows: true,
+        parseBlockReferences: true,
+        mermaid: true,
+        comments: true,
+        highlight: true,
+        wikilinks: true,
+        callouts: true,
+      }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
+      Plugin.TableOfContents({
+        maxDepth: 4,
+        minEntries: 2,
+        showByDefault: true,
+        collapseByDefault: false,
+      }),
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+        prettyLinks: true,
+        openLinksInNewTab: false,
+        lazyLoad: true,
+        externalLinkIcon: true,
+      }),
+      Plugin.Description({
+        descriptionLength: 200,
+      }),
+      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.HardLineBreaks(),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -83,6 +113,9 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        rssLimit: 20,
+        rssFullHtml: false,
+        includeEmptyFiles: false,
       }),
       Plugin.Assets(),
       Plugin.Static(),
@@ -92,4 +125,3 @@ const config: QuartzConfig = {
 }
 
 export default config
-

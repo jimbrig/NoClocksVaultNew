@@ -2,4 +2,9 @@
 
 # only track manifest.json in each theme folder (ignore */*.css)
 
-**/theme.css
+!.gitignore
+
+# themes
+**/*.css
+
+

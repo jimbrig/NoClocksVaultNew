@@ -23,7 +23,8 @@
     ".devcontainer/",
     ".export-ignore",
     "quartz/",
-    "NoClocksVaultNew.vault"
+    "NoClocksVaultNew.vault",
+    "quartz/**"
   ],
   "showInlineTitle": true
 }

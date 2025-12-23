@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "docs.jimbrig.com/NoClocksVaultNew",
-    ignorePatterns: ["private", "99-ARCHIVES", ".obsidian", ".cursor", ".scripts"],
+    ignorePatterns: ["private", "99-ARCHIVES", ".obsidian", ".cursor", ".scripts", "05-SYSTEM/Templates"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

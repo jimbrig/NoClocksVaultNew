@@ -114,11 +114,16 @@ jobs:
         working-directory: quartz-src
         run: npx quartz build
       
-      - name: Verify static files in public
+      - name: Copy favicon to public root (after build)
         run: |
-          echo "Static files in public folder:"
-          ls -la quartz-src/public/ | head -20 || true
-          ls -la quartz-src/public/static/ || echo "No static folder"
+          # favicons need to be at root of public, not in static
+          cp -f 05-SYSTEM/Assets/Favicons/favicon.ico quartz-src/public/
+          cp -f 05-SYSTEM/Assets/Favicons/favicon-16x16.png quartz-src/public/
+          cp -f 05-SYSTEM/Assets/Favicons/favicon-32x32.png quartz-src/public/
+          cp -f 05-SYSTEM/Assets/Favicons/apple-touch-icon.png quartz-src/public/
+          cp -f 05-SYSTEM/Assets/Favicons/site.webmanifest quartz-src/public/
+          echo "Favicon files copied to public root:"
+          ls -la quartz-src/public/favicon* quartz-src/public/apple* 2>/dev/null || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,13 @@
+# .obsidian/plugins/.gitignore
+
+!.gitignore
+
+*.js
+*.css
+**/cache.json
+**/cache/
+obsidian-git/obsidian_askpass.sh
+
+# SECRETS:
+obsidian-imgur-plugin/data.json
+obsidian-local-rest-api/data.json

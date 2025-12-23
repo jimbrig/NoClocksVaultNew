@@ -1,0 +1,11 @@
+# .obsidian/.gitignore
+
+# ignore secrets
+todoist-token
+
+# ignore workspace
+workspace.json
+workspace/
+
+# ignore cache
+cache/

@@ -1,0 +1,29 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "tabSize": 2,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-INBOX",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "05-SYSTEM/Assets",
+  "uriCallbacks": true,
+  "userIgnoreFilters": [
+    ".vscode/",
+    ".github/",
+    ".git/",
+    ".gitignore",
+    ".gitattributes",
+    ".gitmodules",
+    ".cursor/",
+    ".github/",
+    ".editorconfig",
+    ".devcontainer/",
+    ".export-ignore",
+    "quartz/",
+    "NoClocksVaultNew.vault"
+  ],
+  "showInlineTitle": true
+}

@@ -78,3 +78,19 @@ Temporary Items
 
 # Ignore Smart Connections folder
 .smart-connections
+
+# Archives
+99-ARCHIVES/*
+
+# Quartz submodule (handled separately)
+quartz/
+
+# Obsidian plugins - only track manifest.json (exclude JS, CSS, data.json with secrets)
+.obsidian/plugins/**/*.js
+.obsidian/plugins/**/*.css
+.obsidian/plugins/**/data.json
+.obsidian/plugins/**/cache.json
+.obsidian/plugins/**/cache/
+
+# Obsidian themes - only track manifest.json (exclude theme.css)
+.obsidian/themes/**/theme.css

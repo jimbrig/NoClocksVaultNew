@@ -1,0 +1,6 @@
+{
+  "format": "YYYY-MM-DD",
+  "folder": "02-JOURNAL/2025/12-December",
+  "autorun": true,
+  "template": "05-SYSTEM/Templates/Temporal/Template-Daily"
+}

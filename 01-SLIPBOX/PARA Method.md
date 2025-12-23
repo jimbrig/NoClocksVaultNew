@@ -6,7 +6,7 @@ description: PARA Method - Projects, Areas, Resources, Archives organizational s
 tags:
   - Type/Note
   - Topic/PKM
-  - Status/Polished
+  - Status/Complete
 aliases:
   - PARA Method
   - PARA
@@ -137,13 +137,13 @@ This vault adapts PARA for a **knowledge base** rather than task management:
 | Resources | `04-RESOURCES/` (Code, Definitions, Lists, Guides) |
 | Archives | `99-ARCHIVES/` |
 
-See [[Vault Philosophy]] for the rationale behind this adaptation.
+See [[05-SYSTEM/Meta/PHILOSOPHY]] for the rationale behind this adaptation.
 
 ---
 
 ## See Also
 
-- [[Vault Philosophy]]
+- [[05-SYSTEM/Meta/PHILOSOPHY]]
 - [[Zettelkasten Method]]
 - [[MOC - PKM]]
 

@@ -3,11 +3,7 @@ creation_date: 2024-12-20
 modification_date: 2024-12-20
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Complete tag taxonomy and conventions for the No Clocks Knowledge Vault
-tags:
-  - Status/Ongoing
-  - Type/Note
-  - Topic/PKM
-  - Topic/Meta
+tags: [Status/Ongoing, Type/Meta, Topic/Obsidian]
 aliases:
   - Tags
   - Tag System
@@ -222,8 +218,8 @@ When adding new tags:
 
 ## Related Notes
 
-- [[Vault Philosophy]]
-- [[AI Setup]]
+- [[05-SYSTEM/Meta/PHILOSOPHY]]
+- [[05-SYSTEM/Meta/AGENTS]]
 
 ## Appendix
 

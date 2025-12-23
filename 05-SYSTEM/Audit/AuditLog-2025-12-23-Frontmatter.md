@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Frontmatter audit report for the No Clocks Knowledge Vault
 tags:
   - Status/Complete
-  - Type/Audit
+  - Type/AuditLog
   - Topic/Meta
 aliases:
   - Frontmatter Audit 2025-12-23
@@ -306,7 +306,7 @@ WHERE publish = true
 
 ## See Also
 
-- [[Vault Philosophy]]
-- [[Tag Taxonomy]]
+- [[05-SYSTEM/Meta/PHILOSOPHY]]
+- [[TAGS]]
 - [[AuditLog-2025-12-20]]
 

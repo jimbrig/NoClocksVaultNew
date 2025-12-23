@@ -60,7 +60,7 @@ SORT file.ctime DESC
 
 ### See Also
 
-- [[Vault Philosophy]]
+- [[05-SYSTEM/Meta/PHILOSOPHY]]
 - [[MOC - PKM]]
 
 ### Backlinks

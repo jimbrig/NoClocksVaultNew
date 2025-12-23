@@ -1,13 +1,12 @@
 ---
 creation_date: 2025-12-22
 modification_date: 2025-12-22
-author: No Clocks, LLC
+author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 tags: [Type/Code, Topic/PowerShell, Status/Complete]
 aliases:
   - Get-ObsidianVaultPlugins
-publish: true
-permalink:
-description:
+  - Get-ObsidianVaultPlugins.ps1
+description: "PowerShell Script to automate the documentation and listing of the vault's plugins"
 cssclasses:
   - code
 ---

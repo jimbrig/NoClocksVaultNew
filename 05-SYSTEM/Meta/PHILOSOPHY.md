@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Core philosophy, structure decisions, and conventions for the No Clocks Knowledge Vault
 tags:
   - Status/Ongoing
-  - Type/Note
+  - Type/Meta
   - Topic/PKM
   - Topic/Meta
 aliases:
@@ -319,9 +319,9 @@ Project documentation belongs with the project. This vault is for cross-project 
 
 ## Related Notes
 
-- [[AI Setup]]
+- [[05-SYSTEM/Meta/AGENTS]]
 - [[PLUGINS]]
-- [[Tag Taxonomy]]
+- [[TAGS]]
 - [[AGENTS]]
 
 ## Appendix

@@ -277,7 +277,7 @@ When generating or modifying content:
 
 For more detailed documentation, see:
 
-- [[Vault Philosophy]] - Core philosophy, structure decisions, and conventions
-- [[Tag Taxonomy]] - Complete tag hierarchy and usage guidelines
-- [[AI Setup]] - AI tooling configuration (Cursor, Copilot, MCP)
+- [[05-SYSTEM/Meta/PHILOSOPHY]] - Core philosophy, structure decisions, and conventions
+- [[TAGS]] - Complete tag hierarchy and usage guidelines
+- [[05-SYSTEM/Meta/AGENTS]] - AI tooling configuration (Cursor, Copilot, MCP)
 - [[PLUGINS]] - Installed Obsidian plugins and their purposes

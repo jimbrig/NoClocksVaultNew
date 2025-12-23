@@ -5,7 +5,7 @@ topic: "Populate Notes Content"
 
 
 tags:
-  - copilot-conversation
+  - Type/Copilot
 ---
 
 **user**: populate this notes content

@@ -70,7 +70,7 @@ MOCs should be created for topics with:
 
 ### See Also
 
-- [[Vault Philosophy]]
+- [[05-SYSTEM/Meta/PHILOSOPHY]]
 - [[MOC - PKM]]
 
 ### Backlinks

@@ -7,7 +7,7 @@ tags:
   - Topic/Meta
   - Type/Code
   - Topic/Development
-  - Topic/Development/R
+  - Topic/R
   - Status/Ongoing
 aliases:
   - R Code

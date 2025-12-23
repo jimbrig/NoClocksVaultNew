@@ -2,23 +2,15 @@
 creation_date: 2024-12-20
 modification_date: 2024-12-20
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
-description: Index of vault meta documentation - philosophy, conventions, and configuration
-tags:
-  - Type/Readme
-  - Topic/Meta
-  - Topic/PKM
-  - Status/Ongoing
-aliases:
-  - Meta
-  - Meta Index
-  - Vault Meta
-publish: false
+description: "Readme for the Vault's meta folder"
+tags: [Status/Ongoing, Type/Readme, Topic/Obsidian]
+aliases: ["Vault Meta", "Vault Setup", "Meta", "Meta Index"]
 ---
 
-# Meta
+# Vault Meta
 
 ```table-of-contents
-title: Contents
+title: ## Contents
 style: nestedList
 minLevel: 2
 maxLevel: 4
@@ -34,9 +26,9 @@ includeLinks: true
 
 | Document | Purpose |
 |----------|---------|
-| [[Vault Philosophy]] | Core philosophy, structure decisions, and conventions |
-| [[Tag Taxonomy]] | Complete tag hierarchy and usage guidelines |
-| [[AI Setup]] | AI tooling configuration (Cursor, Copilot, MCP) |
+| [[05-SYSTEM/Meta/PHILOSOPHY]] | Core philosophy, structure decisions, and conventions |
+| [[TAGS]] | Complete tag hierarchy and usage guidelines |
+| [[05-SYSTEM/Meta/AGENTS]] | AI tooling configuration (Cursor, Copilot, MCP) |
 | [[PLUGINS]] | Installed Obsidian plugins and their purposes |
 
 ## Index
@@ -65,7 +57,7 @@ SORT file.name ASC
 03-AREAS/     → MOCs (global indices)
 04-RESOURCES/ → Typed knowledge
 05-SYSTEM/    → Vault meta
-99-ARCHIVES/  → Inactive
+99-ARCHIVES/  → Archives
 ```
 
 ### Tag Categories
@@ -92,8 +84,10 @@ SORT file.name ASC
 
 ### See Also
 
-- [[AGENTS]]
-- [[README]]
+- [[05-SYSTEM/Meta/PHILOSOPHY|Vault Philosophy]]
+- [[05-SYSTEM/Meta/AGENTS|Vault AI Setup]]
+- [[05-SYSTEM/Meta/PLUGINS|Vault Plugins]]
+- [[05-SYSTEM/Meta/TAGS|Vault Tags]]
 
 ### Backlinks
 

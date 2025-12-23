@@ -7,7 +7,7 @@ tags:
   - Type/Code
   - Topic/Meta
   - Topic/Development
-  - Topic/Development/Bash
+  - Topic/Bash
   - Status/Ongoing
 aliases:
   - Bash Code

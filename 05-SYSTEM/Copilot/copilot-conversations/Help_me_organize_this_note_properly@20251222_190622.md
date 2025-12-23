@@ -242,5 +242,5 @@ debugInConsole: false
 Would you like me to:
 - Bulk-rename those notes (with aliases preserved)?
 - Split the R Packages into separate notes (e.g., [[R spatial packages]]) and keep a transclusion here?
-- Add Dataview sections so new tools auto-populate by tag (e.g., tag tools with #tool/gis and query them)?
+- Add Dataview sections so new tools auto-populate by tag (e.g., tag tools with and query them)?
 [Timestamp: 2025/12/22 19:07:30]

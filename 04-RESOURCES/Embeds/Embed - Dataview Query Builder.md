@@ -5,7 +5,7 @@ author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 tags:
   - Type/Embed
   - Topic/Obsidian
-  - Topic/Obsidian/Dataview
+  - Topic/Dataview
   - Status/Complete
 aliases:
   - Dataview Query Builder Embed

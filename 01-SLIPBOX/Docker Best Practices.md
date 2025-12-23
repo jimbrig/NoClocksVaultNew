@@ -7,7 +7,7 @@ tags:
   - Type/Note
   - Topic/Docker
   - Topic/DevOps
-  - Status/Polished
+  - Status/Complete
 aliases:
   - Docker Best Practices
   - Dockerfile Best Practices

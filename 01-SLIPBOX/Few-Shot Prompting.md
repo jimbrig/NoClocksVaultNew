@@ -7,7 +7,7 @@ tags:
   - Type/Note
   - Topic/AI
   - Topic/LLM
-  - Status/Polished
+  - Status/Complete
 aliases:
   - Few-Shot Prompting
   - Few-Shot Learning

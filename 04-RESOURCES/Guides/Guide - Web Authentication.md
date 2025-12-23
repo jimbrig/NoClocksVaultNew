@@ -6,9 +6,9 @@ description: Comprehensive guide to web authentication patterns - sessions, toke
 tags:
   - Type/Guide
   - Topic/Security
-  - Topic/Auth
+  - Topic/Authentication
   - Topic/Web
-  - Status/Polished
+  - Status/Complete
 aliases:
   - Web Authentication Guide
   - Authentication Guide

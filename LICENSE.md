@@ -1,7 +1,7 @@
 # License
 
- > [!NOTE]
- > *This vault is licensed under the [Unlicense](https://unlicense.org).*
+> [!NOTE]
+> *This vault is licensed under the [Unlicense](https://unlicense.org).*
 
 This is free and unencumbered software released into the public domain.
 

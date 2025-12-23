@@ -8,7 +8,7 @@ tags:
   - Topic/R
   - Topic/Shiny
   - Topic/DataViz
-  - Status/Polished
+  - Status/Complete
 aliases:
   - Highcharter Helpers
   - R Highcharter

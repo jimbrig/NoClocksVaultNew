@@ -7,13 +7,13 @@ tags:
   - Topic/Meta
   - Status/Ongoing
 aliases:
-  - 2024
-description: Index of all notes under the 2024 directory
+  - 2025
+description: Index of all notes under the 2025 directory
 cssclasses:
   - readme
 ---
 
-# 2024
+# 2025
 
 ```table-of-contents
 title: Contents
@@ -26,7 +26,7 @@ includeLinks: true
 ## Overview
 
 > [!NOTE] About
-> This note serves as an index for all notes under the `02-JOURNAL/2024` directory.
+> This note serves as an index for all notes under the `02-JOURNAL/2025` directory.
 
 ## Index
 
@@ -37,7 +37,7 @@ includeLinks: true
 TABLE WITHOUT ID
   file.link AS "Note",
   file.mday AS "Modified"
-FROM "02-JOURNAL/2024"
+FROM "02-JOURNAL/2025"
 WHERE file.name != this.file.name
 SORT file.name ASC
 ```
@@ -55,7 +55,7 @@ SORT file.name ASC
 ### Backlinks
 
 ```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"02-JOURNAL/2024/_README"
+LIST FROM [[_README]] AND -"CHANGELOG" AND -"02-JOURNAL/2025/_README"
 ```
 
 ***

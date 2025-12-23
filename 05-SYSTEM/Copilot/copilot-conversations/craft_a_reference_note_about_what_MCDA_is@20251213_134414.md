@@ -1,11 +1,9 @@
 ---
-epoch: 1765651454959
-modelKey: "gpt-5-mini|openai"
-topic: "MCDA Reference Note"
-
-
 tags:
-  - copilot-conversation
+  - Type/Copilot
+meta:
+  epoch: 1765651454959
+  modelKey: "gpt-5-mini|openai"
 ---
 
 **user**: craft a reference note about what MCDA is
@@ -110,7 +108,6 @@ Practical tips for implementation
 Suggested note structure in this vault
 - - Purpose / Summary
   - Key concepts
-  - Methods (create sub-notes): e.g., [[Analytic Hierarchy Process (AHP)]], [[TOPSIS]], [[ELECTRE]], [[PROMETHEE]]
   - Workflow / Checklist
   - Worked examples and templates
   - References and further reading
@@ -121,13 +118,7 @@ References and further reading (selection)
 - Hwang, C.-L., & Yoon, K. (1981). Multiple Attribute Decision Making: Methods and Applications.
 - Belton, V., & Stewart, T. J. (2002). Multiple Criteria Decision Analysis: An Integrated Approach.
 
-Tags and metadata (suggested)
-- - #Topic/DecisionScience
-  - #Method/MCDA
-  - #Template/MCDA-workflow
-
 If you want, I can:
 - - generate a ready-to-use MCDA template (performance matrix + weight elicitation + calculation steps) for this note,
   - create linked subnotes for AHP, TOPSIS, PROMETHEE with method-specific steps,
   - or produce a small Obsidian table or Dataview-ready structure to manage alternatives and criteria.
-[Timestamp: 2025/12/13 13:44:42]

@@ -3,22 +3,14 @@ creation_date: 2024-12-20
 modification_date: 2024-12-20
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Documentation of AI tooling and configuration for the No Clocks Knowledge Vault
-tags:
-  - Status/Ongoing
-  - Type/Note
-  - Topic/AI
-  - Topic/Meta
-aliases:
-  - AI Configuration
-  - Cursor Setup
-  - AI Agents Setup
-publish: false
+tags: [Status/Ongoing, Type/Meta, Topic/AI, Topic/Obsidian]
+aliases: ["Vault AI Setup", "AI Setup", "Agents", "Cursor Setup", "AI Agents Setup"]
 ---
 
-# AI Setup
+# Vault Agentic AI Setup
 
 ```table-of-contents
-title: Contents
+title: ## Contents
 style: nestedList
 minLevel: 1
 maxLevel: 4

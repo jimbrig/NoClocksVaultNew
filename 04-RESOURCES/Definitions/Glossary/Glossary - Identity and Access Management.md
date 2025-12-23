@@ -6,8 +6,8 @@ description: Comprehensive glossary of identity and access management (IAM) term
 tags:
   - Type/Glossary
   - Topic/Security
-  - Topic/Auth
-  - Status/Polished
+  - Topic/Authentication
+  - Status/Complete
 aliases:
   - IAM Glossary
   - Identity and Access Management Glossary

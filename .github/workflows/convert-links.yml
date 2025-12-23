@@ -16,28 +16,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Setup Rust
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Setup Cargo Cache
-        uses: actions/cache@v4
-        continue-on-error: false
-        with:
-          path: |
-            ~/.cargo/bin/
-            ~/.cargo/registry/index/
-            ~/.cargo/registry/cache/
-            ~/.cargo/git/db/
-          key: ${{ runner.os }}-cargo-obsidian-export
-          restore-keys: ${{ runner.os }}-cargo-
-
-      - name: Install obsidian-export
-        run: |
-          if ! command -v obsidian-export &> /dev/null; then
-            cargo install --locked obsidian-export
-          fi
-
-      - name: Rename _READMEs to README
+      - name: Rename _README files
         run: |
           find . -name '_README.md' -not -path "./.git/*" | while read -r file; do
             dir=$(dirname "$file")
@@ -45,53 +24,54 @@ jobs:
             echo "Renamed: $file -> $dir/README.md"
           done
 
-      - name: Run obsidian-export
+      - name: Convert wikilinks to markdown links
         run: |
-          mkdir -p tmp
-          # export with frontmatter preserved
-          obsidian-export . tmp --frontmatter always 2>&1 | head -100 || true
+          # Convert [[Note]] to [Note](Note.md)
+          # Convert [[Note|Alias]] to [Alias](Note.md)
+          # Convert [[folder/Note]] to [Note](folder/Note.md)
           
-          # copy exported files back
-          rsync -av --remove-source-files tmp/ . || cp -r tmp/* . 2>/dev/null || true
-          rm -rf tmp
-          
-          echo "Export complete"
-
-      - name: Fix link paths and cleanup
-        run: |
           find . -name "*.md" -type f -not -path "./.git/*" | while read -r file; do
-            # fix backslashes in markdown links (Windows path issue)
+            # Get the directory of the current file for relative path calculation
+            file_dir=$(dirname "$file")
+            
+            # Simple wikilink: [[Note]] -> [Note](Note.md)
+            perl -i -pe 's/\[\[([^\]|#]+)\]\]/[$1]($1.md)/g' "$file"
+            
+            # Aliased wikilink: [[Note|Alias]] -> [Alias](Note.md)
+            perl -i -pe 's/\[\[([^\]|#]+)\|([^\]]+)\]\]/[$2]($1.md)/g' "$file"
+            
+            # Wikilink with heading: [[Note#Heading]] -> [Note](Note.md#Heading)
+            perl -i -pe 's/\[\[([^\]|#]+)#([^\]|]+)\]\]/[$1]($1.md#$2)/g' "$file"
+            
+            # Wikilink with heading and alias: [[Note#Heading|Alias]] -> [Alias](Note.md#Heading)
+            perl -i -pe 's/\[\[([^\]|#]+)#([^\]|]+)\|([^\]]+)\]\]/[$3]($1.md#$2)/g' "$file"
+            
+            # Fix _README references -> README
+            sed -i 's/_README\.md/README.md/g' "$file"
+            sed -i 's/_README]/README]/g' "$file"
+            
+            # Fix path separators (backslash to forward slash)
             sed -i 's|\\|/|g' "$file"
-            
-            # fix URL-encoded spaces in local links
-            # convert ](%20 to ](  for readability (optional)
-            
-            # remove any remaining unconverted wikilinks - make them italic instead
-            # [[Note Name]] -> *Note Name*
-            perl -i -pe 's/\[\[([^\]|]+)\]\]/*$1*/g' "$file"
-            
-            # handle aliased wikilinks [[Note|Alias]] -> *Alias*
-            perl -i -pe 's/\[\[[^\]|]+\|([^\]]+)\]\]/*$1*/g' "$file"
           done
           
-          echo "Link paths fixed"
+          echo "Converted wikilinks to markdown links"
 
-      - name: Strip Obsidian Plugin Blocks
+      - name: Strip Obsidian plugin blocks
         run: |
+          find . -name "*.md" -type f -not -path "./.git/*" -exec perl -i -0pe '
+            s/\n*```+dataview(js)?.*?```+\n*/\n<!-- dynamic content -->\n/gs;
+            s/\n*```+table-of-contents.*?```+\n*/\n/gs;
+            s/\*?\*?`\$= dv\.[^`]+`\*?\*?//g;
+          ' {} \;
+          echo "Stripped plugin blocks"
+
+      - name: Remove embed syntax
+        run: |
+          # Convert ![[embed]] to just a link
           find . -name "*.md" -type f -not -path "./.git/*" | while read -r file; do
-            perl -i -0pe '
-              # remove dataview/dataviewjs blocks
-              s/\n*```+dataview(js)?.*?```+\n*/\n<!-- dynamic content -->\n/gs;
-              
-              # remove table-of-contents blocks
-              s/\n*```+table-of-contents.*?```+\n*/\n/gs;
-              
-              # remove inline dataview queries
-              s/\*?\*?`\$= dv\.[^`]+`\*?\*?//g;
-            ' "$file"
+            sed -i 's/!\[\[/[[/g' "$file"
           done
-          
-          echo "Stripped Obsidian plugin blocks"
+          echo "Converted embeds to links"
 
       - name: Commit and Push Changes
         if: github.event_name != 'pull_request'
@@ -100,6 +80,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           author_email: dev@noclocks.dev
           author_name: 'No Clocks Bot'
-          message: 'chore: convert wikilinks for GitHub compatibility'
+          message: 'chore: convert to GitHub-compatible markdown'
           branch: main
           force: true

@@ -73,10 +73,8 @@ jobs:
       - name: Fix _README links in content
         run: |
           cd quartz-src/content
-          # Replace [[path/_README]] with [[path/index]] or [[path/]]
-          find . -name "*.md" -type f | xargs sed -i 's|\[\[\([^]]*\)/_README\]\]|[[\1/index]]|g'
-          # Replace [[path/_README|alias]] with [[path/index|alias]]
-          find . -name "*.md" -type f | xargs sed -i 's|\[\[\([^]|]*\)/_README|\([^]]*\)\]\]|[[\1/index|\2]]|g'
+          # Replace _README references with index in wikilinks
+          find . -name "*.md" -type f -exec sed -i 's/_README/index/g' {} \;
           echo "Fixed _README links"
 
       - name: Strip Obsidian plugin blocks

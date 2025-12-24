@@ -34,5 +34,6 @@
   "find-unlinked-files",
   "OA-file-hider",
   "callout-manager",
-  "datacore"
+  "datacore",
+  "obsidian-git"
 ]

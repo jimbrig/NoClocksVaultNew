@@ -2,7 +2,7 @@
 
 # <% tp.file.title %>
 
-<% tp.file.include("[[Tempalte-TOC]]") %>
+<% tp.file.include("[[Template-TOC]]") %>
 
 ## Overview
 

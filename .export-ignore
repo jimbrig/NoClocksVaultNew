@@ -26,6 +26,5 @@
 # quartz submodule (has its own content)
 quartz/*
 
-# vault system folders
-05-SYSTEM/*
+# archives
 99-ARCHIVES/*

@@ -5,6 +5,10 @@
     "tags": "tags",
     "date": "date",
     "author": "text",
-    "status": "text"
+    "status": "text",
+    "creation_date": "date",
+    "modification_date": "date",
+    "description": "text",
+    "rating": "number"
   }
 }

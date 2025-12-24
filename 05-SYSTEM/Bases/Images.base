@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.ext != "md"
+    - file.inFolder("05-SYSTEM/Assets/Images")
+formulas:
+  Untitled: ""
+properties:
+  file.name:
+    displayName: File
+  file.ext:
+    displayName: Extension
+  file.mtime:
+    displayName: Last Modified
+  file.size:
+    displayName: Size
+views:
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - file.size
+      - file.ext
+      - file.mtime
+    image: file.file
+    cardSize: 200
+    imageAspectRatio: 0.5
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ext
+      - file.mtime
+      - file.size
+      - formula.Untitled
+    rowHeight: tall
+  - type: list
+    name: List
+    order:
+      - file.name
+      - file.ext
+      - file.mtime
+      - file.size
+    markers: none
+    indentProperties: true

@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Real Estate Parcel Geospatial Enrichment",
-      "path": "00-INBOX/Real Estate Parcel Geospatial Enrichment.md"
+      "basename": "PLUGINS",
+      "path": "05-SYSTEM/Meta/PLUGINS.md"
     },
     {
       "basename": "2025-12-26",
       "path": "02-JOURNAL/2025/12-December/2025-12-26.md"
+    },
+    {
+      "basename": "2025-11-26",
+      "path": "02-JOURNAL/2025/12-December/2025-11-26.md"
+    },
+    {
+      "basename": "2025-12-26_obsidian_keychain_settings_screenshot",
+      "path": "05-SYSTEM/Assets/Images/2025-12-26_obsidian_keychain_settings_screenshot.png"
+    },
+    {
+      "basename": "PowerShell - Get-ObsidianVaultPlugins",
+      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md"
+    },
+    {
+      "basename": "Real Estate Parcel Geospatial Enrichment",
+      "path": "00-INBOX/Real Estate Parcel Geospatial Enrichment.md"
     },
     {
       "basename": "PowerShell - Profile Custom Setup",
@@ -183,22 +199,6 @@
     {
       "basename": "Vault",
       "path": "05-SYSTEM/Bases/Vault.base"
-    },
-    {
-      "basename": "_README",
-      "path": "02-JOURNAL/2025/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "02-JOURNAL/2024/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "04-RESOURCES/Code/R/_README.md"
-    },
-    {
-      "basename": "R - Excel Helpers",
-      "path": "04-RESOURCES/Code/R/R - Excel Helpers.md"
     }
   ],
   "omittedPaths": [],

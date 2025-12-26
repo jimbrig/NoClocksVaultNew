@@ -56,33 +56,55 @@ These plugins store only UI preferences, templates, or non-sensitive settings:
 
 ## Secure Storage for Secrets
 
-### Current State (No Native Keychain Support)
+### Native Keychain Support
 
-Obsidian does **not** currently expose Electron's `safeStorage` API to plugins. This is a [requested feature](https://forum.obsidian.md/t/cross-platform-secure-storage-for-secrets-and-tokens-that-can-be-syncd/100716) in the community.
+Obsidian provides a **native Keychain** feature for securely storing secrets (added in v1.8+):
 
-Electron's `safeStorage` provides OS-level encryption:
+**Settings > Keychain**
+
+This uses Electron's `safeStorage` API with OS-level encryption:
 - **macOS**: Keychain Access
 - **Windows**: DPAPI (Data Protection API)
 - **Linux**: kwallet, gnome-libsecret, or similar
 
-However, even if exposed, keychain-encrypted data **cannot sync** between devices.
+### Using the Keychain
 
-### Current Workarounds
+Secrets can be stored in the Keychain and referenced by plugins that support it:
 
-Plugins use various approaches to handle secrets:
+| Secret Name | Used By |
+|-------------|---------|
+| `openai-api-key` | Copilot, Smart Connections |
+| `anthropic-api-key` | Copilot |
+| `todoist-api-key` | Todoist Sync |
+| `obsidian-rest-api-key` | Local REST API |
 
-| Approach | Example | Pros | Cons |
-|----------|---------|------|------|
-| Separate token file | `todoist-token` | Can gitignore specifically | Extra file management |
-| `localStorage` | Machine-local storage | Not synced, per-machine | Not truly encrypted |
-| Encrypted settings | Plugin-specific encryption | Portable | Key management complexity |
-| Environment variables | System-level | Works across vaults | Hard to configure, no mobile |
+To add a secret:
+1. Open **Settings > Keychain**
+2. Click the **+** button
+3. Enter a secret name (e.g., `openai-api-key`)
+4. Enter the secret value
+
+### Keychain Limitations
+
+- **Machine-local**: Keychain secrets are stored per-machine and **do not sync** between devices
+- **Plugin API in development**: The official Plugin API for Keychain is still being developed; not all plugins support it yet
+- **Manual setup**: After cloning the vault on a new machine, secrets must be re-entered
+
+### Legacy Plugin Approaches
+
+Some plugins still use older approaches for secrets:
+
+| Approach | Example | Notes |
+|----------|---------|-------|
+| Separate token file | `todoist-token` | Gitignored, machine-local |
+| `data.json` storage | Copilot, Imgur | Gitignored for security |
+| `localStorage` | Machine-local | Not synced |
 
 ### Recommendations
 
-1. **For new vault setups**: Configure plugins requiring API keys manually
-2. **For syncing**: Use Obsidian Sync or cloud storage for vault, but secrets stay local
-3. **For backups**: Document which plugins need manual API key entry (see below)
+1. **Prefer Keychain**: When plugins support it, use Keychain for API keys
+2. **After cloning**: Re-enter Keychain secrets on each new machine
+3. **Check plugin docs**: Some plugins may still require `data.json` configuration
 
 ## Plugin Setup After Clone
 

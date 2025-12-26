@@ -7,6 +7,14 @@ tags: [Status/Ongoing, Type/Meta, Topic/Obsidian]
 aliases: ["Vault Plugins", "Plugins"]
 ---
 
+```table-of-contents
+title: ## Contents
+style: nestedList
+minLevel: 2
+maxLevel: 4
+includeLinks: true
+```
+
 > [!NOTE]
 > *The [`.obsidian/plugins`](.obsidian/plugins) folder houses the vault's installed Obsidian plugins.*
 
@@ -65,9 +73,59 @@ aliases: ["Vault Plugins", "Plugins"]
 
 ***
 
+## Plugin Configuration & Version Control
+
+### Git Tracking Strategy
+
+The `.obsidian/plugins/` folder uses a selective approach:
+
+- **Tracked**: `manifest.json` files (plugin metadata) and safe `data.json` configurations
+- **Ignored**: Plugin code (`*.js`, `*.css`) - auto-downloaded from repos
+- **Ignored**: Secret-containing `data.json` files - see below
+
+### Plugins with Secrets
+
+These plugins store API keys or credentials in `data.json` and are excluded from version control:
+
+| Plugin | Secrets |
+|--------|---------|
+| Copilot | OpenAI, Anthropic, Google API keys |
+| Local REST API | API key, SSL certificates |
+| Imgur | Client ID |
+| Smart Connections | AI service API keys |
+| Readwise Official | API token |
+| Raindrop Highlights | API token |
+| GitHub Copilot | Auth tokens |
+| Google Drive Sync | OAuth tokens |
+| Google Lookup | Google API key |
+
+### Native Keychain Support
+
+Obsidian provides a **native Keychain** feature (v1.8+) at **Settings > Keychain** for secure secret storage using OS-level encryption (macOS Keychain, Windows DPAPI, Linux secret stores). 
+
+The Plugin API for Keychain is still being developed, so not all plugins support it yet.
+
+Secrets stored in this vault's Keychain:
+
+- `openai-api-key` - Used by Copilot, Smart Connections
+- `anthropic-api-key` - Used by Copilot
+- `todoist-api-key` - Used by Todoist Sync
+- `obsidian-rest-api-key` - Used by Local REST API
+
+> [!WARNING]
+> Keychain secrets are **machine-local** and do not sync. After cloning this vault on a new machine, re-enter all secrets in **Settings > Keychain**.
+
+See the image below for reference:
+
+![[2025-12-26_obsidian_keychain_settings_screenshot.png]]
+
+For full details, see [[.obsidian/plugins/README|Plugins README]].
+
+***
+
 ## Appendix
 
-*Note created on [[2025-11-26]] and last modified on [[2025-12-23]].*
+*Note created on [[2025-11-26]] and last modified on [[2025-12-26]].*
 
 ### See Also
 

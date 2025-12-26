@@ -1,11 +1,25 @@
 # .obsidian/.gitignore
 
-# ignore secrets
+# ============================================================================
+# Secrets (stored outside data.json)
+# ============================================================================
 todoist-token
 
-# ignore workspace
+# ============================================================================
+# Workspace (local state, not shareable)
+# ============================================================================
 workspace.json
 workspace/
 
-# ignore cache
+# ============================================================================
+# Cache (regenerated automatically)
+# ============================================================================
 cache/
+
+# ============================================================================
+# Plugin configurations are managed by .obsidian/plugins/.gitignore
+# - JS/CSS files are ignored (auto-downloaded)
+# - Safe data.json files are tracked (for reproducibility)
+# - data.json files with secrets are explicitly ignored
+# - data.json.example files document structure for secret-containing plugins
+# ============================================================================

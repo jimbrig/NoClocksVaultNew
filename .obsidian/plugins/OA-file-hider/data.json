@@ -1,0 +1,10 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "quartz",
+    "NoClocksVaultNew.vault",
+    "LICENSE.md",
+    "quartz.config.ts",
+    "quartz.layout.ts"
+  ]
+}

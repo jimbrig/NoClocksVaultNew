@@ -1,18 +1,66 @@
 # .obsidian/plugins/.gitignore
-# Only track manifest.json files - exclude JS, CSS, data, and cache
+# Track plugin configurations for reproducibility while protecting secrets
 
-!.gitignore
-
-# Plugin code (large, auto-downloaded)
+# ============================================================================
+# ALWAYS IGNORE: Plugin Code (auto-downloaded from plugin repos)
+# ============================================================================
 *.js
 *.css
 
-# Plugin data (contains secrets/tokens)
-**/data.json
-
-# Cache files
+# ============================================================================
+# ALWAYS IGNORE: Cache Files
+# ============================================================================
 **/cache.json
 **/cache/
 
-# Git plugin script
+# ============================================================================
+# ALWAYS IGNORE: Git Plugin Script
+# ============================================================================
 obsidian-git/obsidian_askpass.sh
+
+# ============================================================================
+# PLUGINS WITH SECRETS: Explicitly ignore data.json for these plugins
+# ============================================================================
+# These plugins store API keys, tokens, or cryptographic material in data.json
+# Create a data.json.example file in each to document the structure
+
+# copilot - stores OpenAI/Anthropic/Google/etc API keys
+copilot/data.json
+
+# obsidian-local-rest-api - stores API key, private key, and certificates
+obsidian-local-rest-api/data.json
+
+# obsidian-imgur-plugin - stores Imgur client ID and album IDs
+obsidian-imgur-plugin/data.json
+
+# smart-connections - stores API keys for AI services
+smart-connections/data.json
+
+# readwise-official - stores Readwise API token
+readwise-official/data.json
+
+# obsidian-raindrop-highlights - stores Raindrop API token
+obsidian-raindrop-highlights/data.json
+
+# github-copilot - stores GitHub auth tokens
+github-copilot/data.json
+
+# google-drive-sync - stores OAuth tokens
+google-drive-sync/data.json
+
+# obsidian-google-lookup - stores Google API key
+obsidian-google-lookup/data.json
+
+# ============================================================================
+# TRACKED BY DEFAULT: All other data.json files are tracked
+# ============================================================================
+# Safe configurations that should be version controlled:
+# - templater-obsidian/data.json (folder templates)
+# - obsidian-git/data.json (commit messages, preferences)
+# - todoist-sync-plugin/data.json (UI preferences, token stored separately)
+# - calendar/data.json (UI preferences)
+# - terminal/data.json (terminal profiles)
+# - metadata-menu/data.json (field definitions)
+# - lazy-plugins/data.json (plugin load order)
+# - obsidian-plugin-groups/data.json (plugin groups)
+# - etc.

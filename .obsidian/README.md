@@ -32,7 +32,10 @@ The vault's Obsidian settings are stored in JSON files within this folder. These
 
 ## Plugins
 
-The vault utilizes the following community plugins to enhance functionality:
+The vault utilizes the following community plugins to enhance functionality.
+
+> [!IMPORTANT]
+> **Version Control**: Plugin code is auto-downloaded; only manifests and safe configurations are tracked. Plugins with API keys/secrets have their `data.json` ignored. See [`plugins/README.md`](plugins/README.md) for security details and post-clone setup instructions.
 
 <!-- BEGIN:PLUGINS -->
 

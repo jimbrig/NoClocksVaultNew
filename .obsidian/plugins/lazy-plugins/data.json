@@ -158,6 +158,15 @@
       },
       "datacore": {
         "startupType": "instant"
+      },
+      "file-explorer-note-count": {
+        "startupType": "instant"
+      },
+      "reveal-active-file-button": {
+        "startupType": "instant"
+      },
+      "obsidian-show-file-path": {
+        "startupType": "instant"
       }
     },
     "loadOrder": []

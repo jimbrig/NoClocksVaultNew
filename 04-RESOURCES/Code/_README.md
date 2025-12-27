@@ -1,12 +1,12 @@
 ---
 creation_date: 2024-12-13
 modification_date: 2024-12-13
-author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 tags:
   - Type/Readme
   - Type/Code
   - Topic/Meta
-  - Topic/Developmentelopment
+  - Topic/Development
   - Status/Ongoing
 aliases:
   - Code

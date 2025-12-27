@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerShell - Add GodMode Shortcut to Desktop",
+      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Add GodMode Shortcut to Desktop.md"
+    },
+    {
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/PowerShell/_README.md"
+    },
+    {
+      "basename": "PowerShell - Profile Custom Setup",
+      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Profile Custom Setup.md"
+    },
+    {
+      "basename": "PowerShell - Get-ObsidianVaultPlugins",
+      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md"
+    },
+    {
       "basename": "PLUGINS",
       "path": "05-SYSTEM/Meta/PLUGINS.md"
     },
@@ -17,16 +33,8 @@
       "path": "05-SYSTEM/Assets/Images/2025-12-26_obsidian_keychain_settings_screenshot.png"
     },
     {
-      "basename": "PowerShell - Get-ObsidianVaultPlugins",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md"
-    },
-    {
       "basename": "Real Estate Parcel Geospatial Enrichment",
       "path": "00-INBOX/Real Estate Parcel Geospatial Enrichment.md"
-    },
-    {
-      "basename": "PowerShell - Profile Custom Setup",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Profile Custom Setup.md"
     },
     {
       "basename": "MOC - PowerShell",
@@ -191,14 +199,6 @@
     {
       "basename": "noclocks-dark-scheme-color-palette",
       "path": "05-SYSTEM/Assets/Images/noclocks-dark-scheme-color-palette.png"
-    },
-    {
-      "basename": "git-diagram",
-      "path": "05-SYSTEM/Assets/Images/git-diagram.png"
-    },
-    {
-      "basename": "Vault",
-      "path": "05-SYSTEM/Bases/Vault.base"
     }
   ],
   "omittedPaths": [],

@@ -1,64 +1,67 @@
 <%*
-// Code README Template
-// Simplified, self-contained template for language-specific code folder READMEs
+// Template-Code-Readme.md
+// For language-specific code folder READMEs
 // Automatically detects language from folder name
 
-// Get folder info
 const folderPath = tp.file.folder(true);
 const folderName = tp.file.folder(false);
 
-// Detect language from folder name
-const languageInfo = {
-  "R": { name: "R", tag: "Topic/Development/R", icon: "chart-line" },
-  "Python": { name: "Python", tag: "Topic/Development/Python", icon: "snake" },
-  "JavaScript": { name: "JavaScript", tag: "Topic/Development/JavaScript", icon: "file-code" },
-  "TypeScript": { name: "TypeScript", tag: "Topic/Development/TypeScript", icon: "file-code" },
-  "PowerShell": { name: "PowerShell", tag: "Topic/Development/PowerShell", icon: "terminal" },
-  "Bash": { name: "Bash", tag: "Topic/Development/Bash", icon: "terminal" },
-  "SQL": { name: "SQL", tag: "Topic/Development/SQL", icon: "database" },
-  "HTML": { name: "HTML", tag: "Topic/Development/HTML", icon: "code" },
-  "CSS": { name: "CSS", tag: "Topic/Development/CSS", icon: "palette" },
-  "React": { name: "React", tag: "Topic/Development/React", icon: "atom" },
-  "CMD": { name: "Command Line", tag: "Topic/Development/CMD", icon: "terminal" },
-  "VBA": { name: "VBA", tag: "Topic/Development/VBA", icon: "file-spreadsheet" },
-  "Golang": { name: "Go", tag: "Topic/Development/Go", icon: "code" },
-  "C++": { name: "C++", tag: "Topic/Development/CPP", icon: "code" },
-  "CSharp": { name: "C#", tag: "Topic/Development/CSharp", icon: "code" },
-  "Terraform": { name: "Terraform", tag: "Topic/Development/Terraform", icon: "cloud" },
-  "Registry": { name: "Windows Registry", tag: "Topic/Development/Registry", icon: "settings" },
-  "PowerQuery": { name: "Power Query M", tag: "Topic/Development/PowerQuery", icon: "table" },
-  "AppsScript": { name: "Google Apps Script", tag: "Topic/Development/AppsScript", icon: "file-code" },
-  "AutoHotKey": { name: "AutoHotKey", tag: "Topic/Development/AutoHotKey", icon: "keyboard" },
-  "Git (Bash)": { name: "Git", tag: "Topic/Development/Git", icon: "git-branch" },
-  "Visual Basic": { name: "Visual Basic", tag: "Topic/Development/VB", icon: "code" }
+// language configuration: name, tag
+const languageConfig = {
+  "R": { name: "R", tag: "Topic/R" },
+  "Python": { name: "Python", tag: "Topic/Python" },
+  "PowerShell": { name: "PowerShell", tag: "Topic/PowerShell" },
+  "Bash": { name: "Bash", tag: "Topic/Bash" },
+  "JavaScript": { name: "JavaScript", tag: "Topic/JavaScript" },
+  "TypeScript": { name: "TypeScript", tag: "Topic/TypeScript" },
+  "SQL": { name: "SQL", tag: "Topic/SQL" },
+  "HTML": { name: "HTML", tag: "Topic/HTML" },
+  "CSS": { name: "CSS", tag: "Topic/CSS" },
+  "React": { name: "React", tag: "Topic/React" },
+  "Go": { name: "Go", tag: "Topic/Go" },
+  "Golang": { name: "Go", tag: "Topic/Go" },
+  "Rust": { name: "Rust", tag: "Topic/Rust" },
+  "Ruby": { name: "Ruby", tag: "Topic/Ruby" },
+  "PHP": { name: "PHP", tag: "Topic/PHP" },
+  "Java": { name: "Java", tag: "Topic/Java" },
+  "CSharp": { name: "C#", tag: "Topic/CSharp" },
+  "Cmd": { name: "Command Line", tag: "Topic/CMD" },
+  "CMD": { name: "Command Line", tag: "Topic/CMD" },
+  "VBA": { name: "VBA", tag: "Topic/VBA" },
+  "Terraform": { name: "Terraform", tag: "Topic/Terraform" },
+  "Registry": { name: "Windows Registry", tag: "Topic/Registry" },
+  "PowerQuery": { name: "Power Query M", tag: "Topic/PowerQuery" },
+  "AppsScript": { name: "Google Apps Script", tag: "Topic/AppsScript" },
+  "AutoHotKey": { name: "AutoHotKey", tag: "Topic/AutoHotKey" },
+  "Docker": { name: "Docker", tag: "Topic/Docker" },
+  "Lua": { name: "Lua", tag: "Topic/Lua" },
+  "Perl": { name: "Perl", tag: "Topic/Perl" },
+  "Swift": { name: "Swift", tag: "Topic/Swift" },
+  "Kotlin": { name: "Kotlin", tag: "Topic/Kotlin" }
 };
 
-// Get language info or default
-const lang = languageInfo[folderName] || { 
-  name: folderName, 
-  tag: `Topic/Development/${folderName}`, 
-  icon: "code" 
+// get language info or default from folder name
+const lang = languageConfig[folderName] || {
+  name: folderName,
+  tag: `Topic/${folderName}`
 };
 
-// Date values
 const creationDate = tp.date.now("YYYY-MM-DD");
 const year = tp.date.now("YYYY");
 -%>
 ---
 creation_date: <% creationDate %>
 modification_date: <% creationDate %>
-author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 tags:
   - Type/Readme
   - Type/Code
   - Topic/Meta
-  - Topic/Development
   - <% lang.tag %>
   - Status/Ongoing
 aliases:
   - <% lang.name %> Code
   - <% lang.name %> Code Snippets
-  - <% lang.name %> Code Readme
   - <% lang.name %> Code Index
 publish: true
 permalink:
@@ -71,7 +74,7 @@ cssclasses:
 # <% lang.name %> Code
 
 ```table-of-contents
-title: Contents
+title: ## Contents
 style: nestedList
 minLevel: 2
 maxLevel: 4
@@ -106,6 +109,7 @@ SORT file.name ASC
 ### See Also
 
 - [[04-RESOURCES/Code/_README|Code Index]]
+- [[03-AREAS/MOC - <% lang.name %>|<% lang.name %> Map of Content]]
 
 ### Backlinks
 
@@ -116,4 +120,3 @@ LIST FROM [[_README]] AND -"CHANGELOG" AND -"<% folderPath %>/_README"
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% year %>
-

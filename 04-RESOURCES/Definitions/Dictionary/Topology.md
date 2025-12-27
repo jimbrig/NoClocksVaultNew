@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Topology
-
-```table-of-contents
-```
-
 ## Overview
 
 **Topology** is the study of the properties of geometric objects that remain unchanged under continuous deformations, such as stretching or bending, often used in GIS to describe spatial relationships between features. Topological relationships include adjacency, connectivity, and containment.
@@ -53,14 +49,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Geometry Engine - Open Source (GEOS)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Vector]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geometry Engine - Open Source (GEOS)](Geometry Engine - Open Source (GEOS).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Vector](Vector.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Topology]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Topology"
-```
-
+<!-- dynamic content -->

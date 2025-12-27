@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Vertices
-
-```table-of-contents
-```
-
 ## Overview
 
 **Vertices** are the points that define the shape of a spatial feature, such as the corners of a polygon or the points along a line, used to represent the geometry of the feature in a GIS. Each vertex is defined by a coordinate pair (and optionally Z and M values).
@@ -46,14 +42,10 @@ aliases:
 
 ### See Also
 
-- [[Polygon]]
-- [[LineString]]
-- [[Feature]]
-- [[Geographic Information System (GIS)]]
+- [Polygon](Polygon.md)
+- [LineString](LineString.md)
+- [Feature](Feature.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Vertices]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Vertices"
-```
-
+<!-- dynamic content -->

@@ -15,10 +15,6 @@ aliases:
 ---
 
 # European Petroleum Survey Group (EPSG)
-
-```table-of-contents
-```
-
 ## Overview
 
 **European Petroleum Survey Group (EPSG)** refers to a database that provides a collection of coordinate reference systems and transformations used in geospatial applications. Originally maintained by the petroleum industry group of the same name, the registry is now managed by the International Association of Oil & Gas Producers (IOGP) and serves as the de facto standard for identifying spatial reference systems.
@@ -47,14 +43,10 @@ aliases:
 
 ### See Also
 
-- [[Coordinate Reference System (CRS)]]
-- [[Geographic Information System (GIS)]]
-- [[Projection]]
-- [[Datum]]
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Projection](Projection.md)
+- [Datum](Datum.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[European Petroleum Survey Group (EPSG)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/European Petroleum Survey Group (EPSG)"
-```
-
+<!-- dynamic content -->

@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Unified School District (UNSD)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Unified School District (UNSD)** is a type of school district in the United States that serves students from kindergarten through 12th grade (K-12). Unlike areas with separate elementary and secondary districts, unified districts provide a continuous educational pathway under a single administrative structure.
@@ -35,8 +31,8 @@ aliases:
 | Type | Grades | Abbreviation |
 |------|--------|--------------|
 | Unified School District | K-12 | UNSD |
-| Elementary School District | K-8 | [[Elementary School District (ELSD)|ELSD]] |
-| Secondary School District | 9-12 | [[Secondary School District (SCSD)|SCSD]] |
+| Elementary School District | K-8 | [ELSD](Elementary School District (ELSD).md) |
+| Secondary School District | 9-12 | [SCSD](Secondary School District (SCSD).md) |
 
 ## Census Data
 
@@ -51,13 +47,9 @@ The Census Bureau maintains school district boundaries in TIGER/Line files with 
 
 ### See Also
 
-- [[Elementary School District (ELSD)]]
-- [[Secondary School District (SCSD)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
+- [Elementary School District (ELSD)](Elementary School District (ELSD).md)
+- [Secondary School District (SCSD)](Secondary School District (SCSD).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Unified School District (UNSD)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Unified School District (UNSD)"
-```
-
+<!-- dynamic content -->

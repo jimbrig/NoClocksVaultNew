@@ -15,15 +15,6 @@ aliases:
 
 
 # R Shared Roxygen2 Parameter Templates
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The `R/aaa.R` file serves as a central location for shared roxygen2 documentation blocks that can be inherited across multiple functions. This reduces documentation duplication and ensures consistency.
@@ -317,21 +308,16 @@ NULL
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Environment and Initialization]]
-- [[R - Package Initialization Script]]
-- [[R Package Development - Advanced Patterns]]
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md)
+- [R - Package Initialization Script](R - Package Initialization Script.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Shared Roxygen2 Parameter Templates]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

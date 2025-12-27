@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Binary Large Object (Blob)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Binary Large Object (Blob)** is a data type used to store large amounts of binary data, such as images or geospatial files, often used in databases and cloud storage systems. In cloud computing, blob storage provides scalable object storage for unstructured data.
@@ -52,12 +48,8 @@ aliases:
 
 ### See Also
 
-- [[Cloud Optimized GeoTIFF (COG)]]
-- [[GeoTIFF]]
+- [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md)
+- [GeoTIFF](GeoTIFF.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Binary Large Object (Blob)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Binary Large Object (Blob)"
-```
-
+<!-- dynamic content -->

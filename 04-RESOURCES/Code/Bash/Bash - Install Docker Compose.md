@@ -18,15 +18,6 @@ cssclasses:
 ---
 
 # Install Docker Compose
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -54,9 +45,9 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # add repository to apt sources
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+echo /
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu /
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | /
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 # update apt with new repository
@@ -108,21 +99,17 @@ The script installs:
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[Bash - Cleanup Docker]]
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash - Cleanup Docker](Bash - Cleanup Docker.md)
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Install Docker Compose]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

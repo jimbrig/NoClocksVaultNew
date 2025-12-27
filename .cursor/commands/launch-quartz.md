@@ -10,8 +10,8 @@ PowerShell script to sync vault content:
 
 ```powershell
 # from vault root
-$vaultRoot = "N:\obsidian\NoClocksVaultNew"
-$quartzContent = "$vaultRoot\quartz\content"
+$vaultRoot = "N:/obsidian/NoClocksVaultNew"
+$quartzContent = "$vaultRoot/quartz/content"
 
 # clean existing content (preserve .git if exists)
 Get-ChildItem -Path $quartzContent -Exclude ".git" | Remove-Item -Recurse -Force
@@ -24,7 +24,7 @@ $excludeFolders = @(
     ".github",
     "quartz",
     "99-ARCHIVES",
-    "05-SYSTEM\Templates",
+    "05-SYSTEM/Templates",
     "node_modules"
 )
 
@@ -47,8 +47,8 @@ Get-ChildItem -Path $vaultRoot -Recurse -File |
     }
 
 # rename README.md to index.md at content root
-$readmePath = "$quartzContent\README.md"
-$indexPath = "$quartzContent\index.md"
+$readmePath = "$quartzContent/README.md"
+$indexPath = "$quartzContent/index.md"
 if (Test-Path $readmePath) {
     Move-Item -Path $readmePath -Destination $indexPath -Force
 }
@@ -59,7 +59,7 @@ Write-Host "Content synced to quartz/content"
 ### Step 2: Launch Quartz Server
 
 ```powershell
-cd "$vaultRoot\quartz"
+cd "$vaultRoot/quartz"
 npx quartz build --serve
 ```
 
@@ -73,7 +73,7 @@ Start-Sleep -Seconds 5; Start-Process "http://localhost:8080"
 
 ```powershell
 # sync and serve (run in background), then open browser
-cd N:\obsidian\NoClocksVaultNew\quartz
+cd N:/obsidian/NoClocksVaultNew/quartz
 Start-Job -ScriptBlock { npx quartz build --serve } | Out-Null
 Start-Sleep -Seconds 8
 Start-Process "http://localhost:8080"
@@ -85,7 +85,7 @@ Write-Host "Server running in background job. Use 'Get-Job | Stop-Job' to stop."
 
 ```powershell
 # open browser after delay, then start server in foreground
-cd N:\obsidian\NoClocksVaultNew\quartz
+cd N:/obsidian/NoClocksVaultNew/quartz
 Start-Job -ScriptBlock { Start-Sleep -Seconds 6; Start-Process "http://localhost:8080" } | Out-Null
 npx quartz build --serve
 ```

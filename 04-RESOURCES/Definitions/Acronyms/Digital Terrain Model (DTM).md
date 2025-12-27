@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Digital Terrain Model (DTM)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Digital Terrain Model (DTM)** is a representation of the bare ground surface without any objects like plants and buildings, often used in GIS for terrain analysis and hydrological modeling. DTMs are derived from DEMs or DSMs by filtering out non-ground features.
@@ -52,13 +48,9 @@ aliases:
 
 ### See Also
 
-- [[Digital Elevation Model (DEM)]]
-- [[Topography]]
-- [[Light Detection and Ranging (LIDAR)]]
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
+- [Topography](Topography.md)
+- [Light Detection and Ranging (LIDAR)](Light Detection and Ranging (LIDAR).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Digital Terrain Model (DTM)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Digital Terrain Model (DTM)"
-```
-
+<!-- dynamic content -->

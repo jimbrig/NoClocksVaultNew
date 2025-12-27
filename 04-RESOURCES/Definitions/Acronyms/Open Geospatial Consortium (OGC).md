@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Open Geospatial Consortium (OGC)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Open Geospatial Consortium (OGC)** is an international organization that develops and promotes open standards for geospatial content and services, GIS data processing, and data sharing. Founded in 1994, the OGC brings together government agencies, commercial organizations, and academic institutions to collaborate on creating interoperable location-based technologies.
@@ -32,12 +28,12 @@ aliases:
 
 ## Major OGC Standards
 
-- [[Web Map Service (WMS)]] - Serving georeferenced map images
-- [[Web Feature Service (WFS)]] - Accessing vector geospatial features
-- [[Web Coverage Service (WCS)]] - Accessing raster geospatial data
-- [[Geography Markup Language (GML)]] - XML-based encoding for geographic information
-- [[GeoJSON]] - JSON-based encoding for simple features
-- [[Simple Features Access]] - Common architecture for simple feature geometry
+- [Web Map Service (WMS)](Web Map Service (WMS).md) - Serving georeferenced map images
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md) - Accessing vector geospatial features
+- [Web Coverage Service (WCS)](Web Coverage Service (WCS).md) - Accessing raster geospatial data
+- [Geography Markup Language (GML)](Geography Markup Language (GML).md) - XML-based encoding for geographic information
+- [GeoJSON](GeoJSON.md) - JSON-based encoding for simple features
+- [Simple Features Access](Simple Features Access.md) - Common architecture for simple feature geometry
 
 ## Appendix
 
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Web Map Service (WMS)]]
-- [[Web Feature Service (WFS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Open Geospatial Consortium (OGC)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Open Geospatial Consortium (OGC)"
-```
-
+<!-- dynamic content -->

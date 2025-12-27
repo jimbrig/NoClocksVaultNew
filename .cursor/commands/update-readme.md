@@ -7,12 +7,7 @@ Update the vault's README.md with current structure, MOCs, and content informati
 ### 1. Maps of Content Section
 
 Query the vault for all MOC files and list them:
-
-```dataview
-LIST FROM "03-AREAS/MOCs"
-SORT file.name ASC
-```
-
+<!-- dynamic content -->
 Update the MOCs section with links to all available Maps of Content.
 
 ### 2. Structure Section
@@ -32,21 +27,7 @@ Generate a folder structure overview based on actual vault contents:
 ### 3. Content Section
 
 Update content types based on actual tag usage:
-
-```dataview
-TABLE length(rows) as Count
-FROM ""
-WHERE file.name != "README"
-GROUP BY choice(
-    contains(tags, "Type/Definition"), "Definitions",
-    contains(tags, "Type/Code"), "Code Snippets",
-    contains(tags, "Type/Daily"), "Daily Notes",
-    contains(tags, "Type/MOC"), "Maps of Content",
-    contains(tags, "Type/Project"), "Projects",
-    "Other"
-)
-```
-
+<!-- dynamic content -->
 ## Update Process
 
 1. **Analyze current vault state**
@@ -56,7 +37,7 @@ GROUP BY choice(
 
 2. **Update Maps of Content section**
    - Add links to all MOC files
-   - Format: `- [[MOC - Topic]]`
+   - Format: `- [MOC - Topic](MOC - Topic.md)`
 
 3. **Update Structure section**
    - Add folder table with counts
@@ -73,10 +54,10 @@ GROUP BY choice(
 ```markdown
 Some Maps of Content to consider are:
 
-- [[MOC - GIS]]
-- [[MOC - R Development]]
-- [[MOC - Cloud Platforms]]
-- [[MOC - DevOps]]
+- [MOC - GIS](MOC - GIS.md)
+- [MOC - R Development](MOC - R Development.md)
+- [MOC - Cloud Platforms](MOC - Cloud Platforms.md)
+- [MOC - DevOps](MOC - DevOps.md)
 ```
 
 ### Structure (Example)

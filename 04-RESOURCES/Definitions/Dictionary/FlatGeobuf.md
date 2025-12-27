@@ -15,15 +15,6 @@ publish: true
 ---
 
 # FlatGeobuf
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **FlatGeobuf** is a performant binary encoding for geographic data based on FlatBuffers. It supports random access via HTTP range requests, making it ideal for streaming large datasets over the web without downloading the entire file.
@@ -129,9 +120,9 @@ gdf.to_file("output.fgb", driver="FlatGeobuf")
 - Building web map applications
 
 **Consider alternatives when:**
-- Analytics queries → [[GeoParquet]]
-- Human readability → [[GeoJSON]]
-- Desktop GIS workflows → [[GeoPackage]]
+- Analytics queries → [GeoParquet](GeoParquet.md)
+- Human readability → [GeoJSON](GeoJSON.md)
+- Desktop GIS workflows → [GeoPackage](GeoPackage.md)
 
 ## Comparison with GeoParquet
 
@@ -151,18 +142,14 @@ gdf.to_file("output.fgb", driver="FlatGeobuf")
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[Guide - Geospatial File Format Selection]]
-- [[Row vs Columnar Geospatial Formats]]
-- [[GeoJSON]]
-- [[GeoParquet]]
+- [MOC - GIS](MOC - GIS.md)
+- [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md)
+- [Row vs Columnar Geospatial Formats](Row vs Columnar Geospatial Formats.md)
+- [GeoJSON](GeoJSON.md)
+- [GeoParquet](GeoParquet.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[FlatGeobuf]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/FlatGeobuf"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

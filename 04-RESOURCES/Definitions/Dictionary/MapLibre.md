@@ -16,15 +16,6 @@ publish: true
 ---
 
 # MapLibre
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **MapLibre GL JS** is an open-source TypeScript library for publishing interactive, customizable vector tile maps on the web. It is a community-maintained fork of Mapbox GL JS v1.13, created after Mapbox changed its license. MapLibre provides WebGL-powered rendering for smooth, responsive maps.
@@ -137,8 +128,8 @@ MapLibre uses a JSON style specification compatible with Mapbox:
 | Library | Rendering | License | Vector Tiles | Best For |
 |---------|-----------|---------|--------------|----------|
 | MapLibre GL | WebGL | BSD-3 | Yes | Modern vector maps |
-| [[Leaflet.js]] | DOM/Canvas | BSD-2 | Via plugins | Simple maps |
-| [[OpenLayers]] | Canvas/WebGL | BSD-2 | Yes | Complex GIS |
+| [Leaflet.js](Leaflet.js.md) | DOM/Canvas | BSD-2 | Via plugins | Simple maps |
+| [OpenLayers](OpenLayers.md) | Canvas/WebGL | BSD-2 | Yes | Complex GIS |
 | Mapbox GL | WebGL | Proprietary | Yes | Premium features |
 
 ---
@@ -149,17 +140,13 @@ MapLibre uses a JSON style specification compatible with Mapbox:
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - GIS Web Mapping Libraries]]
-- [[Mapbox Vector Tile (MVT)]]
-- [[PMTiles]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md)
+- [Mapbox Vector Tile (MVT)](Mapbox Vector Tile (MVT).md)
+- [PMTiles](PMTiles.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MapLibre]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/MapLibre"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

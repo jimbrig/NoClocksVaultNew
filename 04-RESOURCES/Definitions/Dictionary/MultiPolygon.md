@@ -13,10 +13,6 @@ aliases:
 ---
 
 # MultiPolygon
-
-```table-of-contents
-```
-
 ## Overview
 
 **MultiPolygon** is a spatial feature in a GIS that consists of multiple polygons grouped together as a single entity, often used to represent complex geographic features such as archipelagos or administrative regions with non-contiguous areas.
@@ -33,7 +29,7 @@ aliases:
 | Format | Example |
 |--------|---------|
 | WKT | `MULTIPOLYGON(((...)),((...)),((...)))` |
-| GeoJSON | `{"type": "MultiPolygon", "coordinates": [[[[...]]]]}` |
+| GeoJSON | `{"type": "MultiPolygon", "coordinates": [[[...]([[....md)]]}` |
 
 ## Use Cases
 
@@ -49,13 +45,9 @@ aliases:
 
 ### See Also
 
-- [[Polygon]]
-- [[Feature]]
-- [[Geographic Information System (GIS)]]
+- [Polygon](Polygon.md)
+- [Feature](Feature.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MultiPolygon]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/MultiPolygon"
-```
-
+<!-- dynamic content -->

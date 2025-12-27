@@ -14,15 +14,6 @@ aliases: "Clip web pages"
 
 > [!SOURCE] Source:
 > <https://help.obsidian.md/web-clipper/capture>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Content
 
 Once you install the [Web Clipper](https://help.obsidian.md/web-clipper) browser extension, you can access it in several ways, depending on your browser:
@@ -73,19 +64,14 @@ The Web Clipper interface is divided into four sections:
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2025-12-24]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[00-INBOX/Clippings/_README|Web Clips]]
+- [Web Clips](00-INBOX/Clippings/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Clip web pages]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

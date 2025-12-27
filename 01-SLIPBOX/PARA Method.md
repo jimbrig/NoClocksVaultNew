@@ -20,15 +20,6 @@ publish: true
 > [!SOURCE] Sources:
 > - *[Building a Second Brain](https://www.buildingasecondbrain.com/)*
 > - *Tiago Forte*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The PARA Method is an organizational system developed by **Tiago Forte** as part of his "Building a Second Brain" methodology. PARA stands for **Projects, Areas, Resources, and Archives** - the four main categories used to organize all digital information.
@@ -137,15 +128,15 @@ This vault adapts PARA for a **knowledge base** rather than task management:
 | Resources | `04-RESOURCES/` (Code, Definitions, Lists, Guides) |
 | Archives | `99-ARCHIVES/` |
 
-See [[05-SYSTEM/Meta/PHILOSOPHY]] for the rationale behind this adaptation.
+See [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md) for the rationale behind this adaptation.
 
 ---
 
 ## See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[Zettelkasten Method]]
-- [[MOC - PKM]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [Zettelkasten Method](Zettelkasten Method.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ---
 

@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Federal Geographic Data Committee (FGDC)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Federal Geographic Data Committee (FGDC)** is a U.S. government committee that promotes the coordinated development, use, sharing, and dissemination of geospatial data on a national level. FGDC coordinates the National Spatial Data Infrastructure (NSDI) and develops metadata standards.
@@ -48,13 +44,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[International Organization for Standardization (ISO)]]
-- [[United States Geological Survey (USGS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [International Organization for Standardization (ISO)](International Organization for Standardization (ISO).md)
+- [United States Geological Survey (USGS)](United States Geological Survey (USGS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Federal Geographic Data Committee (FGDC)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Federal Geographic Data Committee (FGDC)"
-```
-
+<!-- dynamic content -->

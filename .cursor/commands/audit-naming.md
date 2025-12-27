@@ -11,7 +11,7 @@ Review file naming consistency across the vault.
 | Daily notes | YYYY-MM-DD | `2024-12-20.md` |
 | MOCs | `MOC - {Topic}` | `MOC - GIS.md` |
 | Templates | `Template-{Type}.md` | `Template-Definition.md` |
-| READMEs | `_README.md` or `README.md` | `_README.md` |
+| READMEs | `README.md` or `README.md` | `README.md` |
 | Code snippets | Language - Description | `R - Database Connection.md` |
 
 ## Validation Checks
@@ -35,17 +35,9 @@ Check for problematic characters:
 ### 3. Prefix Consistency
 
 **MOCs:**
-```dataview
-LIST FROM "03-AREAS/MOCs"
-WHERE !startswith(file.name, "MOC - ")
-```
-
+<!-- dynamic content -->
 **Templates:**
-```dataview
-LIST FROM "05-SYSTEM/Templates"
-WHERE file.name != "_README" AND !startswith(file.name, "Template-")
-```
-
+<!-- dynamic content -->
 ### 4. Date Format in Temporal Notes
 
 Journal notes should use YYYY-MM-DD:
@@ -56,7 +48,7 @@ Journal notes should use YYYY-MM-DD:
 ### 5. README Naming
 
 Folder READMEs should be:
-- `_README.md` on develop branch (for Obsidian)
+- `README.md` on develop branch (for Obsidian)
 - Converted to `README.md` on main branch (for GitHub)
 
 ### 6. Acronym Handling

@@ -15,15 +15,6 @@ publish: false
 ---
 
 # Inbox
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -40,35 +31,21 @@ includeLinks: true
 ## Current Inbox Contents
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** notes in the inbox awaiting processing.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.ctime AS "Created",
-  file.mtime AS "Modified"
-FROM "00-INBOX"
-WHERE file.name != this.file.name AND file.name != "_index"
-SORT file.ctime DESC
-```
-
+> *Currently, there are  notes in the inbox awaiting processing.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[MOC - PKM]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"00-INBOX/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

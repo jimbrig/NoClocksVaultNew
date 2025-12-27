@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Object-Based Image Analysis (OBIA)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Object-Based Image Analysis (OBIA)** is a method of analyzing remote sensing imagery that segments images into meaningful objects or regions based on spectral, spatial, and contextual information, often used for land cover classification and change detection in GIS.
@@ -48,12 +44,8 @@ aliases:
 
 ### See Also
 
-- [[Raster]]
-- [[Geographic Information System (GIS)]]
+- [Raster](Raster.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Object-Based Image Analysis (OBIA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Object-Based Image Analysis (OBIA)"
-```
-
+<!-- dynamic content -->

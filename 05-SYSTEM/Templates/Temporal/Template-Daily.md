@@ -18,18 +18,9 @@ publish: false
 
 ## Navigation
 
-<< [[<% tp.date.now("YYYY-MM-DD", -1) %>|Yesterday]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>|Tomorrow]] >>
+<< [Yesterday](<% tp.date.now("YYYY-MM-DD", -1) %>.md) | [Tomorrow](<% tp.date.now("YYYY-MM-DD", 1) %>.md) >>
 
 ---
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 3
-includeLinks: true
-```
-
 ## Daily Journal
 
 > [!NOTE] Daily activity log and notes
@@ -52,33 +43,12 @@ includeLinks: true
 
 ## Appendix
 
-*Note created on [[<% tp.date.now("YYYY-MM-DD") %>]].*
+*Note created on [<% tp.date.now("YYYY-MM-DD") %>](<% tp.date.now("YYYY-MM-DD") %>.md).*
 
 ### Created Today
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location"
-FROM ""
-WHERE file.cday = date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.name != this.file.name
-SORT file.ctime ASC
-```
-
+<!-- dynamic content -->
 ### Modified Today
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location"  
-FROM ""
-WHERE file.mday = date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.cday != date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.name != this.file.name
-SORT file.mtime ASC
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

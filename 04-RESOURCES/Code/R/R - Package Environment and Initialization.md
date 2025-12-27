@@ -15,15 +15,6 @@ aliases:
 
 
 # R Package Environment and Initialization
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This note documents the production-grade pattern for `R/zzz.R` used to initialize package environments, configurations, logging, caching, and startup messaging.
@@ -159,8 +150,8 @@ pkg_options_init <- function() {
   
   # apply env overrides where they exist
   for (opt_name in names(env_overrides)) {
-    if (nzchar(env_overrides[[opt_name]])) {
-      default_opts[[opt_name]] <- .coerce_option_type(opt_name, env_overrides[[opt_name]])
+    if (nzchar(env_overrides[opt_name](opt_name.md))) {
+      default_opts[opt_name](opt_name.md) <- .coerce_option_type(opt_name, env_overrides[opt_name](opt_name.md))
     }
   }
   
@@ -279,10 +270,10 @@ pkg_sys_extdata <- function(...) {
 #' @importFrom crayon green cyan yellow red blue bold underline italic
 #' @importFrom rlang env_get
 pkg_startup_msg <- function() {
-  unicode_success <- crayon::green("\u2705")
-  unicode_info <- crayon::cyan("\u2139")
-  unicode_warning <- crayon::yellow("\u26a0")
-  unicode_error <- crayon::red("\ud83d\udea8")
+  unicode_success <- crayon::green("/u2705")
+  unicode_info <- crayon::cyan("/u2139")
+  unicode_warning <- crayon::yellow("/u26a0")
+  unicode_error <- crayon::red("/ud83d/udea8")
   
   pkg_name <- pkg_name()
   pkg_version <- paste0("v", pkg_version())
@@ -307,8 +298,8 @@ pkg_startup_msg <- function() {
     cfg_valid <- validate_config(cfg, quiet = TRUE)
     if (!isTRUE(cfg_valid)) {
       paste0(
-        unicode_error, " Invalid Configuration: Found ", length(cfg_valid), " issues.\n",
-        paste0(unicode_warning, "   - ", cfg_valid, collapse = "\n")
+        unicode_error, " Invalid Configuration: Found ", length(cfg_valid), " issues./n",
+        paste0(unicode_warning, "   - ", cfg_valid, collapse = "/n")
       )
     } else {
       paste0(unicode_success, " Configuration is valid.")
@@ -317,7 +308,7 @@ pkg_startup_msg <- function() {
     ""
   }
   
-  paste0(msg_title, " - ", msg_desc, "\n", msg_docs, "\n", msg_config_file, "\n", msg_config)
+  paste0(msg_title, " - ", msg_desc, "/n", msg_docs, "/n", msg_config_file, "/n", msg_config)
 }
 
 # helper predicates --------------------------------------------------------------
@@ -386,21 +377,16 @@ i Visit https://docs.mypackage.com for documentation.
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Initialization Script]]
-- [[R Package Development - Advanced Patterns]]
-- [[R - Console Message Feedback Utilities]]
+- [R - Package Initialization Script](R - Package Initialization Script.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
+- [R - Console Message Feedback Utilities](R - Console Message Feedback Utilities.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Package Environment and Initialization]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

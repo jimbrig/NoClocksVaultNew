@@ -57,15 +57,15 @@ Curated collection of {category} tools, organized by {subcategory}.
 
 ## Notes
 
-- For {tool} configurations, see [[Code - {Tool} - Config]]
-- For setup guide, see [[Guide - {Topic}]]
+- For {tool} configurations, see [Code - {Tool} - Config](Code - {Tool} - Config.md)
+- For setup guide, see [Guide - {Topic}](Guide - {Topic}.md)
 
 ## Appendix
 
 ### See Also
 
-- [[Related List]]
-- [[Related MOC]]
+- [Related List](Related List.md)
+- [Related MOC](Related MOC.md)
 
 ### Backlinks
 

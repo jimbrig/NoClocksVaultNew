@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Orthogonal
-
-```table-of-contents
-```
-
 ## Overview
 
 **Orthogonal** refers to a coordinate system or projection where the axes are at right angles (90 degrees) to each other, allowing for accurate representation of spatial relationships in a GIS. Orthogonal coordinates simplify distance and area calculations.
@@ -41,13 +37,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinates]]
-- [[Projection]]
-- [[Geographic Information System (GIS)]]
+- [Coordinates](Coordinates.md)
+- [Projection](Projection.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Orthogonal]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Orthogonal"
-```
-
+<!-- dynamic content -->

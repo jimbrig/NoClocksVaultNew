@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Digital Elevation Model (DEM)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Digital Elevation Model (DEM)** is a raster representation of the Earth's surface that provides elevation data for terrain analysis and modeling in GIS. DEMs can represent either the bare ground surface (DTM) or the surface including features like buildings and vegetation (DSM).
@@ -62,14 +58,10 @@ aliases:
 
 ### See Also
 
-- [[Digital Terrain Model (DTM)]]
-- [[Topography]]
-- [[Raster]]
-- [[United States Geological Survey (USGS)]]
+- [Digital Terrain Model (DTM)](Digital Terrain Model (DTM).md)
+- [Topography](Topography.md)
+- [Raster](Raster.md)
+- [United States Geological Survey (USGS)](United States Geological Survey (USGS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Digital Elevation Model (DEM)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Digital Elevation Model (DEM)"
-```
-
+<!-- dynamic content -->

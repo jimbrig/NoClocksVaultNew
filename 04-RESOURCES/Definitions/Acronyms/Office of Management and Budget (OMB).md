@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Office of Management and Budget (OMB)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Office of Management and Budget (OMB)** is a U.S. government agency responsible for overseeing the implementation of the President's vision across the Executive Branch, including defining statistical areas such as Metropolitan and Micropolitan Statistical Areas. OMB establishes standards for federal statistical programs and geographic classifications used in census and economic data.
@@ -35,9 +31,9 @@ aliases:
 ## Geographic Classifications
 
 OMB defines and maintains standards for:
-- [[Metropolitan Statistical Area (MSA)|Metropolitan Statistical Areas]]
-- [[Core-Based Statistical Area (CBSA)|Core-Based Statistical Areas]]
-- [[Combined Statistical Area (CSA)|Combined Statistical Areas]]
+- [Metropolitan Statistical Areas](Metropolitan Statistical Area (MSA).md)
+- [Core-Based Statistical Areas](Core-Based Statistical Area (CBSA).md)
+- [Combined Statistical Areas](Combined Statistical Area (CSA).md)
 - Principal cities and urban areas
 
 ## Appendix
@@ -46,14 +42,10 @@ OMB defines and maintains standards for:
 
 ### See Also
 
-- [[Metropolitan Statistical Area (MSA)]]
-- [[Core-Based Statistical Area (CBSA)]]
-- [[US Census Bureau]]
-- [[Federal Information Processing Standards (FIPS)]]
+- [Metropolitan Statistical Area (MSA)](Metropolitan Statistical Area (MSA).md)
+- [Core-Based Statistical Area (CBSA)](Core-Based Statistical Area (CBSA).md)
+- [US Census Bureau](US Census Bureau.md)
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Office of Management and Budget (OMB)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Office of Management and Budget (OMB)"
-```
-
+<!-- dynamic content -->

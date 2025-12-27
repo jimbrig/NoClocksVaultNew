@@ -19,19 +19,7 @@ Every note should have:
 ## Validation Checks
 
 ### 1. Missing Required Fields
-
-```dataview
-TABLE 
-    choice(creation_date, "Yes", "MISSING") as "creation_date",
-    choice(modification_date, "Yes", "MISSING") as "modification_date",
-    choice(author, "Yes", "MISSING") as "author",
-    choice(tags, "Yes", "MISSING") as "tags",
-    choice(publish != null, "Yes", "MISSING") as "publish"
-FROM ""
-WHERE !creation_date OR !modification_date OR !author OR !tags OR publish = null
-LIMIT 50
-```
-
+<!-- dynamic content -->
 ### 2. Invalid Date Formats
 
 Check for dates not in YYYY-MM-DD format:

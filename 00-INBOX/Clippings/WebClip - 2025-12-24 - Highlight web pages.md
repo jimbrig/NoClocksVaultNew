@@ -14,15 +14,6 @@ aliases: "Highlight web pages"
 
 > [!SOURCE] Source:
 > <https://help.obsidian.md/web-clipper/highlight>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Content
 
 [Obsidian Help](https://help.obsidian.md/Home)
@@ -52,7 +43,7 @@ There are three options for highlights to be inserted into your clipped note via
 You can add highlights directly to your template using the `{{highlights}}` variable, for example:
 
 ```
-{{highlights|map: item => item.text|join:"\n\n"}}
+{{highlights|map: item => item.text|join:"/n/n"}}
 ```
 
 Highlight web pages
@@ -67,19 +58,14 @@ Highlighter settings
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2025-12-24]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[00-INBOX/Clippings/_README|Web Clips]]
+- [Web Clips](00-INBOX/Clippings/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Highlight web pages]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

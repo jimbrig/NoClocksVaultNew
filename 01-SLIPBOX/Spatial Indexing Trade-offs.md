@@ -23,7 +23,7 @@ Traditional spatial indexes (R-trees, quadtrees) work well for range queries but
 - Uniform cell properties for analysis
 - Global coverage without projection distortion
 
-Discrete Global Grid Systems (DGGS) like [[Hexagonal Hierarchical Spatial Index (H3)]] and S2 solve these problems differently.
+Discrete Global Grid Systems (DGGS) like [Hexagonal Hierarchical Spatial Index (H3)](Hexagonal Hierarchical Spatial Index (H3).md) and S2 solve these problems differently.
 
 ## H3: Hexagonal Hierarchies
 
@@ -93,18 +93,9 @@ PostGIS GiST indexes use R-trees:
 
 ## See Also
 
-- [[Hexagonal Hierarchical Spatial Index (H3)]]
-- [[List - Spatial Databases]]
-- [[MOC - GIS]]
+- [Hexagonal Hierarchical Spatial Index (H3)](Hexagonal Hierarchical Spatial Index (H3).md)
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [MOC - GIS](MOC - GIS.md)
 
 ## Backlinks
-
-```dataview
-LIST FROM [[Spatial Indexing Trade-offs]] 
-WHERE file.name != this.file.name
-```
-
-
-
-
-
+<!-- dynamic content -->

@@ -16,18 +16,9 @@ publish: true
 ---
 
 # ArcGIS
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**ArcGIS** is [[Environmental Systems Research Institute (ESRI)|Esri's]] comprehensive geographic information system platform for creating, managing, sharing, and analyzing spatial data. It includes desktop, server, mobile, and cloud components used by organizations worldwide for enterprise GIS.
+**ArcGIS** is [Esri's](Environmental Systems Research Institute (ESRI).md) comprehensive geographic information system platform for creating, managing, sharing, and analyzing spatial data. It includes desktop, server, mobile, and cloud components used by organizations worldwide for enterprise GIS.
 
 ## Platform Components
 
@@ -79,7 +70,7 @@ https://<server>/<instance>/rest/services/<folder>/<service>/<type>
 | `/find` | Search attribute values |
 | `/export` | Export map image |
 
-See [[Guide - ArcGIS REST API]] for detailed usage.
+See [Guide - ArcGIS REST API](Guide - ArcGIS REST API.md) for detailed usage.
 
 ## Data Formats
 
@@ -125,10 +116,10 @@ features = layer.query(where="STATE = 'CA'")
 
 | Need | ArcGIS | Open Source |
 |------|--------|-------------|
-| Desktop GIS | ArcGIS Pro | [[QGIS]] |
-| Map Server | ArcGIS Server | [[GeoServer]], MapServer |
-| Web Maps | ArcGIS Online | [[MapLibre]], [[Leaflet.js]] |
-| Spatial DB | Enterprise GDB | [[PostGIS]] |
+| Desktop GIS | ArcGIS Pro | [QGIS](QGIS.md) |
+| Map Server | ArcGIS Server | [GeoServer](GeoServer.md), MapServer |
+| Web Maps | ArcGIS Online | [MapLibre](MapLibre.md), [Leaflet.js](Leaflet.js.md) |
+| Spatial DB | Enterprise GDB | [PostGIS](PostGIS.md) |
 
 ---
 
@@ -138,17 +129,13 @@ features = layer.query(where="STATE = 'CA'")
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[Guide - ArcGIS REST API]]
-- [[Environmental Systems Research Institute (ESRI)]]
-- [[QGIS]]
+- [MOC - GIS](MOC - GIS.md)
+- [Guide - ArcGIS REST API](Guide - ArcGIS REST API.md)
+- [Environmental Systems Research Institute (ESRI)](Environmental Systems Research Institute (ESRI).md)
+- [QGIS](QGIS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[ArcGIS]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/ArcGIS"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

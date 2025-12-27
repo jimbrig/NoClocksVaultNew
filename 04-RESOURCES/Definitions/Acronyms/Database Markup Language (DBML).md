@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Database Markup Language (DBML)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Database Markup Language (DBML)** is a markup language used to define the structure and relationships of database schemas, often used in GIS to describe spatial databases and their components. DBML is designed to be simple and readable while supporting visualization and documentation.
@@ -62,11 +58,7 @@ Ref: parcels.owner_id > owners.id
 
 ### See Also
 
-- [[Database Management System (DBMS)]]
+- [Database Management System (DBMS)](Database Management System (DBMS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Database Markup Language (DBML)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Database Markup Language (DBML)"
-```
-
+<!-- dynamic content -->

@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Block Group (BG)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Block Group (BG)** is a geographic unit used by the U.S. Census Bureau that is a subdivision of a census tract and typically contains between 600 and 3,000 people. Block groups are the smallest geographic unit for which the Census Bureau publishes sample data from the American Community Survey (ACS).
@@ -56,14 +52,10 @@ State
 
 ### See Also
 
-- [[Federal Information Processing Standards (FIPS)]]
-- [[Census Tabulation Block (TABBLOCK)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[US Census Bureau]]
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
+- [Census Tabulation Block (TABBLOCK)](Census Tabulation Block (TABBLOCK).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [US Census Bureau](US Census Bureau.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Block Group (BG)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Block Group (BG)"
-```
-
+<!-- dynamic content -->

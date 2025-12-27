@@ -11,16 +11,6 @@ aliases: Dimensional Modeling
 
 > [!SOURCE] Sources:
 > - *[Dimensional Modeling - Wikipedia](https://en.wikipedia.org/wiki/Dimensional_modeling)*
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
  
@@ -29,11 +19,11 @@ debugInConsole: false # Print debug info in Obsidian console
 > 
 > — Wikipedia
 
-**Dimensional modeling** (**DM**) is part of the *[Business Dimensional Lifecycle](https://en.wikipedia.org/wiki/The_Kimball_Lifecycle "The Kimball Lifecycle")* methodology developed by [[Ralph Kimball]], which includes a set of methods, techniques and concepts for use in [[data warehouse]] design.
+**Dimensional modeling** (**DM**) is part of the *[Business Dimensional Lifecycle](https://en.wikipedia.org/wiki/The_Kimball_Lifecycle "The Kimball Lifecycle")* methodology developed by [Ralph Kimball](Ralph Kimball.md), which includes a set of methods, techniques and concepts for use in [data warehouse](data warehouse.md) design.
 
 The approach focuses on identifying the key [business processes](https://en.wikipedia.org/wiki/Business_process "Business process") within a business and modeling and implementing these first before adding additional business processes, as a [bottom-up approach](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design "Top-down and bottom-up design").
 
-An alternative approach from [[Bill Inmon]] advocates a top down design of the model of all the enterprise data using tools such as [[Entity-Relationship Modeling]].
+An alternative approach from [Bill Inmon](Bill Inmon.md) advocates a top down design of the model of all the enterprise data using tools such as [Entity-Relationship Modeling](Entity-Relationship Modeling.md).
 
 ## Description
 
@@ -85,16 +75,16 @@ Benefits of the dimensional model are the following:
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[Data Warhouse]]
-- [[Kimball Techniques for Data Warehousing]]
-- [[Ralph Kimball]]
-- [[Bill Inmon]]
-- [[Data Engineering]]
-- [[Slowly Changing Dimensions (SCD)]]
+- [Data Warhouse](Data Warhouse.md)
+- [Kimball Techniques for Data Warehousing](Kimball Techniques for Data Warehousing.md)
+- [Ralph Kimball](Ralph Kimball.md)
+- [Bill Inmon](Bill Inmon.md)
+- [Data Engineering](Data Engineering.md)
+- [Slowly Changing Dimensions (SCD)](Slowly Changing Dimensions (SCD).md)
 
 **Literature:**
 
@@ -103,12 +93,7 @@ Benefits of the dimensional model are the following:
 * Margy Ross (Kimball Group) (2005). ["Identifying Business Processes"](https://web.archive.org/web/20130612211852/http://www.kimballgroup.com/2005/07/05/design-tip-69-identifying-business-processes/). *Kimball Group, Design Tips* (69). Archived from [the original](http://www.kimballgroup.com/2005/07/05/design-tip-69-identifying-business-processes/) on 12 June 2013.
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Dimensional Modeling]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

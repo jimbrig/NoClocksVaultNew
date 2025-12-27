@@ -14,10 +14,6 @@ aliases:
 ---
 
 # GeoTIFF
-
-```table-of-contents
-```
-
 ## Overview
 
 **GeoTIFF** is a raster file format that includes geographic metadata, allowing for the storage and sharing of georeferenced imagery and spatial data in a GIS. GeoTIFF extends the standard TIFF format with geospatial tags that define the coordinate reference system, extent, and pixel resolution.
@@ -46,14 +42,10 @@ aliases:
 
 ### See Also
 
-- [[Raster]]
-- [[Cloud Optimized GeoTIFF (COG)]]
-- [[Coordinate Reference System (CRS)]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
+- [Raster](Raster.md)
+- [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md)
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[GeoTIFF]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/GeoTIFF"
-```
-
+<!-- dynamic content -->

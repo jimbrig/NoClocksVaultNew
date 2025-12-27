@@ -16,15 +16,6 @@ publish: true
 ---
 
 # Slipbox
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -49,34 +40,21 @@ Notes that are:
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** atomic notes in the slipbox.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.mday AS "Modified"
-FROM "01-SLIPBOX"
-WHERE file.name != this.file.name
-SORT file.mtime DESC
-```
-
+> *Currently, there are  atomic notes in the slipbox.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[MOC - PKM]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"01-SLIPBOX/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

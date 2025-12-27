@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Environmental Systems Research Institute (ESRI)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Environmental Systems Research Institute (ESRI)** ...
@@ -36,7 +32,4 @@ aliases:
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Environmental Systems Research Institute (ESRI)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Environmental Systems Research Institute (ESRI)"
-```
+<!-- dynamic content -->

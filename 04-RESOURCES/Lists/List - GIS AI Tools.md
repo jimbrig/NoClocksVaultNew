@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - GIS AI Tools
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **AI-powered tools and frameworks for geospatial analysis**, including machine learning for remote sensing, text-to-map tools, and LLM integrations.
@@ -141,16 +132,12 @@ As a GIS expert, help me:
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - R Geospatial Packages]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - GIS AI Tools]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - GIS AI Tools"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

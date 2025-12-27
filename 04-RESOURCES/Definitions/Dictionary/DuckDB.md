@@ -15,18 +15,9 @@ publish: true
 ---
 
 # DuckDB
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**DuckDB** is an in-process SQL OLAP database management system designed for analytical workloads. With its spatial extension, DuckDB provides powerful geospatial capabilities including native support for [[GeoParquet]], making it ideal for cloud-native geospatial analytics.
+**DuckDB** is an in-process SQL OLAP database management system designed for analytical workloads. With its spatial extension, DuckDB provides powerful geospatial capabilities including native support for [GeoParquet](GeoParquet.md), making it ideal for cloud-native geospatial analytics.
 
 ## Key Features
 
@@ -149,7 +140,7 @@ duckdb -c "SELECT COUNT(*) FROM read_parquet('data.parquet');"
 | Database | Type | Spatial | Best For |
 |----------|------|---------|----------|
 | DuckDB | Embedded OLAP | Extension | Analytics, Parquet |
-| [[PostGIS]] | Server OLTP/OLAP | Native | Production, CRUD |
+| [PostGIS](PostGIS.md) | Server OLTP/OLAP | Native | Production, CRUD |
 | SQLite/SpatiaLite | Embedded | Extension | Mobile, simple |
 
 ---
@@ -160,17 +151,13 @@ duckdb -c "SELECT COUNT(*) FROM read_parquet('data.parquet');"
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - Spatial Databases]]
-- [[GeoParquet]]
-- [[Apache Arrow]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [GeoParquet](GeoParquet.md)
+- [Apache Arrow](Apache Arrow.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[DuckDB]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/DuckDB"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

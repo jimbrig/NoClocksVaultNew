@@ -14,15 +14,6 @@ publish: true
 ---
 
 # Acronyms
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -35,34 +26,21 @@ For example: `Definition - Application Programming Interface (API).md`
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** acronym definitions in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Acronym",
-  description AS "Description"
-FROM "04-RESOURCES/Definitions/Acronyms"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  acronym definitions in this folder.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Definitions/_README|Definitions Index]]
-- [[04-RESOURCES/Definitions/Dictionary/_README|Dictionary]]
+- [Definitions Index](04-RESOURCES/Definitions/README.md)
+- [Dictionary](04-RESOURCES/Definitions/Dictionary/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

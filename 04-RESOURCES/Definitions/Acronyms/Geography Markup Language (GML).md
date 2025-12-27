@@ -15,13 +15,9 @@ aliases:
 ---
 
 # Geography Markup Language (GML)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Geography Markup Language (GML)** is an XML-based format for encoding geographic information, allowing for the representation and exchange of spatial data in GIS applications. GML is an [[Open Geospatial Consortium (OGC)|OGC]] standard and serves as the default output format for [[Web Feature Service (WFS)|WFS]].
+**Geography Markup Language (GML)** is an XML-based format for encoding geographic information, allowing for the representation and exchange of spatial data in GIS applications. GML is an [OGC](Open Geospatial Consortium (OGC).md) standard and serves as the default output format for [WFS](Web Feature Service (WFS).md).
 
 ## Key Concepts
 
@@ -54,14 +50,10 @@ aliases:
 
 ### See Also
 
-- [[Web Feature Service (WFS)]]
-- [[Open Geospatial Consortium (OGC)]]
-- [[GeoJSON]]
-- [[Keyhole Markup Language (KML)]]
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md)
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [GeoJSON](GeoJSON.md)
+- [Keyhole Markup Language (KML)](Keyhole Markup Language (KML).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Geography Markup Language (GML)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Geography Markup Language (GML)"
-```
-
+<!-- dynamic content -->

@@ -13,15 +13,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of tools and resources for **<% tp.file.title.replace("List - ", "") %>**.
@@ -41,8 +32,8 @@ Curated collection of tools and resources for **<% tp.file.title.replace("List -
 
 ## Notes
 
-- For related configurations, see [[Code - Tool - Config]]
-- For setup guides, see [[Guide - Topic]]
+- For related configurations, see [Code - Tool - Config](Code - Tool - Config.md)
+- For setup guides, see [Guide - Topic](Guide - Topic.md)
 
 ---
 
@@ -52,15 +43,11 @@ Curated collection of tools and resources for **<% tp.file.title.replace("List -
 
 ### See Also
 
-- [[Related List]]
-- [[Related MOC]]
+- [Related List](Related List.md)
+- [Related MOC](Related MOC.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

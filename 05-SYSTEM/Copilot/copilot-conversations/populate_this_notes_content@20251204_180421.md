@@ -117,9 +117,9 @@ Topologically Integrated Geographic Encoding and Referencing (TIGER) is the U.S.
 ---
 ## Related notes / appendix
 
-- [[Geographic Information System (GIS)]]
-- [[00-INBOX/GIS/GIS Data Sources]]
-- [[US Census Bureau]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [00-INBOX/GIS/GIS Data Sources](00-INBOX/GIS/GIS Data Sources.md)
+- [US Census Bureau](US Census Bureau.md)
 
 ---
 

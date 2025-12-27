@@ -9,15 +9,6 @@ aliases: PowerShell - Profile Custom Setup
 
 
 # PowerShell - Profile Custom Setup
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -46,7 +37,7 @@ Set-Alias -Name ai -Value aichat.exe -ErrorAction SilentlyContinue
 
 # import chocolatey profile
 try {
-    Import-Module $env:ChocolateyInstall\helpers\chocolateyProfile.psm1 -ErrorAction Stop
+    Import-Module $env:ChocolateyInstall/helpers/chocolateyProfile.psm1 -ErrorAction Stop
 } catch {
     Write-Warning "Chocolatey profile not loaded: $_"
 }
@@ -70,7 +61,7 @@ if (Get-Command az -ErrorAction SilentlyContinue) {
                 [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
             }
             Remove-Item $completion_file -ErrorAction SilentlyContinue
-            Remove-Item Env:\_ARGCOMPLETE_STDOUT_FILENAME, Env:\ARGCOMPLETE_USE_TEMPFILES, Env:\COMP_LINE, Env:\COMP_POINT, Env:\_ARGCOMPLETE, Env:\_ARGCOMPLETE_SUPPRESS_SPACE, Env:\_ARGCOMPLETE_IFS, Env:\_ARGCOMPLETE_SHELL -ErrorAction SilentlyContinue
+            Remove-Item Env:/_ARGCOMPLETE_STDOUT_FILENAME, Env:/ARGCOMPLETE_USE_TEMPFILES, Env:/COMP_LINE, Env:/COMP_POINT, Env:/_ARGCOMPLETE, Env:/_ARGCOMPLETE_SUPPRESS_SPACE, Env:/_ARGCOMPLETE_IFS, Env:/_ARGCOMPLETE_SHELL -ErrorAction SilentlyContinue
         } catch {
             Write-Warning "Error in az completion: $_"
         }
@@ -90,7 +81,7 @@ if (Get-Command gh -ErrorAction SilentlyContinue) {
 # aichat completion & shell integration
 if (Get-Command aichat -ErrorAction SilentlyContinue) {
     try {
-        . (Join-Path $ProfileSourcePath 'Completions\aichat.completion.ps1')
+        . (Join-Path $ProfileSourcePath 'Completions/aichat.completion.ps1')
         Write-Verbose 'aichat shell completion registered successfully.'
 
         Set-PSReadLineKeyHandler -Chord 'alt+e' -ScriptBlock {
@@ -112,7 +103,7 @@ if (Get-Command aichat -ErrorAction SilentlyContinue) {
 # obsidian-cli completion & alias
 if (Get-Command obsidian-cli -ErrorAction SilentlyContinue) {
     try {
-        . (Join-Path $ProfileSourcePath 'Completions\obs.completion.ps1')
+        . (Join-Path $ProfileSourcePath 'Completions/obs.completion.ps1')
         Write-Verbose 'Obsidian CLI shell completion registered successfully.'
     } catch {
         Write-Warning "Failed to register Obsidian CLI shell completion: $_"
@@ -162,7 +153,7 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+Home -Function SelectBackwardsLine
 Set-PSReadLineKeyHandler -Key Ctrl+Shift+End -Function SelectLine
 
 # Functions
-. $PSScriptRoot\Source\Public\Update-WinGetPackages.ps1
+. $PSScriptRoot/Source/Public/Update-WinGetPackages.ps1
 
 # Import modules
 @(
@@ -432,8 +423,8 @@ If (Get-Command aws -ErrorAction SilentlyContinue) {
         aws_completer.exe | ForEach-Object {
             [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
         }
-        Remove-Item Env:\COMP_LINE     
-        Remove-Item Env:\COMP_POINT  
+        Remove-Item Env:/COMP_LINE     
+        Remove-Item Env:/COMP_POINT  
     }
 }
 ```
@@ -460,19 +451,14 @@ If (Get-Command bat -ErrorAction SilentlyContinue) {
 
 ## Appendix
 
-*Note created on [[2025-12-25]] and last modified on [[2025-12-25]].*
+*Note created on [2025-12-25](2025-12-25.md) and last modified on [2025-12-25](2025-12-25.md).*
 
 ### See Also
 
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Profile Custom Setup]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

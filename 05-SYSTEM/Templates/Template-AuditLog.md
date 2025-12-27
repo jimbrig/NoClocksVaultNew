@@ -12,15 +12,6 @@ description: Full vault audit results for <% tp.file.creation_date("YYYY-MM-DD")
 ---
 
 # Vault Audit - <% tp.file.creation_date("YYYY-MM-DD") %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Executive Summary
 
 | Metric | Value | Status |
@@ -138,21 +129,9 @@ includeLinks: true
 *Audit generated on <% tp.file.creation_date("YYYY-MM-DD") %>*
 
 ### Previous Audits
-
-```dataview
-LIST
-FROM "05-SYSTEM/Audit"
-WHERE contains(file.name, "AuditLog") AND file.name != this.file.name
-SORT file.ctime DESC
-LIMIT 5
-```
-
+<!-- dynamic content -->
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"05-SYSTEM/Audit/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

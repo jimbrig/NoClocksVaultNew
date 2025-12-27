@@ -14,13 +14,9 @@ aliases:
 ---
 
 # National Flood Hazard Layer (NFHL)
-
-```table-of-contents
-```
-
 ## Overview
 
-**National Flood Hazard Layer (NFHL)** is a digital database maintained by [[Federal Emergency Management Agency (FEMA)|FEMA]] that provides flood hazard information, including flood zones, base flood elevations, and floodplain boundaries. The NFHL is a geospatial compilation of effective Flood Insurance Rate Map (FIRM) data and is the authoritative source for flood hazard determinations.
+**National Flood Hazard Layer (NFHL)** is a digital database maintained by [FEMA](Federal Emergency Management Agency (FEMA).md) that provides flood hazard information, including flood zones, base flood elevations, and floodplain boundaries. The NFHL is a geospatial compilation of effective Flood Insurance Rate Map (FIRM) data and is the authoritative source for flood hazard determinations.
 
 ## Key Concepts
 
@@ -53,12 +49,8 @@ aliases:
 
 ### See Also
 
-- [[Federal Emergency Management Agency (FEMA)]]
-- [[Geographic Information System (GIS)]]
+- [Federal Emergency Management Agency (FEMA)](Federal Emergency Management Agency (FEMA).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[National Flood Hazard Layer (NFHL)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/National Flood Hazard Layer (NFHL)"
-```
-
+<!-- dynamic content -->

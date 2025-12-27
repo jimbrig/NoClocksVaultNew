@@ -13,13 +13,9 @@ aliases:
 ---
 
 # GeoJSON
-
-```table-of-contents
-```
-
 ## Overview
 
-**GeoJSON** is a lightweight, text-based format for encoding geographic data structures using [[JavaScript Object Notation (JSON)|JSON]], commonly used for sharing and visualizing spatial data in web applications and GIS. GeoJSON supports points, lines, polygons, and collections of these geometry types along with non-spatial properties.
+**GeoJSON** is a lightweight, text-based format for encoding geographic data structures using [JSON](JavaScript Object Notation (JSON).md), commonly used for sharing and visualizing spatial data in web applications and GIS. GeoJSON supports points, lines, polygons, and collections of these geometry types along with non-spatial properties.
 
 ## Key Concepts
 
@@ -62,14 +58,10 @@ aliases:
 
 ### See Also
 
-- [[JavaScript Object Notation (JSON)]]
-- [[Shapefile]]
-- [[Geographic Information System (GIS)]]
-- [[Feature]]
+- [JavaScript Object Notation (JSON)](JavaScript Object Notation (JSON).md)
+- [Shapefile](Shapefile.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Feature](Feature.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[GeoJSON]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/GeoJSON"
-```
-
+<!-- dynamic content -->

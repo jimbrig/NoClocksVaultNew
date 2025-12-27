@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Shapefile
-
-```table-of-contents
-```
-
 ## Overview
 
 **Shapefile** is a popular vector data format used in GIS that stores geometric location and attribute information for spatial features, typically consisting of multiple files with extensions such as .shp, .shx, and .dbf. Developed by Esri in the early 1990s, shapefiles remain widely used despite limitations.
@@ -61,14 +57,10 @@ aliases:
 
 ### See Also
 
-- [[GeoJSON]]
-- [[GeoPackage]]
-- [[Vector]]
-- [[Geographic Information System (GIS)]]
+- [GeoJSON](GeoJSON.md)
+- [GeoPackage](GeoPackage.md)
+- [Vector](Vector.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Shapefile]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Shapefile"
-```
-
+<!-- dynamic content -->

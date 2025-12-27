@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Vector
-
-```table-of-contents
-```
-
 ## Overview
 
 **Vector** is a type of spatial data in a GIS that represents geographic features using points, lines, and polygons, allowing for precise representation of discrete features such as roads, buildings, and land parcels. Vector data combines geometry (location/shape) with attributes (descriptive information).
@@ -42,9 +38,9 @@ aliases:
 
 ## Common Formats
 
-- [[Shapefile]]
-- [[GeoJSON]]
-- [[GeoPackage]]
+- [Shapefile](Shapefile.md)
+- [GeoJSON](GeoJSON.md)
+- [GeoPackage](GeoPackage.md)
 - FileGDB
 - PostGIS
 
@@ -54,14 +50,10 @@ aliases:
 
 ### See Also
 
-- [[Raster]]
-- [[Feature]]
-- [[Geographic Information System (GIS)]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
+- [Raster](Raster.md)
+- [Feature](Feature.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Vector]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Vector"
-```
-
+<!-- dynamic content -->

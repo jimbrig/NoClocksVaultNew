@@ -17,15 +17,6 @@ publish: true
 ---
 
 # List - R Shiny Ecosystem
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **R Shiny packages, extensions, and tools** for building production-ready web applications. See the [Awesome Shiny Extensions](https://github.com/nanxstats/awesome-shiny-extensions) for a community-maintained list.
@@ -102,7 +93,7 @@ Curated collection of **R Shiny packages, extensions, and tools** for building p
 | mapview | Quick spatial visualization | [CRAN](https://cran.r-project.org/package=mapview) |
 | mapdeck | Deck.gl maps | [CRAN](https://cran.r-project.org/package=mapdeck) |
 
-See [[List - R Geospatial Packages]] for more spatial packages.
+See [List - R Geospatial Packages](List - R Geospatial Packages.md) for more spatial packages.
 
 ## Modules & Code Organization
 
@@ -149,7 +140,7 @@ See [[List - R Geospatial Packages]] for more spatial packages.
 | DBI | Database interface | [CRAN](https://cran.r-project.org/package=DBI) |
 | dbplyr | dplyr backend for databases | [CRAN](https://cran.r-project.org/package=dbplyr) |
 
-See [[List - R Database Packages]] for database packages.
+See [List - R Database Packages](List - R Database Packages.md) for database packages.
 
 ## Deployment
 
@@ -158,7 +149,7 @@ See [[List - R Database Packages]] for database packages.
 | ShinyApps.io | Managed hosting by Posit | [Site](https://www.shinyapps.io/) - [Docs](https://docs.posit.co/shinyapps.io/) |
 | Posit Connect | Enterprise deployment | [Site](https://posit.co/products/enterprise/connect/) |
 | Shiny Server (Open Source) | Self-hosted server | [Docs](https://posit.co/download/shiny-server/) |
-| Docker + Cloud Run | Containerized deployment | See [[R - Shiny Cloud Run Deployment]] |
+| Docker + Cloud Run | Containerized deployment | See [R - Shiny Cloud Run Deployment](R - Shiny Cloud Run Deployment.md) |
 | ShinyProxy | Container-based scaling | [Site](https://www.shinyproxy.io/) |
 
 ## Extensions & Utilities
@@ -177,15 +168,15 @@ See [[List - R Database Packages]] for database packages.
 
 ## Related Notes
 
-- [[R - Shiny UI Helpers]]
-- [[R - Shiny DT Table Helpers]]
-- [[R - Shiny Highcharter Helpers]]
+- [R - Shiny UI Helpers](R - Shiny UI Helpers.md)
+- [R - Shiny DT Table Helpers](R - Shiny DT Table Helpers.md)
+- [R - Shiny Highcharter Helpers](R - Shiny Highcharter Helpers.md)
 
 ## See Also
 
-- [[MOC - R]]
-- [[List - R Geospatial Packages]]
-- [[List - R Database Packages]]
+- [MOC - R](MOC - R.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [List - R Database Packages](List - R Database Packages.md)
 
 ---
 

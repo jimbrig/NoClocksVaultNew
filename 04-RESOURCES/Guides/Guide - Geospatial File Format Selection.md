@@ -15,15 +15,6 @@ publish: true
 ---
 
 # Guide - Geospatial File Format Selection
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Selecting the right geospatial file format depends on your use case: web display, analysis, archival, or data exchange. This guide helps you choose the optimal format for your needs.
@@ -259,19 +250,15 @@ gdf.to_parquet("output.parquet")
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[GeoJSON]]
-- [[GeoPackage]]
-- [[GeoParquet]]
-- [[Cloud Optimized GeoTIFF (COG)]]
-- [[PMTiles]]
+- [MOC - GIS](MOC - GIS.md)
+- [GeoJSON](GeoJSON.md)
+- [GeoPackage](GeoPackage.md)
+- [GeoParquet](GeoParquet.md)
+- [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md)
+- [PMTiles](PMTiles.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Guide - Geospatial File Format Selection]] AND -"CHANGELOG" AND -"04-RESOURCES/Guides/Guide - Geospatial File Format Selection"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

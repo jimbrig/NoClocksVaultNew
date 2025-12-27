@@ -14,10 +14,6 @@ aliases:
 ---
 
 # PMTiles
-
-```table-of-contents
-```
-
 ## Overview
 
 **PMTiles** is a file format for storing and serving tiled map data in a single, compact file, optimized for efficient access and rendering in web mapping applications. PMTiles enables serverless tile hosting by using HTTP range requests to fetch only needed tiles.
@@ -53,13 +49,9 @@ aliases:
 
 ### See Also
 
-- [[Mapbox Vector Tile (MVT)]]
-- [[Geographic Information System (GIS)]]
-- [[Zoom]]
+- [Mapbox Vector Tile (MVT)](Mapbox Vector Tile (MVT).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Zoom](Zoom.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PMTiles]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/PMTiles"
-```
-
+<!-- dynamic content -->

@@ -7,42 +7,15 @@ Review link health, identify broken links, and find orphaned notes.
 ### 1. Broken Wikilinks
 
 Find links pointing to non-existent notes:
-
-```dataview
-TABLE file.outlinks as "Outgoing Links"
-FROM ""
-WHERE length(filter(file.outlinks, (x) => !x.file)) > 0
-```
-
+<!-- dynamic content -->
 ### 2. Orphaned Notes
 
 Notes with no incoming links (not referenced anywhere):
-
-```dataview
-LIST
-FROM ""
-WHERE length(file.inlinks) = 0
-AND file.name != "README" 
-AND file.name != "_README"
-AND file.name != "index"
-AND !contains(file.path, "Templates")
-AND !contains(file.path, "Journal")
-SORT file.ctime DESC
-```
-
+<!-- dynamic content -->
 ### 3. Notes Without Outgoing Links
 
 Notes that don't link to anything (potential isolation):
-
-```dataview
-LIST
-FROM ""
-WHERE length(file.outlinks) = 0
-AND file.name != "README"
-AND !contains(file.path, "Templates")
-LIMIT 30
-```
-
+<!-- dynamic content -->
 ### 4. Link Format Issues
 
 Check for:
@@ -54,8 +27,8 @@ Check for:
 ### 5. Embed Issues
 
 Check for broken embeds:
-- `![[Non-existent Note]]`
-- `![[Missing Image.png]]`
+- `![Non-existent Note](Non-existent Note.md)`
+- `![Missing Image.png](Missing Image.png.md)`
 
 ## Link Quality Metrics
 

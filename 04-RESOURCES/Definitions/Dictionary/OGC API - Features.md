@@ -16,18 +16,9 @@ publish: true
 ---
 
 # OGC API - Features
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**OGC API - Features** is an [[Open Geospatial Consortium (OGC)]] standard that provides a modern, RESTful API for accessing vector geospatial features. It is the successor to [[Web Feature Service (WFS)]], designed with web developer experience in mind using JSON, OpenAPI, and REST principles.
+**OGC API - Features** is an [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) standard that provides a modern, RESTful API for accessing vector geospatial features. It is the successor to [Web Feature Service (WFS)](Web Feature Service (WFS).md), designed with web developer experience in mind using JSON, OpenAPI, and REST principles.
 
 ## Key Features
 
@@ -145,18 +136,14 @@ get_features <- function(base_url, collection, bbox = NULL, limit = 100) {
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - OGC Web Service Standards]]
-- [[Web Feature Service (WFS)]]
-- [[Open Geospatial Consortium (OGC)]]
-- [[GeoJSON]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - OGC Web Service Standards](List - OGC Web Service Standards.md)
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md)
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [GeoJSON](GeoJSON.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[OGC API - Features]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/OGC API - Features"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

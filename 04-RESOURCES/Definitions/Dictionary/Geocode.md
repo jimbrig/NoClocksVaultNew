@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Geocode
-
-```table-of-contents
-```
-
 ## Overview
 
 **Geocode** (or geocoding) is the process of converting addresses or place names into geographic coordinates (latitude and longitude) for mapping and spatial analysis in a GIS. Geocoding enables the visualization and analysis of address-based data on maps.
@@ -55,14 +51,10 @@ aliases:
 
 ### See Also
 
-- [[Coordinates]]
-- [[Geographic Information System (GIS)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Georeference]]
+- [Coordinates](Coordinates.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Georeference](Georeference.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Geocode]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Geocode"
-```
-
+<!-- dynamic content -->

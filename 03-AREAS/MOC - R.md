@@ -13,16 +13,6 @@ publish: true
 ---
 
 # MOC - R Development
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -31,28 +21,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/R").length`** individual notes with the `#Topic/R` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/R
-AND -"CHANGELOG"
-WHERE file.name != this.file.name
-```
-
+> *Currently, there are  individual notes with the `#Topic/R` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - R]]
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

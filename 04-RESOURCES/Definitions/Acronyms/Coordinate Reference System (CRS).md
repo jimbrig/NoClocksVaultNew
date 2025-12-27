@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Coordinate Reference System (CRS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Coordinate Reference System (CRS)** is a system that uses coordinates to establish a position in space, allowing for the accurate mapping and analysis of geographic data. A CRS defines the origin, units, and axes of a coordinate system and relates them to real-world locations on the Earth's surface.
@@ -54,14 +50,10 @@ aliases:
 
 ### See Also
 
-- [[European Petroleum Survey Group (EPSG)]]
-- [[Projection]]
-- [[Datum]]
-- [[Geographic Information System (GIS)]]
+- [European Petroleum Survey Group (EPSG)](European Petroleum Survey Group (EPSG).md)
+- [Projection](Projection.md)
+- [Datum](Datum.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Coordinate Reference System (CRS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Coordinate Reference System (CRS)"
-```
-
+<!-- dynamic content -->

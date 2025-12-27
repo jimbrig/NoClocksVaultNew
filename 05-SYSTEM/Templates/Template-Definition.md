@@ -17,10 +17,6 @@ aliases:
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-```
-
 ## Overview
 
 **<% tp.file.title %>** ...
@@ -38,7 +34,4 @@ aliases:
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
+<!-- dynamic content -->

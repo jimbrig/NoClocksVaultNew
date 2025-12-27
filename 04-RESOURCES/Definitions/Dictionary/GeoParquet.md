@@ -15,13 +15,9 @@ aliases:
 ---
 
 # GeoParquet
-
-```table-of-contents
-```
-
 ## Overview
 
-**GeoParquet** is a variant of the [[Parquet]] file format that includes support for geospatial data types and metadata, enabling efficient storage and analysis of spatial data in big data environments. GeoParquet stores geometries as Well-Known Binary (WKB) and includes spatial metadata in the file footer.
+**GeoParquet** is a variant of the [Parquet](Parquet.md) file format that includes support for geospatial data types and metadata, enabling efficient storage and analysis of spatial data in big data environments. GeoParquet stores geometries as Well-Known Binary (WKB) and includes spatial metadata in the file footer.
 
 ## Key Concepts
 
@@ -62,14 +58,10 @@ aliases:
 
 ### See Also
 
-- [[Parquet]]
-- [[GeoJSON]]
-- [[Shapefile]]
-- [[Geographic Information System (GIS)]]
+- [Parquet](Parquet.md)
+- [GeoJSON](GeoJSON.md)
+- [Shapefile](Shapefile.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[GeoParquet]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/GeoParquet"
-```
-
+<!-- dynamic content -->

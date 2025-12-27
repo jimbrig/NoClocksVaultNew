@@ -16,16 +16,6 @@ publish: true
 ---
 
 # Cloud Native Geospatial Architecture
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -58,97 +48,97 @@ The modern Geospatial Cloud Native Tech Stack is composed of various services an
 
 ### Geospatial Database
 
-- [[PostgreSQL]]
-- [[psql]], [[pgcli]]
-- [[pgAdmin]], [[dbeaver]]
-- [[04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML)|Database Markup Language (DBML)]]
-- [[dbmate]]
+- [PostgreSQL](PostgreSQL.md)
+- [psql](psql.md), [pgcli](pgcli.md)
+- [pgAdmin](pgAdmin.md), [dbeaver](dbeaver.md)
+- [Database Markup Language (DBML)](04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML).md)
+- [dbmate](dbmate.md)
 
 #### Extensions
 
-- [[PostGIS]]
-- [[pgSVG]]
-- [[pgSTAC]]
-- [[azure_storage]]
+- [PostGIS](PostGIS.md)
+- [pgSVG](pgSVG.md)
+- [pgSTAC](pgSTAC.md)
+- [azure_storage](azure_storage.md)
 
 #### Ingestion/Seeding
 
-- [[04-RESOURCES/Definitions/Acronyms/Geospatial Data Abstraction Library (GDAL)|GDAL]]
-- [[04-RESOURCES/Definitions/Acronyms/Geospatial Data Abstraction Library (GDAL)|OGR]]
-- [[ogr2ogr]]
-- [[shp2pgsql]]
-- [[osm2pgsql]]
-- [[yogrt]]
-- [[Data Build Tool (dbt)]]
-- [[Data Version Control (dvc)]]
-- [[Data Load Tool (dlt)]]
-- [[Kart]]
-- [[R - targets]], [[R - geotargets]]
-- [[Apache Airflow]]
-- [[Luigi]]
+- [GDAL](04-RESOURCES/Definitions/Acronyms/Geospatial Data Abstraction Library (GDAL).md)
+- [OGR](04-RESOURCES/Definitions/Acronyms/Geospatial Data Abstraction Library (GDAL).md)
+- [ogr2ogr](ogr2ogr.md)
+- [shp2pgsql](shp2pgsql.md)
+- [osm2pgsql](osm2pgsql.md)
+- [yogrt](yogrt.md)
+- [Data Build Tool (dbt)](Data Build Tool (dbt).md)
+- [Data Version Control (dvc)](Data Version Control (dvc).md)
+- [Data Load Tool (dlt)](Data Load Tool (dlt).md)
+- [Kart](Kart.md)
+- [R - targets](R - targets.md), [R - geotargets](R - geotargets.md)
+- [Apache Airflow](Apache Airflow.md)
+- [Luigi](Luigi.md)
 
 ### Exposed Services
 
-- [[PostgREST]] and [[Data API Builder (dab)]]: generic [[REST]] and [[GraphQL]] endpoints tied to the database schemas
-- [[pg_featureserv]]: Serves [[OGC API - Features]] Vector Features
-- [[pg_tileserv]]: Serves [[OGC API - Maps]] [[04-RESOURCES/Definitions/Acronyms/Mapbox Vector Tile (MVT)|MVT]] Map Vector Tiles
-- [[pg_eventserv]]: 
-- [[FastAPI]], [[STAC-FastAPI]], [[STAC-FastAPI-pgSTAC]]
-- [[TiTiler]]
-- [[tipg]]
+- [PostgREST](PostgREST.md) and [Data API Builder (dab)](Data API Builder (dab).md): generic [REST](REST.md) and [GraphQL](GraphQL.md) endpoints tied to the database schemas
+- [pg_featureserv](pg_featureserv.md): Serves [OGC API - Features](OGC API - Features.md) Vector Features
+- [pg_tileserv](pg_tileserv.md): Serves [OGC API - Maps](OGC API - Maps.md) [MVT](04-RESOURCES/Definitions/Acronyms/Mapbox Vector Tile (MVT).md) Map Vector Tiles
+- [pg_eventserv](pg_eventserv.md): 
+- [FastAPI](FastAPI.md), [STAC-FastAPI](STAC-FastAPI.md), [STAC-FastAPI-pgSTAC](STAC-FastAPI-pgSTAC.md)
+- [TiTiler](TiTiler.md)
+- [tipg](tipg.md)
 
 ### Cloud Storage
 
 > ![NOTE]
-> Note that for this example we are assuming an [[Azure]] based system.
+> Note that for this example we are assuming an [Azure](Azure.md) based system.
 
-- [[Azure Storage]] with blob containers
-- [[obstore]]:
-- [[FileBrowser]]:
+- [Azure Storage](Azure Storage.md) with blob containers
+- [obstore](obstore.md):
+- [FileBrowser](FileBrowser.md):
 
 Azure Storage Tooling:
 
-- [[azcli]]
-- [[Azure Storage Explorer]]
-- [[azcopy]]
-- [[rclone]]
+- [azcli](azcli.md)
+- [Azure Storage Explorer](Azure Storage Explorer.md)
+- [azcopy](azcopy.md)
+- [rclone](rclone.md)
 
 ### Client Side Mapping
 
-- [[Leaflet.js]]
-- [[Mapbox GL/JS]]
-- [[MapLibre]]
-- [[MapTiler]]
-- [[OpenLayers]]
-- [[kepler.gl]]
-- [[deck.gl]]
+- [Leaflet.js](Leaflet.js.md)
+- [Mapbox GL/JS](Mapbox GL/JS.md)
+- [MapLibre](MapLibre.md)
+- [MapTiler](MapTiler.md)
+- [OpenLayers](OpenLayers.md)
+- [kepler.gl](kepler.gl.md)
+- [deck.gl](deck.gl.md)
 
 ### Additional Tooling
 
-- [[OpenAPI]]
-- [[SwaggerUI]]
-- [[DuckDB]]
-- [[Arrow]] and [[GeoArrow]]
-- [[Parquet]] and [[GeoParquet]]
-- [[MBTiles]]
-- [[Protobuf]]
-- [[GeoServer]]
-- [[GeoStyler]]
-- [[GeoJSON]]
-- [[TopoJSON]]
-- [[Docker]]
-- [[Docker Compose]]
-- [[Taskfile]], [[Justfile]], [[GNU Make]]
-- [[DAG]]
-- [[QGIS]], [[QGIS Server]]
-- [[04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3)|H3]]
-- [[pygeoapi]]
+- [OpenAPI](OpenAPI.md)
+- [SwaggerUI](SwaggerUI.md)
+- [DuckDB](DuckDB.md)
+- [Arrow](Arrow.md) and [GeoArrow](GeoArrow.md)
+- [Parquet](Parquet.md) and [GeoParquet](GeoParquet.md)
+- [MBTiles](MBTiles.md)
+- [Protobuf](Protobuf.md)
+- [GeoServer](GeoServer.md)
+- [GeoStyler](GeoStyler.md)
+- [GeoJSON](GeoJSON.md)
+- [TopoJSON](TopoJSON.md)
+- [Docker](Docker.md)
+- [Docker Compose](Docker Compose.md)
+- [Taskfile](Taskfile.md), [Justfile](Justfile.md), [GNU Make](GNU Make.md)
+- [DAG](DAG.md)
+- [QGIS](QGIS.md), [QGIS Server](QGIS Server.md)
+- [H3](04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3).md)
+- [pygeoapi](pygeoapi.md)
 
 ## Constructing the Workflow
 
 ### Design Metadata & Schema Structure
 
-This phase includes designing the initial [[Conceptual Data Model]] and database schemas of the core GeoDatabase while also establishing standards for metadata.
+This phase includes designing the initial [Conceptual Data Model](Conceptual Data Model.md) and database schemas of the core GeoDatabase while also establishing standards for metadata.
 
 Core Tasks:
 
@@ -160,36 +150,36 @@ Core Tasks:
 
 Standards at play:
 
-- [[ISO 19107 - Geographic Information - Spatial Schema]]
-- [[ISO 19115 - Geographic Information - Metadata]]
-- [[ISO 19110 - Geographic Information - Methodology]]
-- [[ISO 19157 - Geographic information - Data Quality]]
-- [[ISO 19138 - Geographic Information - Data Quality Measures]]
+- [ISO 19107 - Geographic Information - Spatial Schema](ISO 19107 - Geographic Information - Spatial Schema.md)
+- [ISO 19115 - Geographic Information - Metadata](ISO 19115 - Geographic Information - Metadata.md)
+- [ISO 19110 - Geographic Information - Methodology](ISO 19110 - Geographic Information - Methodology.md)
+- [ISO 19157 - Geographic information - Data Quality](ISO 19157 - Geographic information - Data Quality.md)
+- [ISO 19138 - Geographic Information - Data Quality Measures](ISO 19138 - Geographic Information - Data Quality Measures.md)
 
 #### Database Schema Design
 
-Abiding by [[ISO 19107 - Geographic Information - Spatial Schema]], the initial step is to define the structure of the central database. In order to accomplish this, one must fully understand the nature of the existing data and data being integrated with or ingested into the system, which can be achieved through techniques such as [[Schematic Mapping]], [[Domain Driven Design]] Techniques, [[Event Storming]], and general relational database design principles such as [[Dimensional Modeling]] ([[Kimbel]], [[Inmon]], [[Star Schema]], etc.), 
+Abiding by [ISO 19107 - Geographic Information - Spatial Schema](ISO 19107 - Geographic Information - Spatial Schema.md), the initial step is to define the structure of the central database. In order to accomplish this, one must fully understand the nature of the existing data and data being integrated with or ingested into the system, which can be achieved through techniques such as [Schematic Mapping](Schematic Mapping.md), [Domain Driven Design](Domain Driven Design.md) Techniques, [Event Storming](Event Storming.md), and general relational database design principles such as [Dimensional Modeling](Dimensional Modeling.md) ([Kimbel](Kimbel.md), [Inmon](Inmon.md), [Star Schema](Star Schema.md), etc.), 
 
 Database schema design is aided with tooling such as:
 
-- [[04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML)|Database Markup Language]]
-- Migrations via [[dbmate]]
+- [Database Markup Language](04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML).md)
+- Migrations via [dbmate](dbmate.md)
 
 #### Metadata Standards
 
-Leveraging [[ISO 19115 - Geographic Information - Metadata]], decide on the metadata standards to use. These standards will guide the formatting and classification of the geospatial data being used.
+Leveraging [ISO 19115 - Geographic Information - Metadata](ISO 19115 - Geographic Information - Metadata.md), decide on the metadata standards to use. These standards will guide the formatting and classification of the geospatial data being used.
 
-Metadata templates, i.e. [[ISO 19110 - Geographic Information - Methodology]] for Feature Cataloging, and creating metadata templates that adhere to the selected standards. 
+Metadata templates, i.e. [ISO 19110 - Geographic Information - Methodology](ISO 19110 - Geographic Information - Methodology.md) for Feature Cataloging, and creating metadata templates that adhere to the selected standards. 
 
 Developing a conceptual schema for digital information dashboards.
 
 Metadata standards and tooling leveraged could include:
 
-- [[ISO 19115]]
-- [[STAC]]
-- [[OpenAPI]] Specifications
-- [[JSON Schema]]
-- [[Apache Superset]]
+- [ISO 19115](ISO 19115.md)
+- [STAC](STAC.md)
+- [OpenAPI](OpenAPI.md) Specifications
+- [JSON Schema](JSON Schema.md)
+- [Apache Superset](Apache Superset.md)
 
 ### Data Collection and Digitization
 
@@ -212,7 +202,7 @@ Highlight the need for thorough planning and testing within the workflow to addr
 
 ## The Insight
 
-Traditional GIS architectures rely on monolithic servers ([[ArcGIS]] Server, [[GeoServer]]) that couple data, processing, and serving. Modern cloud-native geospatial systems invert this - they separate concerns and leverage cloud primitives for scalability, cost efficiency, and flexibility.
+Traditional GIS architectures rely on monolithic servers ([ArcGIS](ArcGIS.md) Server, [GeoServer](GeoServer.md)) that couple data, processing, and serving. Modern cloud-native geospatial systems invert this - they separate concerns and leverage cloud primitives for scalability, cost efficiency, and flexibility.
 
 ## Key Architectural Principles
 
@@ -229,9 +219,9 @@ This enables dynamic data discovery and self-documenting pipelines.
 ### Service-Oriented Abstraction
 
 Pluggable connectors abstract the diversity of geospatial data sources:
-- [[OGC API - Features]] endpoints
-- [[PostGIS]] databases
-- Cloud object storage ([[Cloud Optimized GeoTIFF (COG)]], [[GeoParquet]])
+- [OGC API - Features](OGC API - Features.md) endpoints
+- [PostGIS](PostGIS.md) databases
+- Cloud object storage ([Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md), [GeoParquet](GeoParquet.md))
 - Proprietary APIs (ArcGIS REST, vendor services)
 
 The abstraction layer presents a unified interface regardless of source.
@@ -244,7 +234,7 @@ Instead of ETL-ing everything into one database, a federated query engine:
 - Caches intelligently
 - Returns unified results
 
-Tools like [[DuckDB]] with spatial extensions enable this pattern.
+Tools like [DuckDB](DuckDB.md) with spatial extensions enable this pattern.
 
 ### Schema Harmonization
 
@@ -278,18 +268,9 @@ These principles inform how to structure modern geospatial systems:
 
 ## See Also
 
-- [[Guide - Geospatial File Format Selection]]
-- [[List - Spatial Databases]]
-- [[MOC - GIS]]
+- [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md)
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [MOC - GIS](MOC - GIS.md)
 
 ## Backlinks
-
-```dataview
-LIST FROM [[Cloud Native Geospatial Architecture]] 
-WHERE file.name != this.file.name
-```
-
-
-
-
-
+<!-- dynamic content -->

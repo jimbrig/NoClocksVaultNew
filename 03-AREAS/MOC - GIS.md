@@ -15,15 +15,6 @@ publish: true
 ---
 
 # MOC - GIS
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Map of Content for **Geographic Information Systems (GIS)** and geospatial technologies. This covers spatial data management, analysis, visualization, standards, and related tools.
@@ -34,9 +25,9 @@ Foundational knowledge for building modern geospatial systems:
 
 | Note | Description |
 |------|-------------|
-| [[Cloud Native Geospatial Architecture]] | Architectural principles for modern cloud-native GIS systems |
-| [[Spatial Indexing Trade-offs]] | When to use H3 vs S2 vs traditional spatial indexes |
-| [[Row vs Columnar Geospatial Formats]] | Understanding GeoJSON vs GeoParquet trade-offs |
+| [Cloud Native Geospatial Architecture](Cloud Native Geospatial Architecture.md) | Architectural principles for modern cloud-native GIS systems |
+| [Spatial Indexing Trade-offs](Spatial Indexing Trade-offs.md) | When to use H3 vs S2 vs traditional spatial indexes |
+| [Row vs Columnar Geospatial Formats](Row vs Columnar Geospatial Formats.md) | Understanding GeoJSON vs GeoParquet trade-offs |
 
 ## Curated Lists
 
@@ -44,34 +35,34 @@ Foundational knowledge for building modern geospatial systems:
 
 | List | Description |
 |------|-------------|
-| [[List - Federal Geospatial Data Sources]] | USGS, FEMA, Census, NOAA, and federal data sources |
-| [[List - Property Data Platforms]] | Parcel data providers and property intelligence APIs |
-| [[List - Building Footprint Datasets]] | Open building footprint datasets (Microsoft, Google, Overture) |
+| [List - Federal Geospatial Data Sources](List - Federal Geospatial Data Sources.md) | USGS, FEMA, Census, NOAA, and federal data sources |
+| [List - Property Data Platforms](List - Property Data Platforms.md) | Parcel data providers and property intelligence APIs |
+| [List - Building Footprint Datasets](List - Building Footprint Datasets.md) | Open building footprint datasets (Microsoft, Google, Overture) |
 
 ### Standards & Organizations
 
 | List | Description |
 |------|-------------|
-| [[List - GIS Standards Organizations]] | OGC, ISO TC 211, FGDC, and standards bodies |
-| [[List - GIS Open Standards]] | Comprehensive OGC, ISO, and industry standards reference |
-| [[List - OGC Web Service Standards]] | WMS, WFS, OGC API, and service specifications |
+| [List - GIS Standards Organizations](List - GIS Standards Organizations.md) | OGC, ISO TC 211, FGDC, and standards bodies |
+| [List - GIS Open Standards](List - GIS Open Standards.md) | Comprehensive OGC, ISO, and industry standards reference |
+| [List - OGC Web Service Standards](List - OGC Web Service Standards.md) | WMS, WFS, OGC API, and service specifications |
 
 ### Tools & Libraries
 
 | List | Description |
 |------|-------------|
-| [[List - GIS Web Mapping Libraries]] | JavaScript libraries for interactive maps (Leaflet, MapLibre, etc.) |
-| [[List - R Geospatial Packages]] | R packages for spatial analysis, visualization, and data access |
-| [[List - Spatial Databases]] | PostGIS, Supabase, DuckDB spatial extensions |
-| [[List - GIS AI Tools]] | AI-powered GIS tools and geospatial machine learning |
-| [[List - Routing and Navigation Services]] | Routing engines, geocoding, and accessibility APIs |
+| [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md) | JavaScript libraries for interactive maps (Leaflet, MapLibre, etc.) |
+| [List - R Geospatial Packages](List - R Geospatial Packages.md) | R packages for spatial analysis, visualization, and data access |
+| [List - Spatial Databases](List - Spatial Databases.md) | PostGIS, Supabase, DuckDB spatial extensions |
+| [List - GIS AI Tools](List - GIS AI Tools.md) | AI-powered GIS tools and geospatial machine learning |
+| [List - Routing and Navigation Services](List - Routing and Navigation Services.md) | Routing engines, geocoding, and accessibility APIs |
 
 ## Guides
 
 | Guide | Description |
 |-------|-------------|
-| [[Guide - Geospatial File Format Selection]] | Choosing the right format for your use case |
-| [[Guide - ArcGIS REST API]] | Working with Esri's ArcGIS REST services |
+| [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md) | Choosing the right format for your use case |
+| [Guide - ArcGIS REST API](Guide - ArcGIS REST API.md) | Working with Esri's ArcGIS REST services |
 
 ## Key Definitions
 
@@ -79,98 +70,98 @@ Foundational knowledge for building modern geospatial systems:
 
 | Term | Description |
 |------|-------------|
-| [[GeoJSON]] | JSON-based format for encoding geographic data |
-| [[GeoParquet]] | Columnar format for efficient geospatial storage |
-| [[GeoTIFF]] | Raster format with embedded georeferencing |
-| [[Cloud Optimized GeoTIFF (COG)]] | Cloud-native raster format |
-| [[PMTiles]] | Single-file tile archive format |
-| [[Mapbox Vector Tile (MVT)]] | Vector tile specification |
-| [[Shapefile]] | Legacy vector format (use GeoPackage instead) |
-| [[GeoPackage]] | OGC SQLite-based container format |
+| [GeoJSON](GeoJSON.md) | JSON-based format for encoding geographic data |
+| [GeoParquet](GeoParquet.md) | Columnar format for efficient geospatial storage |
+| [GeoTIFF](GeoTIFF.md) | Raster format with embedded georeferencing |
+| [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md) | Cloud-native raster format |
+| [PMTiles](PMTiles.md) | Single-file tile archive format |
+| [Mapbox Vector Tile (MVT)](Mapbox Vector Tile (MVT).md) | Vector tile specification |
+| [Shapefile](Shapefile.md) | Legacy vector format (use GeoPackage instead) |
+| [GeoPackage](GeoPackage.md) | OGC SQLite-based container format |
 
 ### Web Services
 
 | Term | Description |
 |------|-------------|
-| [[Web Map Service (WMS)]] | OGC standard for map image rendering |
-| [[Web Feature Service (WFS)]] | OGC standard for vector feature access |
-| [[Web Coverage Service (WCS)]] | OGC standard for raster coverage access |
-| [[Web Map Tile Service (WMTS)]] | OGC standard for pre-rendered tiles |
-| [[SpatioTemporal Asset Catalog (STAC)]] | Metadata and discovery standard |
-| [[OGC API - Features]] | Modern RESTful vector data API |
+| [Web Map Service (WMS)](Web Map Service (WMS).md) | OGC standard for map image rendering |
+| [Web Feature Service (WFS)](Web Feature Service (WFS).md) | OGC standard for vector feature access |
+| [Web Coverage Service (WCS)](Web Coverage Service (WCS).md) | OGC standard for raster coverage access |
+| [Web Map Tile Service (WMTS)](Web Map Tile Service (WMTS).md) | OGC standard for pre-rendered tiles |
+| [SpatioTemporal Asset Catalog (STAC)](SpatioTemporal Asset Catalog (STAC).md) | Metadata and discovery standard |
+| [OGC API - Features](OGC API - Features.md) | Modern RESTful vector data API |
 
 ### Spatial Concepts
 
 | Term | Description |
 |------|-------------|
-| [[Geographic Information System (GIS)]] | Definition and overview |
-| [[Open Geospatial Consortium (OGC)]] | Standards development organization |
-| [[Digital Elevation Model (DEM)]] | Grid-based elevation representation |
-| [[Hexagonal Hierarchical Spatial Index (H3)]] | Uber's hexagonal grid system |
-| [[OpenStreetMap (OSM)]] | Collaborative mapping project |
-| [[Projection]] | Map projection fundamentals |
-| [[Datum]] | Geodetic datum reference |
-| [[Coordinates]] | Coordinate systems and CRS |
+| [Geographic Information System (GIS)](Geographic Information System (GIS).md) | Definition and overview |
+| [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) | Standards development organization |
+| [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md) | Grid-based elevation representation |
+| [Hexagonal Hierarchical Spatial Index (H3)](Hexagonal Hierarchical Spatial Index (H3).md) | Uber's hexagonal grid system |
+| [OpenStreetMap (OSM)](OpenStreetMap (OSM).md) | Collaborative mapping project |
+| [Projection](Projection.md) | Map projection fundamentals |
+| [Datum](Datum.md) | Geodetic datum reference |
+| [Coordinates](Coordinates.md) | Coordinate systems and CRS |
 
 ### Database & Tools
 
 | Term | Description |
 |------|-------------|
-| [[PostGIS]] | PostgreSQL spatial extension |
-| [[Geospatial Data Abstraction Library (GDAL)]] | GDAL/OGR toolkit |
-| [[QGIS]] | Open source desktop GIS |
-| [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]] | US Census geography |
+| [PostGIS](PostGIS.md) | PostgreSQL spatial extension |
+| [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md) | GDAL/OGR toolkit |
+| [QGIS](QGIS.md) | Open source desktop GIS |
+| [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md) | US Census geography |
 
 ### Geometry Types
 
 | Term | Description |
 |------|-------------|
-| [[Point]] | Zero-dimensional geometry |
-| [[LineString]] | One-dimensional geometry |
-| [[Polygon]] | Two-dimensional geometry |
-| [[MultiPolygon]] | Collection of polygons |
-| [[Feature]] | Geometry with attributes |
-| [[Layer]] | Collection of features |
+| [Point](Point.md) | Zero-dimensional geometry |
+| [LineString](LineString.md) | One-dimensional geometry |
+| [Polygon](Polygon.md) | Two-dimensional geometry |
+| [MultiPolygon](MultiPolygon.md) | Collection of polygons |
+| [Feature](Feature.md) | Geometry with attributes |
+| [Layer](Layer.md) | Collection of features |
 
 ### Geographic Units
 
 | Term | Description |
 |------|-------------|
-| [[Parcel]] | Land ownership boundary |
-| [[Census Tract (CT)]] | Census geography unit |
-| [[Block Group (BG)]] | Census block group |
-| [[ZIP Code Tabulation Area (ZCTA)]] | ZIP code approximation |
-| [[Core-Based Statistical Area (CBSA)]] | Metropolitan/micropolitan areas |
+| [Parcel](Parcel.md) | Land ownership boundary |
+| [Census Tract (CT)](Census Tract (CT).md) | Census geography unit |
+| [Block Group (BG)](Block Group (BG).md) | Census block group |
+| [ZIP Code Tabulation Area (ZCTA)](ZIP Code Tabulation Area (ZCTA).md) | ZIP code approximation |
+| [Core-Based Statistical Area (CBSA)](Core-Based Statistical Area (CBSA).md) | Metropolitan/micropolitan areas |
 
 ## Core Tools
 
 ### Desktop GIS
 
-- [[QGIS]] - Open source desktop GIS
-- [[ArcGIS]] - Esri's enterprise GIS platform
+- [QGIS](QGIS.md) - Open source desktop GIS
+- [ArcGIS](ArcGIS.md) - Esri's enterprise GIS platform
 
 ### Web Mapping
 
-- [[Leaflet.js]] - Lightweight web mapping
-- [[MapLibre]] - Open source map rendering
-- [[Mapbox]] - Commercial mapping platform
-- [[OpenLayers]] - Feature-rich web mapping
-- [[deck.gl]] - Large-scale data visualization
-- [[kepler.gl]] - Geospatial data visualization
+- [Leaflet.js](Leaflet.js.md) - Lightweight web mapping
+- [MapLibre](MapLibre.md) - Open source map rendering
+- [Mapbox](Mapbox.md) - Commercial mapping platform
+- [OpenLayers](OpenLayers.md) - Feature-rich web mapping
+- [deck.gl](deck.gl.md) - Large-scale data visualization
+- [kepler.gl](kepler.gl.md) - Geospatial data visualization
 
 ### Data Processing
 
-- [[Apache Arrow]] - Columnar memory format
-- [[DuckDB]] - Analytical database with spatial support
-- [[tippecannoe]] - Vector tile generation
-- [[GeoServer]] - Open source map server
+- [Apache Arrow](Apache Arrow.md) - Columnar memory format
+- [DuckDB](DuckDB.md) - Analytical database with spatial support
+- [tippecannoe](tippecannoe.md) - Vector tile generation
+- [GeoServer](GeoServer.md) - Open source map server
 
 ## Related Topics
 
-- [[MOC - R]] - R programming (geospatial packages)
-- [[MOC - RealEstate]] - Real estate domain
-- [[MOC - Cloud]] - Cloud platforms for GIS
-- [[MOC - DataEngineering]] - Data pipelines
+- [MOC - R](MOC - R.md) - R programming (geospatial packages)
+- [MOC - RealEstate](MOC - RealEstate.md) - Real estate domain
+- [MOC - Cloud](MOC - Cloud.md) - Cloud platforms for GIS
+- [MOC - DataEngineering](MOC - DataEngineering.md) - Data pipelines
 
 ## External Resources
 
@@ -195,9 +186,4 @@ Foundational knowledge for building modern geospatial systems:
 - [r-spatial](https://r-spatial.org/)
 
 ## Backlinks
-
-```dataview
-LIST
-FROM [[MOC - GIS]]
-WHERE file.name != this.file.name
-```
+<!-- dynamic content -->

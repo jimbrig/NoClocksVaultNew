@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Cartography
-
-```table-of-contents
-```
-
 ## Overview
 
 **Cartography** is the science and art of making maps and charts. More broadly, the term includes all the steps necessary to produce a map: planning, aerial photography, drafting, editing, color separation, and multicolored printing. Modern cartography incorporates digital technologies, GIS, and interactive web mapping.
@@ -46,14 +42,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Topography]]
-- [[Projection]]
-- [[Symbology]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Topography](Topography.md)
+- [Projection](Projection.md)
+- [Symbology](Symbology.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Cartography]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Cartography"
-```
-
+<!-- dynamic content -->

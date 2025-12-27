@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Public Use Microdata Area (PUMA)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Public Use Microdata Area (PUMA)** is a geographic area defined by the U.S. Census Bureau for the dissemination of public use microdata samples, typically containing a population of at least 100,000 people. PUMAs enable researchers to access individual-level census responses while protecting respondent privacy.
@@ -52,13 +48,9 @@ aliases:
 
 ### See Also
 
-- [[Block Group (BG)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[US Census Bureau]]
+- [Block Group (BG)](Block Group (BG).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [US Census Bureau](US Census Bureau.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Public Use Microdata Area (PUMA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Public Use Microdata Area (PUMA)"
-```
-
+<!-- dynamic content -->

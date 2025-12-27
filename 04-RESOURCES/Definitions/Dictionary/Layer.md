@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Layer
-
-```table-of-contents
-```
-
 ## Overview
 
 **Layer** is a collection of spatial data in a GIS that represents a specific type of feature or theme, such as roads, land use, or elevation, often organized in a way that allows for easy visualization and analysis. Layers can be stacked and combined to create complex maps and enable spatial analysis.
@@ -46,14 +42,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Feature]]
-- [[Overlay]]
-- [[Symbology]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Feature](Feature.md)
+- [Overlay](Overlay.md)
+- [Symbology](Symbology.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Layer]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Layer"
-```
-
+<!-- dynamic content -->

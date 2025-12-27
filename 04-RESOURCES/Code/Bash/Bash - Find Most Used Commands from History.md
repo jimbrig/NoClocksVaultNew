@@ -17,15 +17,6 @@ cssclasses:
 ---
 
 # Find Most Used Commands from History
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -39,7 +30,7 @@ One-liners to analyze your shell history and find your most frequently used comm
 
 ```bash
 # method 1: handles piped commands
-history | awk 'BEGIN {FS="[ \t]+|\\|"} {print $3}' | sort | uniq -c | sort -nr | head -n25
+history | awk 'BEGIN {FS="[ /t]+|//|"} {print $3}' | sort | uniq -c | sort -nr | head -n25
 
 # method 2: simple approach
 history | awk '{print $2}' | sort | uniq -c | sort -nr | head -n25
@@ -84,20 +75,16 @@ Example output:
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Find Most Used Commands from History]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

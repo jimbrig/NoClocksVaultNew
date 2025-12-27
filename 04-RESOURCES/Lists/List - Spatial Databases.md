@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - Spatial Databases
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **spatial databases and geospatial data storage solutions** for managing and querying geographic data.
@@ -163,10 +154,10 @@ Base32 encoding of geographic coordinates.
 
 | Format | Description | Links |
 |--------|-------------|-------|
-| GeoPackage | SQLite-based OGC standard container | [[GeoPackage]] |
-| GeoParquet | Columnar format for geospatial analytics | [[GeoParquet]] |
+| GeoPackage | SQLite-based OGC standard container | [GeoPackage](GeoPackage.md) |
+| GeoParquet | Columnar format for geospatial analytics | [GeoParquet](GeoParquet.md) |
 | FlatGeobuf | Streaming binary format | [Website](https://flatgeobuf.org) |
-| PMTiles | Single-file vector tile archive | [[PMTiles]] |
+| PMTiles | Single-file vector tile archive | [PMTiles](PMTiles.md) |
 
 ## Notes
 
@@ -183,16 +174,12 @@ Base32 encoding of geographic coordinates.
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - R Geospatial Packages]]
-- [[Hexagonal Hierarchical Spatial Index (H3)]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [Hexagonal Hierarchical Spatial Index (H3)](Hexagonal Hierarchical Spatial Index (H3).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - Spatial Databases]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - Spatial Databases"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

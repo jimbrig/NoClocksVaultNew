@@ -13,15 +13,6 @@ publish: false
 ---
 
 # Frontmatter Audit Report - 2025-12-23
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Executive Summary
 
 | Metric | Count |
@@ -97,11 +88,11 @@ author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 ... (all 64 daily notes from 2024)
 04-RESOURCES/Code/R/R - Shiny UI Helpers.md
 04-RESOURCES/Code/R/R - Shiny DT Table Helpers.md
-04-RESOURCES/Code/Bash/_README.md
-04-RESOURCES/Code/PowerShell/_README.md
+04-RESOURCES/Code/Bash/README.md
+04-RESOURCES/Code/PowerShell/README.md
 05-SYSTEM/Templates/Code/Template-Code-Dynamic.md
 05-SYSTEM/Templates/Code/Template-Code-Readme.md
-05-SYSTEM/Assets/_README.md
+05-SYSTEM/Assets/README.md
 ```
 
 ---
@@ -168,13 +159,13 @@ All 12 files in `99-ARCHIVES/` correctly have `publish: false`.
 
 ```powershell
 # fix author email from jimbrig.com to noclocks.dev
-$files = Get-ChildItem -Path "N:\obsidian\NoClocksVaultNew" -Recurse -Filter "*.md" | 
-    Where-Object { $_.FullName -notlike "*\quartz\*" }
+$files = Get-ChildItem -Path "N:/obsidian/NoClocksVaultNew" -Recurse -Filter "*.md" | 
+    Where-Object { $_.FullName -notlike "*/quartz/*" }
 
 foreach ($file in $files) {
     $content = Get-Content $file.FullName -Raw
-    if ($content -match "jimmy\.briggs@jimbrig\.com") {
-        $newContent = $content -replace "jimmy\.briggs@jimbrig\.com", "jimmy.briggs@noclocks.dev"
+    if ($content -match "jimmy/.briggs@jimbrig/.com") {
+        $newContent = $content -replace "jimmy/.briggs@jimbrig/.com", "jimmy.briggs@noclocks.dev"
         Set-Content -Path $file.FullName -Value $newContent -NoNewline
         Write-Host "Updated: $($file.FullName)"
     }
@@ -186,16 +177,16 @@ foreach ($file in $files) {
 ```powershell
 # fix template publish values
 $templates = @(
-    "05-SYSTEM\Templates\Code\Template-Code-Dynamic.md",
-    "05-SYSTEM\Templates\Template-Checklist.md",
-    "05-SYSTEM\Templates\Template-List.md",
-    "05-SYSTEM\Templates\Template-Guide.md",
-    "05-SYSTEM\Templates\Template-MOC.md",
-    "05-SYSTEM\Templates\Template-README.md",
-    "05-SYSTEM\Templates\Code\Template-Code-Readme.md"
+    "05-SYSTEM/Templates/Code/Template-Code-Dynamic.md",
+    "05-SYSTEM/Templates/Template-Checklist.md",
+    "05-SYSTEM/Templates/Template-List.md",
+    "05-SYSTEM/Templates/Template-Guide.md",
+    "05-SYSTEM/Templates/Template-MOC.md",
+    "05-SYSTEM/Templates/Template-README.md",
+    "05-SYSTEM/Templates/Code/Template-Code-Readme.md"
 )
 
-$basePath = "N:\obsidian\NoClocksVaultNew"
+$basePath = "N:/obsidian/NoClocksVaultNew"
 
 foreach ($template in $templates) {
     $path = Join-Path $basePath $template
@@ -210,7 +201,7 @@ foreach ($template in $templates) {
 
 ```powershell
 # set all 2024 journal notes to publish: false
-$journalFiles = Get-ChildItem -Path "N:\obsidian\NoClocksVaultNew\02-JOURNAL\2024" -Recurse -Filter "*.md"
+$journalFiles = Get-ChildItem -Path "N:/obsidian/NoClocksVaultNew/02-JOURNAL/2024" -Recurse -Filter "*.md"
 
 foreach ($file in $journalFiles) {
     $content = Get-Content $file.FullName -Raw
@@ -273,41 +264,17 @@ modification_date: 2025-04-04
 ## Appendix: Validation Dataview Queries
 
 ### Find Notes Missing Creation Date
-
-```dataview
-TABLE 
-    file.ctime as "File Created"
-FROM ""
-WHERE !creation_date
-AND !contains(file.path, "quartz/")
-AND !contains(file.path, "node_modules/")
-LIMIT 50
-```
-
+<!-- dynamic content -->
 ### Find Notes with Wrong Email
-
-```dataview
-LIST
-FROM ""
-WHERE contains(author, "jimbrig.com")
-AND !contains(file.path, "quartz/")
-LIMIT 50
-```
-
+<!-- dynamic content -->
 ### Find Templates with Publish True
-
-```dataview
-LIST
-FROM "05-SYSTEM/Templates"
-WHERE publish = true
-```
-
+<!-- dynamic content -->
 ---
 
 ## See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[TAGS]]
-- [[AuditLog-2025-12-20]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [TAGS](TAGS.md)
+- [AuditLog-2025-12-20](AuditLog-2025-12-20.md)
 
 

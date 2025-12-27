@@ -8,10 +8,6 @@ aliases: ["Multi-Criteria Decision Analysis", "MCDA"]
 ---
 
 # Multi-Criteria Decision Analysis (MCDA)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Multi-Criteria Decision Analysis (MCDA)** is a family of structured methods used to support decision-making when multiple, often conflicting, criteria must be considered.
@@ -24,7 +20,7 @@ It helps convert qualitative and quantitative criteria into a transparent, repea
 **Criteria** are attributes used to evaluate alternatives (cost, risk, benefit, accessibility, environmental impact).
 **Weights** are the relative importance assigned to each criterion.
 **Performance/score matrix** are values of alternatives on each criterion.
-**[[Normalization]]** is converting different units/scales into a common scale.
+**[Normalization](Normalization.md)** is converting different units/scales into a common scale.
 **Aggregation rule** is the mathematical method for combining criteria (e.g., weighted sum).
 **Sensitivity/robustness analysis** is checking how results change with different weights or assumptions.
 
@@ -71,12 +67,12 @@ graph LR
 ## Core Mathematics
 
 - Weighted Sum (WSM/MAUT):
-  - Given alternatives $i$ and criteria $j$: $S_i = \sum_j w_j \, x_{ij}$, where $w_j$ are weights and $x_{ij}$ are normalized scores.
+  - Given alternatives $i$ and criteria $j$: $S_i = /sum_j w_j /, x_{ij}$, where $w_j$ are weights and $x_{ij}$ are normalized scores.
 - Normalization examples:
-  - Min–max: $\tilde{x}_{ij} = \dfrac{x_{ij} - \min_i x_{ij}}{\max_i x_{ij} - \min_i x_{ij}}$.
+  - Min–max: $/tilde{x}_{ij} = /dfrac{x_{ij} - /min_i x_{ij}}{/max_i x_{ij} - /min_i x_{ij}}$.
   - Benefit/cost direction handling: reverse scale for cost criteria.
 - AHP weight derivation:
-  - Pairwise comparison matrix $A$, eigenvector method: find $w$ such that $A w = \lambda_{\max} w$.
+  - Pairwise comparison matrix $A$, eigenvector method: find $w$ such that $A w = /lambda_{/max} w$.
 
 Simple worked example (weighted sum)
 - Criteria: Cost (weight 0.6, lower is better), Quality (weight 0.4, higher is better).
@@ -84,9 +80,9 @@ Simple worked example (weighted sum)
   - Cost: A = 80, B = 60 (lower better)
   - Quality: A = 70, B = 60 (higher better)
 - Normalize (min–max, invert cost):
-  - Cost normalized (benefit form): $c'_i = 1 - \frac{cost_i - 60}{80 - 60}$ so A: $1 - \frac{20}{20} = 0$, B: $1 - \frac{0}{20} = 1$.
-  - Quality normalized: A: $\frac{70-60}{70-60}=1$, B: $\frac{60-60}{10}=0$.
-- Scores: $S_A = 0.6\cdot0 + 0.4\cdot1 = 0.4$; $S_B = 0.6\cdot1 + 0.4\cdot0 = 0.6$ → B preferred.
+  - Cost normalized (benefit form): $c'_i = 1 - /frac{cost_i - 60}{80 - 60}$ so A: $1 - /frac{20}{20} = 0$, B: $1 - /frac{0}{20} = 1$.
+  - Quality normalized: A: $/frac{70-60}{70-60}=1$, B: $/frac{60-60}{10}=0$.
+- Scores: $S_A = 0.6/cdot0 + 0.4/cdot1 = 0.4$; $S_B = 0.6/cdot1 + 0.4/cdot0 = 0.6$ → B preferred.
 
 Weighting and stakeholder involvement
 - Weight elicitation methods:
@@ -127,7 +123,7 @@ Practical tips for implementation
 Suggested note structure in this vault
 - - Purpose / Summary
   - Key concepts
-  - Methods (create sub-notes): e.g., [[Analytic Hierarchy Process (AHP)]], [[TOPSIS]], [[ELECTRE]], [[PROMETHEE]]
+  - Methods (create sub-notes): e.g., [Analytic Hierarchy Process (AHP)](Analytic Hierarchy Process (AHP).md), [TOPSIS](TOPSIS.md), [ELECTRE](ELECTRE.md), [PROMETHEE](PROMETHEE.md)
   - Workflow / Checklist
   - Worked examples and templates
   - References and further reading
@@ -144,15 +140,12 @@ References and further reading (selection)
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Analytic Hierarchy Process (AHP)]]
-- [[TOPSIS]]
-- [[ELECTRE]]
-- [[PROMETHEE]]
-- [[Normalization]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Analytic Hierarchy Process (AHP)](Analytic Hierarchy Process (AHP).md)
+- [TOPSIS](TOPSIS.md)
+- [ELECTRE](ELECTRE.md)
+- [PROMETHEE](PROMETHEE.md)
+- [Normalization](Normalization.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Multi-Criteria Decision Analysis (MCDA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Multi-Criteria Decision Analysis (MCDA)"
-```
+<!-- dynamic content -->

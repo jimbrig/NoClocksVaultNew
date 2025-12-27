@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Coverage
-
-```table-of-contents
-```
-
 ## Overview
 
 **Coverage** can refer to two concepts in GIS: (1) A legacy ArcInfo data format that represents geographic features using a combination of topologically linked features (arcs, nodes, polygons), or (2) the geographic area represented by a spatial dataset. The term is also used generally to describe the extent of data availability.
@@ -41,13 +37,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Extent]]
-- [[Vector]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Extent](Extent.md)
+- [Vector](Vector.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Coverage]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Coverage"
-```
-
+<!-- dynamic content -->

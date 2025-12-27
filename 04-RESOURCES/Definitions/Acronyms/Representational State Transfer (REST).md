@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Representational State Transfer (REST)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Representational State Transfer (REST)** ...
@@ -36,7 +32,4 @@ aliases:
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Representational State Transfer (REST)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/Representational State Transfer (REST)"
-```
+<!-- dynamic content -->

@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - Routing and Navigation Services
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **routing engines, geocoding services, and navigation APIs** for geospatial applications. Includes open-source self-hosted options and commercial APIs.
@@ -180,8 +171,8 @@ docker run -t -p 5000:5000 -v "${PWD}:/data" osrm/osrm-backend osrm-routed --alg
 ### Valhalla Deployment
 
 ```bash
-docker run -dt --name valhalla -p 8002:8002 \
-  -v $PWD/custom_files:/custom_files \
+docker run -dt --name valhalla -p 8002:8002 /
+  -v $PWD/custom_files:/custom_files /
   ghcr.io/gis-ops/docker-valhalla/valhalla:latest
 ```
 
@@ -209,16 +200,12 @@ docker run -dt --name valhalla -p 8002:8002 \
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - R Geospatial Packages]]
-- [[List - GIS Web Mapping Libraries]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - Routing and Navigation Services]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - Routing and Navigation Services"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

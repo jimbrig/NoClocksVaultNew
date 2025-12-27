@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Geospatial Data Abstraction Library (GDAL)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Geospatial Data Abstraction Library (GDAL)** is an open-source library for reading and writing raster and vector geospatial data formats. GDAL provides a single abstract data model for raster data and another for vector data (historically called OGR), allowing applications to work with many different formats through a unified API.
@@ -47,8 +43,8 @@ aliases:
 ## Supported Formats
 
 GDAL supports 200+ raster and vector formats including:
-- Raster: [[GeoTIFF]], [[Cloud Optimized GeoTIFF (COG)|COG]], NetCDF, HDF, JPEG2000
-- Vector: [[Shapefile]], [[GeoJSON]], [[GeoPackage]], PostGIS, FileGDB
+- Raster: [GeoTIFF](GeoTIFF.md), [COG](Cloud Optimized GeoTIFF (COG).md), NetCDF, HDF, JPEG2000
+- Vector: [Shapefile](Shapefile.md), [GeoJSON](GeoJSON.md), [GeoPackage](GeoPackage.md), PostGIS, FileGDB
 
 ## Appendix
 
@@ -56,15 +52,11 @@ GDAL supports 200+ raster and vector formats including:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Geometry Engine - Open Source (GEOS)]]
-- [[QGIS]]
-- [[Raster]]
-- [[Vector]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geometry Engine - Open Source (GEOS)](Geometry Engine - Open Source (GEOS).md)
+- [QGIS](QGIS.md)
+- [Raster](Raster.md)
+- [Vector](Vector.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Geospatial Data Abstraction Library (GDAL)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Geospatial Data Abstraction Library (GDAL)"
-```
-
+<!-- dynamic content -->

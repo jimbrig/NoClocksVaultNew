@@ -33,7 +33,7 @@ Geospatial formats fall into two categories with fundamentally different perform
 
 ## When Row-Oriented Wins
 
-Choose [[GeoJSON]] or GeoPackage when:
+Choose [GeoJSON](GeoJSON.md) or GeoPackage when:
 - **Human readability matters** - GeoJSON is self-documenting
 - **Small datasets** (< 10MB) - overhead not worth it
 - **Real-time feature serving** - need to return individual features quickly
@@ -42,7 +42,7 @@ Choose [[GeoJSON]] or GeoPackage when:
 
 ## When Columnar Wins
 
-Choose [[GeoParquet]] when:
+Choose [GeoParquet](GeoParquet.md) when:
 - **Large datasets** (> 100MB) - compression saves 50-80%
 - **Analytical queries** - "average value where X > Y"
 - **Cloud storage** - designed for S3/Azure Blob
@@ -58,7 +58,7 @@ Modern architectures use both:
 
 ## Streaming Formats
 
-[[FlatGeobuf]] offers a middle ground:
+[FlatGeobuf](FlatGeobuf.md) offers a middle ground:
 - Binary format (faster than JSON)
 - Row-oriented (good for feature access)
 - Supports HTTP range requests
@@ -72,20 +72,11 @@ Modern architectures use both:
 
 ## See Also
 
-- [[Guide - Geospatial File Format Selection]]
-- [[GeoParquet]]
-- [[GeoJSON]]
-- [[Cloud Optimized GeoTIFF (COG)]]
-- [[MOC - GIS]]
+- [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md)
+- [GeoParquet](GeoParquet.md)
+- [GeoJSON](GeoJSON.md)
+- [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md)
+- [MOC - GIS](MOC - GIS.md)
 
 ## Backlinks
-
-```dataview
-LIST FROM [[Row vs Columnar Geospatial Formats]] 
-WHERE file.name != this.file.name
-```
-
-
-
-
-
+<!-- dynamic content -->

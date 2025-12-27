@@ -12,15 +12,6 @@ publish: false
 ---
 
 # Tag Taxonomy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This document defines the complete tag taxonomy for the No Clocks Knowledge Vault. Tags are organized into three categories: Status, Type, and Topic.
@@ -187,25 +178,11 @@ tags:
 ## Dataview Queries
 
 ### Find all R code snippets
-
-```dataview
-LIST FROM #Type/Code AND #Topic/R
-```
-
+<!-- dynamic content -->
 ### Find all WIP notes
-
-```dataview
-TABLE file.mtime as "Modified"
-FROM #Status/WIP
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Find notes by combined topics
-
-```dataview
-LIST FROM #Topic/R AND #Topic/Shiny
-```
-
+<!-- dynamic content -->
 ## Adding New Tags
 
 When adding new tags:
@@ -218,15 +195,12 @@ When adding new tags:
 
 ## Related Notes
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[05-SYSTEM/Meta/AGENTS]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Tag Taxonomy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Tag Taxonomy"
-```
+<!-- dynamic content -->

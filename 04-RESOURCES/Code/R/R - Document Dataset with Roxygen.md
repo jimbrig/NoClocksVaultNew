@@ -21,16 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `fs`, `purrr`, `glue`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 Generates a `roxygen2` skeleton for documenting datasets in R packages. Automatically extracts column names, types, and dimensions to create properly formatted documentation.
@@ -89,13 +79,13 @@ document_dataset <- function(
   col_roxys <- glue::glue(
     .open = "[[",
     .close = "]]",
-    "#'   \\item{\\code{[[col_names]]}}{[[col_types]]. [[col_descs]].}"
-  ) |> paste(collapse = "\n")
+    "#'   //item{//code{[col_names](col_names.md)}}{[col_types](col_types.md). [col_descs](col_descs.md).}"
+  ) |> paste(collapse = "/n")
 
   dims <- paste0(nrow(data_obj), " rows and ", ncol(data_obj), " columns")
 
   pre <- glue::glue(
-    .sep = "\n",
+    .sep = "/n",
     "#' {name}",
     "#'",
     "#' @description",
@@ -109,12 +99,12 @@ document_dataset <- function(
 
   skeleton <- paste0(
     pre,
-    "\n",
-    "#' \\describe{\n",
+    "/n",
+    "#' //describe{/n",
     col_roxys,
-    "\n",
-    "#'}\n",
-    '"', name, '"\n'
+    "/n",
+    "#'}/n",
+    '"', name, '"/n'
   )
 
   if (overwrite && append) {
@@ -125,7 +115,7 @@ document_dataset <- function(
     file.remove(file)
   }
 
-  cat(skeleton, file = file, append = append, sep = "\n")
+  cat(skeleton, file = file, append = append, sep = "/n")
   
   invisible(skeleton)
 }
@@ -173,9 +163,9 @@ file.edit(fs::path_temp("mtcars.R"))
 #' Henderson and Velleman (1981)
 #'
 #' @format A data frame with 32 rows and 11 columns:
-#' \describe{
-#'   \item{\code{mpg}}{double. Miles/(US) gallon.}
-#'   \item{\code{cyl}}{double. Number of cylinders.}
+#' /describe{
+#'   /item{/code{mpg}}{double. Miles/(US) gallon.}
+#'   /item{/code{cyl}}{double. Number of cylinders.}
 #'   ...
 #'}
 "mtcars"
@@ -185,18 +175,14 @@ file.edit(fs::path_temp("mtcars.R"))
 
 ## Appendix
 
-*Note created on [[2024-06-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-06-23](2024-06-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Document Dataset with Roxygen]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

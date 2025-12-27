@@ -19,15 +19,6 @@ cssclasses:
 ---
 
 # Using dig for Email DNS Analysis
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 A script to analyze email-related DNS records including MX, SPF, DKIM, and DMARC for a given domain.
@@ -42,7 +33,7 @@ A script to analyze email-related DNS records including MX, SPF, DKIM, and DMARC
 DOMAIN="${1:-noclocks.dev}"
 
 log() {
-    echo -e "\n\n$1\n\n"
+    echo -e "/n/n$1/n/n"
 }
 
 log "DNS Records for $DOMAIN"
@@ -111,21 +102,17 @@ echo "https://mxtoolbox.com/SuperTool.aspx?action=mx:$DOMAIN"
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[Bash - DNS Commands]]
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash - DNS Commands](Bash - DNS Commands.md)
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Using dig for Email DNS Analysis]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

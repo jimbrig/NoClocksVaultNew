@@ -16,13 +16,9 @@ aliases:
 ---
 
 # Metropolitan Statistical Area (MSA)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Metropolitan Statistical Area (MSA)** is a type of [[Core-Based Statistical Area (CBSA)|Core-Based Statistical Area]] that has at least one urbanized area with a population of 50,000 or more inhabitants, along with adjacent territories that have a high degree of social and economic integration with the core. MSAs are defined by the [[Office of Management and Budget (OMB)|OMB]] and are widely used for economic analysis and federal program administration.
+**Metropolitan Statistical Area (MSA)** is a type of [Core-Based Statistical Area](Core-Based Statistical Area (CBSA).md) that has at least one urbanized area with a population of 50,000 or more inhabitants, along with adjacent territories that have a high degree of social and economic integration with the core. MSAs are defined by the [OMB](Office of Management and Budget (OMB).md) and are widely used for economic analysis and federal program administration.
 
 ## Key Concepts
 
@@ -55,13 +51,9 @@ Metropolitan Statistical Area
 
 ### See Also
 
-- [[Core-Based Statistical Area (CBSA)]]
-- [[Combined Statistical Area (CSA)]]
-- [[Office of Management and Budget (OMB)]]
+- [Core-Based Statistical Area (CBSA)](Core-Based Statistical Area (CBSA).md)
+- [Combined Statistical Area (CSA)](Combined Statistical Area (CSA).md)
+- [Office of Management and Budget (OMB)](Office of Management and Budget (OMB).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Metropolitan Statistical Area (MSA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Metropolitan Statistical Area (MSA)"
-```
-
+<!-- dynamic content -->

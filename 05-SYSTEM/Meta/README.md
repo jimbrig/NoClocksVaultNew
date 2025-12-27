@@ -8,15 +8,6 @@ aliases: ["Vault Meta", "Vault Setup", "Meta", "Meta Index"]
 ---
 
 # Vault Meta
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -26,26 +17,16 @@ includeLinks: true
 
 | Document | Purpose |
 |----------|---------|
-| [[05-SYSTEM/Meta/PHILOSOPHY]] | Core philosophy, structure decisions, and conventions |
-| [[TAGS]] | Complete tag hierarchy and usage guidelines |
-| [[05-SYSTEM/Meta/AGENTS]] | AI tooling configuration (Cursor, Copilot, MCP) |
-| [[PLUGINS]] | Installed Obsidian plugins and their purposes |
+| [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md) | Core philosophy, structure decisions, and conventions |
+| [TAGS](TAGS.md) | Complete tag hierarchy and usage guidelines |
+| [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md) | AI tooling configuration (Cursor, Copilot, MCP) |
+| [PLUGINS](PLUGINS.md) | Installed Obsidian plugins and their purposes |
 
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** meta documents in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Document",
-  description AS "Description",
-  file.mday AS "Modified"
-FROM "05-SYSTEM/Meta"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  meta documents in this folder.*
+<!-- dynamic content -->
 ## Quick Reference
 
 ### Vault Structure
@@ -80,21 +61,17 @@ SORT file.name ASC
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY|Vault Philosophy]]
-- [[05-SYSTEM/Meta/AGENTS|Vault AI Setup]]
-- [[05-SYSTEM/Meta/PLUGINS|Vault Plugins]]
-- [[05-SYSTEM/Meta/TAGS|Vault Tags]]
+- [Vault Philosophy](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [Vault AI Setup](05-SYSTEM/Meta/AGENTS.md)
+- [Vault Plugins](05-SYSTEM/Meta/PLUGINS.md)
+- [Vault Tags](05-SYSTEM/Meta/TAGS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

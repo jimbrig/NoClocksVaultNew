@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Secondary School District (SCSD)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Secondary School District (SCSD)** is a type of school district in the United States that typically serves students in grades 9-12, focusing on high school education. Secondary districts exist in areas with separate elementary districts and receive students from multiple elementary feeder districts.
@@ -35,13 +31,9 @@ aliases:
 
 ### See Also
 
-- [[Unified School District (UNSD)]]
-- [[Elementary School District (ELSD)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
+- [Unified School District (UNSD)](Unified School District (UNSD).md)
+- [Elementary School District (ELSD)](Elementary School District (ELSD).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Secondary School District (SCSD)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Secondary School District (SCSD)"
-```
-
+<!-- dynamic content -->

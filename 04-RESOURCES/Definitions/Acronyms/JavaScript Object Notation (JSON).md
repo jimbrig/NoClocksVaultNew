@@ -15,10 +15,6 @@ aliases:
 ---
 
 # JavaScript Object Notation (JSON)
-
-```table-of-contents
-```
-
 ## Overview
 
 **JavaScript Object Notation (JSON)** is a lightweight, text-based format for storing and exchanging data, commonly used in web applications and GIS for representing structured information. JSON is language-independent and human-readable while being easy for machines to parse.
@@ -46,7 +42,7 @@ aliases:
 
 ## GIS Extensions
 
-- [[GeoJSON]] - JSON with geometry support
+- [GeoJSON](GeoJSON.md) - JSON with geometry support
 - TopoJSON - Topology-aware JSON encoding
 - JSON-LD - Linked data in JSON
 
@@ -56,12 +52,8 @@ aliases:
 
 ### See Also
 
-- [[GeoJSON]]
-- [[YAML Ain't Markup Language (YAML)]]
+- [GeoJSON](GeoJSON.md)
+- [YAML Ain't Markup Language (YAML)](YAML Ain't Markup Language (YAML).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[JavaScript Object Notation (JSON)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/JavaScript Object Notation (JSON)"
-```
-
+<!-- dynamic content -->

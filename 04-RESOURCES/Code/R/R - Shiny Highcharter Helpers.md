@@ -17,18 +17,9 @@ publish: true
 ---
 
 # R - Shiny Highcharter Helpers
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-Helper functions for [[Highcharter]] visualizations in Shiny applications. Includes:
+Helper functions for [Highcharter](Highcharter.md) visualizations in Shiny applications. Includes:
 - Chart options configuration
 - Export button customization  
 - Data label formatters (dollar, rate)
@@ -147,15 +138,15 @@ data_labels_rate_formatter <- function() {
 
 ```r
 tooltip_formatter_number <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>{point.y:,.0f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>{point.y:,.0f}<br/>'
 }
 
 tooltip_formatter_rate <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>{point.y:,.3f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>{point.y:,.3f}<br/>'
 }
 
 tooltip_formatter_dollar <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>${point.y:,.0f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>${point.y:,.0f}<br/>'
 }
 ```
 
@@ -195,7 +186,7 @@ tooltip_formatter <- function() {
         html_out += '<b>' + points[i].series.userOptions.my_metric + ':</b><br/>'
         last_metric = points[i].series.userOptions.my_metric
       }
-      html_out += '<span style=\"color:' + points[i].color + '\">\u25CF ' + 
+      html_out += '<span style=/"color:' + points[i].color + '/">/u25CF ' + 
                   points[i].series.userOptions.my_group + ': </span>' + ys[i] + '<br/>'
     }
 
@@ -234,9 +225,9 @@ highchart() |>
 
 ## See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
-- [[R - Shiny UI Helpers]]
-- [[R - Shiny DT Table Helpers]]
+- [R Map of Content](03-AREAS/MOC - R.md)
+- [R - Shiny UI Helpers](R - Shiny UI Helpers.md)
+- [R - Shiny DT Table Helpers](R - Shiny DT Table Helpers.md)
 
 ---
 

@@ -23,15 +23,6 @@ cssclasses:
 ---
 
 # PowerShell Code
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -40,33 +31,20 @@ includeLinks: true
 ## Index
 
 > [!tip] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** individual notes in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.mday AS "Modified"
-FROM "04-RESOURCES/Code/PowerShell"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes in this folder.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-22]] and last modified on [[2025-12-22]].*
+*Note created on [2025-12-22](2025-12-22.md) and last modified on [2025-12-22](2025-12-22.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Code/PowerShell/_README"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

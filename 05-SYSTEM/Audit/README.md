@@ -15,16 +15,6 @@ cssclasses:
 ---
 
 # Vault Audit Logs
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -33,18 +23,8 @@ debugInConsole: false
 ## Audit Logs
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** audit logs in this folder.*
-
-```dataview
-TABLE 
-    file.ctime as "Created",
-    file.size as "Size"
-FROM "05-SYSTEM/Audit" 
-AND -"05-SYSTEM/Audit/_README"
-WHERE file.name != this.file.name
-SORT file.ctime DESC
-```
-
+> *Currently, there are  audit logs in this folder.*
+<!-- dynamic content -->
 ## Audit Categories
 
 The full audit checks the following areas:
@@ -61,17 +41,7 @@ The full audit checks the following areas:
 ## Health Score History
 
 Track vault health over time:
-
-```dataview
-TABLE WITHOUT ID
-    file.link as "Audit",
-    file.ctime as "Date"
-FROM "05-SYSTEM/Audit"
-WHERE contains(file.name, "AuditLog")
-SORT file.ctime DESC
-LIMIT 10
-```
-
+<!-- dynamic content -->
 ## Running an Audit
 
 To generate a new audit log:
@@ -83,14 +53,10 @@ To generate a new audit log:
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"05-SYSTEM/Audit/_README"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

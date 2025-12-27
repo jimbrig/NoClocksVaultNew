@@ -43,14 +43,7 @@ publish: true
 4. Related Notes - Dataview query for topic
 
 ## Dataview Query Example
-
-```dataview
-TABLE file.ctime as Created, description
-FROM "01-SLIPBOX" OR "04-RESOURCES"
-WHERE contains(tags, "Topic/{Topic}")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ## Output Format
 
 Provide the complete MOC note content ready to save.

@@ -13,18 +13,9 @@ publish: true
 ---
 
 # GeoServer
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**GeoServer** is an open-source server written in Java that allows users to share and edit geospatial data. It implements [[Open Geospatial Consortium (OGC)]] standards including [[Web Map Service (WMS)]], [[Web Feature Service (WFS)]], and [[Web Coverage Service (WCS)]], making it a cornerstone of open-source GIS infrastructure.
+**GeoServer** is an open-source server written in Java that allows users to share and edit geospatial data. It implements [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) standards including [Web Map Service (WMS)](Web Map Service (WMS).md), [Web Feature Service (WFS)](Web Feature Service (WFS).md), and [Web Coverage Service (WCS)](Web Coverage Service (WCS).md), making it a cornerstone of open-source GIS infrastructure.
 
 ## Key Features
 
@@ -52,8 +43,8 @@ includeLinks: true
 
 | Format | Type | Notes |
 |--------|------|-------|
-| [[PostGIS]] | Vector | Recommended for production |
-| [[GeoPackage]] | Vector/Raster | Good for file-based |
+| [PostGIS](PostGIS.md) | Vector | Recommended for production |
+| [GeoPackage](GeoPackage.md) | Vector/Raster | Good for file-based |
 | Shapefile | Vector | Legacy support |
 | GeoTIFF | Raster | Standard raster |
 | ImageMosaic | Raster | Large imagery collections |
@@ -65,31 +56,31 @@ includeLinks: true
 ### Get Layers
 
 ```bash
-curl -u admin:geoserver \
+curl -u admin:geoserver /
   "http://localhost:8080/geoserver/rest/layers.json"
 ```
 
 ### Create Workspace
 
 ```bash
-curl -u admin:geoserver -X POST \
-  -H "Content-Type: application/json" \
-  -d '{"workspace":{"name":"myworkspace"}}' \
+curl -u admin:geoserver -X POST /
+  -H "Content-Type: application/json" /
+  -d '{"workspace":{"name":"myworkspace"}}' /
   "http://localhost:8080/geoserver/rest/workspaces"
 ```
 
 ### Publish PostGIS Layer
 
 ```bash
-curl -u admin:geoserver -X POST \
-  -H "Content-Type: application/json" \
+curl -u admin:geoserver -X POST /
+  -H "Content-Type: application/json" /
   -d '{
     "featureType": {
       "name": "parcels",
       "nativeName": "parcels",
       "srs": "EPSG:4326"
     }
-  }' \
+  }' /
   "http://localhost:8080/geoserver/rest/workspaces/myworkspace/datastores/postgis/featuretypes"
 ```
 
@@ -117,8 +108,8 @@ volumes:
 | Server | Best For |
 |--------|----------|
 | GeoServer | Full OGC stack, enterprise |
-| [[pg_tileserv]] | Simple vector tiles from PostGIS |
-| [[pg_featureserv]] | Simple OGC Features from PostGIS |
+| [pg_tileserv](pg_tileserv.md) | Simple vector tiles from PostGIS |
+| [pg_featureserv](pg_featureserv.md) | Simple OGC Features from PostGIS |
 | MapServer | High-performance WMS |
 | QGIS Server | QGIS project publishing |
 
@@ -130,18 +121,14 @@ volumes:
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - OGC Web Service Standards]]
-- [[PostGIS]]
-- [[Web Map Service (WMS)]]
-- [[Web Feature Service (WFS)]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - OGC Web Service Standards](List - OGC Web Service Standards.md)
+- [PostGIS](PostGIS.md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[GeoServer]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/GeoServer"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

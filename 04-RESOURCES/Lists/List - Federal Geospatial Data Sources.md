@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - Federal Geospatial Data Sources
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **federal, state, and government geospatial data sources** available for integration into applications. These sources provide authoritative data for elevation, boundaries, flood hazards, demographics, and natural resources.
@@ -52,7 +43,7 @@ Curated collection of **federal, state, and government geospatial data sources**
 
 | Resource | Description | Links |
 |----------|-------------|-------|
-| National Flood Hazard Layer (NFHL) | Flood zones, FIRMs, floodplain boundaries | [Website](https://fema.gov/flood-maps/national-flood-hazard-layer) - [[National Flood Hazard Layer (NFHL)]] |
+| National Flood Hazard Layer (NFHL) | Flood zones, FIRMs, floodplain boundaries | [Website](https://fema.gov/flood-maps/national-flood-hazard-layer) - [National Flood Hazard Layer (NFHL)](National Flood Hazard Layer (NFHL).md) |
 | NFHL Viewer | Interactive flood map viewer | [Website](https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html) |
 | Map Service Center (MSC) | Official FEMA flood map downloads | [Website](https://msc.fema.gov) |
 | FEMA GIS Services | ArcGIS REST services for NFHL | [ArcGIS](https://hazards.fema.gov/gis/nfhl/rest/services) |
@@ -111,8 +102,8 @@ Curated collection of **federal, state, and government geospatial data sources**
 ## Notes
 
 - For R integration, use packages like `tigris`, `tidycensus`, `FedData`, `elevatr`
-- See [[List - R Geospatial Packages]] for data access packages
-- FEMA data requires understanding of flood zone codes - see [[National Flood Hazard Layer (NFHL)]]
+- See [List - R Geospatial Packages](List - R Geospatial Packages.md) for data access packages
+- FEMA data requires understanding of flood zone codes - see [National Flood Hazard Layer (NFHL)](National Flood Hazard Layer (NFHL).md)
 
 ---
 
@@ -122,16 +113,12 @@ Curated collection of **federal, state, and government geospatial data sources**
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - R Geospatial Packages]]
-- [[List - Property Data Platforms]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [List - Property Data Platforms](List - Property Data Platforms.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - Federal Geospatial Data Sources]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - Federal Geospatial Data Sources"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

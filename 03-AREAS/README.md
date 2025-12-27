@@ -16,15 +16,6 @@ publish: true
 ---
 
 # Areas - Maps of Content
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -43,19 +34,10 @@ MOCs serve as structural navigation notes that:
 MOCs use the prefix: `MOC - {Topic}.md`
 
 ## Current MOCs
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "MOC",
-  description AS "Description"
-FROM "03-AREAS"
-WHERE file.name != this.file.name AND startswith(file.name, "MOC")
-SORT file.name ASC
-```
-
+<!-- dynamic content -->
 ## Creating New MOCs
 
-Use the [[05-SYSTEM/Templates/Template-MOC|MOC Template]] to create new Maps of Content.
+Use the [MOC Template](05-SYSTEM/Templates/Template-MOC.md) to create new Maps of Content.
 
 MOCs should be created for topics with:
 - 5+ related notes across the vault
@@ -66,19 +48,15 @@ MOCs should be created for topics with:
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[MOC - PKM]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

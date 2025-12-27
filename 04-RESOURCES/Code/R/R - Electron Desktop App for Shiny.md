@@ -21,15 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `RInno`, `here`, `installr`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Build a standalone desktop application installer for R Shiny apps using RInno and Electron. This allows distributing Shiny apps as native Windows applications without requiring users to have R installed.
@@ -124,18 +115,14 @@ build/
 
 ## Appendix
 
-*Note created on [[2024-09-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-09-23](2024-09-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Electron Desktop App for Shiny]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

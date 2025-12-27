@@ -16,16 +16,6 @@ cssclasses:
 ---
 
 # Async Plumber API in R
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -84,7 +74,7 @@ function(res, analysisId){
   )
   
   
-  executingFutures[[as.character(uniqueId)]] <<- f
+  executingFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- f
   
   return(resourceAcceptedResponse(res, uniqueId))
   
@@ -105,7 +95,7 @@ resourceAcceptedResponse <- function(res, uniqueId) {
 #' @get /queuedResource/<uniqueId>/status
 function(res, uniqueId){
 
-  executingFuture<-executingFutures[[uniqueId]]
+  executingFuture<-executingFutures[uniqueId](uniqueId.md)
   if(!is.null(executingFuture)){
     
     if(resolved(executingFuture)) {
@@ -113,8 +103,8 @@ function(res, uniqueId){
 	#executingFuture is no longer executing and has resolved
 
 	# move from executing to resolved list
-	executingFutures[[as.character(uniqueId)]] <<- NULL
-	completedFutures[[as.character(uniqueId)]] <<- executingFuture
+	executingFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- NULL
+	completedFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- executingFuture
       
 	return(resourceCompletedRedirect(res, executingFuture))
       
@@ -126,7 +116,7 @@ function(res, uniqueId){
     }
   }
     
-  resolvedFuture <- completedFutures[[uniqueId]]
+  resolvedFuture <- completedFutures[uniqueId](uniqueId.md)
   
   if(is.null(resolvedFuture)) {
 	
@@ -166,7 +156,7 @@ function(res, uniqueId){
     return(list(message="{uniqueId} not provided. Format is GET /resource/{uniqueId}/result to retrieve completed resources"))
   }
   
-  f <- completedFutures[[as.character(uniqueId)]]
+  f <- completedFutures[as.character(uniqueId)](as.character(uniqueId).md)
   if(is.null(f)) {
     return(resourceNotFoundResponse(res, uniqueId))
   }
@@ -192,18 +182,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
+- [R Map of Content](03-AREAS/MOC - R.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Async Plumber API]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

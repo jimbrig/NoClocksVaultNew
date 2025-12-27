@@ -1,25 +1,25 @@
-- 2025-12-23T1607 · [[_README]]
-- 2025-12-23T1607 · [[_README]]
-- 2025-12-23T1606 · [[README]]
-- 2025-12-23T1553 · [[2024-08-04]]
-- 2025-12-23T1544 · [[Tagless Files 2025-12-23]]
-- 2025-12-23T1544 · [[Broken Links Output 2025-12-23]]
-- 2025-12-23T1543 · [[Help_me_organize_this_note_properly@20251222_190622]]
-- 2025-12-23T1542 · [[craft_a_reference_note_about_what_MCDA_is@20251213_134414]]
-- 2025-12-23T1541 · [[populate_this_notes_content@20251204_180421]]
-- 2025-12-23T1541 · [[PARA Method]]
-- 2025-12-23T1541 · [[Docker Best Practices]]
-- 2025-12-23T1541 · [[Zero-Shot Prompting]]
-- 2025-12-23T1541 · [[Few-Shot Prompting]]
-- 2025-12-23T1541 · [[Guide - Web Authentication]]
-- 2025-12-23T1541 · [[Glossary - Identity and Access Management]]
-- 2025-12-23T1541 · [[R - Shiny Highcharter Helpers]]
-- 2025-12-23T1540 · [[AuditLog-2025-12-23-Frontmatter]]
-- 2025-12-23T1539 · [[2024-10-02]]
-- 2025-12-23T1539 · [[2024-09-30]]
-- 2025-12-23T1539 · [[2024-09-28]]
-- 2025-12-23T1539 · [[2024-09-27]]
-- 2025-12-23T1539 · [[2024-09-26]]
-- 2025-12-23T1539 · [[2024-09-25]]
-- 2025-12-23T1539 · [[2024-09-23]]
-- 2025-12-23T1539 · [[2024-09-22]]
+- 2025-12-23T1607 · [README](README.md)
+- 2025-12-23T1607 · [README](README.md)
+- 2025-12-23T1606 · [README](README.md)
+- 2025-12-23T1553 · [2024-08-04](2024-08-04.md)
+- 2025-12-23T1544 · [Tagless Files 2025-12-23](Tagless Files 2025-12-23.md)
+- 2025-12-23T1544 · [Broken Links Output 2025-12-23](Broken Links Output 2025-12-23.md)
+- 2025-12-23T1543 · [Help_me_organize_this_note_properly@20251222_190622](Help_me_organize_this_note_properly@20251222_190622.md)
+- 2025-12-23T1542 · [craft_a_reference_note_about_what_MCDA_is@20251213_134414](craft_a_reference_note_about_what_MCDA_is@20251213_134414.md)
+- 2025-12-23T1541 · [populate_this_notes_content@20251204_180421](populate_this_notes_content@20251204_180421.md)
+- 2025-12-23T1541 · [PARA Method](PARA Method.md)
+- 2025-12-23T1541 · [Docker Best Practices](Docker Best Practices.md)
+- 2025-12-23T1541 · [Zero-Shot Prompting](Zero-Shot Prompting.md)
+- 2025-12-23T1541 · [Few-Shot Prompting](Few-Shot Prompting.md)
+- 2025-12-23T1541 · [Guide - Web Authentication](Guide - Web Authentication.md)
+- 2025-12-23T1541 · [Glossary - Identity and Access Management](Glossary - Identity and Access Management.md)
+- 2025-12-23T1541 · [R - Shiny Highcharter Helpers](R - Shiny Highcharter Helpers.md)
+- 2025-12-23T1540 · [AuditLog-2025-12-23-Frontmatter](AuditLog-2025-12-23-Frontmatter.md)
+- 2025-12-23T1539 · [2024-10-02](2024-10-02.md)
+- 2025-12-23T1539 · [2024-09-30](2024-09-30.md)
+- 2025-12-23T1539 · [2024-09-28](2024-09-28.md)
+- 2025-12-23T1539 · [2024-09-27](2024-09-27.md)
+- 2025-12-23T1539 · [2024-09-26](2024-09-26.md)
+- 2025-12-23T1539 · [2024-09-25](2024-09-25.md)
+- 2025-12-23T1539 · [2024-09-23](2024-09-23.md)
+- 2025-12-23T1539 · [2024-09-22](2024-09-22.md)

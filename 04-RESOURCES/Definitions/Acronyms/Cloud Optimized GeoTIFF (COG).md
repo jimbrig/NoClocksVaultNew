@@ -16,13 +16,9 @@ aliases:
 ---
 
 # Cloud Optimized GeoTIFF (COG)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Cloud Optimized GeoTIFF (COG)** is a type of [[GeoTIFF]] file that is optimized for efficient access and processing in cloud environments, allowing for faster retrieval of specific portions of the data without needing to download the entire file. COGs use internal tiling and overviews to enable HTTP range requests.
+**Cloud Optimized GeoTIFF (COG)** is a type of [GeoTIFF](GeoTIFF.md) file that is optimized for efficient access and processing in cloud environments, allowing for faster retrieval of specific portions of the data without needing to download the entire file. COGs use internal tiling and overviews to enable HTTP range requests.
 
 ## Key Concepts
 
@@ -54,13 +50,9 @@ aliases:
 
 ### See Also
 
-- [[GeoTIFF]]
-- [[Raster]]
-- [[SpatioTemporal Asset Catalog (STAC)]]
+- [GeoTIFF](GeoTIFF.md)
+- [Raster](Raster.md)
+- [SpatioTemporal Asset Catalog (STAC)](SpatioTemporal Asset Catalog (STAC).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Cloud Optimized GeoTIFF (COG)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Cloud Optimized GeoTIFF (COG)"
-```
-
+<!-- dynamic content -->

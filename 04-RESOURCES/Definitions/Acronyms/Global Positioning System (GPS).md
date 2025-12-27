@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Global Positioning System (GPS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Global Positioning System (GPS)** is a satellite-based navigation system that provides location and time information anywhere on Earth, commonly used for mapping and geospatial data collection. GPS is operated by the U.S. Space Force and is one of several Global Navigation Satellite Systems (GNSS).
@@ -55,13 +51,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinates]]
-- [[Geographic Information System (GIS)]]
-- [[Geocode]]
+- [Coordinates](Coordinates.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geocode](Geocode.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Global Positioning System (GPS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Global Positioning System (GPS)"
-```
-
+<!-- dynamic content -->

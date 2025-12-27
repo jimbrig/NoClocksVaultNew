@@ -20,15 +20,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[alex996/presentations/auth.md](https://github.com/alex996/presentations/blob/master/auth.md)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Understanding the difference between authentication and authorization:
@@ -239,10 +230,10 @@ hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt(12))
 
 ## See Also
 
-- [[Glossary - Identity and Access Management]]
-- [[Definition - JSON Web Token (JWT)]]
-- [[Definition - OAuth]]
-- [[MOC - Security]]
+- [Glossary - Identity and Access Management](Glossary - Identity and Access Management.md)
+- [Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md)
+- [Definition - OAuth](Definition - OAuth.md)
+- [MOC - Security](MOC - Security.md)
 
 ---
 

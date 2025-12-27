@@ -15,13 +15,9 @@ aliases:
 ---
 
 # Combined Statistical Area (CSA)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Combined Statistical Area (CSA)** is a U.S. geographic area defined by the [[Office of Management and Budget (OMB)|Office of Management and Budget]] that consists of two or more adjacent [[Core-Based Statistical Area (CBSA)|Core-Based Statistical Areas]] with substantial employment interchange. CSAs represent larger regional economic areas and labor markets.
+**Combined Statistical Area (CSA)** is a U.S. geographic area defined by the [Office of Management and Budget](Office of Management and Budget (OMB).md) that consists of two or more adjacent [Core-Based Statistical Areas](Core-Based Statistical Area (CBSA).md) with substantial employment interchange. CSAs represent larger regional economic areas and labor markets.
 
 ## Key Concepts
 
@@ -44,13 +40,9 @@ aliases:
 
 ### See Also
 
-- [[Core-Based Statistical Area (CBSA)]]
-- [[Metropolitan Statistical Area (MSA)]]
-- [[Office of Management and Budget (OMB)]]
+- [Core-Based Statistical Area (CBSA)](Core-Based Statistical Area (CBSA).md)
+- [Metropolitan Statistical Area (MSA)](Metropolitan Statistical Area (MSA).md)
+- [Office of Management and Budget (OMB)](Office of Management and Budget (OMB).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Combined Statistical Area (CSA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Combined Statistical Area (CSA)"
-```
-
+<!-- dynamic content -->

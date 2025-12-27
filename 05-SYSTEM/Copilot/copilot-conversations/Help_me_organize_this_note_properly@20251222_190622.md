@@ -34,103 +34,93 @@ aliases: GIS Tools
 ---
 
 # GIS Tools
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Core Spatial Libraries (C/C++)
-- [[GDAL]] / [[OGR]]
-- [[GEOS]]
-- [[PROJ]]
+- [GDAL](GDAL.md) / [OGR](OGR.md)
+- [GEOS](GEOS.md)
+- [PROJ](PROJ.md)
 
 ## Databases, Extensions, and Services
-- [[PostgreSQL]]
-- [[PostGIS]]
-- [[pg_featureserv]]
-- [[pg_tileserv]]
-- [[pg_eventserv]]
-- [[pgSVG]]  <!-- verify -->
-- [[PostgREST]]
-- [[Data API Builder (dab)]]
-- [[pgAdmin]]
-- [[dbeaver]]
-- [[dbmate]]
-- [[04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML)|Database Markup Language]]
-- [[psql]]
-- [[pgcli]]
+- [PostgreSQL](PostgreSQL.md)
+- [PostGIS](PostGIS.md)
+- [pg_featureserv](pg_featureserv.md)
+- [pg_tileserv](pg_tileserv.md)
+- [pg_eventserv](pg_eventserv.md)
+- [pgSVG](pgSVG.md)  <!-- verify -->
+- [PostgREST](PostgREST.md)
+- [Data API Builder (dab)](Data API Builder (dab).md)
+- [pgAdmin](pgAdmin.md)
+- [dbeaver](dbeaver.md)
+- [dbmate](dbmate.md)
+- [Database Markup Language](04-RESOURCES/Definitions/Acronyms/Database Markup Language (DBML).md)
+- [psql](psql.md)
+- [pgcli](pgcli.md)
 
 ## Data Engineering, Pipelines, and Orchestration
-- [[Apache Arrow]]
-- [[DuckDB]]
-- [[DuckLake]]  <!-- verify -->
-- [[Apache Airflow]]
-- [[Luigi]]
-- [[DAG]]  <!-- concept -->
-- [[Data Build Tool (dbt)]]
-- [[Data Load Tool (dlt)]]
-- [[Data Version Control (dvt)|Data Version Control (DVC)]]
+- [Apache Arrow](Apache Arrow.md)
+- [DuckDB](DuckDB.md)
+- [DuckLake](DuckLake.md)  <!-- verify -->
+- [Apache Airflow](Apache Airflow.md)
+- [Luigi](Luigi.md)
+- [DAG](DAG.md)  <!-- concept -->
+- [Data Build Tool (dbt)](Data Build Tool (dbt).md)
+- [Data Load Tool (dlt)](Data Load Tool (dlt).md)
+- [Data Version Control (DVC)](Data Version Control (dvt).md)
 
 ## Data Formats, Standards, and Catalogs
-- [[GeoJSON]]
-- [[TopoJSON]]
-- [[GeoTIFF]]
-- [[04-RESOURCES/Definitions/Acronyms/Cloud Optimized GeoTIFF (COG)|Cloud Optimized GeoTIFF (COG)]]
-- [[04-RESOURCES/Definitions/Acronyms/Mapbox Vector Tile (MVT)|Mapbox Vector Tiles (MVT)]]
-- [[04-RESOURCES/Definitions/Dictionary/PMTiles|PMTiles]]
-- [[GeoParquet]]
-- [[Protobuf]]
-- [[Spatial Temporal Asset Catalogue (STAC)]]
-- [[Simple Features (SF)]]
+- [GeoJSON](GeoJSON.md)
+- [TopoJSON](TopoJSON.md)
+- [GeoTIFF](GeoTIFF.md)
+- [Cloud Optimized GeoTIFF (COG)](04-RESOURCES/Definitions/Acronyms/Cloud Optimized GeoTIFF (COG).md)
+- [Mapbox Vector Tiles (MVT)](04-RESOURCES/Definitions/Acronyms/Mapbox Vector Tile (MVT).md)
+- [PMTiles](04-RESOURCES/Definitions/Dictionary/PMTiles.md)
+- [GeoParquet](GeoParquet.md)
+- [Protobuf](Protobuf.md)
+- [Spatial Temporal Asset Catalogue (STAC)](Spatial Temporal Asset Catalogue (STAC).md)
+- [Simple Features (SF)](Simple Features (SF).md)
 
 ## Spatial Indexing
-- [[04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3)|Hexagonal Hierarchical Spatial Index (H3)]]
-- [[GeoHash]]
+- [Hexagonal Hierarchical Spatial Index (H3)](04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3).md)
+- [GeoHash](GeoHash.md)
 
 ## Desktop, Server, and Platforms
-- [[QGIS]]
-- [[ArcGIS]]
-- [[GRASS-GIS]]
-- [[GeoServer]]
+- [QGIS](QGIS.md)
+- [ArcGIS](ArcGIS.md)
+- [GRASS-GIS](GRASS-GIS.md)
+- [GeoServer](GeoServer.md)
 
 ## Web Mapping Libraries and Frameworks
-- [[Leaflet.js]]
-- [[Leaflet Plugins]]
-- [[OpenLayers]]
-- [[deck.gl]]
-- [[kepler.gl]]
-- [[MapLibre]]
-- [[Mapbox GL/JS|Mapbox GL JS]]
-- [[Mapbox]]
-- [[Mapbox API]]
-- [[GeoStyler]]
+- [Leaflet.js](Leaflet.js.md)
+- [Leaflet Plugins](Leaflet Plugins.md)
+- [OpenLayers](OpenLayers.md)
+- [deck.gl](deck.gl.md)
+- [kepler.gl](kepler.gl.md)
+- [MapLibre](MapLibre.md)
+- [Mapbox GL JS](Mapbox GL/JS.md)
+- [Mapbox](Mapbox.md)
+- [Mapbox API](Mapbox API.md)
+- [GeoStyler](GeoStyler.md)
 
 ## OSM and Open Data
-- [[04-RESOURCES/Definitions/Acronyms/OpenStreetMap (OSM)|OpenStreetMap (OSM)]]
-- [[Overture Maps]]
+- [OpenStreetMap (OSM)](04-RESOURCES/Definitions/Acronyms/OpenStreetMap (OSM).md)
+- [Overture Maps](Overture Maps.md)
 
 ## Command Line Utilities
-- [[ogr2ogr]]
-- [[shp2pgsql]]
-- [[osm2pgsql]]
-- [[Kart]]
-- [[tippecannoe|tippecanoe]]
-- [[yogrt]]  <!-- verify -->
+- [ogr2ogr](ogr2ogr.md)
+- [shp2pgsql](shp2pgsql.md)
+- [osm2pgsql](osm2pgsql.md)
+- [Kart](Kart.md)
+- [tippecanoe](tippecannoe.md)
+- [yogrt](yogrt.md)  <!-- verify -->
 
 ## Storage and File Browsing
-- [[FileBrowser]]
+- [FileBrowser](FileBrowser.md)
 
 ## AI / LLM Tools for Geo
-- [[LLM-Find]], [[LLM-Geo]]
-- [[MapsGPT]]
-- [[TextToMap]]
-- [[GeoAI]]
-- [[Marvin]]
+- [LLM-Find](LLM-Find.md), [LLM-Geo](LLM-Geo.md)
+- [MapsGPT](MapsGPT.md)
+- [TextToMap](TextToMap.md)
+- [GeoAI](GeoAI.md)
+- [Marvin](Marvin.md)
 
 ---
 
@@ -139,86 +129,86 @@ debugInConsole: false
 > See also: Spatial CRAN Task View — https://cran.r-project.org/web/views/Spatial.html
 
 ### Core vector/raster and spatial ops
-- [[sf]]  <!-- primary vector API (OGC SF) -->
-- [[lwgeom]]
-- [[terra]]
-- [[stars]]
-- [[geosphere]]
-- [[sfheaders]]
-- [[sfnetworks]]
-- [[sfext]]
+- [sf](sf.md)  <!-- primary vector API (OGC SF) -->
+- [lwgeom](lwgeom.md)
+- [terra](terra.md)
+- [stars](stars.md)
+- [geosphere](geosphere.md)
+- [sfheaders](sfheaders.md)
+- [sfnetworks](sfnetworks.md)
+- [sfext](sfext.md)
 
 ### Data IO, databases, and APIs
-- [[rpostgis]]
-- [[sfdbi]]  <!-- verify -->
-- [[arcgislayers]]
-- [[arcgisutils]]
-- [[esri2sf]]
-- [[arcpullr]]
-- [[osmdata]]
-- [[osmextract]]
-- [[geodata]]
-- [[wkt]]
+- [rpostgis](rpostgis.md)
+- [sfdbi](sfdbi.md)  <!-- verify -->
+- [arcgislayers](arcgislayers.md)
+- [arcgisutils](arcgisutils.md)
+- [esri2sf](esri2sf.md)
+- [arcpullr](arcpullr.md)
+- [osmdata](osmdata.md)
+- [osmextract](osmextract.md)
+- [geodata](geodata.md)
+- [wkt](wkt.md)
 
 ### Web mapping and tiles
-- [[leaflet]]
-- [[leaflet.providers]]
-- [[leaflet.extras]]
-- [[leaflet.extras2]]
-- [[leaflet.opacity]]
-- [[leafdown]]
-- [[leafem]]
-- [[leaflegend]]
-- [[mapview]]
-- [[maptiles]]
-- [[mapgl]]  <!-- verify -->
-- [[mapbopxapi|mapboxapi]]
+- [leaflet](leaflet.md)
+- [leaflet.providers](leaflet.providers.md)
+- [leaflet.extras](leaflet.extras.md)
+- [leaflet.extras2](leaflet.extras2.md)
+- [leaflet.opacity](leaflet.opacity.md)
+- [leafdown](leafdown.md)
+- [leafem](leafem.md)
+- [leaflegend](leaflegend.md)
+- [mapview](mapview.md)
+- [maptiles](maptiles.md)
+- [mapgl](mapgl.md)  <!-- verify -->
+- [mapboxapi](mapbopxapi.md)
 
 ### Analysis, modeling, and terrain
-- [[spatstat]]
-- [[spdep]]
-- [[spatialEco]]
-- [[exactextractr]]
-- [[whitebox]]
-- [[lidR]]
-- [[elevatr]]
-- [[geosphere]]
-- [[AOI]]
-- [[addr]]  <!-- verify -->
+- [spatstat](spatstat.md)
+- [spdep](spdep.md)
+- [spatialEco](spatialEco.md)
+- [exactextractr](exactextractr.md)
+- [whitebox](whitebox.md)
+- [lidR](lidR.md)
+- [elevatr](elevatr.md)
+- [geosphere](geosphere.md)
+- [AOI](AOI.md)
+- [addr](addr.md)  <!-- verify -->
 
 ### Data sources and government data
-- [[tigris]]
-- [[tidycensus]]
-- [[censusapi]]
-- [[rnaturalearth]]
-- [[rnaturalearthdata]]
-- [[USABoundaries|USAboundaries]]
-- [[NFHL]]  <!-- verify -->
-- [[FedData]]
-- [[soilDB]]
+- [tigris](tigris.md)
+- [tidycensus](tidycensus.md)
+- [censusapi](censusapi.md)
+- [rnaturalearth](rnaturalearth.md)
+- [rnaturalearthdata](rnaturalearthdata.md)
+- [USAboundaries](USABoundaries.md)
+- [NFHL](NFHL.md)  <!-- verify -->
+- [FedData](FedData.md)
+- [soilDB](soilDB.md)
 
 ### Visualization
-- [[ggplot2]]
-- [[ggspatial]]
-- [[tmap]]
-- [[plotly]]
-- [[highcharter]]
-- [[rayshader]]
-- [[maps]]
-- [[mapsf]]
-- [[cartographic|cartography]]
+- [ggplot2](ggplot2.md)
+- [ggspatial](ggspatial.md)
+- [tmap](tmap.md)
+- [plotly](plotly.md)
+- [highcharter](highcharter.md)
+- [rayshader](rayshader.md)
+- [maps](maps.md)
+- [mapsf](mapsf.md)
+- [cartography](cartographic.md)
 
 ### Time series and econ (supporting datasets)
-- [[tidyquant]]
-- [[fredr]]
-- [[ggmap]]
+- [tidyquant](tidyquant.md)
+- [fredr](fredr.md)
+- [ggmap](ggmap.md)
 
 ### Retired/archived (kept for legacy projects)
-- [[sp]]  <!-- superseded by sf -->
-- [[rgdal]]  <!-- retired -->
-- [[rgeos]]  <!-- retired -->
-- [[GISTools]]  <!-- archived -->
-- [[acs]]  <!-- likely archived -->
+- [sp](sp.md)  <!-- superseded by sf -->
+- [rgdal](rgdal.md)  <!-- retired -->
+- [rgeos](rgeos.md)  <!-- retired -->
+- [GISTools](GISTools.md)  <!-- archived -->
+- [acs](acs.md)  <!-- likely archived -->
 
 ---
 
@@ -241,6 +231,6 @@ debugInConsole: false
 
 Would you like me to:
 - Bulk-rename those notes (with aliases preserved)?
-- Split the R Packages into separate notes (e.g., [[R spatial packages]]) and keep a transclusion here?
+- Split the R Packages into separate notes (e.g., [R spatial packages](R spatial packages.md)) and keep a transclusion here?
 - Add Dataview sections so new tools auto-populate by tag (e.g., tag tools with and query them)?
 [Timestamp: 2025/12/22 19:07:30]

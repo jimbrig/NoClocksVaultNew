@@ -21,16 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `shiny`, `htmltools`, `bslib`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 Collection of helper functions for building consistent and professional Shiny application user interfaces.
@@ -282,19 +272,15 @@ ui <- bslib::page_fluid(
 
 ## Appendix
 
-*Note created on [[2024-06-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-06-23](2024-06-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
-- [[R - Shiny DT Table Helpers]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
+- [R - Shiny DT Table Helpers](R - Shiny DT Table Helpers.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Shiny UI Helpers]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

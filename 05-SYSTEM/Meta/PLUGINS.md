@@ -6,22 +6,13 @@ description: "Automated documentation for the active plugins in this Obsidian Va
 tags: [Status/Ongoing, Type/Meta, Topic/Obsidian]
 aliases: ["Vault Plugins", "Plugins"]
 ---
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 > [!NOTE]
 > *The [`.obsidian/plugins`](.obsidian/plugins) folder houses the vault's installed Obsidian plugins.*
 
 # Vault Plugins
 
 > [!TIP]
-> *This document's table is automatically generated using the [[04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins|Get-ObsidianVaultPlugins.ps1]] Script.*
+> *This document's table is automatically generated using the [Get-ObsidianVaultPlugins.ps1](04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md) Script.*
 
 |                Name                 | Version | Description                                                                                                                                                                                      |
 |:-----------------------------------:|:-------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -117,27 +108,22 @@ Secrets stored in this vault's Keychain:
 
 See the image below for reference:
 
-![[2025-12-26_obsidian_keychain_settings_screenshot.png]]
+![2025-12-26_obsidian_keychain_settings_screenshot.png](2025-12-26_obsidian_keychain_settings_screenshot.png.md)
 
-For full details, see [[.obsidian/plugins/README|Plugins README]].
+For full details, see [Plugins README](.obsidian/plugins/README.md).
 
 ***
 
 ## Appendix
 
-*Note created on [[2025-11-26]] and last modified on [[2025-12-26]].*
+*Note created on [2025-11-26](2025-11-26.md) and last modified on [2025-12-26](2025-12-26.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/_README|Vault Meta]]
+- [Vault Meta](05-SYSTEM/Meta/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PLUGINS]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

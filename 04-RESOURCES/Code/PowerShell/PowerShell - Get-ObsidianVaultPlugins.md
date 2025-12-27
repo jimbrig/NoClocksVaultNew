@@ -12,15 +12,6 @@ cssclasses:
 ---
 
 # PowerShell - Get-ObsidianVaultPlugins
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -82,7 +73,7 @@ Function Get-ObsidianPluginInventory {
 
     foreach ($p in $plugins) {
         # Escape pipes in description
-        $desc = ($p.Description -replace '\|', '\|')
+        $desc = ($p.Description -replace '/|', '/|')
         $markdownLines += "| $($p.Name) | $($p.Version) | $desc |"
     }
 
@@ -117,18 +108,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-22]] and last modified on [[2025-12-22]].*
+*Note created on [2025-12-22](2025-12-22.md) and last modified on [2025-12-22](2025-12-22.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - PowerShell|PowerShell Map of Content]]
+- [PowerShell Map of Content](03-AREAS/MOC - PowerShell.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Get-ObsidianVaultPlugins]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Thematic
-
-```table-of-contents
-```
-
 ## Overview
 
 **Thematic** refers to content relating to a specific theme or subject, often used in GIS to describe maps or data layers that focus on particular topics, such as population density, land use, or climate patterns. Thematic maps emphasize spatial variation of one or more attributes rather than showing general geographic features.
@@ -46,13 +42,9 @@ aliases:
 
 ### See Also
 
-- [[Cartography]]
-- [[Geographic Information System (GIS)]]
-- [[Symbology]]
+- [Cartography](Cartography.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Symbology](Symbology.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Thematic]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Thematic"
-```
-
+<!-- dynamic content -->

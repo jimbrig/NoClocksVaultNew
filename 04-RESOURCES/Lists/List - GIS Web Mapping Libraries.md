@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - GIS Web Mapping Libraries
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **JavaScript web mapping libraries** for creating interactive geospatial visualizations. Each library has distinct strengths for different use cases.
@@ -180,16 +171,12 @@ Consumer-facing maps with places and routing.
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - R Geospatial Packages]]
-- [[List - GIS Standards Organizations]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [List - GIS Standards Organizations](List - GIS Standards Organizations.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - GIS Web Mapping Libraries]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - GIS Web Mapping Libraries"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

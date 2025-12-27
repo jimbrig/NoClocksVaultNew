@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Elementary School District (ELSD)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Elementary School District (ELSD)** is a type of school district in the United States that typically serves students in grades K-8, focusing on elementary and middle school education. Elementary districts often exist in areas where separate secondary districts handle high school education.
@@ -35,13 +31,9 @@ aliases:
 
 ### See Also
 
-- [[Unified School District (UNSD)]]
-- [[Secondary School District (SCSD)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
+- [Unified School District (UNSD)](Unified School District (UNSD).md)
+- [Secondary School District (SCSD)](Secondary School District (SCSD).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Elementary School District (ELSD)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Elementary School District (ELSD)"
-```
-
+<!-- dynamic content -->

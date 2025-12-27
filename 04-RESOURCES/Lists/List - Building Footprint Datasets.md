@@ -15,15 +15,6 @@ publish: true
 ---
 
 # List - Building Footprint Datasets
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **open building footprint datasets** from major providers. These datasets are essential for property analysis, urban planning, and geospatial applications.
@@ -185,16 +176,12 @@ buildings = con.execute(query).fetchdf()
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - Federal Geospatial Data Sources]]
-- [[List - Property Data Platforms]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - Federal Geospatial Data Sources](List - Federal Geospatial Data Sources.md)
+- [List - Property Data Platforms](List - Property Data Platforms.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - Building Footprint Datasets]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - Building Footprint Datasets"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

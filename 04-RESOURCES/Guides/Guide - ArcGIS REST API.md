@@ -15,15 +15,6 @@ publish: true
 ---
 
 # Guide - ArcGIS REST API
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The **ArcGIS REST API** provides access to Esri's ArcGIS Server, ArcGIS Online, and ArcGIS Enterprise services. This guide covers common endpoints and usage patterns for querying geospatial data.
@@ -224,16 +215,12 @@ query_arcgis <- function(base_url, layer_id, where = "1=1", bbox = NULL) {
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - Property Data Platforms]]
-- [[Federal Emergency Management Agency (FEMA)]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - Property Data Platforms](List - Property Data Platforms.md)
+- [Federal Emergency Management Agency (FEMA)](Federal Emergency Management Agency (FEMA).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Guide - ArcGIS REST API]] AND -"CHANGELOG" AND -"04-RESOURCES/Guides/Guide - ArcGIS REST API"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

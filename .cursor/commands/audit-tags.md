@@ -5,15 +5,7 @@ Review and identify tag inconsistencies across the vault.
 ## Analysis Tasks
 
 ### 1. List All Unique Tags
-
-```dataview
-TABLE length(rows) as "Usage Count"
-FROM ""
-FLATTEN tags as tag
-GROUP BY tag
-SORT length(rows) DESC
-```
-
+<!-- dynamic content -->
 ### 2. Identify Tag Issues
 
 **Missing Required Tags:**
@@ -44,27 +36,11 @@ SORT length(rows) DESC
 ## Queries to Run
 
 **Notes missing Status tag:**
-```dataview
-LIST FROM ""
-WHERE !contains(join(tags, " "), "Status/")
-AND file.name != "README" AND file.name != "_README"
-```
-
+<!-- dynamic content -->
 **Notes missing Type tag:**
-```dataview
-LIST FROM ""
-WHERE !contains(join(tags, " "), "Type/")
-AND file.name != "README" AND file.name != "_README"
-```
-
+<!-- dynamic content -->
 **Low-usage tags (potential typos):**
-```dataview
-TABLE length(rows) as Count
-FLATTEN tags as tag
-GROUP BY tag
-WHERE length(rows) = 1
-```
-
+<!-- dynamic content -->
 ## Output
 
 Provide:

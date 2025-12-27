@@ -49,24 +49,15 @@ Inside is a wealth of knowledge curated over our tenure as a business while purs
 The vault is structured loosely as a *[Zettelkasten](https://zettelkasten.de/overview/#the-introduction-to-the-zettelkasten-method)*, or a collection of interlinked *[Atomic Notes](https://zettelkasten.de/posts/create-zettel-from-reading-notes/)* about anything that has resonated with our work and was deemed worthy of including.
 
 Consider this a *[Digital Garden]()*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## About
 
 Check out the [`05-SYSTEM/Meta`](./05-SYSTEM/Meta/) Folder for details about this Obsidian Vault and its setup:
 
-- [[PHILOSOPHY]]: Vault's over-arching philosophy.
-- [[TAGS]]: Tag System
-- [[PLUGINS]]: Plugin Usage
-- [[THEMES]]: Custom Vault Themes
-- [[AGENTS]]: LLM Usage Details
+- [PHILOSOPHY](PHILOSOPHY.md): Vault's over-arching philosophy.
+- [TAGS](TAGS.md): Tag System
+- [PLUGINS](PLUGINS.md): Plugin Usage
+- [THEMES](THEMES.md): Custom Vault Themes
+- [AGENTS](AGENTS.md): LLM Usage Details
 
 The [Changelog](CHANGELOG.md) is also a good *Meta* resource.
 
@@ -84,11 +75,11 @@ This repository uses a three-branch workflow with [Quartz](https://quartz.jzhao.
 
 **How it works:**
 
-1. **develop branch**: The actual Obsidian vault content with `[[wikilinks]]` and `_README.md` files. This is where Obsidian Git syncs to.
+1. **develop branch**: The actual Obsidian vault content with `[wikilinks](wikilinks.md)` and `README.md` files. This is where Obsidian Git syncs to.
 
 2. **main branch**: Automatically generated from `develop` via GitHub Actions:
-   - `[[wikilinks]]` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
-   - `_README.md` files renamed to `README.md` for GitHub navigation
+   - `[wikilinks](wikilinks.md)` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
+   - `README.md` files renamed to `README.md` for GitHub navigation
    - Force pushed to maintain clean history
 
 3. **gh-pages branch**: [Quartz](https://quartz.jzhao.xyz/) static site deployed automatically:
@@ -117,10 +108,10 @@ MOCs serve as structural index notes that aggregate related content across the v
 
 Current MOCs:
 
-- [[MOC - Development]] - General Development
-- [[MOC - R]] - R programming ecosystem
-- [[MOC - GIS]] - Geographic Information Systems
-- [[MOC - PKM]] - Personal Knowledge Management
+- [MOC - Development](MOC - Development.md) - General Development
+- [MOC - R](MOC - R.md) - R programming ecosystem
+- [MOC - GIS](MOC - GIS.md) - Geographic Information Systems
+- [MOC - PKM](MOC - PKM.md) - Personal Knowledge Management
 
 ### Naming Conventions
 
@@ -143,7 +134,7 @@ Tags follow a flat, combinable structure:
 - **Type/**: `MOC`, `Code`, `Definition`, `List`, `Guide`, `Checklist`, `Daily`, etc.
 - **Topic/**: `R`, `Python`, `GIS`, `DevOps`, `Cloud`, `Business`, etc.
 
-See [[PHILOSOPHY]] and [[TAGS]] for complete documentation 
+See [PHILOSOPHY](PHILOSOPHY.md) and [TAGS](TAGS.md) for complete documentation 
 
 ## Structure
 
@@ -182,33 +173,33 @@ CAPTURE → PROCESS → NAVIGATE → REFERENCE
 3. **Navigate**: MOCs provide global indices across topics
 4. **Reference**: Find what you need when you need it
 
-For detailed philosophy and conventions, see [[PHILOSOPHY]].
+For detailed philosophy and conventions, see [PHILOSOPHY](PHILOSOPHY.md).
 
 ## Content
 
 The vault has a variety of content including, but not limited to:
 
-- [[00-INBOX/_README|Inbox]]
-- [[01-SLIPBOX/_README|Slipbox]]
-- [[02-JOURNAL/_README|Journal]]
-  - [[02-JOURNAL/2024/_README|2024]]
-  - [[02-JOURNAL/2025/_README|2025]]
-- [[03-AREAS/_README|Areas]]
-  - [[03-AREAS/MOC - Development|Development Map of Content]]
-  - [[03-AREAS/MOC - GIS|GIS Map of Content]]
-  - [[03-AREAS/MOC - PKM|PKM Map of Content]]
-  - [[03-AREAS/MOC - R|R Map of Content]]
-- [[04-RESOURCES/_README|Resources]]
-  - [[04-RESOURCES/Checklists/_README|Checklists]]
-  - [[04-RESOURCES/Code/_README|Code Snippets]]
-  - [[04-RESOURCES/Definitions/_README|Definitions]]
-  - [[04-RESOURCES/Embeds/_README|Embedded Websites]]
-  - [[04-RESOURCES/Guides/_README|Guides]]
-  - [[04-RESOURCES/Lists/_README|Lists]]
+- [Inbox](00-INBOX/README.md)
+- [Slipbox](01-SLIPBOX/README.md)
+- [Journal](02-JOURNAL/README.md)
+  - [2024](02-JOURNAL/2024/README.md)
+  - [2025](02-JOURNAL/2025/README.md)
+- [Areas](03-AREAS/README.md)
+  - [Development Map of Content](03-AREAS/MOC - Development.md)
+  - [GIS Map of Content](03-AREAS/MOC - GIS.md)
+  - [PKM Map of Content](03-AREAS/MOC - PKM.md)
+  - [R Map of Content](03-AREAS/MOC - R.md)
+- [Resources](04-RESOURCES/README.md)
+  - [Checklists](04-RESOURCES/Checklists/README.md)
+  - [Code Snippets](04-RESOURCES/Code/README.md)
+  - [Definitions](04-RESOURCES/Definitions/README.md)
+  - [Embedded Websites](04-RESOURCES/Embeds/README.md)
+  - [Guides](04-RESOURCES/Guides/README.md)
+  - [Lists](04-RESOURCES/Lists/README.md)
  
 ### Code Snippets
 
-See the [[04-RESOURCES/Code/_README|Code]] folder's README for details on all of the code snippets included inside this vault.
+See the [Code](04-RESOURCES/Code/README.md) folder's README for details on all of the code snippets included inside this vault.
 
 ---
 

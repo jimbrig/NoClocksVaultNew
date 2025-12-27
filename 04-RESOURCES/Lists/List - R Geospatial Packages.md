@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - R Geospatial Packages
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of R packages for **geospatial analysis, visualization, and data access**. Based on the [CRAN Spatial Task View](https://cran.r-project.org/web/views/Spatial.html) and practical experience.
@@ -189,8 +180,8 @@ The foundational packages for working with spatial data in R.
 
 ## Notes
 
-- For related configurations, see [[Code - R - GDAL Geospatial Operations]]
-- For setup guides, see [[Guide - R Coding Conventions]]
+- For related configurations, see [Code - R - GDAL Geospatial Operations](Code - R - GDAL Geospatial Operations.md)
+- For setup guides, see [Guide - R Coding Conventions](Guide - R Coding Conventions.md)
 - See also the [Geocomputation with R](https://r.geocompx.org/) book
 
 ---
@@ -201,16 +192,12 @@ The foundational packages for working with spatial data in R.
 
 ### See Also
 
-- [[MOC - R]]
-- [[MOC - GIS]]
-- [[List - R Database Packages]]
+- [MOC - R](MOC - R.md)
+- [MOC - GIS](MOC - GIS.md)
+- [List - R Database Packages](List - R Database Packages.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - R Geospatial Packages]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - R Geospatial Packages"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

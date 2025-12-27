@@ -15,15 +15,6 @@ aliases:
 
 
 # R Argument Validation Check Utilities
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This note documents the pattern for creating robust argument validation functions using `rlang` and `cli`. These functions follow the `check_*` naming convention and provide informative error messages with proper call stack attribution.
@@ -383,21 +374,16 @@ Error in `my_api_function()`:
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Environment and Initialization]]
-- [[R - Console Message Feedback Utilities]]
-- [[R Package Development - Advanced Patterns]]
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md)
+- [R - Console Message Feedback Utilities](R - Console Message Feedback Utilities.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Argument Validation Check Utilities]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

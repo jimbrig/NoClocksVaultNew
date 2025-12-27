@@ -17,15 +17,6 @@ aliases:
 
 
 # Guide - R Shiny App Package
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This guide documents the architecture and patterns for building production-grade R Shiny applications packaged as R packages. This approach provides:
@@ -439,10 +430,10 @@ use_module <- function(name, title = NULL, author = "Jimmy Briggs", open = TRUE)
   template <- readLines("dev/templates/module.template.R")
   
   # substitute placeholders
-  content <- gsub("\\{\\{name\\}\\}", name, template)
-  content <- gsub("\\{\\{title\\}\\}", title, content)
-  content <- gsub("\\{\\{author\\}\\}", author, content)
-  content <- gsub("\\{\\{date\\}\\}", format(Sys.Date()), content)
+  content <- gsub("//{//{name//}//}", name, template)
+  content <- gsub("//{//{title//}//}", title, content)
+  content <- gsub("//{//{author//}//}", author, content)
+  content <- gsub("//{//{date//}//}", format(Sys.Date()), content)
   
   # write module file
   module_file <- file.path("R", paste0("mod_", name, ".R"))
@@ -451,10 +442,10 @@ use_module <- function(name, title = NULL, author = "Jimmy Briggs", open = TRUE)
   
   # write test file
   test_template <- readLines("dev/templates/test-module.template.R")
-  test_content <- gsub("\\{\\{name\\}\\}", name, test_template)
-  test_content <- gsub("\\{\\{title\\}\\}", title, test_content)
-  test_content <- gsub("\\{\\{author\\}\\}", author, test_content)
-  test_content <- gsub("\\{\\{date\\}\\}", format(Sys.Date()), test_content)
+  test_content <- gsub("//{//{name//}//}", name, test_template)
+  test_content <- gsub("//{//{title//}//}", title, test_content)
+  test_content <- gsub("//{//{author//}//}", author, test_content)
+  test_content <- gsub("//{//{date//}//}", format(Sys.Date()), test_content)
   
   test_file <- file.path("tests", "testthat", paste0("test-mod_", name, ".R"))
   writeLines(test_content, test_file)
@@ -560,11 +551,11 @@ test_that("mod_home_demo runs", {
 FROM rocker/shiny:4.4.0
 
 # install system dependencies
-RUN apt-get update -y -qq && apt-get -y --no-install-recommends install \
-  libcurl4-openssl-dev \
-  libssl-dev \
-  libxml2-dev \
-  && apt-get clean \
+RUN apt-get update -y -qq && apt-get -y --no-install-recommends install /
+  libcurl4-openssl-dev /
+  libssl-dev /
+  libxml2-dev /
+  && apt-get clean /
   && rm -rf /var/lib/apt/lists/*
 
 # install R dependencies
@@ -605,22 +596,17 @@ app_health_check <- function(session = shiny::getDefaultReactiveDomain()) {
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Environment and Initialization]]
-- [[R - Shiny UI Helpers]]
-- [[R Package Development - Advanced Patterns]]
-- [[Guide - R httr2 API Client Package]]
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md)
+- [R - Shiny UI Helpers](R - Shiny UI Helpers.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
+- [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Guide - R Shiny App Package]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

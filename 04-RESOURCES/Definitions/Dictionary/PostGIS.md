@@ -15,18 +15,9 @@ publish: true
 ---
 
 # PostGIS
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**PostGIS** is an open-source spatial database extender for [[PostgreSQL]]. It adds support for geographic objects, allowing location queries to be run in SQL. PostGIS is the most widely used spatial database extension and forms the foundation of many enterprise GIS systems.
+**PostGIS** is an open-source spatial database extender for [PostgreSQL](PostgreSQL.md). It adds support for geographic objects, allowing location queries to be run in SQL. PostGIS is the most widely used spatial database extension and forms the foundation of many enterprise GIS systems.
 
 ## Key Features
 
@@ -124,11 +115,11 @@ shp2pgsql -s 4326 -I input.shp public.parcels | psql -d gis
 
 | Tool | Description |
 |------|-------------|
-| [[pg_tileserv]] | Vector tile server for PostGIS |
-| [[pg_featureserv]] | OGC API Features server |
-| [[PostgREST]] | REST API for PostgreSQL |
-| [[pgAdmin]] | Database administration GUI |
-| [[DBeaver]] | Universal database client |
+| [pg_tileserv](pg_tileserv.md) | Vector tile server for PostGIS |
+| [pg_featureserv](pg_featureserv.md) | OGC API Features server |
+| [PostgREST](PostgREST.md) | REST API for PostgreSQL |
+| [pgAdmin](pgAdmin.md) | Database administration GUI |
+| [DBeaver](DBeaver.md) | Universal database client |
 
 ## Cloud Providers
 
@@ -148,17 +139,13 @@ shp2pgsql -s 4326 -I input.shp public.parcels | psql -d gis
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - Spatial Databases]]
-- [[PostgreSQL]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [PostgreSQL](PostgreSQL.md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PostGIS]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/PostGIS"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

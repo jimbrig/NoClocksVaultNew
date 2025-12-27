@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Centroid
-
-```table-of-contents
-```
-
 ## Overview
 
 **Centroid** is the geometric center of a spatial feature, often used to represent the location of polygons or other complex shapes in GIS analysis. The centroid provides a single point that represents the average position of all points making up a shape.
@@ -47,13 +43,9 @@ For a polygon with vertices:
 
 ### See Also
 
-- [[Polygon]]
-- [[Geographic Information System (GIS)]]
-- [[Geometry Engine - Open Source (GEOS)]]
+- [Polygon](Polygon.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geometry Engine - Open Source (GEOS)](Geometry Engine - Open Source (GEOS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Centroid]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Centroid"
-```
-
+<!-- dynamic content -->

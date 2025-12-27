@@ -1,631 +1,631 @@
 Don't forget that creating the file from here may create the file in the wrong directory!
-- [[schema-driven development]] in [[00-INBOX/API Client Library Best Practices]]
-- [[OpenAPI Specification]] in [[00-INBOX/API Client Library Best Practices]]
-- [[reverse engineer]] in [[00-INBOX/API Client Library Best Practices]]
-- [[API First Development]] in [[00-INBOX/API Client Library Best Practices]]
-- [[mitmproxy]] in [[00-INBOX/API Client Library Best Practices]]
-- [[mitmproxy2swagger]] in [[00-INBOX/API Client Library Best Practices]]
-- [[demystify]] in [[00-INBOX/API Client Library Best Practices]]
-- [[httr2]] in [[00-INBOX/API Client Library Best Practices]]
-- [[HAR Archive]] in [[00-INBOX/API Client Library Best Practices]]
-- [[HTTP]] in [[00-INBOX/API Client Library Best Practices]]
-- [[Proxy]] in [[00-INBOX/API Client Library Best Practices]]
-- [[Reverse Proxy]] in [[00-INBOX/API Client Library Best Practices]]
-- [[ApiDog]] in [[00-INBOX/API Client Library Best Practices]]
-- [[Charles Proxy]] in [[00-INBOX/API Client Library Best Practices]]
-- [[ProxyMan]] in [[00-INBOX/API Client Library Best Practices]]
-- [[JSON Schema]] in [[00-INBOX/API Client Library Best Practices]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Redocly CLI]] in [[00-INBOX/API Client Library Best Practices]]
-- [[Arazzo Specification]] in [[00-INBOX/API Client Library Best Practices]]
-- [[LLM]] in [[00-INBOX/API Client Library Best Practices]]
-- [[OpenAI]] in [[00-INBOX/API Client Library Best Practices]]
-- [[Schema Evolution]] in [[00-INBOX/API Client Library Best Practices]]
-- [[CICD]] in [[00-INBOX/API Client Library Best Practices]]
-- [[DevOps]] in [[00-INBOX/API Client Library Best Practices]]
-- [[2024-12-20]] in [[00-INBOX/_README]], [[01-SLIPBOX/_README]], [[03-AREAS/_README]], [[04-RESOURCES/Checklists/_README]], [[04-RESOURCES/Definitions/Acronyms/_README]], [[04-RESOURCES/Definitions/Dictionary/_README]], [[04-RESOURCES/Definitions/Glossary/_README]], [[04-RESOURCES/Definitions/_README]], [[05-SYSTEM/Meta/_README]], [[99-ARCHIVES/_README]]
-- [[2024-05-18]] in [[02-JOURNAL/2024/01-January/2024-01-31]]
-- [[2024-04-15]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[Bastien Law]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[Connect]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[Taxes]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[2024-W16]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[2024-April]] in [[02-JOURNAL/2024/04-April/2024-04-16]]
-- [[2024]] in [[02-JOURNAL/2024/04-April/2024-04-17]], [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[MOC - Python]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[Tool - Python Reflex]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[Analytics]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[LLM Application Observability]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[Tool - Traceloop]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[2024 April]] in [[02-JOURNAL/2024/04-April/2024-04-17]], [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[2024Q2]] in [[02-JOURNAL/2024/04-April/2024-04-17]], [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[2024 163324 16]] in [[02-JOURNAL/2024/04-April/2024-04-17]]
-- [[2024-04-20]] in [[02-JOURNAL/2024/04-April/2024-04-19]]
-- [[2024-04-21]] in [[02-JOURNAL/2024/04-April/2024-04-22]]
-- [[Windows AutoRuns ARN File Format]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[How to Setup and Organize Email Folders and Categories]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[How to Manage and Organize Receipts and Invoices in Email]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[Chat - 2024-04-23 - Startup Loan Considerations]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[About the Excel PowerPivot Data Model]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[2024 172224 17]] in [[02-JOURNAL/2024/04-April/2024-04-23]]
-- [[2024-04-27]] in [[02-JOURNAL/2024/04-April/2024-04-26]]
-- [[2024-04-28]] in [[02-JOURNAL/2024/04-April/2024-04-29]]
-- [[Best Practices for Structuring React Frontend Projects]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[React Component Library Styling and Frameworks]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[React - as Prop]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[React - Render Props]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - ShadCN-CSS]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - UnoCSS]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Bulletproof React Repository]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - Patterns.dev]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tao of React]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - Chakra UI]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - Ant Design]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - Material UI]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[Tool - Reakit]] in [[02-JOURNAL/2024/04-April/2024-04-30]]
-- [[2024-05-02]] in [[02-JOURNAL/2024/05-May/2024-05-01]], [[02-JOURNAL/2024/05-May/2024-05-03]]
-- [[2024-05-04]] in [[02-JOURNAL/2024/05-May/2024-05-03]]
-- [[2024-05-06]] in [[02-JOURNAL/2024/05-May/2024-05-07]]
-- [[2024-05-11]] in [[02-JOURNAL/2024/05-May/2024-05-10]]
-- [[2024-05-12]] in [[02-JOURNAL/2024/05-May/2024-05-13]]
-- [[2024-05-14]] in [[02-JOURNAL/2024/05-May/2024-05-13]], [[02-JOURNAL/2024/05-May/2024-05-15]]
-- [[Windows Insider Canary]] in [[02-JOURNAL/2024/05-May/2024-05-13]]
-- [[2024-05-17]] in [[02-JOURNAL/2024/05-May/2024-05-16]]
-- [[2024-05-19]] in [[02-JOURNAL/2024/05-May/2024-05-20]]
-- [[2024-05-21]] in [[02-JOURNAL/2024/05-May/2024-05-20]]
-- [[2024-05-29]] in [[02-JOURNAL/2024/05-May/2024-05-30]]
-- [[2024-05-31]] in [[02-JOURNAL/2024/05-May/2024-05-30]], [[02-JOURNAL/2024/06-June/2024-06-01]]
-- [[2024-06-02]] in [[02-JOURNAL/2024/06-June/2024-06-01]], [[02-JOURNAL/2024/06-June/2024-06-03]]
-- [[2024-06-05]] in [[02-JOURNAL/2024/06-June/2024-06-04]], [[02-JOURNAL/2024/06-June/2024-06-06]]
-- [[2024-06-07]] in [[02-JOURNAL/2024/06-June/2024-06-06]]
-- [[2024-06-09]] in [[02-JOURNAL/2024/06-June/2024-06-10]]
-- [[2024-06-12]] in [[02-JOURNAL/2024/06-June/2024-06-11]], [[02-JOURNAL/2024/06-June/2024-06-13]]
-- [[2024-06-14]] in [[02-JOURNAL/2024/06-June/2024-06-13]]
-- [[2024-06-15]] in [[02-JOURNAL/2024/06-June/2024-06-16]]
-- [[2024-06-17]] in [[02-JOURNAL/2024/06-June/2024-06-16]]
-- [[2024-06-20]] in [[02-JOURNAL/2024/06-June/2024-06-21]]
-- [[03-AREAS/Journal/2024-06-22]] in [[02-JOURNAL/2024/06-June/2024-06-21]], [[02-JOURNAL/2024/06-June/2024-06-22]]
-- [[R Shiny Modules as Reusable Components]] in [[02-JOURNAL/2024/06-June/2024-06-21]]
-- [[2024-06-23]] in [[02-JOURNAL/2024/06-June/2024-06-22]], [[04-RESOURCES/Code/R/R - Console Message Feedback Utilities]], [[04-RESOURCES/Code/R/R - Data Dictionary Labelling]], [[04-RESOURCES/Code/R/R - Document Dataset with Roxygen]], [[04-RESOURCES/Code/R/R - Excel Helpers]], [[04-RESOURCES/Code/R/R - Shiny DT Table Helpers]], [[04-RESOURCES/Code/R/R - Shiny UI Helpers]]
-- [[2024-06-24]] in [[02-JOURNAL/2024/06-June/2024-06-25]]
-- [[2024-06-26]] in [[02-JOURNAL/2024/06-June/2024-06-25]]
-- [[2024-06-28]] in [[02-JOURNAL/2024/06-June/2024-06-29]]
-- [[2024-06-30]] in [[02-JOURNAL/2024/06-June/2024-06-29]], [[02-JOURNAL/2024/07-July/2024-07-01]]
-- [[2024-07-02]] in [[02-JOURNAL/2024/07-July/2024-07-01]]
-- [[2024-07-09]] in [[02-JOURNAL/2024/07-July/2024-07-10]]
-- [[2024-07-11]] in [[02-JOURNAL/2024/07-July/2024-07-10]]
-- [[2024-07-25]] in [[02-JOURNAL/2024/07-July/2024-07-24]]
-- [[2024-07-28]] in [[02-JOURNAL/2024/07-July/2024-07-29]]
-- [[2024-07-30]] in [[02-JOURNAL/2024/07-July/2024-07-29]], [[02-JOURNAL/2024/07-July/2024-07-31]]
-- [[2024-08-01]] in [[02-JOURNAL/2024/07-July/2024-07-31]]
-- [[2024-08-03]] in [[02-JOURNAL/2024/08-August/2024-08-04]]
-- [[2024-08-06]] in [[02-JOURNAL/2024/08-August/2024-08-05]]
-- [[2024-08-10]] in [[02-JOURNAL/2024/08-August/2024-08-11]]
-- [[2024-08-12]] in [[02-JOURNAL/2024/08-August/2024-08-11]], [[02-JOURNAL/2024/08-August/2024-08-13]]
-- [[2024-08-17]] in [[02-JOURNAL/2024/08-August/2024-08-16]]
-- [[2024-08-21]] in [[02-JOURNAL/2024/08-August/2024-08-22]]
-- [[2024-08-23]] in [[02-JOURNAL/2024/08-August/2024-08-22]]
-- [[2024-08-28]] in [[02-JOURNAL/2024/08-August/2024-08-29]]
-- [[2024-08-30]] in [[02-JOURNAL/2024/08-August/2024-08-29]]
-- [[Template-Fragment-Frontmatter-Daily]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-Title-Daily]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-Daily-Navigation]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-TOC]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-Callout-Todoist]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-Callout-Daily-Metadata]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Dataview-Daily-Created-Notes]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Dataview-Daily-Modified-Notes]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[Template-Fragment-Backmatter]] in [[02-JOURNAL/2024/09-September/2024-09-01]], [[02-JOURNAL/2024/09-September/2024-09-15]], [[02-JOURNAL/2024/12-December/2024-12-24]], [[02-JOURNAL/2025/04-April/2025-04-04]]
-- [[2024-09-03]] in [[02-JOURNAL/2024/09-September/2024-09-04]]
-- [[2024-09-05]] in [[02-JOURNAL/2024/09-September/2024-09-04]]
-- [[2024-09-06]] in [[02-JOURNAL/2024/09-September/2024-09-07]]
-- [[2024-09-08]] in [[02-JOURNAL/2024/09-September/2024-09-07]]
-- [[2024-09-17]] in [[02-JOURNAL/2024/09-September/2024-09-16]], [[02-JOURNAL/2024/09-September/2024-09-18]]
-- [[2024-09-19]] in [[02-JOURNAL/2024/09-September/2024-09-18]]
-- [[2024-09-20]] in [[02-JOURNAL/2024/09-September/2024-09-21]]
-- [[2024-09-24]] in [[02-JOURNAL/2024/09-September/2024-09-23]], [[02-JOURNAL/2024/09-September/2024-09-25]]
-- [[2024-09-29]] in [[02-JOURNAL/2024/09-September/2024-09-28]], [[02-JOURNAL/2024/09-September/2024-09-30]]
-- [[2024-10-01]] in [[02-JOURNAL/2024/09-September/2024-09-30]], [[02-JOURNAL/2024/10-October/2024-10-02]]
-- [[2024-10-03]] in [[02-JOURNAL/2024/10-October/2024-10-02]]
-- [[2025-12-21]] in [[02-JOURNAL/2025/12-December/2025-12-22]]
-- [[2025-12-23]] in [[02-JOURNAL/2025/12-December/2025-12-22]], [[05-SYSTEM/Meta/PLUGINS]], [[00-INBOX/Dimensional Modeling]], [[04-RESOURCES/Code/Bash/_README]], [[04-RESOURCES/Code/Bash/Bash - Check if Directory Exists]], [[04-RESOURCES/Code/Bash/Bash - Cleanup Docker]], [[04-RESOURCES/Code/Bash/Bash - Control Flow]], [[04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL]], [[04-RESOURCES/Code/Bash/Bash - DNS Commands]], [[04-RESOURCES/Code/Bash/Bash - Trap Command]], [[04-RESOURCES/Code/Bash/Bash - Logging Functions]], [[04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History]], [[04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis]], [[04-RESOURCES/Code/Bash/Bash - Iterating over Files]], [[04-RESOURCES/Code/Bash/Bash - Install Docker Compose]], [[04-RESOURCES/Code/Bash/Bash - Make Web Icons]], [[04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words]], [[04-RESOURCES/Code/Bash/Bash - Print Values of PATH]], [[05-SYSTEM/Meta/THEMES]], [[03-AREAS/MOC - Development]]
-- [[Census Tract (CT)]] in [[03-AREAS/MOC - GIS]]
-- [[Leaflet.js]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/MapLibre]], [[04-RESOURCES/Definitions/Dictionary/ArcGIS]]
-- [[Mapbox]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[OpenLayers]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/MapLibre]]
-- [[kepler.gl]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/deck.gl]]
-- [[Apache Arrow]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[04-RESOURCES/Definitions/Dictionary/DuckDB]]
-- [[tippecannoe]] in [[03-AREAS/MOC - GIS]], [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[MOC - RealEstate]] in [[03-AREAS/MOC - GIS]], [[04-RESOURCES/Lists/List - Property Data Platforms]]
-- [[MOC - Cloud]] in [[03-AREAS/MOC - GIS]]
-- [[MOC - DataEngineering]] in [[03-AREAS/MOC - GIS]]
-- [[2025-12-20]] in [[03-AREAS/MOC - PKM]], [[03-AREAS/MOC - R]], [[04-RESOURCES/Code/R/R - Async Plumber API]], [[04-RESOURCES/Code/R/R - Secure OTP Generation]], [[04-RESOURCES/Code/R/_README]], [[04-RESOURCES/Guides/_README]], [[04-RESOURCES/Lists/_README]], [[04-RESOURCES/_README]], [[05-SYSTEM/Audit/_README]]
-- [[03-AREAS/MOC - PowerShell]] in [[04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins]]
-- [[2024-12-13]] in [[04-RESOURCES/Code/R/R - Actuarial Claim Transactions Simulation]], [[04-RESOURCES/Code/R/R - Console Message Feedback Utilities]], [[04-RESOURCES/Code/R/R - Data Dictionary Labelling]], [[04-RESOURCES/Code/R/R - Document Dataset with Roxygen]], [[04-RESOURCES/Code/R/R - Electron Desktop App for Shiny]], [[04-RESOURCES/Code/R/R - Excel Helpers]], [[04-RESOURCES/Code/R/R - Package HexSticker Generation]], [[04-RESOURCES/Code/R/R - Shiny DT Table Helpers]], [[04-RESOURCES/Code/R/R - Shiny UI Helpers]], [[04-RESOURCES/Code/_README]]
-- [[MOC - Technology]] in [[04-RESOURCES/Code/_README]]
-- [[US Census Bureau]] in [[04-RESOURCES/Definitions/Acronyms/Block Group (BG)]], [[04-RESOURCES/Definitions/Acronyms/Federal Information Processing Standards (FIPS)]], [[04-RESOURCES/Definitions/Acronyms/National Bureau of Economic Research (NBER)]], [[04-RESOURCES/Definitions/Acronyms/Office of Management and Budget (OMB)]], [[04-RESOURCES/Definitions/Acronyms/Public Use Microdata Area (PUMA)]], [[04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)]], [[04-RESOURCES/Definitions/Acronyms/ZIP Code Tabulation Area (ZCTA)]], [[05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421]]
-- [[00-INBOX/GIS/GIS Data Sources]] in [[04-RESOURCES/Definitions/Acronyms/Geographic Information System (GIS)]], [[04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)]], [[05-SYSTEM/Audit/AuditLog-2025-12-20]], [[05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421]]
-- [[Spatial Index]] in [[04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3)]]
-- [[Analytic Hierarchy Process (AHP)]] in [[04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)]]
-- [[TOPSIS]] in [[04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)]]
-- [[ELECTRE]] in [[04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)]]
-- [[PROMETHEE]] in [[04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)]]
-- [[Simple Features Access]] in [[04-RESOURCES/Definitions/Acronyms/Open Geospatial Consortium (OGC)]]
-- [[Geocoding]] in [[04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[OGC API - Coverages]] in [[04-RESOURCES/Definitions/Acronyms/Web Coverage Service (WCS)]], [[05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642]]
-- [[OGC API - Tiles]] in [[04-RESOURCES/Definitions/Acronyms/Web Map Tile Service (WMTS)]]
-- [[Cadastral]] in [[04-RESOURCES/Definitions/Dictionary/Parcel]]
-- [[../../05-SYSTEM/Plugins/Plugin - Dataview]] in [[04-RESOURCES/Embeds/Embed - Dataview Query Builder]]
-- [[../../03-AREAS/Obsidian/_README]] in [[04-RESOURCES/Embeds/Embed - Dataview Query Builder]]
-- [[../../03-AREAS/Obsidian/Obsidian - External Tools]] in [[04-RESOURCES/Embeds/Embed - Dataview Query Builder]]
-- [[2025-04-03]] in [[04-RESOURCES/Guides/Guide - PKM Organization]]
-- [[Code - R - httr2 API Client]] in [[04-RESOURCES/Lists/List - Property Data Platforms]]
-- [[Code - R - GDAL Geospatial Operations]] in [[04-RESOURCES/Lists/List - R Geospatial Packages]]
-- [[/_README]] in [[04-RESOURCES/_README]]
-- [[Banners]] in [[05-SYSTEM/Assets/_README]]
-- [[Fonts]] in [[05-SYSTEM/Assets/_README]]
-- [[Icons]] in [[05-SYSTEM/Assets/_README]]
-- [[Images]] in [[05-SYSTEM/Assets/_README]]
-- [[PDFs]] in [[05-SYSTEM/Assets/_README]]
-- [[Styles]] in [[05-SYSTEM/Assets/_README]]
-- [[2024-04-01]] in [[05-SYSTEM/Assets/_README]]
-- [[00-INBOX/GIS/Open Geospatial Standards]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/ArcGIS REST API]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Tools]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/Real Estate Land Tools]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Web Service Standards]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Spatial Coverage & Extent Strategies]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/R - Geospatial Packages]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Data Format Standards]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Metadata Standards]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[00-INBOX/GIS/GIS Standards Development Organizations]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[Leaflet Test]] in [[05-SYSTEM/Audit/AuditLog-2025-12-20]]
-- [[GDAL]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[OGR]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GEOS]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[PROJ]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[PostgreSQL]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/PostGIS]]
-- [[pg_featureserv]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/PostGIS]], [[04-RESOURCES/Definitions/Dictionary/GeoServer]]
-- [[pg_tileserv]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/PostGIS]], [[04-RESOURCES/Definitions/Dictionary/GeoServer]]
-- [[pg_eventserv]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[pgSVG]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[PostgREST]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/PostGIS]]
-- [[Data API Builder (dab)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[pgAdmin]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]], [[04-RESOURCES/Definitions/Dictionary/PostGIS]]
-- [[dbeaver]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[dbmate]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[psql]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[pgcli]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[DuckLake]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[Apache Airflow]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Luigi]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[DAG]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Data Build Tool (dbt)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Data Load Tool (dlt)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Data Version Control (dvt)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[TopoJSON]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Protobuf]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Spatial Temporal Asset Catalogue (STAC)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[Simple Features (SF)]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GeoHash]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GRASS-GIS]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[Leaflet Plugins]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[Mapbox GL/JS]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Mapbox API]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GeoStyler]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Overture Maps]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[ogr2ogr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[shp2pgsql]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[osm2pgsql]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Kart]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[yogrt]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[FileBrowser]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]], [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[LLM-Find]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[LLM-Geo]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[MapsGPT]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[TextToMap]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GeoAI]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[Marvin]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sf]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[lwgeom]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[terra]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[stars]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[geosphere]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sfheaders]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sfnetworks]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sfext]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rpostgis]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sfdbi]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[arcgislayers]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[arcgisutils]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[esri2sf]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[arcpullr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[osmdata]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[osmextract]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[geodata]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[wkt]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflet]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflet.providers]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflet.extras]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflet.extras2]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflet.opacity]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leafdown]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leafem]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[leaflegend]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[mapview]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[maptiles]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[mapgl]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[mapbopxapi]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[spatstat]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[spdep]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[spatialEco]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[exactextractr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[whitebox]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[lidR]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[elevatr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[AOI]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[addr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[tigris]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[tidycensus]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[censusapi]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rnaturalearth]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rnaturalearthdata]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[USABoundaries]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[NFHL]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[FedData]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[soilDB]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[ggplot2]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[ggspatial]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[tmap]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[plotly]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[highcharter]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rayshader]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[maps]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[mapsf]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[cartographic]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[tidyquant]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[fredr]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[ggmap]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[sp]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rgdal]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[rgeos]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[GISTools]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[acs]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[R spatial packages]] in [[05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622]]
-- [[OGC API - Styles]] in [[05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642]]
-- [[.obsidian/plugins]] in [[05-SYSTEM/Meta/PLUGINS]]
-- [[2025-11-26]] in [[05-SYSTEM/Meta/PLUGINS]]
-- [[${creationDate}]] in [[05-SYSTEM/Templates/Code/Template-Code-Dynamic]]
-- [[03-AREAS/MOC - ${info.name}]] in [[05-SYSTEM/Templates/Code/Template-Code-Dynamic]]
-- [[${tp.file.title}]] in [[05-SYSTEM/Templates/Code/Template-Code-Dynamic]]
-- [[<% creationDate %>]] in [[05-SYSTEM/Templates/Code/Template-Code-Readme]], [[05-SYSTEM/Templates/Template-README]]
-- [[<% tp.file.creation_date("YYYY-MM-DD") %>]] in [[05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates]]
-- [[<% tp.file.last_modified_date("YYYY-MM-DD") %>]] in [[05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates]]
-- [[Related Checklist]] in [[05-SYSTEM/Templates/Template-Checklist]]
-- [[Related Guide]] in [[05-SYSTEM/Templates/Template-Checklist]], [[05-SYSTEM/Templates/Template-Guide]]
-- [[List - Related Tools]] in [[05-SYSTEM/Templates/Template-Guide]]
-- [[Related Code Note]] in [[05-SYSTEM/Templates/Template-Guide]]
-- [[url]] in [[05-SYSTEM/Templates/Template-List]]
-- [[Code - Tool - Config]] in [[05-SYSTEM/Templates/Template-List]]
-- [[Guide - Topic]] in [[05-SYSTEM/Templates/Template-List]]
-- [[Related List]] in [[05-SYSTEM/Templates/Template-List]]
-- [[Related MOC]] in [[05-SYSTEM/Templates/Template-List]]
-- [[<% tp.date.now("YYYY-MM-DD") %>]] in [[05-SYSTEM/Templates/Template-MOC]], [[05-SYSTEM/Templates/Temporal/Template-Daily]]
-- [[<% folderPath.split("/").slice(0, -1).join("/") %>/_README]] in [[05-SYSTEM/Templates/Template-README]]
-- [[<% tp.date.now("YYYY-MM-DD", -1) %>]] in [[05-SYSTEM/Templates/Temporal/Template-Daily]]
-- [[<% tp.date.now("YYYY-MM-DD", 1) %>]] in [[05-SYSTEM/Templates/Temporal/Template-Daily]]
-- [[./05-SYSTEM/Obsidian/]] in [[README]]
-- [[Obsidian - Setup]] in [[README]]
-- [[Obsidian - Folders]] in [[README]]
-- [[Obsidian - Scripts]] in [[README]]
-- [[Obsidian - Themes]] in [[README]]
-- [[Obsidian - CSS Snippets]] in [[README]]
-- [[Obsidian - Community Plugins]] in [[README]]
-- [[.github/workflows/]] in [[README]]
-- [[tags/plugin/transformer]] in [[quartz/docs/configuration]]
-- [[tags/plugin/filter]] in [[quartz/docs/configuration]]
-- [[tags/plugin/emitter]] in [[quartz/docs/configuration]]
-- [[advanced/]] in [[quartz/docs/features/folder and tag listings]], [[quartz/docs/plugins/FolderPage]]
-- [[quartz layout.png]] in [[quartz/docs/features/popover previews]]
-- [[./features/]] in [[quartz/docs/index]]
-- [[./src/lib.rs]] in [[quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README]]
-- [[./npm]] in [[quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README]]
-- [[./src/types/index.ts]] in [[quartz/node_modules/@nodelib/fs.scandir/README]], [[quartz/node_modules/@nodelib/fs.walk/README]]
-- [[./src/utils/fs.ts]] in [[quartz/node_modules/@nodelib/fs.scandir/README]]
-- [[./src/adapters/fs.ts]] in [[quartz/node_modules/@nodelib/fs.scandir/README]], [[quartz/node_modules/@nodelib/fs.stat/README]]
-- [[./src/settings.ts]] in [[quartz/node_modules/@nodelib/fs.walk/README]]
-- [[./README_zh-CN]] in [[quartz/node_modules/@tweenjs/tween.js/README]]
-- [[./docs/user_guide]] in [[quartz/node_modules/@tweenjs/tween.js/README]]
-- [[./docs/contributor_guide]] in [[quartz/node_modules/@tweenjs/tween.js/README]]
-- [[quartz/node_modules/rfdc/test/index.js]] in [[quartz/node_modules/@ungap/structured-clone/README]]
-- [[tests/]] in [[quartz/node_modules/@webgpu/types/README]]
-- [[examples/nodejs/src/index.js]] in [[quartz/node_modules/@xmldom/xmldom/readme]]
-- [[docs/specs.svg]] in [[quartz/node_modules/@xmldom/xmldom/readme]]
-- [[screenshot.png]] in [[quartz/node_modules/ansi-styles/readme]]
-- [[./doc]] in [[quartz/node_modules/argparse/CHANGELOG]], [[quartz/node_modules/argparse/README]]
-- [[www.gnu.org/software/bash/]] in [[quartz/node_modules/braces/README]]
-- [[test/support/generate.js]] in [[quartz/node_modules/braces/README]]
-- [[../../issues/new]] in [[quartz/node_modules/braces/README]], [[quartz/node_modules/fill-range/README]], [[quartz/node_modules/gray-matter/README]], [[quartz/node_modules/is-extglob/README]], [[quartz/node_modules/is-glob/README]], [[quartz/node_modules/is-number/README]], [[quartz/node_modules/kind-of/README]], [[quartz/node_modules/micromatch/README]], [[quartz/node_modules/picomatch/README]], [[quartz/node_modules/pretty-time/README]], [[quartz/node_modules/section-matter/README]], [[quartz/node_modules/strip-bom-string/README]], [[quartz/node_modules/to-regex-range/README]]
-- [[.verb]] in [[quartz/node_modules/braces/README]], [[quartz/node_modules/fill-range/README]], [[quartz/node_modules/gray-matter/README]], [[quartz/node_modules/is-extglob/README]], [[quartz/node_modules/is-glob/README]], [[quartz/node_modules/is-number/README]], [[quartz/node_modules/kind-of/README]], [[quartz/node_modules/micromatch/README]], [[quartz/node_modules/picomatch/README]], [[quartz/node_modules/pretty-time/README]], [[quartz/node_modules/section-matter/README]], [[quartz/node_modules/strip-bom-string/README]], [[quartz/node_modules/to-regex-range/README]]
-- [[./changelogs/CHANGELOG-4]] in [[quartz/node_modules/commander/CHANGELOG]]
-- [[./changelogs/CHANGELOG-3]] in [[quartz/node_modules/commander/CHANGELOG]]
-- [[./changelogs/CHANGELOG-2]] in [[quartz/node_modules/commander/CHANGELOG]]
-- [[./changelogs/CHANGELOG-1]] in [[quartz/node_modules/commander/CHANGELOG]]
-- [[./changelogs/CHANGELOG-0]] in [[quartz/node_modules/commander/CHANGELOG]]
-- [[./Readme_zh-CN]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./docs/terminology]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-common.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-defaults.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-negatable.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-boolean-or-value.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./docs/options-taking-varying-arguments]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-required.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-variadic.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-extra.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-custom-processing.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/nestedCommands.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/defaultCommand.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/arguments.js]] in [[quartz/node_modules/commander/Readme]]
-- [[./examples/thank.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/pm]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/pizza]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/custom-help]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/configure-help.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/positional-options.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/pass-through-options.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/custom-command-class.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/configure-output.js]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./docs/deprecated]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/deploy]] in [[quartz/node_modules/commander/Readme]], [[quartz/node_modules/katex/node_modules/commander/Readme]]
-- [[./docs/images/logo-nytimes.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[./docs/images/logo-apollo.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[./docs/images/logo-facebook.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[./docs/images/logo-swagger.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[./docs/images/logo-vulcanjs.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[./docs/images/logo-graphql-request.png]] in [[quartz/node_modules/cross-fetch/README]]
-- [[LICENSE]] in [[quartz/node_modules/css-gradient-parser/README]], [[quartz/node_modules/fflate/README]], [[quartz/node_modules/immutable/README]], [[quartz/node_modules/remark-smartypants/readme]], [[quartz/node_modules/shiki/README]]
-- [[*x0*, *y0*], [*x1*, *y1*]] in [[quartz/node_modules/d3-brush/README]], [[quartz/node_modules/d3-quadtree/README]], [[quartz/node_modules/d3-zoom/README]]
-- [[*x0*, *y0*], [*x1*, *y1*], …, [*x0*, *y0*]] in [[quartz/node_modules/d3-delaunay/README]]
-- [[*x0*, *y0*], [*x1*, *y1*], [*x2*, *y2*], [*x0*, *y0*]] in [[quartz/node_modules/d3-delaunay/README]]
-- [[<i>x0</i>, <i>y0</i>], [<i>x1</i>, <i>y1</i>]] in [[quartz/node_modules/d3-geo/README]]
-- [[⌊*x*⌋, ⌊*y*⌋], [⌈*x*⌉, ⌈*y*⌉]] in [[quartz/node_modules/d3-quadtree/README]]
-- [[0, 0], [*width*, *height*]] in [[quartz/node_modules/d3-zoom/README]]
-- [[-∞, -∞], [+∞, +∞]] in [[quartz/node_modules/d3-zoom/README]]
-- [[./examples/node/app.js]] in [[quartz/node_modules/debug/README]]
-- [[./examples/node/worker.js]] in [[quartz/node_modules/debug/README]]
-- [[./examples/node/stdout.js]] in [[quartz/node_modules/debug/README]]
-- [[/bench]] in [[quartz/node_modules/dequal/readme]]
-- [[options]] in [[quartz/node_modules/fast-glob/README]]
-- [[./src/managers/tasks.ts]] in [[quartz/node_modules/fast-glob/README]]
-- [[ERROR-HANDLING]] in [[quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README]], [[quartz/node_modules/node-fetch/README]]
-- [[LIMITS]] in [[quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README]], [[quartz/node_modules/node-fetch/README]]
-- [[UPGRADE-GUIDE]] in [[quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README]], [[quartz/node_modules/node-fetch/README]]
-- [[doc/encoder]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/document-search]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/result-highlighting]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-indexeddb]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-redis]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-sqlite]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-postgres]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-mongodb]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/persistent-clickhouse]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/async]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/customization]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/custom-builds]] in [[quartz/node_modules/flexsearch/README]]
-- [[doc/keystore]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-suggestion]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-worker-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/basic-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/document-worker-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-commonjs/language-pack]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-suggestion]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-worker-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/basic-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/document-worker-export-import]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/nodejs-esm/language-pack]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/basic]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/basic-suggestion]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/basic-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/basic-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/basic-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/document]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/document-highlighting]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/document-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/document-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/document-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-legacy/language-pack]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic-suggestion]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/basic-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document-highlighting]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document-persistent]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document-resolver]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document-worker]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/document-worker-extern-config]] in [[quartz/node_modules/flexsearch/README]]
-- [[example/browser-module/language-pack]] in [[quartz/node_modules/flexsearch/README]]
-- [[test/fixtures.json]] in [[quartz/node_modules/github-slugger/README]]
-- [[./examples]] in [[quartz/node_modules/gray-matter/CHANGELOG]], [[quartz/node_modules/gray-matter/README]]
-- [[examples/coffee.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/excerpt-separator.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/excerpt-stringify.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/excerpt.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/javascript.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/json-stringify.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/json.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/restore-empty.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/sections-excerpt.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/sections.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/toml.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/yaml-stringify.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[examples/yaml.js]] in [[quartz/node_modules/gray-matter/README]]
-- [[nodejs.org/api/events.html]] in [[quartz/node_modules/ignore/README]]
-- [[website/public/Immutable-Data-and-React-YouTube.png]] in [[quartz/node_modules/immutable/README]]
-- [[quartz/node_modules/varint/test.js]] in [[quartz/node_modules/is-number/README]]
-- [[./benchmark/index.js]] in [[quartz/node_modules/is-number/README]]
-- [[./examples/options-env.js]] in [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/argument.js]] in [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/arguments-extra.js]] in [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/arguments-custom-processing.js]] in [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/hook.js]] in [[quartz/node_modules/katex/node_modules/commander/Readme]], [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./test]] in [[quartz/node_modules/micromatch/README]]
-- [[.github/contributing]] in [[quartz/node_modules/micromatch/README]], [[quartz/node_modules/picomatch/README]], [[quartz/node_modules/section-matter/README]]
-- [[../../issues]] in [[quartz/node_modules/micromatch/README]]
-- [[cow.png]] in [[quartz/node_modules/moo/README]]
-- [[//github.com/hughsk/svg-path-parser]] in [[quartz/node_modules/parse-svg-path/Readme]]
-- [[//github.com/nfroidure/SVGPathData]] in [[quartz/node_modules/parse-svg-path/Readme]]
-- [[//github.com/jkroso/packin]] in [[quartz/node_modules/parse-svg-path/Readme]]
-- [[//github.com/component/component]] in [[quartz/node_modules/parse-svg-path/Readme]]
-- [[//npmjs.org/doc/cli/npm-install.html]] in [[quartz/node_modules/parse-svg-path/Readme]]
-- [[.github/CONTRIBUTING]] in [[quartz/node_modules/pixi.js/README]]
-- [[./rehype-citation.png]] in [[quartz/node_modules/rehype-citation/README]]
-- [[/tests/]] in [[quartz/node_modules/resolve-pkg-maps/README]]
-- [[/tests/exports/compare-resolve.exports.ts]] in [[quartz/node_modules/resolve-pkg-maps/README]]
-- [[doc/lettable-operators]] in [[quartz/node_modules/rxjs/CHANGELOG]]
-- [[docs_app/content/maintainer-guidelines]] in [[quartz/node_modules/rxjs/README]]
-- [[./docs_app]] in [[quartz/node_modules/rxjs/README]]
-- [[/CONTRIBUTING]] in [[quartz/node_modules/satori/README]]
-- [[.github/card.png]] in [[quartz/node_modules/satori/README]]
-- [[bugzil.la/1090768]] in [[quartz/node_modules/source-map-js/CHANGELOG]], [[quartz/node_modules/source-map/CHANGELOG]]
-- [[media/downloads.png]] in [[quartz/node_modules/source-map-js/README]]
-- [[./examples/split.js]] in [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/string-util.js]] in [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/options-conflicts.js]] in [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[./examples/action-this.js]] in [[quartz/node_modules/speech-rule-engine/node_modules/commander/Readme]]
-- [[quartz/node_modules/fastq/test/test.js]] in [[quartz/node_modules/to-regex-range/README]]
-- [[examples%2Fwebpack5%2FREADME]] in [[quartz/node_modules/workerpool/README]]
-- [[./examples/transferableObjects.js]] in [[quartz/node_modules/workerpool/README]]
-- [[./doc/ws]] in [[quartz/node_modules/ws/README]]
-- [[/docs/api]] in [[quartz/node_modules/yargs/README]]
-- [[/docs/typescript]] in [[quartz/node_modules/yargs/README]]
-- [[/docs/browser]] in [[quartz/node_modules/yargs/README]]
-- [[/docs/examples]] in [[quartz/node_modules/yargs/README]]
-- [[/docs/tricks]] in [[quartz/node_modules/yargs/README]]
-- [[/docs/advanced]] in [[quartz/node_modules/yargs/README]]
-- [[/contributing]] in [[quartz/node_modules/yargs/README]]
-- [[pgSTAC]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[azure_storage]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Data Version Control (dvc)]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[R - targets]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[R - geotargets]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[REST]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[GraphQL]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[OGC API - Maps]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[FastAPI]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[STAC-FastAPI]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[STAC-FastAPI-pgSTAC]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[TiTiler]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[tipg]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Azure]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Azure Storage]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[obstore]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[azcli]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Azure Storage Explorer]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[azcopy]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[rclone]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[MapTiler]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[OpenAPI]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[SwaggerUI]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Arrow]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[GeoArrow]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[MBTiles]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Docker]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Docker Compose]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Taskfile]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Justfile]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[GNU Make]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[QGIS Server]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[pygeoapi]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Conceptual Data Model]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19107 - Geographic Information - Spatial Schema]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19115 - Geographic Information - Metadata]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19110 - Geographic Information - Methodology]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19157 - Geographic information - Data Quality]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19138 - Geographic Information - Data Quality Measures]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Schematic Mapping]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Domain Driven Design]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Event Storming]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Kimbel]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Inmon]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Star Schema]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[ISO 19115]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[STAC]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Apache Superset]] in [[01-SLIPBOX/Cloud Native Geospatial Architecture]]
-- [[Ralph Kimball]] in [[00-INBOX/Dimensional Modeling]]
-- [[data warehouse]] in [[00-INBOX/Dimensional Modeling]]
-- [[Bill Inmon]] in [[00-INBOX/Dimensional Modeling]]
-- [[Entity-Relationship Modeling]] in [[00-INBOX/Dimensional Modeling]]
-- [[Data Warhouse]] in [[00-INBOX/Dimensional Modeling]]
-- [[Kimball Techniques for Data Warehousing]] in [[00-INBOX/Dimensional Modeling]]
-- [[Data Engineering]] in [[00-INBOX/Dimensional Modeling]]
-- [[Slowly Changing Dimensions (SCD)]] in [[00-INBOX/Dimensional Modeling]]
-- [[GeoPackage (GPKG)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Aeronautical Information Exchange Model (AIXM)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Electronic Nautical Charts (IHO S-57/ENC)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Application Programming Interface (API)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Extensible Markup Language (XML)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Hyper Text Transfer Protocol (HTTP)]] in [[04-RESOURCES/Lists/List - GIS Open Standards]]
-- [[Highcharter]] in [[04-RESOURCES/Code/R/R - Shiny Highcharter Helpers]]
-- [[R - Shiny Cloud Run Deployment]] in [[04-RESOURCES/Lists/List - Cloud Platforms]], [[04-RESOURCES/Lists/List - R Shiny Ecosystem]]
-- [[MOC - DevOps]] in [[04-RESOURCES/Lists/List - Cloud Platforms]], [[04-RESOURCES/Lists/List - DevOps Tools]], [[01-SLIPBOX/Docker Best Practices]]
-- [[MOC - Web Development]] in [[04-RESOURCES/Lists/List - JavaScript Frameworks]]
-- [[Definition - JSON Web Token (JWT)]] in [[04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management]], [[04-RESOURCES/Guides/Guide - Web Authentication]]
-- [[Definition - OAuth]] in [[04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management]], [[04-RESOURCES/Guides/Guide - Web Authentication]]
-- [[Definition - OpenID Connect (OIDC)]] in [[04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management]]
-- [[Definition - Multi-Factor Authentication (MFA)]] in [[04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management]]
-- [[MOC - Security]] in [[04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management]], [[04-RESOURCES/Guides/Guide - Web Authentication]]
-- [[DBeaver]] in [[04-RESOURCES/Definitions/Dictionary/PostGIS]]
-- [[Linux]] in [[04-RESOURCES/Code/Bash/Bash - Check if Directory Exists]], [[04-RESOURCES/Code/Bash/Bash - Cleanup Docker]], [[04-RESOURCES/Code/Bash/Bash - Control Flow]], [[04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL]], [[04-RESOURCES/Code/Bash/Bash - DNS Commands]], [[04-RESOURCES/Code/Bash/Bash - Trap Command]], [[04-RESOURCES/Code/Bash/Bash - Logging Functions]], [[04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History]], [[04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis]], [[04-RESOURCES/Code/Bash/Bash - Iterating over Files]], [[04-RESOURCES/Code/Bash/Bash - Install Docker Compose]], [[04-RESOURCES/Code/Bash/Bash - Make Web Icons]], [[04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words]], [[04-RESOURCES/Code/Bash/Bash - Print Values of PATH]]
-- [[Windows Subsystem for Linux (WSL)]] in [[04-RESOURCES/Code/Bash/Bash - Check if Directory Exists]], [[04-RESOURCES/Code/Bash/Bash - Cleanup Docker]], [[04-RESOURCES/Code/Bash/Bash - Control Flow]], [[04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL]], [[04-RESOURCES/Code/Bash/Bash - DNS Commands]], [[04-RESOURCES/Code/Bash/Bash - Trap Command]], [[04-RESOURCES/Code/Bash/Bash - Logging Functions]], [[04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History]], [[04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis]], [[04-RESOURCES/Code/Bash/Bash - Iterating over Files]], [[04-RESOURCES/Code/Bash/Bash - Install Docker Compose]], [[04-RESOURCES/Code/Bash/Bash - Make Web Icons]], [[04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words]], [[04-RESOURCES/Code/Bash/Bash - Print Values of PATH]]
-- [[Chain-of-Thought Prompting]] in [[01-SLIPBOX/Few-Shot Prompting]], [[01-SLIPBOX/Zero-Shot Prompting]]
-- [[Self-Consistency]] in [[01-SLIPBOX/Few-Shot Prompting]]
-- [[MOC - Artificial Intelligence]] in [[01-SLIPBOX/Few-Shot Prompting]], [[01-SLIPBOX/Zero-Shot Prompting]]
-- [[Zettelkasten Method]] in [[01-SLIPBOX/PARA Method]]
-- [[Tempalte-TOC]] in [[05-SYSTEM/Templates/Code/Template-Code]]
-- [[.obsidian/themes]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Dark Moss]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Atom]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Big Sur Aesthetic]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Blackbird]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Catppuccin]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/GitHub Theme]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Minimal]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Obsidianite]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Prism]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Sanctum]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Shimmering Focus]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Terminal]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/Things]] in [[05-SYSTEM/Meta/THEMES]]
-- [[.obsidian/themes/VSCoder]] in [[05-SYSTEM/Meta/THEMES]]
+- [schema-driven development](schema-driven development.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [OpenAPI Specification](OpenAPI Specification.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [reverse engineer](reverse engineer.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [API First Development](API First Development.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [mitmproxy](mitmproxy.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [mitmproxy2swagger](mitmproxy2swagger.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [demystify](demystify.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [httr2](httr2.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [HAR Archive](HAR Archive.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [HTTP](HTTP.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [Proxy](Proxy.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [Reverse Proxy](Reverse Proxy.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [ApiDog](ApiDog.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [Charles Proxy](Charles Proxy.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [ProxyMan](ProxyMan.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [JSON Schema](JSON Schema.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Redocly CLI](Redocly CLI.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [Arazzo Specification](Arazzo Specification.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [LLM](LLM.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [OpenAI](OpenAI.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [Schema Evolution](Schema Evolution.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [CICD](CICD.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [DevOps](DevOps.md) in [00-INBOX/API Client Library Best Practices](00-INBOX/API Client Library Best Practices.md)
+- [2024-12-20](2024-12-20.md) in [00-INBOX/README](00-INBOX/README.md), [01-SLIPBOX/README](01-SLIPBOX/README.md), [03-AREAS/README](03-AREAS/README.md), [04-RESOURCES/Checklists/README](04-RESOURCES/Checklists/README.md), [04-RESOURCES/Definitions/Acronyms/README](04-RESOURCES/Definitions/Acronyms/README.md), [04-RESOURCES/Definitions/Dictionary/README](04-RESOURCES/Definitions/Dictionary/README.md), [04-RESOURCES/Definitions/Glossary/README](04-RESOURCES/Definitions/Glossary/README.md), [04-RESOURCES/Definitions/README](04-RESOURCES/Definitions/README.md), [05-SYSTEM/Meta/README](05-SYSTEM/Meta/README.md), [99-ARCHIVES/README](99-ARCHIVES/README.md)
+- [2024-05-18](2024-05-18.md) in [02-JOURNAL/2024/01-January/2024-01-31](02-JOURNAL/2024/01-January/2024-01-31.md)
+- [2024-04-15](2024-04-15.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [Bastien Law](Bastien Law.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [Connect](Connect.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [Taxes](Taxes.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [2024-W16](2024-W16.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [2024-April](2024-April.md) in [02-JOURNAL/2024/04-April/2024-04-16](02-JOURNAL/2024/04-April/2024-04-16.md)
+- [2024](2024.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md), [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [MOC - Python](MOC - Python.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [Tool - Python Reflex](Tool - Python Reflex.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [Analytics](Analytics.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [LLM Application Observability](LLM Application Observability.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [Tool - Traceloop](Tool - Traceloop.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [2024 April](2024 April.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md), [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [2024Q2](2024Q2.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md), [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [2024 163324 16](2024 163324 16.md) in [02-JOURNAL/2024/04-April/2024-04-17](02-JOURNAL/2024/04-April/2024-04-17.md)
+- [2024-04-20](2024-04-20.md) in [02-JOURNAL/2024/04-April/2024-04-19](02-JOURNAL/2024/04-April/2024-04-19.md)
+- [2024-04-21](2024-04-21.md) in [02-JOURNAL/2024/04-April/2024-04-22](02-JOURNAL/2024/04-April/2024-04-22.md)
+- [Windows AutoRuns ARN File Format](Windows AutoRuns ARN File Format.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [How to Setup and Organize Email Folders and Categories](How to Setup and Organize Email Folders and Categories.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [How to Manage and Organize Receipts and Invoices in Email](How to Manage and Organize Receipts and Invoices in Email.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [Chat - 2024-04-23 - Startup Loan Considerations](Chat - 2024-04-23 - Startup Loan Considerations.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [About the Excel PowerPivot Data Model](About the Excel PowerPivot Data Model.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [2024 172224 17](2024 172224 17.md) in [02-JOURNAL/2024/04-April/2024-04-23](02-JOURNAL/2024/04-April/2024-04-23.md)
+- [2024-04-27](2024-04-27.md) in [02-JOURNAL/2024/04-April/2024-04-26](02-JOURNAL/2024/04-April/2024-04-26.md)
+- [2024-04-28](2024-04-28.md) in [02-JOURNAL/2024/04-April/2024-04-29](02-JOURNAL/2024/04-April/2024-04-29.md)
+- [Best Practices for Structuring React Frontend Projects](Best Practices for Structuring React Frontend Projects.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [React Component Library Styling and Frameworks](React Component Library Styling and Frameworks.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [React - as Prop](React - as Prop.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [React - Render Props](React - Render Props.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - ShadCN-CSS](Tool - ShadCN-CSS.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - UnoCSS](Tool - UnoCSS.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Bulletproof React Repository](Bulletproof React Repository.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - Patterns.dev](Tool - Patterns.dev.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tao of React](Tao of React.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - Chakra UI](Tool - Chakra UI.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - Ant Design](Tool - Ant Design.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - Material UI](Tool - Material UI.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [Tool - Reakit](Tool - Reakit.md) in [02-JOURNAL/2024/04-April/2024-04-30](02-JOURNAL/2024/04-April/2024-04-30.md)
+- [2024-05-02](2024-05-02.md) in [02-JOURNAL/2024/05-May/2024-05-01](02-JOURNAL/2024/05-May/2024-05-01.md), [02-JOURNAL/2024/05-May/2024-05-03](02-JOURNAL/2024/05-May/2024-05-03.md)
+- [2024-05-04](2024-05-04.md) in [02-JOURNAL/2024/05-May/2024-05-03](02-JOURNAL/2024/05-May/2024-05-03.md)
+- [2024-05-06](2024-05-06.md) in [02-JOURNAL/2024/05-May/2024-05-07](02-JOURNAL/2024/05-May/2024-05-07.md)
+- [2024-05-11](2024-05-11.md) in [02-JOURNAL/2024/05-May/2024-05-10](02-JOURNAL/2024/05-May/2024-05-10.md)
+- [2024-05-12](2024-05-12.md) in [02-JOURNAL/2024/05-May/2024-05-13](02-JOURNAL/2024/05-May/2024-05-13.md)
+- [2024-05-14](2024-05-14.md) in [02-JOURNAL/2024/05-May/2024-05-13](02-JOURNAL/2024/05-May/2024-05-13.md), [02-JOURNAL/2024/05-May/2024-05-15](02-JOURNAL/2024/05-May/2024-05-15.md)
+- [Windows Insider Canary](Windows Insider Canary.md) in [02-JOURNAL/2024/05-May/2024-05-13](02-JOURNAL/2024/05-May/2024-05-13.md)
+- [2024-05-17](2024-05-17.md) in [02-JOURNAL/2024/05-May/2024-05-16](02-JOURNAL/2024/05-May/2024-05-16.md)
+- [2024-05-19](2024-05-19.md) in [02-JOURNAL/2024/05-May/2024-05-20](02-JOURNAL/2024/05-May/2024-05-20.md)
+- [2024-05-21](2024-05-21.md) in [02-JOURNAL/2024/05-May/2024-05-20](02-JOURNAL/2024/05-May/2024-05-20.md)
+- [2024-05-29](2024-05-29.md) in [02-JOURNAL/2024/05-May/2024-05-30](02-JOURNAL/2024/05-May/2024-05-30.md)
+- [2024-05-31](2024-05-31.md) in [02-JOURNAL/2024/05-May/2024-05-30](02-JOURNAL/2024/05-May/2024-05-30.md), [02-JOURNAL/2024/06-June/2024-06-01](02-JOURNAL/2024/06-June/2024-06-01.md)
+- [2024-06-02](2024-06-02.md) in [02-JOURNAL/2024/06-June/2024-06-01](02-JOURNAL/2024/06-June/2024-06-01.md), [02-JOURNAL/2024/06-June/2024-06-03](02-JOURNAL/2024/06-June/2024-06-03.md)
+- [2024-06-05](2024-06-05.md) in [02-JOURNAL/2024/06-June/2024-06-04](02-JOURNAL/2024/06-June/2024-06-04.md), [02-JOURNAL/2024/06-June/2024-06-06](02-JOURNAL/2024/06-June/2024-06-06.md)
+- [2024-06-07](2024-06-07.md) in [02-JOURNAL/2024/06-June/2024-06-06](02-JOURNAL/2024/06-June/2024-06-06.md)
+- [2024-06-09](2024-06-09.md) in [02-JOURNAL/2024/06-June/2024-06-10](02-JOURNAL/2024/06-June/2024-06-10.md)
+- [2024-06-12](2024-06-12.md) in [02-JOURNAL/2024/06-June/2024-06-11](02-JOURNAL/2024/06-June/2024-06-11.md), [02-JOURNAL/2024/06-June/2024-06-13](02-JOURNAL/2024/06-June/2024-06-13.md)
+- [2024-06-14](2024-06-14.md) in [02-JOURNAL/2024/06-June/2024-06-13](02-JOURNAL/2024/06-June/2024-06-13.md)
+- [2024-06-15](2024-06-15.md) in [02-JOURNAL/2024/06-June/2024-06-16](02-JOURNAL/2024/06-June/2024-06-16.md)
+- [2024-06-17](2024-06-17.md) in [02-JOURNAL/2024/06-June/2024-06-16](02-JOURNAL/2024/06-June/2024-06-16.md)
+- [2024-06-20](2024-06-20.md) in [02-JOURNAL/2024/06-June/2024-06-21](02-JOURNAL/2024/06-June/2024-06-21.md)
+- [03-AREAS/Journal/2024-06-22](03-AREAS/Journal/2024-06-22.md) in [02-JOURNAL/2024/06-June/2024-06-21](02-JOURNAL/2024/06-June/2024-06-21.md), [02-JOURNAL/2024/06-June/2024-06-22](02-JOURNAL/2024/06-June/2024-06-22.md)
+- [R Shiny Modules as Reusable Components](R Shiny Modules as Reusable Components.md) in [02-JOURNAL/2024/06-June/2024-06-21](02-JOURNAL/2024/06-June/2024-06-21.md)
+- [2024-06-23](2024-06-23.md) in [02-JOURNAL/2024/06-June/2024-06-22](02-JOURNAL/2024/06-June/2024-06-22.md), [04-RESOURCES/Code/R/R - Console Message Feedback Utilities](04-RESOURCES/Code/R/R - Console Message Feedback Utilities.md), [04-RESOURCES/Code/R/R - Data Dictionary Labelling](04-RESOURCES/Code/R/R - Data Dictionary Labelling.md), [04-RESOURCES/Code/R/R - Document Dataset with Roxygen](04-RESOURCES/Code/R/R - Document Dataset with Roxygen.md), [04-RESOURCES/Code/R/R - Excel Helpers](04-RESOURCES/Code/R/R - Excel Helpers.md), [04-RESOURCES/Code/R/R - Shiny DT Table Helpers](04-RESOURCES/Code/R/R - Shiny DT Table Helpers.md), [04-RESOURCES/Code/R/R - Shiny UI Helpers](04-RESOURCES/Code/R/R - Shiny UI Helpers.md)
+- [2024-06-24](2024-06-24.md) in [02-JOURNAL/2024/06-June/2024-06-25](02-JOURNAL/2024/06-June/2024-06-25.md)
+- [2024-06-26](2024-06-26.md) in [02-JOURNAL/2024/06-June/2024-06-25](02-JOURNAL/2024/06-June/2024-06-25.md)
+- [2024-06-28](2024-06-28.md) in [02-JOURNAL/2024/06-June/2024-06-29](02-JOURNAL/2024/06-June/2024-06-29.md)
+- [2024-06-30](2024-06-30.md) in [02-JOURNAL/2024/06-June/2024-06-29](02-JOURNAL/2024/06-June/2024-06-29.md), [02-JOURNAL/2024/07-July/2024-07-01](02-JOURNAL/2024/07-July/2024-07-01.md)
+- [2024-07-02](2024-07-02.md) in [02-JOURNAL/2024/07-July/2024-07-01](02-JOURNAL/2024/07-July/2024-07-01.md)
+- [2024-07-09](2024-07-09.md) in [02-JOURNAL/2024/07-July/2024-07-10](02-JOURNAL/2024/07-July/2024-07-10.md)
+- [2024-07-11](2024-07-11.md) in [02-JOURNAL/2024/07-July/2024-07-10](02-JOURNAL/2024/07-July/2024-07-10.md)
+- [2024-07-25](2024-07-25.md) in [02-JOURNAL/2024/07-July/2024-07-24](02-JOURNAL/2024/07-July/2024-07-24.md)
+- [2024-07-28](2024-07-28.md) in [02-JOURNAL/2024/07-July/2024-07-29](02-JOURNAL/2024/07-July/2024-07-29.md)
+- [2024-07-30](2024-07-30.md) in [02-JOURNAL/2024/07-July/2024-07-29](02-JOURNAL/2024/07-July/2024-07-29.md), [02-JOURNAL/2024/07-July/2024-07-31](02-JOURNAL/2024/07-July/2024-07-31.md)
+- [2024-08-01](2024-08-01.md) in [02-JOURNAL/2024/07-July/2024-07-31](02-JOURNAL/2024/07-July/2024-07-31.md)
+- [2024-08-03](2024-08-03.md) in [02-JOURNAL/2024/08-August/2024-08-04](02-JOURNAL/2024/08-August/2024-08-04.md)
+- [2024-08-06](2024-08-06.md) in [02-JOURNAL/2024/08-August/2024-08-05](02-JOURNAL/2024/08-August/2024-08-05.md)
+- [2024-08-10](2024-08-10.md) in [02-JOURNAL/2024/08-August/2024-08-11](02-JOURNAL/2024/08-August/2024-08-11.md)
+- [2024-08-12](2024-08-12.md) in [02-JOURNAL/2024/08-August/2024-08-11](02-JOURNAL/2024/08-August/2024-08-11.md), [02-JOURNAL/2024/08-August/2024-08-13](02-JOURNAL/2024/08-August/2024-08-13.md)
+- [2024-08-17](2024-08-17.md) in [02-JOURNAL/2024/08-August/2024-08-16](02-JOURNAL/2024/08-August/2024-08-16.md)
+- [2024-08-21](2024-08-21.md) in [02-JOURNAL/2024/08-August/2024-08-22](02-JOURNAL/2024/08-August/2024-08-22.md)
+- [2024-08-23](2024-08-23.md) in [02-JOURNAL/2024/08-August/2024-08-22](02-JOURNAL/2024/08-August/2024-08-22.md)
+- [2024-08-28](2024-08-28.md) in [02-JOURNAL/2024/08-August/2024-08-29](02-JOURNAL/2024/08-August/2024-08-29.md)
+- [2024-08-30](2024-08-30.md) in [02-JOURNAL/2024/08-August/2024-08-29](02-JOURNAL/2024/08-August/2024-08-29.md)
+- [Template-Fragment-Frontmatter-Daily](Template-Fragment-Frontmatter-Daily.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-Title-Daily](Template-Fragment-Title-Daily.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-Daily-Navigation](Template-Fragment-Daily-Navigation.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-TOC](Template-Fragment-TOC.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-Callout-Todoist](Template-Fragment-Callout-Todoist.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-Callout-Daily-Metadata](Template-Fragment-Callout-Daily-Metadata.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Dataview-Daily-Created-Notes](Template-Dataview-Daily-Created-Notes.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Dataview-Daily-Modified-Notes](Template-Dataview-Daily-Modified-Notes.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [Template-Fragment-Backmatter](Template-Fragment-Backmatter.md) in [02-JOURNAL/2024/09-September/2024-09-01](02-JOURNAL/2024/09-September/2024-09-01.md), [02-JOURNAL/2024/09-September/2024-09-15](02-JOURNAL/2024/09-September/2024-09-15.md), [02-JOURNAL/2024/12-December/2024-12-24](02-JOURNAL/2024/12-December/2024-12-24.md), [02-JOURNAL/2025/04-April/2025-04-04](02-JOURNAL/2025/04-April/2025-04-04.md)
+- [2024-09-03](2024-09-03.md) in [02-JOURNAL/2024/09-September/2024-09-04](02-JOURNAL/2024/09-September/2024-09-04.md)
+- [2024-09-05](2024-09-05.md) in [02-JOURNAL/2024/09-September/2024-09-04](02-JOURNAL/2024/09-September/2024-09-04.md)
+- [2024-09-06](2024-09-06.md) in [02-JOURNAL/2024/09-September/2024-09-07](02-JOURNAL/2024/09-September/2024-09-07.md)
+- [2024-09-08](2024-09-08.md) in [02-JOURNAL/2024/09-September/2024-09-07](02-JOURNAL/2024/09-September/2024-09-07.md)
+- [2024-09-17](2024-09-17.md) in [02-JOURNAL/2024/09-September/2024-09-16](02-JOURNAL/2024/09-September/2024-09-16.md), [02-JOURNAL/2024/09-September/2024-09-18](02-JOURNAL/2024/09-September/2024-09-18.md)
+- [2024-09-19](2024-09-19.md) in [02-JOURNAL/2024/09-September/2024-09-18](02-JOURNAL/2024/09-September/2024-09-18.md)
+- [2024-09-20](2024-09-20.md) in [02-JOURNAL/2024/09-September/2024-09-21](02-JOURNAL/2024/09-September/2024-09-21.md)
+- [2024-09-24](2024-09-24.md) in [02-JOURNAL/2024/09-September/2024-09-23](02-JOURNAL/2024/09-September/2024-09-23.md), [02-JOURNAL/2024/09-September/2024-09-25](02-JOURNAL/2024/09-September/2024-09-25.md)
+- [2024-09-29](2024-09-29.md) in [02-JOURNAL/2024/09-September/2024-09-28](02-JOURNAL/2024/09-September/2024-09-28.md), [02-JOURNAL/2024/09-September/2024-09-30](02-JOURNAL/2024/09-September/2024-09-30.md)
+- [2024-10-01](2024-10-01.md) in [02-JOURNAL/2024/09-September/2024-09-30](02-JOURNAL/2024/09-September/2024-09-30.md), [02-JOURNAL/2024/10-October/2024-10-02](02-JOURNAL/2024/10-October/2024-10-02.md)
+- [2024-10-03](2024-10-03.md) in [02-JOURNAL/2024/10-October/2024-10-02](02-JOURNAL/2024/10-October/2024-10-02.md)
+- [2025-12-21](2025-12-21.md) in [02-JOURNAL/2025/12-December/2025-12-22](02-JOURNAL/2025/12-December/2025-12-22.md)
+- [2025-12-23](2025-12-23.md) in [02-JOURNAL/2025/12-December/2025-12-22](02-JOURNAL/2025/12-December/2025-12-22.md), [05-SYSTEM/Meta/PLUGINS](05-SYSTEM/Meta/PLUGINS.md), [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md), [04-RESOURCES/Code/Bash/README](04-RESOURCES/Code/Bash/README.md), [04-RESOURCES/Code/Bash/Bash - Check if Directory Exists](04-RESOURCES/Code/Bash/Bash - Check if Directory Exists.md), [04-RESOURCES/Code/Bash/Bash - Cleanup Docker](04-RESOURCES/Code/Bash/Bash - Cleanup Docker.md), [04-RESOURCES/Code/Bash/Bash - Control Flow](04-RESOURCES/Code/Bash/Bash - Control Flow.md), [04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL](04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL.md), [04-RESOURCES/Code/Bash/Bash - DNS Commands](04-RESOURCES/Code/Bash/Bash - DNS Commands.md), [04-RESOURCES/Code/Bash/Bash - Trap Command](04-RESOURCES/Code/Bash/Bash - Trap Command.md), [04-RESOURCES/Code/Bash/Bash - Logging Functions](04-RESOURCES/Code/Bash/Bash - Logging Functions.md), [04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History](04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History.md), [04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis](04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis.md), [04-RESOURCES/Code/Bash/Bash - Iterating over Files](04-RESOURCES/Code/Bash/Bash - Iterating over Files.md), [04-RESOURCES/Code/Bash/Bash - Install Docker Compose](04-RESOURCES/Code/Bash/Bash - Install Docker Compose.md), [04-RESOURCES/Code/Bash/Bash - Make Web Icons](04-RESOURCES/Code/Bash/Bash - Make Web Icons.md), [04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words](04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words.md), [04-RESOURCES/Code/Bash/Bash - Print Values of PATH](04-RESOURCES/Code/Bash/Bash - Print Values of PATH.md), [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md), [03-AREAS/MOC - Development](03-AREAS/MOC - Development.md)
+- [Census Tract (CT)](Census Tract (CT).md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md)
+- [Leaflet.js](Leaflet.js.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/MapLibre](04-RESOURCES/Definitions/Dictionary/MapLibre.md), [04-RESOURCES/Definitions/Dictionary/ArcGIS](04-RESOURCES/Definitions/Dictionary/ArcGIS.md)
+- [Mapbox](Mapbox.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [OpenLayers](OpenLayers.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/MapLibre](04-RESOURCES/Definitions/Dictionary/MapLibre.md)
+- [kepler.gl](kepler.gl.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/deck.gl](04-RESOURCES/Definitions/Dictionary/deck.gl.md)
+- [Apache Arrow](Apache Arrow.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [04-RESOURCES/Definitions/Dictionary/DuckDB](04-RESOURCES/Definitions/Dictionary/DuckDB.md)
+- [tippecannoe](tippecannoe.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [MOC - RealEstate](MOC - RealEstate.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md), [04-RESOURCES/Lists/List - Property Data Platforms](04-RESOURCES/Lists/List - Property Data Platforms.md)
+- [MOC - Cloud](MOC - Cloud.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md)
+- [MOC - DataEngineering](MOC - DataEngineering.md) in [03-AREAS/MOC - GIS](03-AREAS/MOC - GIS.md)
+- [2025-12-20](2025-12-20.md) in [03-AREAS/MOC - PKM](03-AREAS/MOC - PKM.md), [03-AREAS/MOC - R](03-AREAS/MOC - R.md), [04-RESOURCES/Code/R/R - Async Plumber API](04-RESOURCES/Code/R/R - Async Plumber API.md), [04-RESOURCES/Code/R/R - Secure OTP Generation](04-RESOURCES/Code/R/R - Secure OTP Generation.md), [04-RESOURCES/Code/R/README](04-RESOURCES/Code/R/README.md), [04-RESOURCES/Guides/README](04-RESOURCES/Guides/README.md), [04-RESOURCES/Lists/README](04-RESOURCES/Lists/README.md), [04-RESOURCES/README](04-RESOURCES/README.md), [05-SYSTEM/Audit/README](05-SYSTEM/Audit/README.md)
+- [03-AREAS/MOC - PowerShell](03-AREAS/MOC - PowerShell.md) in [04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins](04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md)
+- [2024-12-13](2024-12-13.md) in [04-RESOURCES/Code/R/R - Actuarial Claim Transactions Simulation](04-RESOURCES/Code/R/R - Actuarial Claim Transactions Simulation.md), [04-RESOURCES/Code/R/R - Console Message Feedback Utilities](04-RESOURCES/Code/R/R - Console Message Feedback Utilities.md), [04-RESOURCES/Code/R/R - Data Dictionary Labelling](04-RESOURCES/Code/R/R - Data Dictionary Labelling.md), [04-RESOURCES/Code/R/R - Document Dataset with Roxygen](04-RESOURCES/Code/R/R - Document Dataset with Roxygen.md), [04-RESOURCES/Code/R/R - Electron Desktop App for Shiny](04-RESOURCES/Code/R/R - Electron Desktop App for Shiny.md), [04-RESOURCES/Code/R/R - Excel Helpers](04-RESOURCES/Code/R/R - Excel Helpers.md), [04-RESOURCES/Code/R/R - Package HexSticker Generation](04-RESOURCES/Code/R/R - Package HexSticker Generation.md), [04-RESOURCES/Code/R/R - Shiny DT Table Helpers](04-RESOURCES/Code/R/R - Shiny DT Table Helpers.md), [04-RESOURCES/Code/R/R - Shiny UI Helpers](04-RESOURCES/Code/R/R - Shiny UI Helpers.md), [04-RESOURCES/Code/README](04-RESOURCES/Code/README.md)
+- [MOC - Technology](MOC - Technology.md) in [04-RESOURCES/Code/README](04-RESOURCES/Code/README.md)
+- [US Census Bureau](US Census Bureau.md) in [04-RESOURCES/Definitions/Acronyms/Block Group (BG)](04-RESOURCES/Definitions/Acronyms/Block Group (BG).md), [04-RESOURCES/Definitions/Acronyms/Federal Information Processing Standards (FIPS)](04-RESOURCES/Definitions/Acronyms/Federal Information Processing Standards (FIPS).md), [04-RESOURCES/Definitions/Acronyms/National Bureau of Economic Research (NBER)](04-RESOURCES/Definitions/Acronyms/National Bureau of Economic Research (NBER).md), [04-RESOURCES/Definitions/Acronyms/Office of Management and Budget (OMB)](04-RESOURCES/Definitions/Acronyms/Office of Management and Budget (OMB).md), [04-RESOURCES/Definitions/Acronyms/Public Use Microdata Area (PUMA)](04-RESOURCES/Definitions/Acronyms/Public Use Microdata Area (PUMA).md), [04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)](04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER).md), [04-RESOURCES/Definitions/Acronyms/ZIP Code Tabulation Area (ZCTA)](04-RESOURCES/Definitions/Acronyms/ZIP Code Tabulation Area (ZCTA).md), [05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421](05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421.md)
+- [00-INBOX/GIS/GIS Data Sources](00-INBOX/GIS/GIS Data Sources.md) in [04-RESOURCES/Definitions/Acronyms/Geographic Information System (GIS)](04-RESOURCES/Definitions/Acronyms/Geographic Information System (GIS).md), [04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)](04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER).md), [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md), [05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421](05-SYSTEM/Copilot/copilot-conversations/populate_this_notes_content@20251204_180421.md)
+- [Spatial Index](Spatial Index.md) in [04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3)](04-RESOURCES/Definitions/Acronyms/Hexagonal Hierarchical Spatial Index (H3).md)
+- [Analytic Hierarchy Process (AHP)](Analytic Hierarchy Process (AHP).md) in [04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)](04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA).md)
+- [TOPSIS](TOPSIS.md) in [04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)](04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA).md)
+- [ELECTRE](ELECTRE.md) in [04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)](04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA).md)
+- [PROMETHEE](PROMETHEE.md) in [04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA)](04-RESOURCES/Definitions/Acronyms/Multi-Criteria Decision Analysis (MCDA).md)
+- [Simple Features Access](Simple Features Access.md) in [04-RESOURCES/Definitions/Acronyms/Open Geospatial Consortium (OGC)](04-RESOURCES/Definitions/Acronyms/Open Geospatial Consortium (OGC).md)
+- [Geocoding](Geocoding.md) in [04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER)](04-RESOURCES/Definitions/Acronyms/Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [OGC API - Coverages](OGC API - Coverages.md) in [04-RESOURCES/Definitions/Acronyms/Web Coverage Service (WCS)](04-RESOURCES/Definitions/Acronyms/Web Coverage Service (WCS).md), [05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642](05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642.md)
+- [OGC API - Tiles](OGC API - Tiles.md) in [04-RESOURCES/Definitions/Acronyms/Web Map Tile Service (WMTS)](04-RESOURCES/Definitions/Acronyms/Web Map Tile Service (WMTS).md)
+- [Cadastral](Cadastral.md) in [04-RESOURCES/Definitions/Dictionary/Parcel](04-RESOURCES/Definitions/Dictionary/Parcel.md)
+- [../../05-SYSTEM/Plugins/Plugin - Dataview](../../05-SYSTEM/Plugins/Plugin - Dataview.md) in [04-RESOURCES/Embeds/Embed - Dataview Query Builder](04-RESOURCES/Embeds/Embed - Dataview Query Builder.md)
+- [../../03-AREAS/Obsidian/README](../../03-AREAS/Obsidian/README.md) in [04-RESOURCES/Embeds/Embed - Dataview Query Builder](04-RESOURCES/Embeds/Embed - Dataview Query Builder.md)
+- [../../03-AREAS/Obsidian/Obsidian - External Tools](../../03-AREAS/Obsidian/Obsidian - External Tools.md) in [04-RESOURCES/Embeds/Embed - Dataview Query Builder](04-RESOURCES/Embeds/Embed - Dataview Query Builder.md)
+- [2025-04-03](2025-04-03.md) in [04-RESOURCES/Guides/Guide - PKM Organization](04-RESOURCES/Guides/Guide - PKM Organization.md)
+- [Code - R - httr2 API Client](Code - R - httr2 API Client.md) in [04-RESOURCES/Lists/List - Property Data Platforms](04-RESOURCES/Lists/List - Property Data Platforms.md)
+- [Code - R - GDAL Geospatial Operations](Code - R - GDAL Geospatial Operations.md) in [04-RESOURCES/Lists/List - R Geospatial Packages](04-RESOURCES/Lists/List - R Geospatial Packages.md)
+- [/README](/README.md) in [04-RESOURCES/README](04-RESOURCES/README.md)
+- [Banners](Banners.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [Fonts](Fonts.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [Icons](Icons.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [Images](Images.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [PDFs](PDFs.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [Styles](Styles.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [2024-04-01](2024-04-01.md) in [05-SYSTEM/Assets/README](05-SYSTEM/Assets/README.md)
+- [00-INBOX/GIS/Open Geospatial Standards](00-INBOX/GIS/Open Geospatial Standards.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/ArcGIS REST API](00-INBOX/GIS/ArcGIS REST API.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Tools](00-INBOX/GIS/GIS Tools.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/Real Estate Land Tools](00-INBOX/GIS/Real Estate Land Tools.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Web Service Standards](00-INBOX/GIS/GIS Web Service Standards.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Spatial Coverage & Extent Strategies](00-INBOX/GIS/GIS Spatial Coverage & Extent Strategies.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/R - Geospatial Packages](00-INBOX/GIS/R - Geospatial Packages.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Data Format Standards](00-INBOX/GIS/GIS Data Format Standards.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Metadata Standards](00-INBOX/GIS/GIS Metadata Standards.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [00-INBOX/GIS/GIS Standards Development Organizations](00-INBOX/GIS/GIS Standards Development Organizations.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [Leaflet Test](Leaflet Test.md) in [05-SYSTEM/Audit/AuditLog-2025-12-20](05-SYSTEM/Audit/AuditLog-2025-12-20.md)
+- [GDAL](GDAL.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [OGR](OGR.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GEOS](GEOS.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [PROJ](PROJ.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [PostgreSQL](PostgreSQL.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md)
+- [pg_featureserv](pg_featureserv.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md), [04-RESOURCES/Definitions/Dictionary/GeoServer](04-RESOURCES/Definitions/Dictionary/GeoServer.md)
+- [pg_tileserv](pg_tileserv.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md), [04-RESOURCES/Definitions/Dictionary/GeoServer](04-RESOURCES/Definitions/Dictionary/GeoServer.md)
+- [pg_eventserv](pg_eventserv.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [pgSVG](pgSVG.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [PostgREST](PostgREST.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md)
+- [Data API Builder (dab)](Data API Builder (dab).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [pgAdmin](pgAdmin.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md), [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md)
+- [dbeaver](dbeaver.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [dbmate](dbmate.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [psql](psql.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [pgcli](pgcli.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [DuckLake](DuckLake.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [Apache Airflow](Apache Airflow.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Luigi](Luigi.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [DAG](DAG.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Data Build Tool (dbt)](Data Build Tool (dbt).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Data Load Tool (dlt)](Data Load Tool (dlt).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Data Version Control (dvt)](Data Version Control (dvt).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [TopoJSON](TopoJSON.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Protobuf](Protobuf.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Spatial Temporal Asset Catalogue (STAC)](Spatial Temporal Asset Catalogue (STAC).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [Simple Features (SF)](Simple Features (SF).md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GeoHash](GeoHash.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GRASS-GIS](GRASS-GIS.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [Leaflet Plugins](Leaflet Plugins.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [Mapbox GL/JS](Mapbox GL/JS.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Mapbox API](Mapbox API.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GeoStyler](GeoStyler.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Overture Maps](Overture Maps.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [ogr2ogr](ogr2ogr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [shp2pgsql](shp2pgsql.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [osm2pgsql](osm2pgsql.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Kart](Kart.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [yogrt](yogrt.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [FileBrowser](FileBrowser.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md), [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [LLM-Find](LLM-Find.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [LLM-Geo](LLM-Geo.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [MapsGPT](MapsGPT.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [TextToMap](TextToMap.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GeoAI](GeoAI.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [Marvin](Marvin.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sf](sf.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [lwgeom](lwgeom.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [terra](terra.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [stars](stars.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [geosphere](geosphere.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sfheaders](sfheaders.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sfnetworks](sfnetworks.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sfext](sfext.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rpostgis](rpostgis.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sfdbi](sfdbi.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [arcgislayers](arcgislayers.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [arcgisutils](arcgisutils.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [esri2sf](esri2sf.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [arcpullr](arcpullr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [osmdata](osmdata.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [osmextract](osmextract.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [geodata](geodata.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [wkt](wkt.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflet](leaflet.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflet.providers](leaflet.providers.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflet.extras](leaflet.extras.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflet.extras2](leaflet.extras2.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflet.opacity](leaflet.opacity.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leafdown](leafdown.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leafem](leafem.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [leaflegend](leaflegend.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [mapview](mapview.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [maptiles](maptiles.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [mapgl](mapgl.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [mapbopxapi](mapbopxapi.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [spatstat](spatstat.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [spdep](spdep.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [spatialEco](spatialEco.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [exactextractr](exactextractr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [whitebox](whitebox.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [lidR](lidR.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [elevatr](elevatr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [AOI](AOI.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [addr](addr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [tigris](tigris.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [tidycensus](tidycensus.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [censusapi](censusapi.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rnaturalearth](rnaturalearth.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rnaturalearthdata](rnaturalearthdata.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [USABoundaries](USABoundaries.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [NFHL](NFHL.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [FedData](FedData.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [soilDB](soilDB.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [ggplot2](ggplot2.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [ggspatial](ggspatial.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [tmap](tmap.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [plotly](plotly.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [highcharter](highcharter.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rayshader](rayshader.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [maps](maps.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [mapsf](mapsf.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [cartographic](cartographic.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [tidyquant](tidyquant.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [fredr](fredr.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [ggmap](ggmap.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [sp](sp.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rgdal](rgdal.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [rgeos](rgeos.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [GISTools](GISTools.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [acs](acs.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [R spatial packages](R spatial packages.md) in [05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622](05-SYSTEM/Copilot/copilot-conversations/Help_me_organize_this_note_properly@20251222_190622.md)
+- [OGC API - Styles](OGC API - Styles.md) in [05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642](05-SYSTEM/Copilot/copilot-conversations/Research@20251220_125642.md)
+- [.obsidian/plugins](.obsidian/plugins.md) in [05-SYSTEM/Meta/PLUGINS](05-SYSTEM/Meta/PLUGINS.md)
+- [2025-11-26](2025-11-26.md) in [05-SYSTEM/Meta/PLUGINS](05-SYSTEM/Meta/PLUGINS.md)
+- [${creationDate}](${creationDate}.md) in [05-SYSTEM/Templates/Code/Template-Code-Dynamic](05-SYSTEM/Templates/Code/Template-Code-Dynamic.md)
+- [03-AREAS/MOC - ${info.name}](03-AREAS/MOC - ${info.name}.md) in [05-SYSTEM/Templates/Code/Template-Code-Dynamic](05-SYSTEM/Templates/Code/Template-Code-Dynamic.md)
+- [${tp.file.title}](${tp.file.title}.md) in [05-SYSTEM/Templates/Code/Template-Code-Dynamic](05-SYSTEM/Templates/Code/Template-Code-Dynamic.md)
+- [<% creationDate %>](<% creationDate %>.md) in [05-SYSTEM/Templates/Code/Template-Code-Readme](05-SYSTEM/Templates/Code/Template-Code-Readme.md), [05-SYSTEM/Templates/Template-README](05-SYSTEM/Templates/Template-README.md)
+- [<% tp.file.creation_date("YYYY-MM-DD") %>](<% tp.file.creation_date("YYYY-MM-DD") %>.md) in [05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates](05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates.md)
+- [<% tp.file.last_modified_date("YYYY-MM-DD") %>](<% tp.file.last_modified_date("YYYY-MM-DD") %>.md) in [05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates](05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates.md)
+- [Related Checklist](Related Checklist.md) in [05-SYSTEM/Templates/Template-Checklist](05-SYSTEM/Templates/Template-Checklist.md)
+- [Related Guide](Related Guide.md) in [05-SYSTEM/Templates/Template-Checklist](05-SYSTEM/Templates/Template-Checklist.md), [05-SYSTEM/Templates/Template-Guide](05-SYSTEM/Templates/Template-Guide.md)
+- [List - Related Tools](List - Related Tools.md) in [05-SYSTEM/Templates/Template-Guide](05-SYSTEM/Templates/Template-Guide.md)
+- [Related Code Note](Related Code Note.md) in [05-SYSTEM/Templates/Template-Guide](05-SYSTEM/Templates/Template-Guide.md)
+- [url](url.md) in [05-SYSTEM/Templates/Template-List](05-SYSTEM/Templates/Template-List.md)
+- [Code - Tool - Config](Code - Tool - Config.md) in [05-SYSTEM/Templates/Template-List](05-SYSTEM/Templates/Template-List.md)
+- [Guide - Topic](Guide - Topic.md) in [05-SYSTEM/Templates/Template-List](05-SYSTEM/Templates/Template-List.md)
+- [Related List](Related List.md) in [05-SYSTEM/Templates/Template-List](05-SYSTEM/Templates/Template-List.md)
+- [Related MOC](Related MOC.md) in [05-SYSTEM/Templates/Template-List](05-SYSTEM/Templates/Template-List.md)
+- [<% tp.date.now("YYYY-MM-DD") %>](<% tp.date.now("YYYY-MM-DD") %>.md) in [05-SYSTEM/Templates/Template-MOC](05-SYSTEM/Templates/Template-MOC.md), [05-SYSTEM/Templates/Temporal/Template-Daily](05-SYSTEM/Templates/Temporal/Template-Daily.md)
+- [<% folderPath.split("/").slice(0, -1).join("/") %>/README](<% folderPath.split("/").slice(0, -1).join("/") %>/README.md) in [05-SYSTEM/Templates/Template-README](05-SYSTEM/Templates/Template-README.md)
+- [<% tp.date.now("YYYY-MM-DD", -1) %>](<% tp.date.now("YYYY-MM-DD", -1) %>.md) in [05-SYSTEM/Templates/Temporal/Template-Daily](05-SYSTEM/Templates/Temporal/Template-Daily.md)
+- [<% tp.date.now("YYYY-MM-DD", 1) %>](<% tp.date.now("YYYY-MM-DD", 1) %>.md) in [05-SYSTEM/Templates/Temporal/Template-Daily](05-SYSTEM/Templates/Temporal/Template-Daily.md)
+- [./05-SYSTEM/Obsidian/](./05-SYSTEM/Obsidian/.md) in [README](README.md)
+- [Obsidian - Setup](Obsidian - Setup.md) in [README](README.md)
+- [Obsidian - Folders](Obsidian - Folders.md) in [README](README.md)
+- [Obsidian - Scripts](Obsidian - Scripts.md) in [README](README.md)
+- [Obsidian - Themes](Obsidian - Themes.md) in [README](README.md)
+- [Obsidian - CSS Snippets](Obsidian - CSS Snippets.md) in [README](README.md)
+- [Obsidian - Community Plugins](Obsidian - Community Plugins.md) in [README](README.md)
+- [.github/workflows/](.github/workflows/.md) in [README](README.md)
+- [tags/plugin/transformer](tags/plugin/transformer.md) in [quartz/docs/configuration](quartz/docs/configuration.md)
+- [tags/plugin/filter](tags/plugin/filter.md) in [quartz/docs/configuration](quartz/docs/configuration.md)
+- [tags/plugin/emitter](tags/plugin/emitter.md) in [quartz/docs/configuration](quartz/docs/configuration.md)
+- [advanced/](advanced/.md) in [quartz/docs/features/folder and tag listings](quartz/docs/features/folder and tag listings.md), [quartz/docs/plugins/FolderPage](quartz/docs/plugins/FolderPage.md)
+- [quartz layout.png](quartz layout.png.md) in [quartz/docs/features/popover previews](quartz/docs/features/popover previews.md)
+- [./features/](./features/.md) in [quartz/docs/index](quartz/docs/index.md)
+- [./src/lib.rs](./src/lib.rs.md) in [quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README](quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README.md)
+- [./npm](./npm.md) in [quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README](quartz/node_modules/@myriaddreamin/typst-ts-node-compiler/README.md)
+- [./src/types/index.ts](./src/types/index.ts.md) in [quartz/node_modules/@nodelib/fs.scandir/README](quartz/node_modules/@nodelib/fs.scandir/README.md), [quartz/node_modules/@nodelib/fs.walk/README](quartz/node_modules/@nodelib/fs.walk/README.md)
+- [./src/utils/fs.ts](./src/utils/fs.ts.md) in [quartz/node_modules/@nodelib/fs.scandir/README](quartz/node_modules/@nodelib/fs.scandir/README.md)
+- [./src/adapters/fs.ts](./src/adapters/fs.ts.md) in [quartz/node_modules/@nodelib/fs.scandir/README](quartz/node_modules/@nodelib/fs.scandir/README.md), [quartz/node_modules/@nodelib/fs.stat/README](quartz/node_modules/@nodelib/fs.stat/README.md)
+- [./src/settings.ts](./src/settings.ts.md) in [quartz/node_modules/@nodelib/fs.walk/README](quartz/node_modules/@nodelib/fs.walk/README.md)
+- [./README_zh-CN](./README_zh-CN.md) in [quartz/node_modules/@tweenjs/tween.js/README](quartz/node_modules/@tweenjs/tween.js/README.md)
+- [./docs/user_guide](./docs/user_guide.md) in [quartz/node_modules/@tweenjs/tween.js/README](quartz/node_modules/@tweenjs/tween.js/README.md)
+- [./docs/contributor_guide](./docs/contributor_guide.md) in [quartz/node_modules/@tweenjs/tween.js/README](quartz/node_modules/@tweenjs/tween.js/README.md)
+- [quartz/node_modules/rfdc/test/index.js](quartz/node_modules/rfdc/test/index.js.md) in [quartz/node_modules/@ungap/structured-clone/README](quartz/node_modules/@ungap/structured-clone/README.md)
+- [tests/](tests/.md) in [quartz/node_modules/@webgpu/types/README](quartz/node_modules/@webgpu/types/README.md)
+- [examples/nodejs/src/index.js](examples/nodejs/src/index.js.md) in [quartz/node_modules/@xmldom/xmldom/readme](quartz/node_modules/@xmldom/xmldom/readme.md)
+- [docs/specs.svg](docs/specs.svg.md) in [quartz/node_modules/@xmldom/xmldom/readme](quartz/node_modules/@xmldom/xmldom/readme.md)
+- [screenshot.png](screenshot.png.md) in [quartz/node_modules/ansi-styles/readme](quartz/node_modules/ansi-styles/readme.md)
+- [./doc](./doc.md) in [quartz/node_modules/argparse/CHANGELOG](quartz/node_modules/argparse/CHANGELOG.md), [quartz/node_modules/argparse/README](quartz/node_modules/argparse/README.md)
+- [www.gnu.org/software/bash/](www.gnu.org/software/bash/.md) in [quartz/node_modules/braces/README](quartz/node_modules/braces/README.md)
+- [test/support/generate.js](test/support/generate.js.md) in [quartz/node_modules/braces/README](quartz/node_modules/braces/README.md)
+- [../../issues/new](../../issues/new.md) in [quartz/node_modules/braces/README](quartz/node_modules/braces/README.md), [quartz/node_modules/fill-range/README](quartz/node_modules/fill-range/README.md), [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md), [quartz/node_modules/is-extglob/README](quartz/node_modules/is-extglob/README.md), [quartz/node_modules/is-glob/README](quartz/node_modules/is-glob/README.md), [quartz/node_modules/is-number/README](quartz/node_modules/is-number/README.md), [quartz/node_modules/kind-of/README](quartz/node_modules/kind-of/README.md), [quartz/node_modules/micromatch/README](quartz/node_modules/micromatch/README.md), [quartz/node_modules/picomatch/README](quartz/node_modules/picomatch/README.md), [quartz/node_modules/pretty-time/README](quartz/node_modules/pretty-time/README.md), [quartz/node_modules/section-matter/README](quartz/node_modules/section-matter/README.md), [quartz/node_modules/strip-bom-string/README](quartz/node_modules/strip-bom-string/README.md), [quartz/node_modules/to-regex-range/README](quartz/node_modules/to-regex-range/README.md)
+- [.verb](.verb.md) in [quartz/node_modules/braces/README](quartz/node_modules/braces/README.md), [quartz/node_modules/fill-range/README](quartz/node_modules/fill-range/README.md), [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md), [quartz/node_modules/is-extglob/README](quartz/node_modules/is-extglob/README.md), [quartz/node_modules/is-glob/README](quartz/node_modules/is-glob/README.md), [quartz/node_modules/is-number/README](quartz/node_modules/is-number/README.md), [quartz/node_modules/kind-of/README](quartz/node_modules/kind-of/README.md), [quartz/node_modules/micromatch/README](quartz/node_modules/micromatch/README.md), [quartz/node_modules/picomatch/README](quartz/node_modules/picomatch/README.md), [quartz/node_modules/pretty-time/README](quartz/node_modules/pretty-time/README.md), [quartz/node_modules/section-matter/README](quartz/node_modules/section-matter/README.md), [quartz/node_modules/strip-bom-string/README](quartz/node_modules/strip-bom-string/README.md), [quartz/node_modules/to-regex-range/README](quartz/node_modules/to-regex-range/README.md)
+- [./changelogs/CHANGELOG-4](./changelogs/CHANGELOG-4.md) in [quartz/node_modules/commander/CHANGELOG](quartz/node_modules/commander/CHANGELOG.md)
+- [./changelogs/CHANGELOG-3](./changelogs/CHANGELOG-3.md) in [quartz/node_modules/commander/CHANGELOG](quartz/node_modules/commander/CHANGELOG.md)
+- [./changelogs/CHANGELOG-2](./changelogs/CHANGELOG-2.md) in [quartz/node_modules/commander/CHANGELOG](quartz/node_modules/commander/CHANGELOG.md)
+- [./changelogs/CHANGELOG-1](./changelogs/CHANGELOG-1.md) in [quartz/node_modules/commander/CHANGELOG](quartz/node_modules/commander/CHANGELOG.md)
+- [./changelogs/CHANGELOG-0](./changelogs/CHANGELOG-0.md) in [quartz/node_modules/commander/CHANGELOG](quartz/node_modules/commander/CHANGELOG.md)
+- [./Readme_zh-CN](./Readme_zh-CN.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./docs/terminology](./docs/terminology.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-common.js](./examples/options-common.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-defaults.js](./examples/options-defaults.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-negatable.js](./examples/options-negatable.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-boolean-or-value.js](./examples/options-boolean-or-value.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./docs/options-taking-varying-arguments](./docs/options-taking-varying-arguments.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-required.js](./examples/options-required.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-variadic.js](./examples/options-variadic.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-extra.js](./examples/options-extra.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-custom-processing.js](./examples/options-custom-processing.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/nestedCommands.js](./examples/nestedCommands.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/defaultCommand.js](./examples/defaultCommand.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/arguments.js](./examples/arguments.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md)
+- [./examples/thank.js](./examples/thank.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/pm](./examples/pm.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/pizza](./examples/pizza.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/custom-help](./examples/custom-help.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/configure-help.js](./examples/configure-help.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/positional-options.js](./examples/positional-options.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/pass-through-options.js](./examples/pass-through-options.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/custom-command-class.js](./examples/custom-command-class.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/configure-output.js](./examples/configure-output.js.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./docs/deprecated](./docs/deprecated.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/deploy](./examples/deploy.md) in [quartz/node_modules/commander/Readme](quartz/node_modules/commander/Readme.md), [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md)
+- [./docs/images/logo-nytimes.png](./docs/images/logo-nytimes.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [./docs/images/logo-apollo.png](./docs/images/logo-apollo.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [./docs/images/logo-facebook.png](./docs/images/logo-facebook.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [./docs/images/logo-swagger.png](./docs/images/logo-swagger.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [./docs/images/logo-vulcanjs.png](./docs/images/logo-vulcanjs.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [./docs/images/logo-graphql-request.png](./docs/images/logo-graphql-request.png.md) in [quartz/node_modules/cross-fetch/README](quartz/node_modules/cross-fetch/README.md)
+- [LICENSE](LICENSE.md) in [quartz/node_modules/css-gradient-parser/README](quartz/node_modules/css-gradient-parser/README.md), [quartz/node_modules/fflate/README](quartz/node_modules/fflate/README.md), [quartz/node_modules/immutable/README](quartz/node_modules/immutable/README.md), [quartz/node_modules/remark-smartypants/readme](quartz/node_modules/remark-smartypants/readme.md), [quartz/node_modules/shiki/README](quartz/node_modules/shiki/README.md)
+- [[*x0*, *y0*], [*x1*, *y1*]] in [quartz/node_modules/d3-brush/README](quartz/node_modules/d3-brush/README.md), [quartz/node_modules/d3-quadtree/README](quartz/node_modules/d3-quadtree/README.md), [quartz/node_modules/d3-zoom/README](quartz/node_modules/d3-zoom/README.md)
+- [[*x0*, *y0*], [*x1*, *y1*], …, [*x0*, *y0*]] in [quartz/node_modules/d3-delaunay/README](quartz/node_modules/d3-delaunay/README.md)
+- [[*x0*, *y0*], [*x1*, *y1*], [*x2*, *y2*], [*x0*, *y0*]] in [quartz/node_modules/d3-delaunay/README](quartz/node_modules/d3-delaunay/README.md)
+- [[<i>x0</i>, <i>y0</i>], [<i>x1</i>, <i>y1</i>]] in [quartz/node_modules/d3-geo/README](quartz/node_modules/d3-geo/README.md)
+- [[⌊*x*⌋, ⌊*y*⌋], [⌈*x*⌉, ⌈*y*⌉]] in [quartz/node_modules/d3-quadtree/README](quartz/node_modules/d3-quadtree/README.md)
+- [[0, 0], [*width*, *height*]] in [quartz/node_modules/d3-zoom/README](quartz/node_modules/d3-zoom/README.md)
+- [[-∞, -∞], [+∞, +∞]] in [quartz/node_modules/d3-zoom/README](quartz/node_modules/d3-zoom/README.md)
+- [./examples/node/app.js](./examples/node/app.js.md) in [quartz/node_modules/debug/README](quartz/node_modules/debug/README.md)
+- [./examples/node/worker.js](./examples/node/worker.js.md) in [quartz/node_modules/debug/README](quartz/node_modules/debug/README.md)
+- [./examples/node/stdout.js](./examples/node/stdout.js.md) in [quartz/node_modules/debug/README](quartz/node_modules/debug/README.md)
+- [/bench](/bench.md) in [quartz/node_modules/dequal/readme](quartz/node_modules/dequal/readme.md)
+- [options](options.md) in [quartz/node_modules/fast-glob/README](quartz/node_modules/fast-glob/README.md)
+- [./src/managers/tasks.ts](./src/managers/tasks.ts.md) in [quartz/node_modules/fast-glob/README](quartz/node_modules/fast-glob/README.md)
+- [ERROR-HANDLING](ERROR-HANDLING.md) in [quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README](quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md), [quartz/node_modules/node-fetch/README](quartz/node_modules/node-fetch/README.md)
+- [LIMITS](LIMITS.md) in [quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README](quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md), [quartz/node_modules/node-fetch/README](quartz/node_modules/node-fetch/README.md)
+- [UPGRADE-GUIDE](UPGRADE-GUIDE.md) in [quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README](quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md), [quartz/node_modules/node-fetch/README](quartz/node_modules/node-fetch/README.md)
+- [doc/encoder](doc/encoder.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/document-search](doc/document-search.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent](doc/persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/worker](doc/worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/result-highlighting](doc/result-highlighting.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/resolver](doc/resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-indexeddb](doc/persistent-indexeddb.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-redis](doc/persistent-redis.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-sqlite](doc/persistent-sqlite.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-postgres](doc/persistent-postgres.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-mongodb](doc/persistent-mongodb.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/persistent-clickhouse](doc/persistent-clickhouse.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm](example/nodejs-esm.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs](example/nodejs-commonjs.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module](example/browser-module.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy](example/browser-legacy.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/async](doc/async.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/export-import](doc/export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/customization](doc/customization.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/custom-builds](doc/custom-builds.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [doc/keystore](doc/keystore.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic](example/nodejs-commonjs/basic.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-suggestion](example/nodejs-commonjs/basic-suggestion.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-persistent](example/nodejs-commonjs/basic-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-resolver](example/nodejs-commonjs/basic-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-worker](example/nodejs-commonjs/basic-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-worker-extern-config](example/nodejs-commonjs/basic-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-worker-export-import](example/nodejs-commonjs/basic-worker-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/basic-export-import](example/nodejs-commonjs/basic-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document](example/nodejs-commonjs/document.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-persistent](example/nodejs-commonjs/document-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-resolver](example/nodejs-commonjs/document-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-worker](example/nodejs-commonjs/document-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-worker-extern-config](example/nodejs-commonjs/document-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-export-import](example/nodejs-commonjs/document-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/document-worker-export-import](example/nodejs-commonjs/document-worker-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-commonjs/language-pack](example/nodejs-commonjs/language-pack.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic](example/nodejs-esm/basic.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-suggestion](example/nodejs-esm/basic-suggestion.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-persistent](example/nodejs-esm/basic-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-resolver](example/nodejs-esm/basic-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-worker](example/nodejs-esm/basic-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-worker-extern-config](example/nodejs-esm/basic-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-worker-export-import](example/nodejs-esm/basic-worker-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/basic-export-import](example/nodejs-esm/basic-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document](example/nodejs-esm/document.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-persistent](example/nodejs-esm/document-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-resolver](example/nodejs-esm/document-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-worker](example/nodejs-esm/document-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-worker-extern-config](example/nodejs-esm/document-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-export-import](example/nodejs-esm/document-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/document-worker-export-import](example/nodejs-esm/document-worker-export-import.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/nodejs-esm/language-pack](example/nodejs-esm/language-pack.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/basic](example/browser-legacy/basic.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/basic-suggestion](example/browser-legacy/basic-suggestion.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/basic-persistent](example/browser-legacy/basic-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/basic-resolver](example/browser-legacy/basic-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/basic-worker](example/browser-legacy/basic-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/document](example/browser-legacy/document.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/document-highlighting](example/browser-legacy/document-highlighting.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/document-persistent](example/browser-legacy/document-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/document-resolver](example/browser-legacy/document-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/document-worker](example/browser-legacy/document-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-legacy/language-pack](example/browser-legacy/language-pack.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic](example/browser-module/basic.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic-suggestion](example/browser-module/basic-suggestion.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic-persistent](example/browser-module/basic-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic-resolver](example/browser-module/basic-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic-worker](example/browser-module/basic-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/basic-worker-extern-config](example/browser-module/basic-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document](example/browser-module/document.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document-highlighting](example/browser-module/document-highlighting.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document-persistent](example/browser-module/document-persistent.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document-resolver](example/browser-module/document-resolver.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document-worker](example/browser-module/document-worker.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/document-worker-extern-config](example/browser-module/document-worker-extern-config.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [example/browser-module/language-pack](example/browser-module/language-pack.md) in [quartz/node_modules/flexsearch/README](quartz/node_modules/flexsearch/README.md)
+- [test/fixtures.json](test/fixtures.json.md) in [quartz/node_modules/github-slugger/README](quartz/node_modules/github-slugger/README.md)
+- [./examples](./examples.md) in [quartz/node_modules/gray-matter/CHANGELOG](quartz/node_modules/gray-matter/CHANGELOG.md), [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/coffee.js](examples/coffee.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/excerpt-separator.js](examples/excerpt-separator.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/excerpt-stringify.js](examples/excerpt-stringify.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/excerpt.js](examples/excerpt.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/javascript.js](examples/javascript.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/json-stringify.js](examples/json-stringify.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/json.js](examples/json.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/restore-empty.js](examples/restore-empty.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/sections-excerpt.js](examples/sections-excerpt.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/sections.js](examples/sections.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/toml.js](examples/toml.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/yaml-stringify.js](examples/yaml-stringify.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [examples/yaml.js](examples/yaml.js.md) in [quartz/node_modules/gray-matter/README](quartz/node_modules/gray-matter/README.md)
+- [nodejs.org/api/events.html](nodejs.org/api/events.html.md) in [quartz/node_modules/ignore/README](quartz/node_modules/ignore/README.md)
+- [website/public/Immutable-Data-and-React-YouTube.png](website/public/Immutable-Data-and-React-YouTube.png.md) in [quartz/node_modules/immutable/README](quartz/node_modules/immutable/README.md)
+- [quartz/node_modules/varint/test.js](quartz/node_modules/varint/test.js.md) in [quartz/node_modules/is-number/README](quartz/node_modules/is-number/README.md)
+- [./benchmark/index.js](./benchmark/index.js.md) in [quartz/node_modules/is-number/README](quartz/node_modules/is-number/README.md)
+- [./examples/options-env.js](./examples/options-env.js.md) in [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/argument.js](./examples/argument.js.md) in [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/arguments-extra.js](./examples/arguments-extra.js.md) in [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/arguments-custom-processing.js](./examples/arguments-custom-processing.js.md) in [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/hook.js](./examples/hook.js.md) in [quartz/node_modules/katex/node_modules/commander/Readme](quartz/node_modules/katex/node_modules/commander/Readme.md), [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./test](./test.md) in [quartz/node_modules/micromatch/README](quartz/node_modules/micromatch/README.md)
+- [.github/contributing](.github/contributing.md) in [quartz/node_modules/micromatch/README](quartz/node_modules/micromatch/README.md), [quartz/node_modules/picomatch/README](quartz/node_modules/picomatch/README.md), [quartz/node_modules/section-matter/README](quartz/node_modules/section-matter/README.md)
+- [../../issues](../../issues.md) in [quartz/node_modules/micromatch/README](quartz/node_modules/micromatch/README.md)
+- [cow.png](cow.png.md) in [quartz/node_modules/moo/README](quartz/node_modules/moo/README.md)
+- [//github.com/hughsk/svg-path-parser](//github.com/hughsk/svg-path-parser.md) in [quartz/node_modules/parse-svg-path/Readme](quartz/node_modules/parse-svg-path/Readme.md)
+- [//github.com/nfroidure/SVGPathData](//github.com/nfroidure/SVGPathData.md) in [quartz/node_modules/parse-svg-path/Readme](quartz/node_modules/parse-svg-path/Readme.md)
+- [//github.com/jkroso/packin](//github.com/jkroso/packin.md) in [quartz/node_modules/parse-svg-path/Readme](quartz/node_modules/parse-svg-path/Readme.md)
+- [//github.com/component/component](//github.com/component/component.md) in [quartz/node_modules/parse-svg-path/Readme](quartz/node_modules/parse-svg-path/Readme.md)
+- [//npmjs.org/doc/cli/npm-install.html](//npmjs.org/doc/cli/npm-install.html.md) in [quartz/node_modules/parse-svg-path/Readme](quartz/node_modules/parse-svg-path/Readme.md)
+- [.github/CONTRIBUTING](.github/CONTRIBUTING.md) in [quartz/node_modules/pixi.js/README](quartz/node_modules/pixi.js/README.md)
+- [./rehype-citation.png](./rehype-citation.png.md) in [quartz/node_modules/rehype-citation/README](quartz/node_modules/rehype-citation/README.md)
+- [/tests/](/tests/.md) in [quartz/node_modules/resolve-pkg-maps/README](quartz/node_modules/resolve-pkg-maps/README.md)
+- [/tests/exports/compare-resolve.exports.ts](/tests/exports/compare-resolve.exports.ts.md) in [quartz/node_modules/resolve-pkg-maps/README](quartz/node_modules/resolve-pkg-maps/README.md)
+- [doc/lettable-operators](doc/lettable-operators.md) in [quartz/node_modules/rxjs/CHANGELOG](quartz/node_modules/rxjs/CHANGELOG.md)
+- [docs_app/content/maintainer-guidelines](docs_app/content/maintainer-guidelines.md) in [quartz/node_modules/rxjs/README](quartz/node_modules/rxjs/README.md)
+- [./docs_app](./docs_app.md) in [quartz/node_modules/rxjs/README](quartz/node_modules/rxjs/README.md)
+- [/CONTRIBUTING](/CONTRIBUTING.md) in [quartz/node_modules/satori/README](quartz/node_modules/satori/README.md)
+- [.github/card.png](.github/card.png.md) in [quartz/node_modules/satori/README](quartz/node_modules/satori/README.md)
+- [bugzil.la/1090768](bugzil.la/1090768.md) in [quartz/node_modules/source-map-js/CHANGELOG](quartz/node_modules/source-map-js/CHANGELOG.md), [quartz/node_modules/source-map/CHANGELOG](quartz/node_modules/source-map/CHANGELOG.md)
+- [media/downloads.png](media/downloads.png.md) in [quartz/node_modules/source-map-js/README](quartz/node_modules/source-map-js/README.md)
+- [./examples/split.js](./examples/split.js.md) in [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/string-util.js](./examples/string-util.js.md) in [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/options-conflicts.js](./examples/options-conflicts.js.md) in [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [./examples/action-this.js](./examples/action-this.js.md) in [quartz/node_modules/speech-rule-engine/node_modules/commander/Readme](quartz/node_modules/speech-rule-engine/node_modules/commander/Readme.md)
+- [quartz/node_modules/fastq/test/test.js](quartz/node_modules/fastq/test/test.js.md) in [quartz/node_modules/to-regex-range/README](quartz/node_modules/to-regex-range/README.md)
+- [examples%2Fwebpack5%2FREADME](examples%2Fwebpack5%2FREADME.md) in [quartz/node_modules/workerpool/README](quartz/node_modules/workerpool/README.md)
+- [./examples/transferableObjects.js](./examples/transferableObjects.js.md) in [quartz/node_modules/workerpool/README](quartz/node_modules/workerpool/README.md)
+- [./doc/ws](./doc/ws.md) in [quartz/node_modules/ws/README](quartz/node_modules/ws/README.md)
+- [/docs/api](/docs/api.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/docs/typescript](/docs/typescript.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/docs/browser](/docs/browser.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/docs/examples](/docs/examples.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/docs/tricks](/docs/tricks.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/docs/advanced](/docs/advanced.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [/contributing](/contributing.md) in [quartz/node_modules/yargs/README](quartz/node_modules/yargs/README.md)
+- [pgSTAC](pgSTAC.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [azure_storage](azure_storage.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Data Version Control (dvc)](Data Version Control (dvc).md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [R - targets](R - targets.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [R - geotargets](R - geotargets.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [REST](REST.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [GraphQL](GraphQL.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [OGC API - Maps](OGC API - Maps.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [FastAPI](FastAPI.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [STAC-FastAPI](STAC-FastAPI.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [STAC-FastAPI-pgSTAC](STAC-FastAPI-pgSTAC.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [TiTiler](TiTiler.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [tipg](tipg.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Azure](Azure.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Azure Storage](Azure Storage.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [obstore](obstore.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [azcli](azcli.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Azure Storage Explorer](Azure Storage Explorer.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [azcopy](azcopy.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [rclone](rclone.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [MapTiler](MapTiler.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [OpenAPI](OpenAPI.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [SwaggerUI](SwaggerUI.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Arrow](Arrow.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [GeoArrow](GeoArrow.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [MBTiles](MBTiles.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Docker](Docker.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Docker Compose](Docker Compose.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Taskfile](Taskfile.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Justfile](Justfile.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [GNU Make](GNU Make.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [QGIS Server](QGIS Server.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [pygeoapi](pygeoapi.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Conceptual Data Model](Conceptual Data Model.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19107 - Geographic Information - Spatial Schema](ISO 19107 - Geographic Information - Spatial Schema.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19115 - Geographic Information - Metadata](ISO 19115 - Geographic Information - Metadata.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19110 - Geographic Information - Methodology](ISO 19110 - Geographic Information - Methodology.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19157 - Geographic information - Data Quality](ISO 19157 - Geographic information - Data Quality.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19138 - Geographic Information - Data Quality Measures](ISO 19138 - Geographic Information - Data Quality Measures.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Schematic Mapping](Schematic Mapping.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Domain Driven Design](Domain Driven Design.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Event Storming](Event Storming.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Kimbel](Kimbel.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Inmon](Inmon.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Star Schema](Star Schema.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [ISO 19115](ISO 19115.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [STAC](STAC.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Apache Superset](Apache Superset.md) in [01-SLIPBOX/Cloud Native Geospatial Architecture](01-SLIPBOX/Cloud Native Geospatial Architecture.md)
+- [Ralph Kimball](Ralph Kimball.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [data warehouse](data warehouse.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Bill Inmon](Bill Inmon.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Entity-Relationship Modeling](Entity-Relationship Modeling.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Data Warhouse](Data Warhouse.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Kimball Techniques for Data Warehousing](Kimball Techniques for Data Warehousing.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Data Engineering](Data Engineering.md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [Slowly Changing Dimensions (SCD)](Slowly Changing Dimensions (SCD).md) in [00-INBOX/Dimensional Modeling](00-INBOX/Dimensional Modeling.md)
+- [GeoPackage (GPKG)](GeoPackage (GPKG).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Aeronautical Information Exchange Model (AIXM)](Aeronautical Information Exchange Model (AIXM).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Electronic Nautical Charts (IHO S-57/ENC)](Electronic Nautical Charts (IHO S-57/ENC).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Application Programming Interface (API)](Application Programming Interface (API).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Extensible Markup Language (XML)](Extensible Markup Language (XML).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Hyper Text Transfer Protocol (HTTP)](Hyper Text Transfer Protocol (HTTP).md) in [04-RESOURCES/Lists/List - GIS Open Standards](04-RESOURCES/Lists/List - GIS Open Standards.md)
+- [Highcharter](Highcharter.md) in [04-RESOURCES/Code/R/R - Shiny Highcharter Helpers](04-RESOURCES/Code/R/R - Shiny Highcharter Helpers.md)
+- [R - Shiny Cloud Run Deployment](R - Shiny Cloud Run Deployment.md) in [04-RESOURCES/Lists/List - Cloud Platforms](04-RESOURCES/Lists/List - Cloud Platforms.md), [04-RESOURCES/Lists/List - R Shiny Ecosystem](04-RESOURCES/Lists/List - R Shiny Ecosystem.md)
+- [MOC - DevOps](MOC - DevOps.md) in [04-RESOURCES/Lists/List - Cloud Platforms](04-RESOURCES/Lists/List - Cloud Platforms.md), [04-RESOURCES/Lists/List - DevOps Tools](04-RESOURCES/Lists/List - DevOps Tools.md), [01-SLIPBOX/Docker Best Practices](01-SLIPBOX/Docker Best Practices.md)
+- [MOC - Web Development](MOC - Web Development.md) in [04-RESOURCES/Lists/List - JavaScript Frameworks](04-RESOURCES/Lists/List - JavaScript Frameworks.md)
+- [Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md) in [04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management](04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management.md), [04-RESOURCES/Guides/Guide - Web Authentication](04-RESOURCES/Guides/Guide - Web Authentication.md)
+- [Definition - OAuth](Definition - OAuth.md) in [04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management](04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management.md), [04-RESOURCES/Guides/Guide - Web Authentication](04-RESOURCES/Guides/Guide - Web Authentication.md)
+- [Definition - OpenID Connect (OIDC)](Definition - OpenID Connect (OIDC).md) in [04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management](04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management.md)
+- [Definition - Multi-Factor Authentication (MFA)](Definition - Multi-Factor Authentication (MFA).md) in [04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management](04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management.md)
+- [MOC - Security](MOC - Security.md) in [04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management](04-RESOURCES/Definitions/Glossary/Glossary - Identity and Access Management.md), [04-RESOURCES/Guides/Guide - Web Authentication](04-RESOURCES/Guides/Guide - Web Authentication.md)
+- [DBeaver](DBeaver.md) in [04-RESOURCES/Definitions/Dictionary/PostGIS](04-RESOURCES/Definitions/Dictionary/PostGIS.md)
+- [Linux](Linux.md) in [04-RESOURCES/Code/Bash/Bash - Check if Directory Exists](04-RESOURCES/Code/Bash/Bash - Check if Directory Exists.md), [04-RESOURCES/Code/Bash/Bash - Cleanup Docker](04-RESOURCES/Code/Bash/Bash - Cleanup Docker.md), [04-RESOURCES/Code/Bash/Bash - Control Flow](04-RESOURCES/Code/Bash/Bash - Control Flow.md), [04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL](04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL.md), [04-RESOURCES/Code/Bash/Bash - DNS Commands](04-RESOURCES/Code/Bash/Bash - DNS Commands.md), [04-RESOURCES/Code/Bash/Bash - Trap Command](04-RESOURCES/Code/Bash/Bash - Trap Command.md), [04-RESOURCES/Code/Bash/Bash - Logging Functions](04-RESOURCES/Code/Bash/Bash - Logging Functions.md), [04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History](04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History.md), [04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis](04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis.md), [04-RESOURCES/Code/Bash/Bash - Iterating over Files](04-RESOURCES/Code/Bash/Bash - Iterating over Files.md), [04-RESOURCES/Code/Bash/Bash - Install Docker Compose](04-RESOURCES/Code/Bash/Bash - Install Docker Compose.md), [04-RESOURCES/Code/Bash/Bash - Make Web Icons](04-RESOURCES/Code/Bash/Bash - Make Web Icons.md), [04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words](04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words.md), [04-RESOURCES/Code/Bash/Bash - Print Values of PATH](04-RESOURCES/Code/Bash/Bash - Print Values of PATH.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md) in [04-RESOURCES/Code/Bash/Bash - Check if Directory Exists](04-RESOURCES/Code/Bash/Bash - Check if Directory Exists.md), [04-RESOURCES/Code/Bash/Bash - Cleanup Docker](04-RESOURCES/Code/Bash/Bash - Cleanup Docker.md), [04-RESOURCES/Code/Bash/Bash - Control Flow](04-RESOURCES/Code/Bash/Bash - Control Flow.md), [04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL](04-RESOURCES/Code/Bash/Bash - Create Signing Certificate via OpenSSL.md), [04-RESOURCES/Code/Bash/Bash - DNS Commands](04-RESOURCES/Code/Bash/Bash - DNS Commands.md), [04-RESOURCES/Code/Bash/Bash - Trap Command](04-RESOURCES/Code/Bash/Bash - Trap Command.md), [04-RESOURCES/Code/Bash/Bash - Logging Functions](04-RESOURCES/Code/Bash/Bash - Logging Functions.md), [04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History](04-RESOURCES/Code/Bash/Bash - Find Most Used Commands from History.md), [04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis](04-RESOURCES/Code/Bash/Bash - Using dig for Email DNS Analysis.md), [04-RESOURCES/Code/Bash/Bash - Iterating over Files](04-RESOURCES/Code/Bash/Bash - Iterating over Files.md), [04-RESOURCES/Code/Bash/Bash - Install Docker Compose](04-RESOURCES/Code/Bash/Bash - Install Docker Compose.md), [04-RESOURCES/Code/Bash/Bash - Make Web Icons](04-RESOURCES/Code/Bash/Bash - Make Web Icons.md), [04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words](04-RESOURCES/Code/Bash/Bash - Get Lines of Text Between Two Words.md), [04-RESOURCES/Code/Bash/Bash - Print Values of PATH](04-RESOURCES/Code/Bash/Bash - Print Values of PATH.md)
+- [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md) in [01-SLIPBOX/Few-Shot Prompting](01-SLIPBOX/Few-Shot Prompting.md), [01-SLIPBOX/Zero-Shot Prompting](01-SLIPBOX/Zero-Shot Prompting.md)
+- [Self-Consistency](Self-Consistency.md) in [01-SLIPBOX/Few-Shot Prompting](01-SLIPBOX/Few-Shot Prompting.md)
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md) in [01-SLIPBOX/Few-Shot Prompting](01-SLIPBOX/Few-Shot Prompting.md), [01-SLIPBOX/Zero-Shot Prompting](01-SLIPBOX/Zero-Shot Prompting.md)
+- [Zettelkasten Method](Zettelkasten Method.md) in [01-SLIPBOX/PARA Method](01-SLIPBOX/PARA Method.md)
+- [Tempalte-TOC](Tempalte-TOC.md) in [05-SYSTEM/Templates/Code/Template-Code](05-SYSTEM/Templates/Code/Template-Code.md)
+- [.obsidian/themes](.obsidian/themes.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Dark Moss](.obsidian/themes/Dark Moss.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Atom](.obsidian/themes/Atom.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Big Sur Aesthetic](.obsidian/themes/Big Sur Aesthetic.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Blackbird](.obsidian/themes/Blackbird.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Catppuccin](.obsidian/themes/Catppuccin.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/GitHub Theme](.obsidian/themes/GitHub Theme.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Minimal](.obsidian/themes/Minimal.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Obsidianite](.obsidian/themes/Obsidianite.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Prism](.obsidian/themes/Prism.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Sanctum](.obsidian/themes/Sanctum.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Shimmering Focus](.obsidian/themes/Shimmering Focus.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Terminal](.obsidian/themes/Terminal.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/Things](.obsidian/themes/Things.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)
+- [.obsidian/themes/VSCoder](.obsidian/themes/VSCoder.md) in [05-SYSTEM/Meta/THEMES](05-SYSTEM/Meta/THEMES.md)

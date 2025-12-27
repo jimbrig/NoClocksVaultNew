@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Z-Index
-
-```table-of-contents
-```
-
 ## Overview
 
 **Z-Index** (also known as Morton code or Z-order) is a spatial indexing method that organizes geographic data into a hierarchical grid structure, often used to improve the efficiency of spatial queries and analysis. The Z-index maps multidimensional data to one dimension while preserving locality.
@@ -44,12 +40,8 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Hexagonal Hierarchical Spatial Index (H3)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Hexagonal Hierarchical Spatial Index (H3)](Hexagonal Hierarchical Spatial Index (H3).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Z-Index]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Z-Index"
-```
-
+<!-- dynamic content -->

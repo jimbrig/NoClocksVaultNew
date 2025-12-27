@@ -16,15 +16,6 @@ publish: true
 ---
 
 # deck.gl
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **deck.gl** is a WebGL-powered framework for visual exploratory data analysis of large datasets. Developed by Uber's visualization team, it provides a layered approach to rendering millions of data points with high performance, commonly used for geospatial visualization.
@@ -179,8 +170,8 @@ mapdeck(style = mapdeck_style("dark")) |>
 
 | Tool | Description |
 |------|-------------|
-| [[kepler.gl]] | No-code deck.gl-based exploration |
-| [[MapLibre]] | Basemap for deck.gl overlays |
+| [kepler.gl](kepler.gl.md) | No-code deck.gl-based exploration |
+| [MapLibre](MapLibre.md) | Basemap for deck.gl overlays |
 | pydeck | Python bindings for Jupyter |
 | mapdeck | R bindings for deck.gl |
 
@@ -192,17 +183,13 @@ mapdeck(style = mapdeck_style("dark")) |>
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - GIS Web Mapping Libraries]]
-- [[MapLibre]]
-- [[kepler.gl]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md)
+- [MapLibre](MapLibre.md)
+- [kepler.gl](kepler.gl.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[deck.gl]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/deck.gl"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

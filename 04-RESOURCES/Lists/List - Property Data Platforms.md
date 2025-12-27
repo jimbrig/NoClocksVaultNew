@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - Property Data Platforms
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **property data API platforms, parcel data providers, and real estate data services** for integrating property intelligence into applications.
@@ -94,7 +85,7 @@ Curated collection of **property data API platforms, parcel data providers, and 
 
 | Platform | Description | Links |
 |----------|-------------|-------|
-| FEMA NFHL | Flood hazard zones and FIRM data | [Website](https://msc.fema.gov) - [[National Flood Hazard Layer (NFHL)]] |
+| FEMA NFHL | Flood hazard zones and FIRM data | [Website](https://msc.fema.gov) - [National Flood Hazard Layer (NFHL)](National Flood Hazard Layer (NFHL).md) |
 | LightBox NFHL API | FEMA flood data via API | [Docs](https://lightbox.document360.io/docs/fema-national-flood-hazard-layer-documentation) |
 | CoreLogic Hazard | Natural hazard risk data | [Website](https://corelogic.com/solutions/property-data/) |
 | ClimateCheck | Climate risk scoring | [Website](https://climatecheck.com) |
@@ -110,9 +101,9 @@ Curated collection of **property data API platforms, parcel data providers, and 
 
 ## Notes
 
-- For integration patterns, consider using [[Code - R - httr2 API Client]]
-- Related standards: [[Real Estate Standards Organization (RESO)]]
-- See also: [[List - Federal Geospatial Data Sources]]
+- For integration patterns, consider using [Code - R - httr2 API Client](Code - R - httr2 API Client.md)
+- Related standards: [Real Estate Standards Organization (RESO)](Real Estate Standards Organization (RESO).md)
+- See also: [List - Federal Geospatial Data Sources](List - Federal Geospatial Data Sources.md)
 
 ---
 
@@ -122,16 +113,12 @@ Curated collection of **property data API platforms, parcel data providers, and 
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[MOC - RealEstate]]
-- [[List - Federal Geospatial Data Sources]]
+- [MOC - GIS](MOC - GIS.md)
+- [MOC - RealEstate](MOC - RealEstate.md)
+- [List - Federal Geospatial Data Sources](List - Federal Geospatial Data Sources.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - Property Data Platforms]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - Property Data Platforms"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

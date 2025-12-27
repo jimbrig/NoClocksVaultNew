@@ -13,16 +13,6 @@ publish: true
 ---
 
 # MOC - PKM
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -31,27 +21,16 @@ debugInConsole: false
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/PKM").length`** individual notes with the `#Topic/PKM` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/PKM
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - PKM"
-```
-
+> *Currently, there are  individual notes with the `#Topic/PKM` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - PKM]] AND -"CHANGELOG" AND -"03-AREAS/MOC - PKM"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

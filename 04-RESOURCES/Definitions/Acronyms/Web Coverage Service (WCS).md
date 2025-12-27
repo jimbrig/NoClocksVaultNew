@@ -15,18 +15,9 @@ publish: true
 ---
 
 # Web Coverage Service (WCS)
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**Web Coverage Service (WCS)** is an [[Open Geospatial Consortium (OGC)]] standard that provides access to geospatial raster data, called "coverages." Unlike [[Web Map Service (WMS)]] which returns rendered images, WCS returns the actual data values, enabling analysis and processing on the client side.
+**Web Coverage Service (WCS)** is an [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) standard that provides access to geospatial raster data, called "coverages." Unlike [Web Map Service (WMS)](Web Map Service (WMS).md) which returns rendered images, WCS returns the actual data values, enabling analysis and processing on the client side.
 
 ## Key Concepts
 
@@ -81,14 +72,14 @@ GET /wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=DEM&format=ima
 
 ## Related Standards
 
-- [[Web Map Service (WMS)]] - Returns rendered images
-- [[Web Feature Service (WFS)]] - Returns vector features
-- [[OGC API - Coverages]] - Modern REST API replacement
+- [Web Map Service (WMS)](Web Map Service (WMS).md) - Returns rendered images
+- [Web Feature Service (WFS)](Web Feature Service (WFS).md) - Returns vector features
+- [OGC API - Coverages](OGC API - Coverages.md) - Modern REST API replacement
 
 ## See Also
 
-- [[Open Geospatial Consortium (OGC)]]
-- [[List - GIS Standards Organizations]]
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [List - GIS Standards Organizations](List - GIS Standards Organizations.md)
 
 ---
 
@@ -97,8 +88,4 @@ GET /wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=DEM&format=ima
 *Created: 2024-12-22 | Modified: 2024-12-22*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Web Coverage Service (WCS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/Web Coverage Service (WCS)"
-```
-
+<!-- dynamic content -->

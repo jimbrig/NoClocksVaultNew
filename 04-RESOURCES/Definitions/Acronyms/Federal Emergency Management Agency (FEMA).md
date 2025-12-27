@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Federal Emergency Management Agency (FEMA)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Federal Emergency Management Agency (FEMA)** is a U.S. government agency responsible for coordinating disaster response and recovery efforts, as well as providing data on flood zones and other hazard areas. FEMA administers the National Flood Insurance Program (NFIP) and maintains the authoritative source for flood hazard mapping in the United States.
@@ -48,12 +44,8 @@ aliases:
 
 ### See Also
 
-- [[National Flood Hazard Layer (NFHL)]]
-- [[Geographic Information System (GIS)]]
+- [National Flood Hazard Layer (NFHL)](National Flood Hazard Layer (NFHL).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Federal Emergency Management Agency (FEMA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Federal Emergency Management Agency (FEMA)"
-```
-
+<!-- dynamic content -->

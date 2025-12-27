@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Bounding Box (BBOX)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Bounding Box (BBOX)** is a rectangular area defined by the minimum and maximum coordinates (latitude and longitude) that encompasses a spatial dataset or map extent. Bounding boxes are used extensively in spatial queries, web map requests, and data filtering.
@@ -47,13 +43,9 @@ aliases:
 
 ### See Also
 
-- [[Extent]]
-- [[Geographic Information System (GIS)]]
-- [[Web Map Service (WMS)]]
+- [Extent](Extent.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bounding Box (BBOX)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Bounding Box (BBOX)"
-```
-
+<!-- dynamic content -->

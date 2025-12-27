@@ -14,10 +14,6 @@ aliases:
 ---
 
 # LineString
-
-```table-of-contents
-```
-
 ## Overview
 
 **LineString** is a spatial feature in a GIS that represents a series of connected points forming a line, often used to represent linear features such as roads, rivers, or trails. LineStrings are ordered sequences of two or more vertices connected by straight line segments.
@@ -53,14 +49,10 @@ aliases:
 
 ### See Also
 
-- [[Feature]]
-- [[Point]]
-- [[Polygon]]
-- [[Geographic Information System (GIS)]]
+- [Feature](Feature.md)
+- [Point](Point.md)
+- [Polygon](Polygon.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[LineString]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/LineString"
-```
-
+<!-- dynamic content -->

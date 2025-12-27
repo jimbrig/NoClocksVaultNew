@@ -13,48 +13,27 @@ publish: true
 ---
 
 # MOC - PowerShell
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
 > This note serves as an index for all notes related to the topic: **PowerShell**.
 
-- [[PowerShell - Profile Custom Setup]]
-- [[List - PowerShell Modules]]
+- [PowerShell - Profile Custom Setup](PowerShell - Profile Custom Setup.md)
+- [List - PowerShell Modules](List - PowerShell Modules.md)
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/PowerShell").length`** individual notes with the `#Topic/PowerShell` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/PowerShell
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - PowerShell"
-```
-
+> *Currently, there are  individual notes with the `#Topic/PowerShell` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-25]] and last modified on [[2025-12-25]].*
+*Note created on [2025-12-25](2025-12-25.md) and last modified on [2025-12-25](2025-12-25.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - PowerShell]] AND -"CHANGELOG" AND -"03-AREAS/MOC - PowerShell"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

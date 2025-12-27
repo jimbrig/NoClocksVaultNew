@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - DevOps Tools
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **DevOps tools** for continuous integration, container orchestration, infrastructure as code, and automation.
@@ -139,9 +130,9 @@ Curated collection of **DevOps tools** for continuous integration, container orc
 
 ## See Also
 
-- [[List - Cloud Platforms]]
-- [[List - Command Line Tools]]
-- [[MOC - DevOps]]
+- [List - Cloud Platforms](List - Cloud Platforms.md)
+- [List - Command Line Tools](List - Command Line Tools.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 

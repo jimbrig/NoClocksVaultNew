@@ -15,10 +15,6 @@ aliases:
 ---
 
 # International Organization for Standardization (ISO)
-
-```table-of-contents
-```
-
 ## Overview
 
 **International Organization for Standardization (ISO)** is an international body that develops and publishes standards, including those related to geospatial data and GIS technologies. ISO's Technical Committee 211 (TC 211) is responsible for geographic information standards.
@@ -47,13 +43,9 @@ aliases:
 
 ### See Also
 
-- [[Open Geospatial Consortium (OGC)]]
-- [[Federal Geographic Data Committee (FGDC)]]
-- [[Geographic Information System (GIS)]]
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [Federal Geographic Data Committee (FGDC)](Federal Geographic Data Committee (FGDC).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[International Organization for Standardization (ISO)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/International Organization for Standardization (ISO)"
-```
-
+<!-- dynamic content -->

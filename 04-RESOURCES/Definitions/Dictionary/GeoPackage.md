@@ -15,18 +15,9 @@ publish: true
 ---
 
 # GeoPackage
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**GeoPackage** (`.gpkg`) is an [[Open Geospatial Consortium (OGC)]] standard for storing geospatial information in a self-contained SQLite database. It supports both vector features and raster tile data in a single portable file, making it the modern replacement for [[Shapefile]].
+**GeoPackage** (`.gpkg`) is an [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) standard for storing geospatial information in a self-contained SQLite database. It supports both vector features and raster tile data in a single portable file, making it the modern replacement for [Shapefile](Shapefile.md).
 
 ## Key Features
 
@@ -127,9 +118,9 @@ SELECT * FROM parcels WHERE ST_Area(geom) > 10000;
 - Replacing Shapefiles
 
 **Consider alternatives when:**
-- Cloud analytics → [[GeoParquet]]
-- Web streaming → [[FlatGeobuf]]
-- Simple web API → [[GeoJSON]]
+- Cloud analytics → [GeoParquet](GeoParquet.md)
+- Web streaming → [FlatGeobuf](FlatGeobuf.md)
+- Simple web API → [GeoJSON](GeoJSON.md)
 
 ---
 
@@ -139,18 +130,14 @@ SELECT * FROM parcels WHERE ST_Area(geom) > 10000;
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[Guide - Geospatial File Format Selection]]
-- [[Shapefile]]
-- [[GeoJSON]]
-- [[Open Geospatial Consortium (OGC)]]
+- [MOC - GIS](MOC - GIS.md)
+- [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md)
+- [Shapefile](Shapefile.md)
+- [GeoJSON](GeoJSON.md)
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[GeoPackage]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/GeoPackage"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

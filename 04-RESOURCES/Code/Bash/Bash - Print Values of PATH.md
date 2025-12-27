@@ -17,15 +17,6 @@ cssclasses:
 ---
 
 # Print Values of PATH
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -38,24 +29,24 @@ Display the `$PATH` environment variable with each directory on its own line for
 ### Bash
 
 ```bash
-echo "${PATH//:/$'\n'}"
+echo "${PATH//:/$'/n'}"
 ```
 
 ### Zsh
 
 ```bash
 # for zsh, omit the $ character
-echo "${PATH//:/'\n'}"
+echo "${PATH//:/'/n'}"
 ```
 
 ### Alternative Methods
 
 ```bash
 # using tr
-echo "$PATH" | tr ':' '\n'
+echo "$PATH" | tr ':' '/n'
 
 # using sed
-echo "$PATH" | sed 's/:/\n/g'
+echo "$PATH" | sed 's/://n/g'
 
 # using awk
 echo "$PATH" | awk -F: '{for(i=1;i<=NF;i++) print $i}'
@@ -63,11 +54,11 @@ echo "$PATH" | awk -F: '{for(i=1;i<=NF;i++) print $i}'
 
 ## Details
 
-The Bash syntax `${PATH//:/$'\n'}`:
+The Bash syntax `${PATH//:/$'/n'}`:
 
 - `${variable//pattern/replacement}` - Replace all occurrences
 - `::` - Match colon (the PATH separator)
-- `$'\n'` - ANSI-C quoting for newline character
+- `$'/n'` - ANSI-C quoting for newline character
 
 Example output:
 
@@ -84,20 +75,16 @@ Example output:
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Print Values of PATH]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

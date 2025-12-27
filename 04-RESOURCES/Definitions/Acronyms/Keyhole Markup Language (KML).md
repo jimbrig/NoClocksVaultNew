@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Keyhole Markup Language (KML)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Keyhole Markup Language (KML)** is an XML-based file format used for storing and sharing geographic data, often used with Google Earth and other GIS applications for visualizing spatial information. KML was originally developed by Keyhole, Inc. (acquired by Google) and is now an OGC standard.
@@ -55,13 +51,9 @@ aliases:
 
 ### See Also
 
-- [[GeoJSON]]
-- [[Geography Markup Language (GML)]]
-- [[Geographic Information System (GIS)]]
+- [GeoJSON](GeoJSON.md)
+- [Geography Markup Language (GML)](Geography Markup Language (GML).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Keyhole Markup Language (KML)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Keyhole Markup Language (KML)"
-```
-
+<!-- dynamic content -->

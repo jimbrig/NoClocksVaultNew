@@ -13,15 +13,6 @@ publish: true
 ---
 
 # List - GIS Open Standards
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of tools and resources for **GIS Open Standards**.
@@ -34,11 +25,11 @@ Normally any standard is a technical document intended for use as a rule, guidel
 
 GIS software and GIS services should have the ability to read and write various established data formats. GIS applications should use data format standards to store geospatial data in a common format. You should be able to transfer data from system to system via extract. You may need to transform and load tools for data validation, migration and distribution.
 
-- [[Keyhole Markup Language (KML)]]
-- [[GeoPackage (GPKG)]]
+- [Keyhole Markup Language (KML)](Keyhole Markup Language (KML).md)
+- [GeoPackage (GPKG)](GeoPackage (GPKG).md)
 - 
-- [[Aeronautical Information Exchange Model (AIXM)]]
-- [[Electronic Nautical Charts (IHO S-57/ENC)]]
+- [Aeronautical Information Exchange Model (AIXM)](Aeronautical Information Exchange Model (AIXM).md)
+- [Electronic Nautical Charts (IHO S-57/ENC)](Electronic Nautical Charts (IHO S-57/ENC).md)
 - 
 
 ## Metadata Standards
@@ -58,7 +49,7 @@ Standards for GIS services are used to transfer (spatial) data smoothly via the 
 
 ### OGC APIs
 
-Standards the build upon the legacy [[List - OGC Web Service Standards|OGC Web Service Standards]] but define resource-centric [[Application Programming Interface (API)|APIs]] that take advantage of modern web development practices.
+Standards the build upon the legacy [OGC Web Service Standards](List - OGC Web Service Standards.md) but define resource-centric [APIs](Application Programming Interface (API).md) that take advantage of modern web development practices.
 
 - [GeoAPI Implementation Specification](https://www.ogc.org/standards/geoapi/)
 - [OGC API – Common](https://www.ogc.org/standards/ogcapi-common/)
@@ -75,7 +66,7 @@ Standards the build upon the legacy [[List - OGC Web Service Standards|OGC Web S
 
 ### Services
 
-Standards that implement [[Extensible Markup Language (XML)|XML]] Remote Procedure Calls using the [[Hyper Text Transfer Protocol (HTTP)]].
+Standards that implement [XML](Extensible Markup Language (XML).md) Remote Procedure Calls using the [Hyper Text Transfer Protocol (HTTP)](Hyper Text Transfer Protocol (HTTP).md).
 
 - [3D Portrayal Service](https://www.ogc.org/standards/3dp/)
 - [Coordinate Transformation Service](https://www.ogc.org/standards/ct/)
@@ -270,17 +261,13 @@ ISO standards generally reference both a content standard and an XML encoding st
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[List - GIS Standards Organizations]]
-- [[List - OGC Web Service Standards]]
-- [[Guide - Geospatial File Format Selection]]
+- [MOC - GIS](MOC - GIS.md)
+- [List - GIS Standards Organizations](List - GIS Standards Organizations.md)
+- [List - OGC Web Service Standards](List - OGC Web Service Standards.md)
+- [Guide - Geospatial File Format Selection](Guide - Geospatial File Format Selection.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - GIS Open Standards]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - GIS Open Standards"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

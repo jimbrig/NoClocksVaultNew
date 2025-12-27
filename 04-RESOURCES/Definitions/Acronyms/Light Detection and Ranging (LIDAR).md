@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Light Detection and Ranging (LIDAR)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Light Detection and Ranging (LIDAR)** is a remote sensing method that uses laser pulses to measure distances and create detailed three-dimensional representations of the Earth's surface and features. LIDAR provides high-accuracy elevation data used for terrain modeling, forestry, urban planning, and flood mapping.
@@ -45,8 +41,8 @@ aliases:
 
 ## Products Derived from LIDAR
 
-- [[Digital Elevation Model (DEM)]]
-- [[Digital Terrain Model (DTM)]]
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
+- [Digital Terrain Model (DTM)](Digital Terrain Model (DTM).md)
 - Digital Surface Model (DSM)
 - Building footprints
 - Vegetation height models
@@ -57,14 +53,10 @@ aliases:
 
 ### See Also
 
-- [[Digital Elevation Model (DEM)]]
-- [[Digital Terrain Model (DTM)]]
-- [[3D Elevation Program (3DEP)]]
-- [[United States Geological Survey (USGS)]]
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
+- [Digital Terrain Model (DTM)](Digital Terrain Model (DTM).md)
+- [3D Elevation Program (3DEP)](3D Elevation Program (3DEP).md)
+- [United States Geological Survey (USGS)](United States Geological Survey (USGS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Light Detection and Ranging (LIDAR)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Light Detection and Ranging (LIDAR)"
-```
-
+<!-- dynamic content -->

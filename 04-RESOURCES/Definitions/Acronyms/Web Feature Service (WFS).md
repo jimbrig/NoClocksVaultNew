@@ -14,13 +14,9 @@ aliases:
 ---
 
 # Web Feature Service (WFS)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Web Feature Service (WFS)** is an [[Open Geospatial Consortium (OGC)|OGC]] standard that provides an interface for accessing geospatial features over the web, allowing users to query and retrieve vector data. Unlike [[Web Map Service (WMS)|WMS]] which returns rendered images, WFS returns actual feature data (geometries and attributes) that can be analyzed, styled, and manipulated by the client.
+**Web Feature Service (WFS)** is an [OGC](Open Geospatial Consortium (OGC).md) standard that provides an interface for accessing geospatial features over the web, allowing users to query and retrieve vector data. Unlike [WMS](Web Map Service (WMS).md) which returns rendered images, WFS returns actual feature data (geometries and attributes) that can be analyzed, styled, and manipulated by the client.
 
 ## Key Concepts
 
@@ -41,8 +37,8 @@ aliases:
 
 ## Output Formats
 
-- [[Geography Markup Language (GML)|GML]] (default)
-- [[GeoJSON]]
+- [GML](Geography Markup Language (GML).md) (default)
+- [GeoJSON](GeoJSON.md)
 - Shapefile
 - CSV
 - KML
@@ -53,14 +49,10 @@ aliases:
 
 ### See Also
 
-- [[Open Geospatial Consortium (OGC)]]
-- [[Web Map Service (WMS)]]
-- [[Geographic Information System (GIS)]]
-- [[GeoJSON]]
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [GeoJSON](GeoJSON.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Web Feature Service (WFS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Web Feature Service (WFS)"
-```
-
+<!-- dynamic content -->

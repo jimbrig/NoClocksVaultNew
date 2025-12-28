@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "R - Interactive Data Dictionary Wizard GUI",
+      "path": "04-RESOURCES/Code/R/R - Interactive Data Dictionary Wizard GUI.md"
+    },
+    {
+      "basename": "List - Property Data Platforms",
+      "path": "04-RESOURCES/Lists/List - Property Data Platforms.md"
+    },
+    {
+      "basename": "List - GIS AI Tools",
+      "path": "04-RESOURCES/Lists/List - GIS AI Tools.md"
+    },
+    {
+      "basename": "List - File Extensions",
+      "path": "04-RESOURCES/Lists/List - File Extensions.md"
+    },
+    {
+      "basename": "List - Federal Geospatial Data Sources",
+      "path": "04-RESOURCES/Lists/List - Federal Geospatial Data Sources.md"
+    },
+    {
       "basename": "PowerShell - Add GodMode Shortcut to Desktop",
       "path": "04-RESOURCES/Code/PowerShell/PowerShell - Add GodMode Shortcut to Desktop.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "atlanta-001",
       "path": "05-SYSTEM/Assets/Images/atlanta-001.jpeg"
-    },
-    {
-      "basename": "brain-banner",
-      "path": "05-SYSTEM/Assets/Banners/brain-banner.png"
-    },
-    {
-      "basename": "programming-gif-banner",
-      "path": "05-SYSTEM/Assets/Banners/programming-gif-banner.gif"
-    },
-    {
-      "basename": "_README",
-      "path": "05-SYSTEM/Assets/Images/_README.md"
-    },
-    {
-      "basename": "todoist",
-      "path": "05-SYSTEM/Assets/Logos/tools/todoist.png"
-    },
-    {
-      "basename": "noclocks-dark-scheme-color-palette",
-      "path": "05-SYSTEM/Assets/Images/noclocks-dark-scheme-color-palette.png"
     }
   ],
   "omittedPaths": [],

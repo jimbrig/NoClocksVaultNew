@@ -1,0 +1,101 @@
+# AI Chat Processing Rules
+
+> Workflow-specific rules extending `obsidian-vault.mdc`
+
+## Context
+
+Rules for processing AI LLM chat exports (Perplexity, ChatGPT, Claude, Cursor, Copilot) and extracting atomic knowledge notes. Applies when working with files in `04-RESOURCES/Integrations/Chats/`.
+
+## Chat Storage Location
+
+```
+04-RESOURCES/Integrations/Chats/   - Raw AI chat exports with frontmatter
+99-ARCHIVES/AI-Chats/              - Fully processed and archived chats
+```
+
+## Chat Naming Convention
+
+Format: `{YYYY-MM-DD}_{Provider}_{Topic Slug}.md`
+
+Examples:
+- `2024-12-31_Perplexity_Information theory computational encoding.md`
+- `2024-12-31_ChatGPT_React hooks best practices.md`
+- `2024-12-31_Claude_Database schema design.md`
+
+## Required Chat Frontmatter
+
+All AI chat notes MUST include:
+
+```yaml
+---
+creation_date: YYYY-MM-DD
+modification_date: YYYY-MM-DD
+author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
+description: Brief description of chat content
+tags:
+  - Type/Chat
+  - Topic/{RelevantTopics}
+  - Status/{Draft|Complete}
+aliases:
+  - Short reference name
+publish: false
+provider: Perplexity|ChatGPT|Claude|Cursor|Copilot|Other
+chat_date: YYYY-MM-DD
+extraction_status: pending|in_progress|complete
+extracted_notes: []
+topics: []
+key_insights: []
+---
+```
+
+## Extraction Status Values
+
+- `pending` - Not yet processed
+- `in_progress` - Currently being processed
+- `complete` - All insights extracted
+
+## Extractable Note Types
+
+When processing chats, extract into these note types:
+
+| Content Type | Note Type | Location |
+|--------------|-----------|----------|
+| Term/Concept definitions | `Definition - {Term}.md` | `04-RESOURCES/Definitions/Dictionary/` |
+| Acronyms | `Definition - {Full Name (ACRONYM)}.md` | `04-RESOURCES/Definitions/Acronyms/` |
+| Code examples | `Code - {Lang} - {Desc}.md` | `04-RESOURCES/Code/{Language}/` |
+| How-to procedures | `Guide - {Topic}.md` | `04-RESOURCES/Guides/` |
+| Tool/Resource lists | `List - {Category}.md` | `04-RESOURCES/Lists/` |
+| Pure insights/ideas | `{Concept Name}.md` | `01-SLIPBOX/` |
+
+## Extracted Note Requirements
+
+All notes extracted from chats MUST include:
+
+1. `source_chat` frontmatter field linking back to original chat
+2. `source_provider` field indicating the AI provider
+3. `confidence` field (high|medium|low) indicating reliability
+4. Proper Topic tags matching relevant MOCs
+5. Backlinks Dataview query
+
+## Processing Workflow
+
+1. **Capture**: Import raw chat with proper frontmatter
+2. **Evaluate**: Identify extractable insights, mark `extraction_status: in_progress`
+3. **Process**: Create atomic notes for each insight, update `extracted_notes` array
+4. **Archive**: Mark `extraction_status: complete`, optionally move to archives
+
+## Tag Matching for MOCs
+
+Use spaced topic tags to match MOC Dataview queries:
+- `Topic/Information Theory` (not `Topic/InformationTheory`)
+- `Topic/Computer Science` (not `Topic/ComputerScience`)
+- `Topic/Quantum Mechanics` (not `Topic/QuantumMechanics`)
+
+## Quality Guidelines
+
+When extracting insights:
+- Each note should be atomic (one concept)
+- Verify factual claims before marking high confidence
+- Cross-link related extracted notes
+- Add to relevant MOCs via proper Topic tags
+- Include sufficient context without copying entire chat

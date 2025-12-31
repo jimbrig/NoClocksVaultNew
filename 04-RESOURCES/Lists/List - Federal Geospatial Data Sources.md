@@ -122,7 +122,7 @@ Curated collection of **federal, state, and government geospatial data sources**
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - R Geospatial Packages]]
 - [[List - Property Data Platforms]]
 

@@ -97,7 +97,7 @@ See [[Guide - ArcGIS REST API]] for implementation details.
 
 - [[List - GIS Standards Organizations]]
 - [[Guide - ArcGIS REST API]]
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 
 ## Backlinks
 

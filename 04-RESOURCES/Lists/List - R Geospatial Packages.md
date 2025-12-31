@@ -112,6 +112,29 @@ The foundational packages for working with spatial data in R.
 | mapdeck | Deck.gl and Mapbox GL maps | [CRAN](https://cran.r-project.org/package=mapdeck) |
 | mapgl | MapLibre/Mapbox GL interface | [GitHub](https://github.com/walkerke/mapgl) |
 
+### Leaflet
+
+```R
+# leaflet
+library(leaflet)
+library(leaflet.extras)
+library(leaflet.extras2)
+library(leafem)
+library(leaflet.providers)
+library(leafgl)
+library(leaflet.opacity)
+library(leaflet.esri)
+library(leaf.magic)
+library(leaflegend)
+library(leafsync)
+library(leafdown)
+library(leafsync)
+library(leafpop)
+```
+
+- [leaflet]()
+- [leaflet.extras]()
+
 ## Visualization - Static Maps
 
 | Package | Description | Links |
@@ -202,7 +225,7 @@ The foundational packages for working with spatial data in R.
 ### See Also
 
 - [[MOC - R]]
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - R Database Packages]]
 
 ### Backlinks

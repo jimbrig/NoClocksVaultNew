@@ -160,7 +160,7 @@ duckdb -c "SELECT COUNT(*) FROM read_parquet('data.parquet');"
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - Spatial Databases]]
 - [[GeoParquet]]
 - [[Apache Arrow]]

@@ -1,20 +1,24 @@
 ---
 creation_date: 2024-04-12
-modification_date: 2024-12-23
+modification_date: 2025-12-31
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Map of Content for GIS (Geographic Information Systems) and geospatial topics
 tags:
-  - Status/Ongoing
   - Type/MOC
+  - Status/Ongoing
   - Topic/GIS
+  - Topic/Geospatial
 aliases:
   - GIS
   - Geospatial
   - Geographic Information Systems
+  - MOC - GIS
+  - Geospatial Map of Content
+  - GIS Map of Content
 publish: true
 ---
 
-# MOC - GIS
+# MOC - Geospatial
 
 ```table-of-contents
 title: Contents
@@ -165,12 +169,25 @@ Foundational knowledge for building modern geospatial systems:
 - [[tippecannoe]] - Vector tile generation
 - [[GeoServer]] - Open source map server
 
-## Related Topics
+## Related MOCs
 
-- [[MOC - R]] - R programming (geospatial packages)
-- [[MOC - RealEstate]] - Real estate domain
-- [[MOC - Cloud]] - Cloud platforms for GIS
-- [[MOC - DataEngineering]] - Data pipelines
+### Parent/Broader MOCs
+- [[MOC - Data Science]] - Geospatial as a data science domain
+- [[MOC - Development]] - Software development context
+
+### Sibling MOCs (Same Level)
+- [[MOC - Data Engineering]] - Data pipelines and ETL for spatial data
+- [[MOC - Cloud]] - Cloud platforms for GIS infrastructure
+- [[MOC - Databases]] - Spatial database systems (PostGIS, DuckDB)
+
+### Language-Specific MOCs
+- [[MOC - R]] - R geospatial packages (sf, terra, leaflet)
+- [[MOC - Python]] - Python geospatial stack (GeoPandas, Shapely, Fiona)
+- [[MOC - JavaScript]] - Web mapping libraries (Leaflet, MapLibre, deck.gl)
+
+### Domain MOCs
+- [[MOC - Business]] - Real estate, property, and location intelligence
+- [[MOC - Statistics]] - Spatial statistics and geostatistics
 
 ## External Resources
 

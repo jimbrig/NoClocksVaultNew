@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "R - Interactive Data Dictionary Wizard GUI",
-      "path": "04-RESOURCES/Code/R/R - Interactive Data Dictionary Wizard GUI.md"
-    },
-    {
-      "basename": "List - Property Data Platforms",
-      "path": "04-RESOURCES/Lists/List - Property Data Platforms.md"
-    },
-    {
-      "basename": "List - GIS AI Tools",
-      "path": "04-RESOURCES/Lists/List - GIS AI Tools.md"
-    },
-    {
-      "basename": "List - File Extensions",
-      "path": "04-RESOURCES/Lists/List - File Extensions.md"
-    },
-    {
-      "basename": "List - Federal Geospatial Data Sources",
-      "path": "04-RESOURCES/Lists/List - Federal Geospatial Data Sources.md"
-    },
-    {
-      "basename": "PowerShell - Add GodMode Shortcut to Desktop",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Add GodMode Shortcut to Desktop.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/_README.md"
     },
     {
       "basename": "_README",
-      "path": "04-RESOURCES/Code/PowerShell/_README.md"
+      "path": "04-RESOURCES/Code/C/_README.md"
     },
     {
-      "basename": "PowerShell - Profile Custom Setup",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Profile Custom Setup.md"
+      "basename": "C - Error Handling",
+      "path": "04-RESOURCES/Code/C/C - Error Handling.md"
     },
     {
-      "basename": "PowerShell - Get-ObsidianVaultPlugins",
-      "path": "04-RESOURCES/Code/PowerShell/PowerShell - Get-ObsidianVaultPlugins.md"
+      "basename": "R - Document Dataset with Roxygen",
+      "path": "04-RESOURCES/Code/R/R - Document Dataset with Roxygen.md"
     },
     {
-      "basename": "PLUGINS",
-      "path": "05-SYSTEM/Meta/PLUGINS.md"
+      "basename": "TAGS",
+      "path": "05-SYSTEM/Meta/TAGS.md"
     },
     {
-      "basename": "2025-12-26",
-      "path": "02-JOURNAL/2025/12-December/2025-12-26.md"
-    },
-    {
-      "basename": "2025-11-26",
-      "path": "02-JOURNAL/2025/12-December/2025-11-26.md"
-    },
-    {
-      "basename": "2025-12-26_obsidian_keychain_settings_screenshot",
-      "path": "05-SYSTEM/Assets/Images/2025-12-26_obsidian_keychain_settings_screenshot.png"
-    },
-    {
-      "basename": "Real Estate Parcel Geospatial Enrichment",
-      "path": "00-INBOX/Real Estate Parcel Geospatial Enrichment.md"
-    },
-    {
-      "basename": "MOC - PowerShell",
-      "path": "03-AREAS/MOC - PowerShell.md"
-    },
-    {
-      "basename": "List - PowerShell Modules",
-      "path": "04-RESOURCES/Lists/List - PowerShell Modules.md"
-    },
-    {
-      "basename": "R Package Development - Advanced Patterns",
-      "path": "01-SLIPBOX/R Package Development - Advanced Patterns.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Broken Links Output 2025-12-23",
-      "path": "05-SYSTEM/Audit/Broken Links Output 2025-12-23.md"
-    },
-    {
-      "basename": "R - Console Message Feedback Utilities",
-      "path": "04-RESOURCES/Code/R/R - Console Message Feedback Utilities.md"
-    },
-    {
-      "basename": "R - Package Environment and Initialization",
-      "path": "04-RESOURCES/Code/R/R - Package Environment and Initialization.md"
-    },
-    {
-      "basename": "R - Package Initialization Script",
-      "path": "04-RESOURCES/Code/R/R - Package Initialization Script.md"
+      "basename": "Registry - Windows Terminal Context Menu",
+      "path": "04-RESOURCES/Code/Other/Registry/Registry - Windows Terminal Context Menu.md"
     },
     {
       "basename": "_README",
-      "path": "00-INBOX/Clippings/_README.md"
+      "path": "04-RESOURCES/Code/Other/Registry/_README.md"
     },
     {
-      "basename": "WebClip - 2025-12-24 - Clip web pages",
-      "path": "00-INBOX/Clippings/WebClip - 2025-12-24 - Clip web pages.md"
-    },
-    {
-      "basename": "WebClip - 2025-12-24 - Highlight web pages",
-      "path": "00-INBOX/Clippings/WebClip - 2025-12-24 - Highlight web pages.md"
-    },
-    {
-      "basename": "Template-Copyright",
-      "path": "05-SYSTEM/Templates/Fragments/Template-Copyright.md"
-    },
-    {
-      "basename": "Template-Dataview-Backlinks",
-      "path": "05-SYSTEM/Templates/Fragments/Template-Dataview-Backlinks.md"
-    },
-    {
-      "basename": "Template-Backmatter",
-      "path": "05-SYSTEM/Templates/Fragments/Template-Backmatter.md"
-    },
-    {
-      "basename": "Template-Creation-Modification-Dates",
-      "path": "05-SYSTEM/Templates/Fragments/Template-Creation-Modification-Dates.md"
-    },
-    {
-      "basename": "Template-Inbox",
-      "path": "05-SYSTEM/Templates/Template-Inbox.md"
-    },
-    {
-      "basename": "Template-TOC",
-      "path": "05-SYSTEM/Templates/Fragments/Template-TOC.md"
-    },
-    {
-      "basename": "Template-Frontmatter",
-      "path": "05-SYSTEM/Templates/Fragments/Template-Frontmatter.md"
+      "basename": "C - Hello World and Program Structure",
+      "path": "04-RESOURCES/Code/C/C - Hello World and Program Structure.md"
     },
     {
       "basename": "_README",
-      "path": "00-INBOX/_README.md"
+      "path": "04-RESOURCES/Code/JavaScript/_README.md"
     },
     {
-      "basename": "Dimensional Modeling",
-      "path": "00-INBOX/Dimensional Modeling.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/Other/VBA/_README.md"
     },
     {
-      "basename": "R - Package Hex Logo Generation",
-      "path": "04-RESOURCES/Code/R/R - Package Hex Logo Generation.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/Other/Terraform/_README.md"
     },
     {
-      "basename": "Template-Code",
-      "path": "05-SYSTEM/Templates/Code/Template-Code.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/SQL/_README.md"
     },
     {
-      "basename": "Images",
-      "path": "05-SYSTEM/Bases/Images.base"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/Rust/_README.md"
     },
     {
-      "basename": "Pasted image 20251224151544",
-      "path": "05-SYSTEM/Assets/Images/Pasted image 20251224151544.png"
+      "basename": "_README",
+      "path": "04-RESOURCES/Code/Python/_README.md"
     },
     {
-      "basename": "R - Shiny Healthcheck Endpoint",
-      "path": "04-RESOURCES/Code/R/R - Shiny Healthcheck Endpoint.md"
+      "basename": "AuditLog-2025-12-31",
+      "path": "05-SYSTEM/Audit/AuditLog-2025-12-31.md"
     },
     {
-      "basename": "R - LangFuse",
-      "path": "04-RESOURCES/Code/R/R - LangFuse.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/_README.md"
     },
     {
-      "basename": "R - Analyze Package Functions",
-      "path": "04-RESOURCES/Code/R/R - Analyze Package Functions.md"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/Other/_README.md"
     },
     {
-      "basename": "demo-analyze-r-package-functions",
-      "path": "05-SYSTEM/Assets/Images/demo-analyze-r-package-functions.png"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/Gemini/_README.md"
     },
     {
-      "basename": "patrick-headshot",
-      "path": "05-SYSTEM/Assets/Images/patrick-headshot.png"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/Claude/_README.md"
     },
     {
-      "basename": "noclocks-logo-white",
-      "path": "05-SYSTEM/Assets/Logos/noclocks/noclocks-logo-white.svg"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/ChatGPT/_README.md"
     },
     {
-      "basename": "noclocks-logo-black",
-      "path": "05-SYSTEM/Assets/Logos/noclocks/noclocks-logo-black.svg"
+      "basename": "_README",
+      "path": "04-RESOURCES/Integrations/Chats/Perplexity/_README.md"
     },
     {
-      "basename": "noclocks-badge-light",
-      "path": "05-SYSTEM/Assets/Logos/noclocks/noclocks-badge-light.svg"
+      "basename": "Black Hole Thermodynamics",
+      "path": "01-SLIPBOX/Black Hole Thermodynamics.md"
     },
     {
-      "basename": "noclocks-badge-dark",
-      "path": "05-SYSTEM/Assets/Logos/noclocks/noclocks-badge-dark.svg"
+      "basename": "Binary vs Ternary Computing",
+      "path": "01-SLIPBOX/Binary vs Ternary Computing.md"
     },
     {
-      "basename": "atlanta-003",
-      "path": "05-SYSTEM/Assets/Images/atlanta-003.jpeg"
+      "basename": "Harnessing the Power of Google’s Latest AerialView API",
+      "path": "04-RESOURCES/Integrations/Medium/Harnessing the Power of Google’s Latest AerialView API.md"
     },
     {
-      "basename": "atlanta-002",
-      "path": "05-SYSTEM/Assets/Images/atlanta-002.jpeg"
+      "basename": "2025-12-31",
+      "path": "02-JOURNAL/2025/12-December/2025-12-31.md"
     },
     {
-      "basename": "atlanta-001",
-      "path": "05-SYSTEM/Assets/Images/atlanta-001.jpeg"
+      "basename": "2025-12-31_Perplexity_Information theory computational encoding and quantum physics",
+      "path": "04-RESOURCES/Integrations/Chats/Perplexity/2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md"
+    },
+    {
+      "basename": "MOC - Data Science",
+      "path": "03-AREAS/MOC - Data Science.md"
+    },
+    {
+      "basename": "MOC - Actuarial Science",
+      "path": "03-AREAS/MOC - Actuarial Science.md"
+    },
+    {
+      "basename": "MOC - JavaScript",
+      "path": "03-AREAS/MOC - JavaScript.md"
+    },
+    {
+      "basename": "_README",
+      "path": "03-AREAS/_README.md"
+    },
+    {
+      "basename": "MOC - Linux",
+      "path": "03-AREAS/MOC - Linux.md"
+    },
+    {
+      "basename": "MOC - Design",
+      "path": "03-AREAS/MOC - Design.md"
+    },
+    {
+      "basename": "MOC - Finance",
+      "path": "03-AREAS/MOC - Finance.md"
+    },
+    {
+      "basename": "MOC - R Shiny",
+      "path": "03-AREAS/MOC - R Shiny.md"
+    },
+    {
+      "basename": "MOC - Information Theory",
+      "path": "03-AREAS/MOC - Information Theory.md"
+    },
+    {
+      "basename": "MOC - Statistics",
+      "path": "03-AREAS/MOC - Statistics.md"
+    },
+    {
+      "basename": "MOC - Mathematics",
+      "path": "03-AREAS/MOC - Mathematics.md"
+    },
+    {
+      "basename": "MOC - Databases",
+      "path": "03-AREAS/MOC - Databases.md"
+    },
+    {
+      "basename": "MOC - Physics",
+      "path": "03-AREAS/MOC - Physics.md"
+    },
+    {
+      "basename": "MOC - Philosophy",
+      "path": "03-AREAS/MOC - Philosophy.md"
+    },
+    {
+      "basename": "MOC - History",
+      "path": "03-AREAS/MOC - History.md"
+    },
+    {
+      "basename": "MOC - Science",
+      "path": "03-AREAS/MOC - Science.md"
+    },
+    {
+      "basename": "MOC - Web Development",
+      "path": "03-AREAS/MOC - Web Development.md"
+    },
+    {
+      "basename": "MOC - Obsidian",
+      "path": "03-AREAS/MOC - Obsidian.md"
+    },
+    {
+      "basename": "MOC - Python",
+      "path": "03-AREAS/MOC - Python.md"
+    },
+    {
+      "basename": "MOC - Productivity",
+      "path": "03-AREAS/MOC - Productivity.md"
+    },
+    {
+      "basename": "MOC - Windows",
+      "path": "03-AREAS/MOC - Windows.md"
+    },
+    {
+      "basename": "MOC - Data Engineering",
+      "path": "03-AREAS/MOC - Data Engineering.md"
+    },
+    {
+      "basename": "MOC - Computer Science",
+      "path": "03-AREAS/MOC - Computer Science.md"
+    },
+    {
+      "basename": "MOC - Cloud",
+      "path": "03-AREAS/MOC - Cloud.md"
     }
   ],
   "omittedPaths": [],

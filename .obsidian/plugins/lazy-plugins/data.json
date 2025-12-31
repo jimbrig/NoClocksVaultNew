@@ -167,6 +167,21 @@
       },
       "obsidian-show-file-path": {
         "startupType": "instant"
+      },
+      "booksidian-plugin": {
+        "startupType": "instant"
+      },
+      "click-up-sync": {
+        "startupType": "disabled"
+      },
+      "medium-importer": {
+        "startupType": "instant"
+      },
+      "obsidian-raindrop": {
+        "startupType": "instant"
+      },
+      "youtube-template": {
+        "startupType": "disabled"
       }
     },
     "loadOrder": []

@@ -149,7 +149,7 @@ MapLibre uses a JSON style specification compatible with Mapbox:
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - GIS Web Mapping Libraries]]
 - [[Mapbox Vector Tile (MVT)]]
 - [[PMTiles]]

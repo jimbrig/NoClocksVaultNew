@@ -1,0 +1,12 @@
+{
+  "targetFolderPath": "04-RESOURCES/Integrations/Goodreads",
+  "fileName": "{{title}}",
+  "goodreadsBaseUrl": "https://www.goodreads.com/review/list_rss/...",
+  "goodreadsShelves": "favorites",
+  "frontmatterDictionary": {},
+  "bodyString": "# {{title}}\n\nauthor::[[{{author}}]]",
+  "frequency": "0",
+  "overwrite": false,
+  "coverDownload": true,
+  "coverDownloadLocation": "05-SYSTEM/Assets/Covers"
+}

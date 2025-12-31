@@ -151,7 +151,7 @@ gdf.to_file("output.fgb", driver="FlatGeobuf")
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[Guide - Geospatial File Format Selection]]
 - [[Row vs Columnar Geospatial Formats]]
 - [[GeoJSON]]

@@ -209,7 +209,7 @@ docker run -dt --name valhalla -p 8002:8002 \
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - R Geospatial Packages]]
 - [[List - GIS Web Mapping Libraries]]
 

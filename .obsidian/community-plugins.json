@@ -36,5 +36,9 @@
   "callout-manager",
   "obsidian-show-file-path",
   "file-explorer-note-count",
-  "reveal-active-file-button"
+  "reveal-active-file-button",
+  "medium-importer",
+  "booksidian-plugin",
+  "obsidian-raindrop",
+  "obsidian-git"
 ]

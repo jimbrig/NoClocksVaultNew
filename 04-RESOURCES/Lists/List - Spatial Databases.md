@@ -183,7 +183,7 @@ Base32 encoding of geographic coordinates.
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - R Geospatial Packages]]
 - [[Hexagonal Hierarchical Spatial Index (H3)]]
 

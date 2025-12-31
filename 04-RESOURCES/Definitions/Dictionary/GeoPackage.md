@@ -139,7 +139,7 @@ SELECT * FROM parcels WHERE ST_Area(geom) > 10000;
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[Guide - Geospatial File Format Selection]]
 - [[Shapefile]]
 - [[GeoJSON]]

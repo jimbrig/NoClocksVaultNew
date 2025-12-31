@@ -6,6 +6,7 @@
 # ============================================================================
 *.js
 *.css
+*.exe
 
 # ============================================================================
 # ALWAYS IGNORE: Cache Files
@@ -50,6 +51,12 @@ google-drive-sync/data.json
 
 # obsidian-google-lookup - stores Google API key
 obsidian-google-lookup/data.json
+
+# medium-importer
+medium-importer/data.json
+
+# raindrop
+obsidian-raindrop/data.json
 
 # ============================================================================
 # TRACKED BY DEFAULT: All other data.json files are tracked

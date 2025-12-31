@@ -95,7 +95,7 @@ PostGIS GiST indexes use R-trees:
 
 - [[Hexagonal Hierarchical Spatial Index (H3)]]
 - [[List - Spatial Databases]]
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 
 ## Backlinks
 

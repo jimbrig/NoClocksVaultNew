@@ -8,39 +8,18 @@
   "hideStatusBar": "focused",
   "interceptLogging": true,
   "language": "",
-  "newInstanceBehavior": "newHorizontalSplit",
+  "newInstanceBehavior": "newWindow",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
-    "darwinExternalDefault": {
-      "args": [
-        "\"$PWD\""
-      ],
-      "executable": "/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal",
-      "name": "",
-      "platforms": {
-        "darwin": true
-      },
-      "restoreHistory": false,
-      "rightClickAction": "copyPaste",
-      "successExitCodes": [
-        "0",
-        "SIGINT",
-        "SIGTERM"
-      ],
-      "terminalOptions": {
-        "documentOverride": null
-      },
-      "type": "external"
-    },
-    "darwinIntegratedDefault": {
+    "9f02ff02-7e91-46b3-bb26-a0af3ec921bd": {
       "args": [],
-      "executable": "/bin/zsh",
+      "executable": "powershell",
       "name": "",
       "platforms": {
-        "darwin": true
+        "win32": true
       },
       "pythonExecutable": "python3",
       "restoreHistory": false,
@@ -55,6 +34,27 @@
       },
       "type": "integrated",
       "useWin32Conhost": true
+    },
+    "aad34e44-adc9-4638-a8ac-a09206184e9e": {
+      "args": [
+        "-NoProfile\n"
+      ],
+      "executable": "pwsh-preview.exe",
+      "name": "PowerShell",
+      "platforms": {
+        "win32": true
+      },
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "external"
     },
     "developerConsole": {
       "name": "",
@@ -69,46 +69,6 @@
         "documentOverride": null
       },
       "type": "developerConsole"
-    },
-    "linuxExternalDefault": {
-      "args": [],
-      "executable": "xterm",
-      "name": "",
-      "platforms": {
-        "linux": true
-      },
-      "restoreHistory": false,
-      "rightClickAction": "copyPaste",
-      "successExitCodes": [
-        "0",
-        "SIGINT",
-        "SIGTERM"
-      ],
-      "terminalOptions": {
-        "documentOverride": null
-      },
-      "type": "external"
-    },
-    "linuxIntegratedDefault": {
-      "args": [],
-      "executable": "/bin/sh",
-      "name": "",
-      "platforms": {
-        "linux": true
-      },
-      "pythonExecutable": "python3",
-      "restoreHistory": false,
-      "rightClickAction": "copyPaste",
-      "successExitCodes": [
-        "0",
-        "SIGINT",
-        "SIGTERM"
-      ],
-      "terminalOptions": {
-        "documentOverride": null
-      },
-      "type": "integrated",
-      "useWin32Conhost": true
     },
     "win32ExternalDefault": {
       "args": [],
@@ -149,6 +109,46 @@
       },
       "type": "integrated",
       "useWin32Conhost": true
+    },
+    "d77dd625-d3ad-4bb4-8d16-c42247bcd8e6": {
+      "args": [],
+      "executable": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "name": "",
+      "platforms": {
+        "win32": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "b8e97745-33ae-4816-9e5b-e9123be94d9d": {
+      "args": [],
+      "executable": "powershell",
+      "name": "",
+      "platforms": {
+        "win32": true
+      },
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "external"
     }
   }
 }

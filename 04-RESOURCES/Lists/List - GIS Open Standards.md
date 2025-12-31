@@ -270,7 +270,7 @@ ISO standards generally reference both a content standard and an XML encoding st
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - GIS Standards Organizations]]
 - [[List - OGC Web Service Standards]]
 - [[Guide - Geospatial File Format Selection]]

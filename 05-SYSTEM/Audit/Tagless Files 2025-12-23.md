@@ -625,7 +625,7 @@
 - [[04-RESOURCES/Guides/Guide - Google Cloud Authentication.md]]
 - [[04-RESOURCES/Guides/Guide - JavaScript Coding Conventions.md]]
 - [[04-RESOURCES/Guides/Guide - Conventional Git Commits.md]]
-- [[04-RESOURCES/Embeds/Embed - Todoist.md]]
+- [[Embed - Todoist]]
 - [[02-JOURNAL/_README.md]]
 - [[02-JOURNAL/2024/_README.md]]
 - [[02-JOURNAL/2024/12-December/2024-12-27.md]]

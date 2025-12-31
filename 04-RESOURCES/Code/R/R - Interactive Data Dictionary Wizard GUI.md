@@ -2,10 +2,14 @@
 creation_date: 2025-12-28
 modification_date: 2025-12-28
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
-tags: [Type/Code, Status/Complete, Topic/R, Topic/DataEngineering]
+tags:
+  - Type/Code
+  - Status/Complete
+  - Topic/R
+  - Topic/DataEngineering
 aliases:
   - Interactive Data Dictionary Wizard GUI with R
-description:
+description: 'Interactive Data Dictionary Genrator using R'
 cssclasses:
   - code
 ---

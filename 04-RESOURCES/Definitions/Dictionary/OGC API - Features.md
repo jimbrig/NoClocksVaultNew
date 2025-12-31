@@ -145,7 +145,7 @@ get_features <- function(base_url, collection, bbox = NULL, limit = 100) {
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - OGC Web Service Standards]]
 - [[Web Feature Service (WFS)]]
 - [[Open Geospatial Consortium (OGC)]]

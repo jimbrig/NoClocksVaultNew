@@ -122,7 +122,7 @@ Curated collection of **property data API platforms, parcel data providers, and 
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[MOC - RealEstate]]
 - [[List - Federal Geospatial Data Sources]]
 

@@ -67,7 +67,7 @@ SORT file.name ASC
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[MOC - PKM]]
 
 ### Backlinks

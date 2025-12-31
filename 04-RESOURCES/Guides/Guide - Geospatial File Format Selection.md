@@ -259,7 +259,7 @@ gdf.to_parquet("output.parquet")
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[GeoJSON]]
 - [[GeoPackage]]
 - [[GeoParquet]]

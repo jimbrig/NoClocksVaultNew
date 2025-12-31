@@ -3,7 +3,12 @@ creation_date: 2024-12-20
 modification_date: 2024-12-20
 author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 description: Complete tag taxonomy and conventions for the No Clocks Knowledge Vault
-tags: [Status/Ongoing, Type/Meta, Topic/Obsidian]
+tags:
+  - Status/Ongoing
+  - Type/Meta
+  - Topic/Obsidian
+  - Topic/PKM
+  - Topic/Meta
 aliases:
   - Tags
   - Tag System
@@ -23,7 +28,14 @@ includeLinks: true
 
 ## Overview
 
-This document defines the complete tag taxonomy for the No Clocks Knowledge Vault. Tags are organized into three categories: Status, Type, and Topic.
+> [!NOTE] About:
+> This document defines the complete tag taxonomy for this [[MOC - Obsidian|Obsidian]] Vault.  Tags are organized into three root-level categories: **Status**, **Type**, and **Topic**.
+
+The tagging system for this vault relies on the following foundational tag "types":
+
+- `Status/{Status}`: Define the note's current state from a set of pre-defined possible statuses. 
+- `Type/{Type}`: Define the note's "Type" from a pre-defined, managed set of possible note types.
+- `Topic/{Topic}`: Define the note's associated topic(s). Can be multiple topics as separate `Topic/` tags as well as nested, layered topics as needed (i.e. `Topic/Science/Physics`). It becomes increasingly important to manage and groom the nested tag taxonomy over time consistently.
 
 ## Design Principles
 
@@ -32,18 +44,53 @@ This document defines the complete tag taxonomy for the No Clocks Knowledge Vaul
 3. **Consistent** - Every note gets Status + Type + Topic tags
 4. **Purposeful** - Tags enable filtering and discovery
 
+## Implementation
+
+Tags in Obsidian are defined in the note's [[YAML Ain't Markup Language (YAML)|YAML]] Frontmatter (Metadata) like so:
+
+```yaml
+tags:
+  - Status/{Status}
+  - Type/{Type}
+  - Topic/{Topic}  
+```
+
+or alternatively,
+
+```yaml
+tags: [Status/{Status}, Type/{Type}, Topic/{Topic}]
+```
+
+For example, this note's frontmatter declares the following tags:
+
+```yaml
+tags:
+  - Status/Ongoing
+  - Type/Meta
+  - Topic/Obsidian
+  - Topic/PKM
+  - Topic/Meta
+```
+
+Notice how multiple `Topic/` tags are implemented as this note relates to the #Topic/Obsidian, #Topic/PKM, and #Topic/Meta topics.
+
 ## Status Tags
 
-Lifecycle state of the note.
+> [!NOTE] Rule:
+> Every note gets exactly one Status tag.
 
-| Tag | Description | Use When |
-|-----|-------------|----------|
-| `Status/Complete` | Finished, polished | Note is reviewed and done |
-| `Status/WIP` | Work in progress | Actively being developed |
-| `Status/Draft` | Initial state | First pass, needs refinement |
-| `Status/Ongoing` | Continuously updated | READMEs, MOCs, living documents |
+The note status tag is an essential piece of metadata describing the current state of the note or its active phase in the generalized note lifecycle. 
 
-**Rule**: Every note gets exactly one Status tag.
+It should be applied to every note in the vault, and by default new notes should typically use a status tag of #Status/WIP for notes in progress.
+
+Currently, the defined possible note status tags are as follows:
+
+| Order | Tag               | Description          | Use When                        |
+| ----- | ----------------- | -------------------- | ------------------------------- |
+| 0     | `Status/Ongoing`  | Continuously updated | READMEs, MOCs, living documents |
+| 1     | `Status/WIP`      | Work in progress     | Notes in progress or needing further development or processing   |
+| 2     | `Status/Draft`    | Initial state        | First pass, needs refinement    |
+| 3     | `Status/Complete` | Finished, polished   | Note is reviewed and done       |
 
 ## Type Tags
 

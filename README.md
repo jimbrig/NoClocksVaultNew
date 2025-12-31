@@ -119,7 +119,7 @@ Current MOCs:
 
 - [[MOC - Development]] - General Development
 - [[MOC - R]] - R programming ecosystem
-- [[MOC - GIS]] - Geographic Information Systems
+- [[MOC - Geospatial]] - Geographic Information Systems
 - [[MOC - PKM]] - Personal Knowledge Management
 
 ### Naming Conventions
@@ -195,14 +195,14 @@ The vault has a variety of content including, but not limited to:
   - [[02-JOURNAL/2025/_README|2025]]
 - [[03-AREAS/_README|Areas]]
   - [[03-AREAS/MOC - Development|Development Map of Content]]
-  - [[03-AREAS/MOC - GIS|GIS Map of Content]]
+  - [[MOC - Geospatial|GIS Map of Content]]
   - [[03-AREAS/MOC - PKM|PKM Map of Content]]
   - [[03-AREAS/MOC - R|R Map of Content]]
 - [[04-RESOURCES/_README|Resources]]
   - [[04-RESOURCES/Checklists/_README|Checklists]]
   - [[04-RESOURCES/Code/_README|Code Snippets]]
   - [[04-RESOURCES/Definitions/_README|Definitions]]
-  - [[04-RESOURCES/Embeds/_README|Embedded Websites]]
+  - [[04-RESOURCES/Integrations/Embeds/_README|Embedded Websites]]
   - [[04-RESOURCES/Guides/_README|Guides]]
   - [[04-RESOURCES/Lists/_README|Lists]]
  

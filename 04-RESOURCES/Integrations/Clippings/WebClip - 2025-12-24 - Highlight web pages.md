@@ -71,7 +71,7 @@ Highlighter settings
 
 ### See Also
 
-- [[00-INBOX/Clippings/_README|Web Clips]]
+- [[04-RESOURCES/Integrations/Clippings/_README|Web Clips]]
 
 ### Backlinks
 

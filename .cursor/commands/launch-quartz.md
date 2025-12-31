@@ -2,105 +2,66 @@
 
 Sync vault content and start the Quartz development server.
 
-## Full Workflow
+## Usage
 
-### Step 1: Sync Content to quartz/content
-
-PowerShell script to sync vault content:
+Run the PowerShell script from the vault root:
 
 ```powershell
-# from vault root
-$vaultRoot = "N:\obsidian\NoClocksVaultNew"
-$quartzContent = "$vaultRoot\quartz\content"
-
-# clean existing content (preserve .git if exists)
-Get-ChildItem -Path $quartzContent -Exclude ".git" | Remove-Item -Recurse -Force
-
-# folders to exclude from sync
-$excludeFolders = @(
-    ".obsidian",
-    ".cursor",
-    ".git",
-    ".github",
-    "quartz",
-    "99-ARCHIVES",
-    "05-SYSTEM\Templates",
-    "node_modules"
-)
-
-# build exclusion pattern
-$excludePattern = $excludeFolders | ForEach-Object { [regex]::Escape($_) }
-
-# copy content excluding specified folders
-Get-ChildItem -Path $vaultRoot -Recurse -File | 
-    Where-Object { 
-        $relativePath = $_.FullName.Replace($vaultRoot, "")
-        -not ($excludePattern | Where-Object { $relativePath -match $_ })
-    } |
-    ForEach-Object {
-        $destPath = $_.FullName.Replace($vaultRoot, $quartzContent)
-        $destDir = Split-Path -Parent $destPath
-        if (-not (Test-Path $destDir)) {
-            New-Item -ItemType Directory -Path $destDir -Force | Out-Null
-        }
-        Copy-Item $_.FullName -Destination $destPath -Force
-    }
-
-# rename README.md to index.md at content root
-$readmePath = "$quartzContent\README.md"
-$indexPath = "$quartzContent\index.md"
-if (Test-Path $readmePath) {
-    Move-Item -Path $readmePath -Destination $indexPath -Force
-}
-
-Write-Host "Content synced to quartz/content"
+.\.scripts\quartz.ps1
 ```
 
-### Step 2: Launch Quartz Server
+## Script Options
+
+| Parameter | Description |
+|-----------|-------------|
+| `-Port <int>` | Port to serve on (default: 8080) |
+| `-NoBrowser` | Don't automatically open browser |
+| `-SyncOnly` | Only sync content, don't start server |
+| `-SkipSync` | Skip content sync, use existing content (faster restarts) |
+
+### Examples
 
 ```powershell
-cd "$vaultRoot\quartz"
-npx quartz build --serve
+# full workflow: sync, build, serve, open browser
+.\.scripts\quartz.ps1
+
+# custom port without browser
+.\.scripts\quartz.ps1 -Port 3000 -NoBrowser
+
+# sync content only (for inspection/debugging)
+.\.scripts\quartz.ps1 -SyncOnly
+
+# quick restart using existing content
+.\.scripts\quartz.ps1 -SkipSync
 ```
 
-### Step 3: Open Browser (run in separate terminal)
+## What the Script Does
 
-```powershell
-Start-Sleep -Seconds 5; Start-Process "http://localhost:8080"
-```
+The script mirrors the GitHub Actions workflow (`quartz-deploy.yml`) for local development:
 
-## Quick Command (Combined)
+1. **Cleans** `quartz/content` directory
+2. **Syncs** vault content (excluding system folders)
+3. **Renames** `_README.md` → `index.md` in all directories
+4. **Fixes** `[[_README]]` links → `[[index]]`
+5. **Strips** Obsidian plugin blocks (dataview, table-of-contents)
+6. **Copies** favicons to static folder
+7. **Installs** npm dependencies (if needed)
+8. **Builds and serves** the Quartz site
 
-```powershell
-# sync and serve (run in background), then open browser
-cd N:\obsidian\NoClocksVaultNew\quartz
-Start-Job -ScriptBlock { npx quartz build --serve } | Out-Null
-Start-Sleep -Seconds 8
-Start-Process "http://localhost:8080"
-Write-Host "Quartz server running at http://localhost:8080"
-Write-Host "Server running in background job. Use 'Get-Job | Stop-Job' to stop."
-```
+## Excluded Content
 
-## Alternative: Foreground with Browser
+These are excluded from sync (matching the GHA workflow):
 
-```powershell
-# open browser after delay, then start server in foreground
-cd N:\obsidian\NoClocksVaultNew\quartz
-Start-Job -ScriptBlock { Start-Sleep -Seconds 6; Start-Process "http://localhost:8080" } | Out-Null
-npx quartz build --serve
-```
-
-## Excluded Folders
-
-These folders are excluded from sync:
-- `.obsidian` - Obsidian configuration
-- `.cursor` - Cursor IDE configuration  
-- `.git` - Git repository data
-- `.github` - GitHub workflows
-- `quartz` - Quartz source (avoid recursion)
-- `99-ARCHIVES` - Archived content
-- `05-SYSTEM/Templates` - Templater templates
-- `node_modules` - Dependencies
+- `.git/` - Git repository data
+- `.github/` - GitHub workflows
+- `.obsidian/` - Obsidian configuration
+- `.cursor/` - Cursor IDE configuration
+- `.vscode/` - VS Code configuration
+- `.scripts/` - Build scripts
+- `quartz/` - Quartz source (avoid recursion)
+- `99-ARCHIVES/` - Archived content
+- `05-SYSTEM/Templates/` - Templater templates
+- `node_modules/` - Dependencies
 
 ## Server Details
 
@@ -111,19 +72,54 @@ These folders are excluded from sync:
 ## Expected Output
 
 ```
-Quartz v4.5.2
-Cleaned output directory `public` in 99ms
-Found 220 input files from `content` in 35ms
-Parsed 220 Markdown files in 4s
-Emitted 867 files to `public` in 2s
+Quartz Local Development Server
+================================
+Vault:   N:\obsidian\NoClocksVaultNew
+Quartz:  N:\obsidian\NoClocksVaultNew\quartz
+Content: N:\obsidian\NoClocksVaultNew\quartz\content
+
+[1/7] Cleaning quartz/content directory...
+[2/7] Syncing vault content...
+[3/7] Creating homepage...
+[4/7] Renaming _README.md files to index.md...
+[5/7] Fixing _README links...
+[6/7] Stripping Obsidian plugin blocks...
+[7/7] Setting up favicons...
+
+Content sync complete!
+
+Checking dependencies...
+
+Starting Quartz server on http://localhost:8080
+Press Ctrl+C to stop
+
+Quartz v4.x.x
 Started a Quartz server listening at http://localhost:8080
 ```
 
 ## Troubleshooting
 
-**Missing index.md warning**: Ensure README.md was renamed to index.md in quartz/content
+**Port in use**: Use a different port:
 
-**Port in use**: Kill existing process or use different port:
 ```powershell
-npx quartz build --serve --port 3000
+.\.scripts\quartz.ps1 -Port 3000
 ```
+
+**Dependencies missing**: Delete `quartz/node_modules` and re-run:
+
+```powershell
+Remove-Item -Recurse -Force .\quartz\node_modules
+.\.scripts\quartz.ps1
+```
+
+**Quick iteration**: Skip sync for faster restarts:
+
+```powershell
+.\.scripts\quartz.ps1 -SkipSync
+```
+
+## Related
+
+- Script: `.scripts/quartz.ps1`
+- GitHub workflow: `.github/workflows/quartz-deploy.yml`
+- Quartz config: `quartz.config.ts`, `quartz.layout.ts`

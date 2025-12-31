@@ -273,6 +273,19 @@ When generating or modifying content:
 - **Project-specific docs** - Keep with the project
 - **Stub notes** - If you only have a sentence, add to a List or skip
 
+## Specialized Workflows
+
+This vault includes several specialized systems with their own conventions:
+
+| Workflow | Documentation | Commands |
+|----------|---------------|----------|
+| AI Chat Processing | [[04-RESOURCES/Guides/Guide - AI Chat Processing Workflow]] | `.cursor/commands/process-ai-chat.md` |
+| Inbox Processing | [[04-RESOURCES/Guides/Guide - Inbox Processing]] | `.cursor/commands/process-inbox.md` |
+| Quartz Publishing | [[05-SYSTEM/Meta/QUARTZ]] | `.cursor/commands/launch-quartz.md` |
+| Vault Auditing | [[05-SYSTEM/Audit/_README]] | `.cursor/commands/audit-*.md` |
+
+See `.cursor/rules/` for workflow-specific rules that agents should follow.
+
 ## Related Documentation
 
 For more detailed documentation, see:

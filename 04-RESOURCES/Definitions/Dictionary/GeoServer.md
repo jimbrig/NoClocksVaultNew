@@ -130,7 +130,7 @@ volumes:
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - OGC Web Service Standards]]
 - [[PostGIS]]
 - [[Web Map Service (WMS)]]

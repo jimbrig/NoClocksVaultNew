@@ -185,7 +185,7 @@ buildings = con.execute(query).fetchdf()
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - Federal Geospatial Data Sources]]
 - [[List - Property Data Platforms]]
 

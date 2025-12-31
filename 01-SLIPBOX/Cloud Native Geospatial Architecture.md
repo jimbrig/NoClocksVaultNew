@@ -280,7 +280,7 @@ These principles inform how to structure modern geospatial systems:
 
 - [[Guide - Geospatial File Format Selection]]
 - [[List - Spatial Databases]]
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 
 ## Backlinks
 

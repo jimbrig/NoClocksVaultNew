@@ -148,7 +148,7 @@ shp2pgsql -s 4326 -I input.shp public.parcels | psql -d gis
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - Spatial Databases]]
 - [[PostgreSQL]]
 - [[Geospatial Data Abstraction Library (GDAL)]]

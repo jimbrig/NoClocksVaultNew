@@ -73,8 +73,7 @@ SORT file.folder ASC, file.name ASC
 
 ### See Also
 
-- [[MOC - Development|Development Map of Content]]
-- [[MOC - Technology|Technology Map of Content]]
+- [[MOC - Development]]
 
 ### Backlinks
 

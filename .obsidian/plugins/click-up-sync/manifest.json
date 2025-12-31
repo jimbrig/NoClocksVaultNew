@@ -1,0 +1,10 @@
+{
+	"id": "click-up-sync",
+	"name": "ClickUp sync",
+	"version": "0.6.4",
+	"minAppVersion": "1.5.0",
+	"description": "Manage ClickUp space from notes",
+	"author": "Khokim Mamarasulov",
+	"authorUrl": "https://github.com/hokim-m/",
+	"isDesktopOnly": true
+}

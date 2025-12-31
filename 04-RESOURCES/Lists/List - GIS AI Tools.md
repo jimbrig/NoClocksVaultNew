@@ -141,7 +141,7 @@ As a GIS expert, help me:
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - R Geospatial Packages]]
 - [[Geospatial Data Abstraction Library (GDAL)]]
 

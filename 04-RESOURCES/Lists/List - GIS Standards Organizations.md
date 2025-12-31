@@ -117,7 +117,7 @@ Curated collection of **standards development organizations (SDOs)** responsible
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - GIS Open Standards]]
 - [[List - GIS Web Mapping Libraries]]
 - [[Open Geospatial Consortium (OGC)]]

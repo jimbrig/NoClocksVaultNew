@@ -60,6 +60,9 @@ SORT file.name ASC
 ### See Also
 
 - [[04-RESOURCES/Code/_README|Code Index]]
+- [[MOC - PowerShell]] - PowerShell scripting
+- [[MOC - Windows]] - Windows automation
+- [[MOC - Development]] - Development practices
 
 ### Backlinks
 

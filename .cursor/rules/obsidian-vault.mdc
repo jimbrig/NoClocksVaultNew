@@ -128,3 +128,12 @@ Preserve Templater syntax when editing - do not execute or modify it.
 - Sparse, lowercase comments only
 - Preserve existing frontmatter structure
 - Match existing conventions exactly
+
+## Specialized Workflows
+
+This vault has workflow-specific rules in separate files:
+- `ai-chat-processing.mdc` - AI LLM chat extraction
+- `quartz-publishing.mdc` - Static site publishing
+- `templater-syntax.mdc` - Templater plugin conventions
+
+See `04-RESOURCES/Guides/` for detailed workflow documentation.

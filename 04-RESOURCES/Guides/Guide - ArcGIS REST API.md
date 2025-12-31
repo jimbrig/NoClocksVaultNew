@@ -224,7 +224,7 @@ query_arcgis <- function(base_url, layer_id, where = "1=1", bbox = NULL) {
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - Property Data Platforms]]
 - [[Federal Emergency Management Agency (FEMA)]]
 

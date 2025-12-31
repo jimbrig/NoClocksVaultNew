@@ -192,7 +192,7 @@ mapdeck(style = mapdeck_style("dark")) |>
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[List - GIS Web Mapping Libraries]]
 - [[MapLibre]]
 - [[kepler.gl]]

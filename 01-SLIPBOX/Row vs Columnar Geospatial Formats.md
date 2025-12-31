@@ -76,7 +76,7 @@ Modern architectures use both:
 - [[GeoParquet]]
 - [[GeoJSON]]
 - [[Cloud Optimized GeoTIFF (COG)]]
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 
 ## Backlinks
 

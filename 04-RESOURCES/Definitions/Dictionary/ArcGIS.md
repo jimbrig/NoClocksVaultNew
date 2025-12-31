@@ -138,7 +138,7 @@ features = layer.query(where="STATE = 'CA'")
 
 ### See Also
 
-- [[MOC - GIS]]
+- [[MOC - Geospatial]]
 - [[Guide - ArcGIS REST API]]
 - [[Environmental Systems Research Institute (ESRI)]]
 - [[QGIS]]

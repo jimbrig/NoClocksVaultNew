@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "WebClip - 2026-01-05 -",
+      "path": "00-INBOX/Clippings/WebClip - 2026-01-05 -.md"
+    },
+    {
+      "basename": "2026-01-05",
+      "path": "02-JOURNAL/2025/12-December/2026-01-05.md"
+    },
+    {
+      "basename": "WebClip - 2026-01-01 - Real Estate Parcel Evaluation Report Comprehensive Due Diligence for Investment Suitability",
+      "path": "00-INBOX/Clippings/WebClip - 2026-01-01 - Real Estate Parcel Evaluation Report Comprehensive Due Diligence for Investment Suitability.md"
+    },
+    {
       "basename": "_README",
       "path": "04-RESOURCES/Code/_README.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "MOC - Windows",
       "path": "03-AREAS/MOC - Windows.md"
-    },
-    {
-      "basename": "MOC - Data Engineering",
-      "path": "03-AREAS/MOC - Data Engineering.md"
-    },
-    {
-      "basename": "MOC - Computer Science",
-      "path": "03-AREAS/MOC - Computer Science.md"
-    },
-    {
-      "basename": "MOC - Cloud",
-      "path": "03-AREAS/MOC - Cloud.md"
     }
   ],
   "omittedPaths": [],

@@ -50,7 +50,7 @@ Curated collection of **standards development organizations (SDOs)** responsible
 
 | Organization | Acronym | Description | Links |
 |--------------|---------|-------------|-------|
-| Real Estate Standards Organization | RESO | Real estate data standards | [Website](https://reso.org) - [[Real Estate Standards Organization (RESO)]] |
+| Real Estate Standards Organization | RESO | Real estate data standards | [Website](https://reso.org) - [[04-RESOURCES/Definitions/Acronyms/Real Estate Standards Organization (RESO)]] |
 | Esri | ESRI | De facto standards (Shapefile, File GDB) | [Website](https://esri.com) - [[Environmental Systems Research Institute (ESRI)]] |
 | Cloud Native Geospatial Foundation | CNGF | Cloud-optimized formats (COG, STAC, GeoParquet) | [Website](https://cloudnativegeo.org) |
 | ASPRS | ASPRS | LiDAR standards (LAS format) | [Website](https://asprs.org) |

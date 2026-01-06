@@ -25,7 +25,10 @@ includeLinks: true
 
 ## Content
 
+> [!SOURCE] Sources:
+> - *<https://www.fema.gov/sites/default/files/documents/fema_rm-firm-database-technical-reference-nov-2024.pdf>*
 
+![[FEMA_Flood-Insurance-Rate-Map-Database-Technical-Reference (November 2024).pdf]]
 
 ***
 

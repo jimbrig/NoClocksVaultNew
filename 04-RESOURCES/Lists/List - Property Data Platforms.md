@@ -111,7 +111,7 @@ Curated collection of **property data API platforms, parcel data providers, and 
 ## Notes
 
 - For integration patterns, consider using [[Code - R - httr2 API Client]]
-- Related standards: [[Real Estate Standards Organization (RESO)]]
+- Related standards: [[04-RESOURCES/Definitions/Acronyms/Real Estate Standards Organization (RESO)]]
 - See also: [[List - Federal Geospatial Data Sources]]
 
 ---

@@ -37,10 +37,8 @@
   "obsidian-show-file-path",
   "file-explorer-note-count",
   "reveal-active-file-button",
-  "obsidian42-brat",
-  "obsidian-clipper",
-  "editing-toolbar",
-  "obsidian-git",
-  "obsidian-google-lookup",
-  "quickadd"
+  "booksidian-plugin",
+  "obsidian-raindrop",
+  "medium-importer",
+  "obsidian-git"
 ]

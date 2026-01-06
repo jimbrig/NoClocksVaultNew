@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "WebClip - 2026-01-05 -",
-      "path": "00-INBOX/Clippings/WebClip - 2026-01-05 -.md"
+      "basename": "RESO Data Dictionary",
+      "path": "00-INBOX/RESO Data Dictionary.md"
     },
     {
-      "basename": "2026-01-05",
-      "path": "02-JOURNAL/2025/12-December/2026-01-05.md"
+      "basename": "Real Estate Standards Organization (RESO)",
+      "path": "00-INBOX/Real Estate Standards Organization (RESO).md"
+    },
+    {
+      "basename": "Common Data Model",
+      "path": "00-INBOX/Common Data Model.md"
+    },
+    {
+      "basename": "WebClip - 2026-01-06 - RESO Data Dictionary",
+      "path": "00-INBOX/Clippings/WebClip - 2026-01-06 - RESO Data Dictionary.md"
+    },
+    {
+      "basename": "ISO 19115 Topic Category",
+      "path": "00-INBOX/ISO 19115 Topic Category.md"
+    },
+    {
+      "basename": "FEMA FIRM Database Technical Reference",
+      "path": "00-INBOX/FEMA FIRM Database Technical Reference.md"
+    },
+    {
+      "basename": "WebClip - 2026-01-05 - FEMA FIRM Database Technical Reference",
+      "path": "00-INBOX/Clippings/WebClip - 2026-01-05 - FEMA FIRM Database Technical Reference.md"
+    },
+    {
+      "basename": "WebClip - 2026-01-06 - ISO 19115 Topic Category",
+      "path": "00-INBOX/Clippings/WebClip - 2026-01-06 - ISO 19115 Topic Category.md"
+    },
+    {
+      "basename": "_README",
+      "path": "00-INBOX/Clippings/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "R - Database Logger Appender",
+      "path": "04-RESOURCES/Code/R/R - Database Logger Appender.md"
+    },
+    {
+      "basename": "R - Azure Storage",
+      "path": "04-RESOURCES/Code/R/R - Azure Storage.md"
+    },
+    {
+      "basename": "_README",
+      "path": "00-INBOX/_README.md"
     },
     {
       "basename": "WebClip - 2026-01-01 - Real Estate Parcel Evaluation Report Comprehensive Due Diligence for Investment Suitability",
       "path": "00-INBOX/Clippings/WebClip - 2026-01-01 - Real Estate Parcel Evaluation Report Comprehensive Due Diligence for Investment Suitability.md"
+    },
+    {
+      "basename": "2026-01-05",
+      "path": "02-JOURNAL/2025/12-December/2026-01-05.md"
     },
     {
       "basename": "_README",
@@ -151,54 +199,6 @@
     {
       "basename": "MOC - Information Theory",
       "path": "03-AREAS/MOC - Information Theory.md"
-    },
-    {
-      "basename": "MOC - Statistics",
-      "path": "03-AREAS/MOC - Statistics.md"
-    },
-    {
-      "basename": "MOC - Mathematics",
-      "path": "03-AREAS/MOC - Mathematics.md"
-    },
-    {
-      "basename": "MOC - Databases",
-      "path": "03-AREAS/MOC - Databases.md"
-    },
-    {
-      "basename": "MOC - Physics",
-      "path": "03-AREAS/MOC - Physics.md"
-    },
-    {
-      "basename": "MOC - Philosophy",
-      "path": "03-AREAS/MOC - Philosophy.md"
-    },
-    {
-      "basename": "MOC - History",
-      "path": "03-AREAS/MOC - History.md"
-    },
-    {
-      "basename": "MOC - Science",
-      "path": "03-AREAS/MOC - Science.md"
-    },
-    {
-      "basename": "MOC - Web Development",
-      "path": "03-AREAS/MOC - Web Development.md"
-    },
-    {
-      "basename": "MOC - Obsidian",
-      "path": "03-AREAS/MOC - Obsidian.md"
-    },
-    {
-      "basename": "MOC - Python",
-      "path": "03-AREAS/MOC - Python.md"
-    },
-    {
-      "basename": "MOC - Productivity",
-      "path": "03-AREAS/MOC - Productivity.md"
-    },
-    {
-      "basename": "MOC - Windows",
-      "path": "03-AREAS/MOC - Windows.md"
     }
   ],
   "omittedPaths": [],

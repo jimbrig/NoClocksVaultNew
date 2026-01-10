@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Resolution
-
-```table-of-contents
-```
-
 ## Overview
 
 **Resolution** is the level of detail in spatial data, often referring to the size of the pixels in raster data or the density of points in vector data, with higher resolution providing more detailed information. Resolution determines the smallest features that can be distinguished in a dataset.
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Raster]]
-- [[Pixel]]
-- [[Geographic Information System (GIS)]]
+- [Raster](Raster.md)
+- [Pixel](Pixel.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Resolution]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Resolution"
-```
-
+<!-- dynamic content -->

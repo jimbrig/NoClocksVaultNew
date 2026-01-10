@@ -15,15 +15,6 @@ aliases:
 ---
 
 # Cartographic Information Model (CIM)
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -38,19 +29,14 @@ includeLinks: true
 
 ## Appendix
 
-*Note created on [[2025-12-30]] and last modified on [[2025-12-30]].*
+*Note created on [2025-12-30](2025-12-30.md) and last modified on [2025-12-30](2025-12-30.md).*
 
 ### See Also
 
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Cartographic Information Model (CIM)]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

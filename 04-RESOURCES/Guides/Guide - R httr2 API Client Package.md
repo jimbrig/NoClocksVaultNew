@@ -17,18 +17,9 @@ aliases:
 
 
 # Guide - R httr2 API Client Package
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-This guide documents the architecture and patterns for building production-grade R packages that serve as API clients using [[httr2]]. The patterns here are derived from real-world implementations and provide a robust foundation for API integrations.
+This guide documents the architecture and patterns for building production-grade R packages that serve as API clients using [httr2](httr2.md). The patterns here are derived from real-world implementations and provide a robust foundation for API integrations.
 
 ## Package Structure
 
@@ -540,23 +531,18 @@ test_that("api_property_search validates arguments", {
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Environment and Initialization]]
-- [[R - Shared Roxygen2 Parameter Templates]]
-- [[R - Argument Validation Check Utilities]]
-- [[R Package Development - Advanced Patterns]]
-- [[R - Async Plumber API]]
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md)
+- [R - Shared Roxygen2 Parameter Templates](R - Shared Roxygen2 Parameter Templates.md)
+- [R - Argument Validation Check Utilities](R - Argument Validation Check Utilities.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
+- [R - Async Plumber API](R - Async Plumber API.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Guide - R httr2 API Client Package]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

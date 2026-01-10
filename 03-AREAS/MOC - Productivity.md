@@ -17,15 +17,6 @@ publish: true
 ---
 
 # MOC - Productivity
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -56,41 +47,26 @@ includeLinks: true
 ## Related MOCs
 
 ### Child/Specialized MOCs
-- [[MOC - PKM]] - Personal knowledge management
-- [[MOC - Obsidian]] - Obsidian note-taking
+- [MOC - PKM](MOC - PKM.md) - Personal knowledge management
+- [MOC - Obsidian](MOC - Obsidian.md) - Obsidian note-taking
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Development]] - Developer productivity
-- [[MOC - Business]] - Business operations
+- [MOC - Development](MOC - Development.md) - Developer productivity
+- [MOC - Business](MOC - Business.md) - Business operations
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Productivity").length`** individual notes with the `#Topic/Productivity` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Productivity
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Productivity"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Productivity` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Productivity]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Productivity"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

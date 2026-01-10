@@ -22,15 +22,6 @@ cssclasses:
 > - **Language**: PowerShell
 > - **Modules**: `ActiveDirectory`
 > - **Cmdlets**: `Get-ADComputer`, `Get-ChildItem`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -41,11 +32,11 @@ This script retrieves and analyzes scheduled tasks from all Windows Server machi
 ## Code
 
 ```powershell
-$CSVlocation = 'C:\Temp\ScheduledTasks.csv'
+$CSVlocation = 'C:/Temp/ScheduledTasks.csv'
 
 $total = foreach ($server in Get-ADComputer -Filter 'OperatingSystem -like "Windows Server*"' | Sort-Object Name) {
     try {
-        $scheduledtasks = Get-ChildItem "\\$($Server.name)\c$\Windows\System32\Tasks" -Recurse -File -ErrorAction Stop
+        $scheduledtasks = Get-ChildItem "//$($Server.name)/c$/Windows/System32/Tasks" -Recurse -File -ErrorAction Stop
         Write-Host ("Retrieving Scheduled Tasks list for {0}" -f $server.Name) -ForegroundColor Green
     }
     catch {
@@ -64,7 +55,7 @@ $total = foreach ($server in Get-ADComputer -Filter 'OperatingSystem -like "Wind
         }
         
         if ($taskinfo.Task.Settings.Enabled -eq 'true' `
-                -and $taskinfo.Task.Principals.Principal.GroupId -ne 'NT AUTHORITY\SYSTEM' `
+                -and $taskinfo.Task.Principals.Principal.GroupId -ne 'NT AUTHORITY/SYSTEM' `
                 -and $taskinfo.Task.Principals.Principal.GroupId -ne 'S-1-5-32-544' `
                 -and $taskinfo.Task.Principals.Principal.LogonType -ne 'InteractiveToken' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'Administrators' `
@@ -72,7 +63,7 @@ $total = foreach ($server in Get-ADComputer -Filter 'OperatingSystem -like "Wind
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'INTERACTIVE' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'LOCAL SERVICE' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'NETWORK SERVICE' `
-                -and $taskinfo.Task.Principals.Principal.UserId -ne 'NT AUTHORITY\SYSTEM' `
+                -and $taskinfo.Task.Principals.Principal.UserId -ne 'NT AUTHORITY/SYSTEM' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'SYSTEM' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'S-1-5-18' `
                 -and $taskinfo.Task.Principals.Principal.UserId -ne 'S-1-5-19' `
@@ -103,27 +94,23 @@ else {
 Run the script from a domain-joined machine with appropriate permissions:
 
 ```powershell
-.\Get-ScheduledTasksInventory.ps1
+./Get-ScheduledTasksInventory.ps1
 ```
 
-The script exports results to `C:\Temp\ScheduledTasks.csv` by default.
+The script exports results to `C:/Temp/ScheduledTasks.csv` by default.
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Create Scheduled Tasks Inventory]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Parquet
-
-```table-of-contents
-```
-
 ## Overview
 
 **Parquet** is a columnar storage file format optimized for use with big data processing frameworks, allowing for efficient storage and retrieval of large datasets. Developed by Apache, Parquet is designed for complex nested data structures and provides excellent compression and encoding schemes.
@@ -47,12 +43,8 @@ aliases:
 
 ### See Also
 
-- [[GeoParquet]]
-- [[Database Management System (DBMS)]]
+- [GeoParquet](GeoParquet.md)
+- [Database Management System (DBMS)](Database Management System (DBMS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Parquet]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Parquet"
-```
-
+<!-- dynamic content -->

@@ -13,15 +13,6 @@ publish: true
 ---
 
 # MOC - History
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -46,38 +37,23 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Science]] - Scientific developments
-- [[MOC - Philosophy]] - Historical ideas
-- [[MOC - Computer Science]] - Computing history
+- [MOC - Science](MOC - Science.md) - Scientific developments
+- [MOC - Philosophy](MOC - Philosophy.md) - Historical ideas
+- [MOC - Computer Science](MOC - Computer Science.md) - Computing history
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/History").length`** individual notes with the `#Topic/History` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/History
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - History"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/History` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - History]] AND -"CHANGELOG" AND -"03-AREAS/MOC - History"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

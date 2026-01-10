@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Type**: Module Template (.psm1)
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 A standard template for PowerShell module files (.psm1) that automatically imports functions from Public and Private directories and exports only the public functions.
@@ -39,8 +30,8 @@ A standard template for PowerShell module files (.psm1) that automatically impor
 
 $PublicDir = Join-Path $PSScriptRoot "Public"
 $PrivateDir = Join-Path $PSScriptRoot "Private"
-$Public = Get-ChildItem -Path "$PublicDir\*.ps1"
-$Private = Get-ChildItem -Path "$PrivateDir\*.ps1"
+$Public = Get-ChildItem -Path "$PublicDir/*.ps1"
+$Private = Get-ChildItem -Path "$PrivateDir/*.ps1"
 
 @($Public + $Private) | ForEach-Object {
     try {
@@ -72,18 +63,14 @@ MyModule/
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Default psm1 Module Template]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

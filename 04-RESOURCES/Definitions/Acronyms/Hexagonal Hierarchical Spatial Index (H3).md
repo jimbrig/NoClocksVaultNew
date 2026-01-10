@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Hexagonal Hierarchical Spatial Index (H3)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Hexagonal Hierarchical Spatial Index (H3)** is a geospatial indexing system developed by Uber that uses hexagonal grids to partition the Earth's surface for efficient spatial analysis and data representation. H3 provides a hierarchical system of increasingly fine hexagonal cells, enabling multi-resolution spatial analysis.
@@ -56,12 +52,8 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Spatial Index]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Spatial Index](Spatial Index.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Hexagonal Hierarchical Spatial Index (H3)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Hexagonal Hierarchical Spatial Index (H3)"
-```
-
+<!-- dynamic content -->

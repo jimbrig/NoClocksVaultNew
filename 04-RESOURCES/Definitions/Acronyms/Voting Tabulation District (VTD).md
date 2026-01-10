@@ -17,10 +17,6 @@ aliases:
 ---
 
 # Voting Tabulation District (VTD)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Voting Tabulation District (VTD)** is a geographic area defined for the purpose of tabulating election results, often used in redistricting and electoral analysis. VTDs typically correspond to voting precincts or election districts established by state and local governments.
@@ -38,12 +34,8 @@ aliases:
 
 ### See Also
 
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Federal Information Processing Standards (FIPS)]]
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Voting Tabulation District (VTD)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Voting Tabulation District (VTD)"
-```
-
+<!-- dynamic content -->

@@ -97,10 +97,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -144,30 +144,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -208,7 +190,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
 | Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Premature Optimization.md` |
 | Template | `Template-{Type}.md` | `Template-Definition.md` |
-| Readme | `_README.md` | (folder index, converted to `README.md` on main branch) |
+| Readme | `README.md` | (folder index, converted to `README.md` on main branch) |
 
 **Rules:**
 - Use Title Case for note names
@@ -220,7 +202,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -279,10 +261,10 @@ This vault includes several specialized systems with their own conventions:
 
 | Workflow | Documentation | Commands |
 |----------|---------------|----------|
-| AI Chat Processing | [[04-RESOURCES/Guides/Guide - AI Chat Processing Workflow]] | `.cursor/commands/process-ai-chat.md` |
-| Inbox Processing | [[04-RESOURCES/Guides/Guide - Inbox Processing]] | `.cursor/commands/process-inbox.md` |
-| Quartz Publishing | [[05-SYSTEM/Meta/QUARTZ]] | `.cursor/commands/launch-quartz.md` |
-| Vault Auditing | [[05-SYSTEM/Audit/_README]] | `.cursor/commands/audit-*.md` |
+| AI Chat Processing | [04-RESOURCES/Guides/Guide - AI Chat Processing Workflow](04-RESOURCES/Guides/Guide - AI Chat Processing Workflow.md) | `.cursor/commands/process-ai-chat.md` |
+| Inbox Processing | [04-RESOURCES/Guides/Guide - Inbox Processing](04-RESOURCES/Guides/Guide - Inbox Processing.md) | `.cursor/commands/process-inbox.md` |
+| Quartz Publishing | [05-SYSTEM/Meta/QUARTZ](05-SYSTEM/Meta/QUARTZ.md) | `.cursor/commands/launch-quartz.md` |
+| Vault Auditing | [05-SYSTEM/Audit/README](05-SYSTEM/Audit/README.md) | `.cursor/commands/audit-*.md` |
 
 See `.cursor/rules/` for workflow-specific rules that agents should follow.
 
@@ -290,7 +272,7 @@ See `.cursor/rules/` for workflow-specific rules that agents should follow.
 
 For more detailed documentation, see:
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]] - Core philosophy, structure decisions, and conventions
-- [[TAGS]] - Complete tag hierarchy and usage guidelines
-- [[05-SYSTEM/Meta/AGENTS]] - AI tooling configuration (Cursor, Copilot, MCP)
-- [[PLUGINS]] - Installed Obsidian plugins and their purposes
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md) - Core philosophy, structure decisions, and conventions
+- [TAGS](TAGS.md) - Complete tag hierarchy and usage guidelines
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md) - AI tooling configuration (Cursor, Copilot, MCP)
+- [PLUGINS](PLUGINS.md) - Installed Obsidian plugins and their purposes

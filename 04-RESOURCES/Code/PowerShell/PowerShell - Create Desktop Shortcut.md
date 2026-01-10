@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **COM Objects**: `WScript.Shell`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple PowerShell script that creates a desktop shortcut (.lnk file) using the Windows Script Host Shell COM object.
@@ -36,8 +27,8 @@ Simple PowerShell script that creates a desktop shortcut (.lnk file) using the W
 ## Code
 
 ```powershell
-$TargetFile = "$Env:SYSTEMROOT\System32\notepad.exe"
-$ShortcutFile = "$Env:Public\Desktop\Notepad.lnk"
+$TargetFile = "$Env:SYSTEMROOT/System32/notepad.exe"
+$ShortcutFile = "$Env:Public/Desktop/Notepad.lnk"
 $Wsh = New-Object -ComObject WScript.Shell
 $Shortcut = $Wsh.CreateShortcut($ShortcutFile)
 $Shortcut.TargetPath = $TargetFile
@@ -50,13 +41,13 @@ Modify `$TargetFile` and `$ShortcutFile` variables to create shortcuts for diffe
 
 ```powershell
 # create shortcut for custom application
-$TargetFile = "C:\Program Files\MyApp\app.exe"
-$ShortcutFile = "$Env:USERPROFILE\Desktop\MyApp.lnk"
+$TargetFile = "C:/Program Files/MyApp/app.exe"
+$ShortcutFile = "$Env:USERPROFILE/Desktop/MyApp.lnk"
 $Wsh = New-Object -ComObject WScript.Shell
 $Shortcut = $Wsh.CreateShortcut($ShortcutFile)
 $Shortcut.TargetPath = $TargetFile
 $Shortcut.Arguments = "--start-minimized"
-$Shortcut.WorkingDirectory = "C:\Program Files\MyApp"
+$Shortcut.WorkingDirectory = "C:/Program Files/MyApp"
 $Shortcut.IconLocation = "$TargetFile,0"
 $Shortcut.Save()
 ```
@@ -65,18 +56,14 @@ $Shortcut.Save()
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Create Desktop Shortcut]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

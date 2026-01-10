@@ -22,16 +22,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `dplyr`, `matchmaker`, `rlang`, `stringr`, `purrr`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 Functions for applying human-readable labels from a data dictionary to dataset columns and values, and reversing the process back to machine-readable format.
@@ -70,7 +60,7 @@ apply_labels <- function(
     dict <- dict |>
       dplyr::filter(.data$dataset == dataset_name)
     globals <- dict |> 
-      dplyr::filter(.data[[by]] == ".global")
+      dplyr::filter(.data[by](by.md) == ".global")
   } else {
     globals <- NULL
   }
@@ -98,7 +88,7 @@ apply_labels <- function(
 
   hold |>
     rlang::set_names(
-      dict[[names_to]][match(names(hold), dict[[names_from]])]
+      dict[names_to](names_to.md)[match(names(hold), dict[names_from](names_from.md))]
     ) |>
     dplyr::mutate(dplyr::across(
       dplyr::where(is.character),
@@ -133,7 +123,7 @@ reverse_labels <- function(
     dict <- dict |>
       dplyr::filter(.data$dataset == dataset_name)
     globals <- dict |> 
-      dplyr::filter(.data[[by]] == ".global")
+      dplyr::filter(.data[by](by.md) == ".global")
   } else {
     globals <- NULL
   }
@@ -161,7 +151,7 @@ reverse_labels <- function(
 
   hold |>
     rlang::set_names(
-      dict[[names_from]][match(names(hold), dict[[names_to]])]
+      dict[names_from](names_from.md)[match(names(hold), dict[names_to](names_to.md))]
     ) |>
     dplyr::mutate(dplyr::across(
       dplyr::where(is.character),
@@ -219,18 +209,14 @@ original_data <- reverse_labels(
 
 ## Appendix
 
-*Note created on [[2024-06-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-06-23](2024-06-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Data Dictionary Labelling]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

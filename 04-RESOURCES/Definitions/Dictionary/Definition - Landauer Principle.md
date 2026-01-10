@@ -15,24 +15,15 @@ aliases:
   - Landauer's Principle
   - Landauer Limit
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Definition - Landauer Principle
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**Landauer's Principle** establishes that erasing one bit of information must dissipate at least $k_B T \ln 2$ of energy as heat into the environment. This fundamental result bridges information theory and thermodynamics, proving that information processing has irreducible physical costs.
+**Landauer's Principle** establishes that erasing one bit of information must dissipate at least $k_B T /ln 2$ of energy as heat into the environment. This fundamental result bridges information theory and thermodynamics, proving that information processing has irreducible physical costs.
 
 > [!QUOTE] Source
 > Extracted from: `= this.source_chat`
@@ -43,14 +34,14 @@ includeLinks: true
 
 The minimum energy required to erase one bit of information:
 
-$$E_{min} = k_B T \ln 2$$
+$$E_{min} = k_B T /ln 2$$
 
 Where:
-- $k_B$ = Boltzmann's constant ($1.38 \times 10^{-23}$ J/K)
+- $k_B$ = Boltzmann's constant ($1.38 /times 10^{-23}$ J/K)
 - $T$ = temperature in Kelvin
-- $\ln 2 \approx 0.693$
+- $/ln 2 /approx 0.693$
 
-At room temperature (300K), this equals approximately $2.85 \times 10^{-21}$ joules per bit erased.
+At room temperature (300K), this equals approximately $2.85 /times 10^{-21}$ joules per bit erased.
 
 ## Details
 
@@ -88,7 +79,7 @@ The principle applies to quantum systems too, where generalized entropy producti
 
 ## Connection to Computational Limits
 
-Combined with the [[Definition - Bekenstein Bound|Bekenstein bound]], Landauer's principle:
+Combined with the [Bekenstein bound](Definition - Bekenstein Bound.md), Landauer's principle:
 - Sets ultimate limits on information density
 - Constrains quantum computing possibilities
 - Shows computation is fundamentally a physical process
@@ -104,17 +95,13 @@ Combined with the [[Definition - Bekenstein Bound|Bekenstein bound]], Landauer's
 
 ### See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - Bekenstein Bound]]
-- [[Definition - Margolus-Levitin Theorem]]
-- [[Black Hole Thermodynamics]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
+- [Definition - Margolus-Levitin Theorem](Definition - Margolus-Levitin Theorem.md)
+- [Black Hole Thermodynamics](Black Hole Thermodynamics.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Definition - Landauer Principle]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/Definition - Landauer Principle"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

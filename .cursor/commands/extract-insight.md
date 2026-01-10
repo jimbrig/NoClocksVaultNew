@@ -32,7 +32,7 @@ tags:
 aliases:
   - {Term}
 publish: true
-source_chat: "[[{path/to/chat}]]"
+source_chat: "[{path/to/chat}]({path/to/chat}.md)"
 source_provider: {Provider}
 confidence: high|medium|low
 ---
@@ -54,7 +54,7 @@ tags:
 aliases:
   - {Concept name}
 publish: true
-source_chat: "[[{path/to/chat}]]"
+source_chat: "[{path/to/chat}]({path/to/chat}.md)"
 source_provider: {Provider}
 confidence: high|medium|low
 ---

@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Topography
-
-```table-of-contents
-```
-
 ## Overview
 
 **Topography** is the arrangement of the natural and artificial physical features of an area, including its terrain, elevation, and landforms. In GIS, topography is typically represented through elevation data such as contour lines, digital elevation models (DEMs), and hillshade renderings.
@@ -35,8 +31,8 @@ aliases:
 | Method | Description |
 |--------|-------------|
 | Contour lines | Isolines of equal elevation |
-| [[Digital Elevation Model (DEM)]] | Raster grid of elevation values |
-| [[Digital Terrain Model (DTM)]] | Bare-earth elevation (no vegetation/buildings) |
+| [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md) | Raster grid of elevation values |
+| [Digital Terrain Model (DTM)](Digital Terrain Model (DTM).md) | Bare-earth elevation (no vegetation/buildings) |
 | TIN (Triangulated Irregular Network) | Vector-based elevation model |
 | Hillshade | Shaded relief visualization |
 
@@ -46,14 +42,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Cartography]]
-- [[Digital Elevation Model (DEM)]]
-- [[United States Geological Survey (USGS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Cartography](Cartography.md)
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
+- [United States Geological Survey (USGS)](United States Geological Survey (USGS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Topography]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Topography"
-```
-
+<!-- dynamic content -->

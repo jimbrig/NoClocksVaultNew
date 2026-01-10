@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Mapbox Vector Tile (MVT)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Mapbox Vector Tile (MVT)** is a binary format for storing vector map data in a compact and efficient way, allowing for fast rendering and interaction in web mapping applications. Unlike raster tiles, vector tiles contain actual geometry that can be styled client-side.
@@ -49,13 +45,9 @@ aliases:
 
 ### See Also
 
-- [[PMTiles]]
-- [[Geographic Information System (GIS)]]
-- [[Vector]]
+- [PMTiles](PMTiles.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Vector](Vector.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Mapbox Vector Tile (MVT)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Mapbox Vector Tile (MVT)"
-```
-
+<!-- dynamic content -->

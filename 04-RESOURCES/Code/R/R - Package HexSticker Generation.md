@@ -21,16 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `hexSticker`, `sysfonts`, `showtext`, `magick`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 Generate professional hexagonal sticker logos for R packages using the `hexSticker` package with custom fonts, images, and styling.
@@ -185,18 +175,14 @@ Add sticker generation script to `data-raw/hex-sticker.R` for reproducibility.
 
 ## Appendix
 
-*Note created on [[2024-08-22]] and last modified on [[2024-12-13]].*
+*Note created on [2024-08-22](2024-08-22.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Package HexSticker Generation]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

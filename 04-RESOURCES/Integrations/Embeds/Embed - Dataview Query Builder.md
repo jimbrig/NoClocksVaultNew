@@ -27,20 +27,16 @@ cssclasses:
 
 ## Appendix
 
-*Note created on [[2024-09-26]] and last modified on [[2024-09-26]].*
+*Note created on [2024-09-26](2024-09-26.md) and last modified on [2024-09-26](2024-09-26.md).*
 
 ### See Also
 
-- [[../../05-SYSTEM/Plugins/Plugin - Dataview|Dataview]]
-- [[../../03-AREAS/Obsidian/_README|Obsidian]]
-- [[../../03-AREAS/Obsidian/Obsidian - External Tools|External Obsidian Tools]]
+- [Dataview](../../05-SYSTEM/Plugins/Plugin - Dataview.md)
+- [Obsidian](../../03-AREAS/Obsidian/README.md)
+- [External Obsidian Tools](../../03-AREAS/Obsidian/Obsidian - External Tools.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Embed - Dataview Query Builder]] AND -"CHANGELOG" AND -"04-RESOURCES/Embeds/Embed - Dataview Query Builder"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

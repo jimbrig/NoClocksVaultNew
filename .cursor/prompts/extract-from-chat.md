@@ -57,7 +57,7 @@ Given an AI chat conversation, identify and extract valuable knowledge into atom
 Each extracted note must include:
 
 ```yaml
-source_chat: "[[path/to/original/chat]]"
+source_chat: "[path/to/original/chat](path/to/original/chat.md)"
 source_provider: Perplexity|ChatGPT|Claude|Cursor|Copilot
 confidence: high|medium|low
 ```
@@ -83,6 +83,6 @@ For each insight identified:
 {First paragraph or key points}
 
 **Related Existing Notes:**
-- [[Existing Note 1]]
-- [[Existing Note 2]]
+- [Existing Note 1](Existing Note 1.md)
+- [Existing Note 2](Existing Note 2.md)
 ```

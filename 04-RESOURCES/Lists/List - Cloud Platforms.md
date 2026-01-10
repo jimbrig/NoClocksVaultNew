@@ -16,15 +16,6 @@ publish: true
 ---
 
 # List - Cloud Platforms
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **cloud computing platforms** for hosting, serverless compute, databases, and application deployment. Organized by tier and use case.
@@ -104,7 +95,7 @@ Traditional virtual private servers and infrastructure.
 |----------|-------------|-------|
 | ShinyApps.io | Managed Shiny hosting by Posit | [Site](https://www.shinyapps.io/) - [Docs](https://docs.posit.co/shinyapps.io/) |
 | Posit Connect | Enterprise Shiny/R hosting | [Site](https://posit.co/products/enterprise/connect/) |
-| Google Cloud Run | Container-based Shiny deployment | See [[R - Shiny Cloud Run Deployment]] |
+| Google Cloud Run | Container-based Shiny deployment | See [R - Shiny Cloud Run Deployment](R - Shiny Cloud Run Deployment.md) |
 
 ## CLI Tools
 
@@ -120,9 +111,9 @@ Traditional virtual private servers and infrastructure.
 
 ## See Also
 
-- [[List - Spatial Databases]]
-- [[List - Database GUIs]]
-- [[MOC - DevOps]]
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [List - Database GUIs](List - Database GUIs.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 

@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Assemblies**: `System.Drawing`, `System.Windows.Forms`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -56,7 +47,7 @@ function CaptureScreenshot([Drawing.Rectangle]$Bounds, $Path) {
 }
 
 # initialize path
-$BasePath = "C:\screenshots"
+$BasePath = "C:/screenshots"
 if (-not (Test-Path -Path $BasePath -PathType Container)) {
     New-Item -Path $BasePath -ItemType Directory -Force
 }
@@ -74,7 +65,7 @@ for ($i = 0; $i -lt $Screens.Length; $i++) {
     $Right    = $Screen.Bounds.X + $Screen.Bounds.Width
     $Bottom   = $Screen.Bounds.Y + $Screen.Bounds.Height
     $Bounds   = [Drawing.Rectangle]::FromLTRB($Left, $Top, $Right, $Bottom)
-    $FileName = "${BasePath}\${DateTime}_${i}.png"
+    $FileName = "${BasePath}/${DateTime}_${i}.png"
     
     CaptureScreenshot $Bounds $FileName
 }
@@ -84,27 +75,23 @@ for ($i = 0; $i -lt $Screens.Length; $i++) {
 
 ```powershell
 # run script to capture all monitors
-.\Capture-AllMonitors.ps1
+./Capture-AllMonitors.ps1
 
-# screenshots saved to C:\screenshots\ with timestamp prefixes
+# screenshots saved to C:/screenshots/ with timestamp prefixes
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Take Screenshots using all Active Monitors]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

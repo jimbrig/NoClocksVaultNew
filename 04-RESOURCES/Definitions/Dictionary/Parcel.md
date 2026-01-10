@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Parcel
-
-```table-of-contents
-```
-
 ## Overview
 
 **Parcel** is a defined piece of land, often represented as a polygon in GIS, typically used for property ownership and land use analysis. Parcels are the fundamental unit of land ownership records and form the basis of property tax administration, real estate transactions, and land planning.
@@ -50,13 +46,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Polygon]]
-- [[Cadastral]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Polygon](Polygon.md)
+- [Cadastral](Cadastral.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Parcel]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Parcel"
-```
-
+<!-- dynamic content -->

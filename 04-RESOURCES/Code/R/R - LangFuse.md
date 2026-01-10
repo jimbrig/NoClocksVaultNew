@@ -9,15 +9,6 @@ aliases: ["LangFuse API Client in R"]
 
 
 # LangFuse API Client in R
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -288,7 +279,7 @@ lf_create_score_event <- function(trace_id, value, comment = NULL) {
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Create a langfuse client
 #' lf_client <- lf_client()
 #'
@@ -406,7 +397,7 @@ lf_trace_chat <- function(chat, message, langfuse_client, user_id = NULL, metada
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # First trace a chat interaction
 #' response <- lf_trace_chat(chat, "Tell me about R", lf_client)
 #'
@@ -463,7 +454,7 @@ lf_add_feedback <- function(result, score, comment = NULL, langfuse_client) {
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Create a session
 #' session_id <- lf_create_session(
 #'   name = "User Learning Session",
@@ -520,7 +511,7 @@ lf_create_session <- function(name, user_id = NULL, metadata = NULL, langfuse_cl
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # First trace a chat interaction
 #' response <- lf_trace_chat(chat, "Tell me about R", lf_client)
 #' trace_id <- attr(response, "trace_id")
@@ -584,7 +575,7 @@ lf_create_observation <- function(trace_id, type, input = NULL, output = NULL, m
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # First trace a chat interaction
 #' response <- lf_trace_chat(chat, "Tell me about R", lf_client)
 #' trace_id <- attr(response, "trace_id")
@@ -650,7 +641,7 @@ lf_create_evaluation <- function(trace_id, name, value, comment = NULL, metadata
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Add a text prompt template
 #' prompt_id <- lf_add_prompt(
 #'   name = "r_tutorial_text",
@@ -757,7 +748,7 @@ lf_add_prompt <- function(name, prompt, type = c("chat", "text"), config = NULL,
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Get the latest version of a prompt
 #' prompt <- lf_get_prompt(
 #'   prompt_name = "r_tutorial_chat",
@@ -861,7 +852,7 @@ lf_get_prompt <- function(prompt_name, version = NULL, label = NULL, langfuse_cl
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Create a dataset
 #' dataset_id <- lf_add_dataset(
 #'   name = "R Programming Questions",
@@ -917,7 +908,7 @@ lf_add_dataset <- function(name, description = NULL, metadata = NULL, langfuse_c
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Add an item to a dataset
 #' lf_add_dataset_item(
 #'   dataset_name = "R Programming Questions",
@@ -998,7 +989,7 @@ lf_add_dataset_item <- function(dataset_name, input, expected_output = NULL,
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Run an experiment with a fresh chat instance for each item
 #' experiment_results <- lf_run_experiment(
 #'   name = "R Tutor Test",
@@ -1225,7 +1216,7 @@ lf_run_experiment <- function(name, dataset_name, chat_function, langfuse_client
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' /dontrun{
 #' # Create a langfuse client and session
 #' lf_client <- lf_client()
 #' session_id <- lf_create_session(name = "Learning Session", langfuse_client = lf_client)
@@ -1572,20 +1563,15 @@ lf_add_feedback(
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[LangFuse]]
+- [LangFuse](LangFuse.md)
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - LangFuse]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

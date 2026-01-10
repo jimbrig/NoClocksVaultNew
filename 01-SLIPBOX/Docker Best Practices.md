@@ -18,15 +18,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Best practices for writing Dockerfiles | Docker Documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Key practices for writing efficient, secure, and maintainable Dockerfiles.
@@ -84,10 +75,10 @@ COPY . .
 ### apt-get Best Practices
 
 ```dockerfile
-RUN apt-get update && apt-get install -y \
-    curl \
-    git \
-    vim \
+RUN apt-get update && apt-get install -y /
+    curl /
+    git /
+    vim /
   && rm -rf /var/lib/apt/lists/*
 ```
 
@@ -148,7 +139,7 @@ CMD ["--help"]
 ENV PATH="/usr/local/nginx/bin:$PATH"
 
 # App configuration
-ENV NODE_ENV=production \
+ENV NODE_ENV=production /
     PORT=3000
 ```
 
@@ -193,8 +184,8 @@ EOF
 
 ## See Also
 
-- [[List - DevOps Tools]]
-- [[MOC - DevOps]]
+- [List - DevOps Tools](List - DevOps Tools.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 

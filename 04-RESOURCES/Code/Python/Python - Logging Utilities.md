@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Modules**: `logging`, `pydantic`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Utility functions for setting up Python logging with configurable settings and consistent formatting.
@@ -112,18 +103,14 @@ logger.error("An error occurred")
 
 ## Appendix
 
-*Note created on [[2024-04-15]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-15](2024-04-15.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Logging Utilities]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

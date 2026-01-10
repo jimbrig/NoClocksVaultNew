@@ -18,15 +18,6 @@ publish: true
 ---
 
 # MOC - Statistics
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -57,51 +48,36 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Mathematics]] - Mathematical foundations
+- [MOC - Mathematics](MOC - Mathematics.md) - Mathematical foundations
 
 ### Child/Specialized MOCs
-- [[MOC - Actuarial Science]] - Insurance and risk mathematics
+- [MOC - Actuarial Science](MOC - Actuarial Science.md) - Insurance and risk mathematics
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Data Science]] - Applied statistics
-- [[MOC - Information Theory]] - Theoretical connections
+- [MOC - Data Science](MOC - Data Science.md) - Applied statistics
+- [MOC - Information Theory](MOC - Information Theory.md) - Theoretical connections
 
 ### Language-Specific MOCs
-- [[MOC - R]] - Statistical computing in R
-- [[MOC - Python]] - Python statistics (scipy, statsmodels)
+- [MOC - R](MOC - R.md) - Statistical computing in R
+- [MOC - Python](MOC - Python.md) - Python statistics (scipy, statsmodels)
 
 ### Domain Applications
-- [[MOC - Finance]] - Financial statistics
-- [[MOC - Geospatial]] - Geostatistics and spatial analysis
+- [MOC - Finance](MOC - Finance.md) - Financial statistics
+- [MOC - Geospatial](MOC - Geospatial.md) - Geostatistics and spatial analysis
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Statistics").length`** individual notes with the `#Topic/Statistics` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Statistics
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Statistics"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Statistics` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Statistics]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Statistics"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

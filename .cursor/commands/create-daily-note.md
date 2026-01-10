@@ -50,8 +50,8 @@ publish: false
 
 ## Links
 
-- Previous: [[{yesterday}]]
-- Next: [[{tomorrow}]]
+- Previous: [{yesterday}]({yesterday}.md)
+- Next: [{tomorrow}]({tomorrow}.md)
 ```
 
 ## Output

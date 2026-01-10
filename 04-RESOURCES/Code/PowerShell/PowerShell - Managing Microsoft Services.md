@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Get-Service`, `Set-Service`, `Stop-Service`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 A comprehensive PowerShell tool for reviewing Windows services, providing recommendations, and applying optimizations. Includes backup and restore functionality.
@@ -38,7 +29,7 @@ A comprehensive PowerShell tool for reviewing Windows services, providing recomm
 ### Backup Current Service States
 
 ```powershell
-$backupFile = "C:\ServiceBackup.csv"
+$backupFile = "C:/ServiceBackup.csv"
 Get-Service | Select-Object Name, DisplayName, Status, StartType | Export-Csv -Path $backupFile -NoTypeInformation
 ```
 
@@ -132,7 +123,7 @@ function Restore-Services {
 
 ```powershell
 # backup current services
-Get-Service | Select-Object Name, DisplayName, Status, StartType | Export-Csv -Path "C:\ServiceBackup.csv" -NoTypeInformation
+Get-Service | Select-Object Name, DisplayName, Status, StartType | Export-Csv -Path "C:/ServiceBackup.csv" -NoTypeInformation
 
 # review services with feedback
 $services = Get-Service | Select-Object Name, DisplayName, Status
@@ -150,25 +141,21 @@ $services | ForEach-Object {
 Apply-ServiceRecommendations
 
 # restore from backup
-Restore-Services -BackupFile "C:\ServiceBackup.csv"
+Restore-Services -BackupFile "C:/ServiceBackup.csv"
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-06-29]] and last modified on [[2024-12-31]].*
+*Note created on [2024-06-29](2024-06-29.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Managing Microsoft Services]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

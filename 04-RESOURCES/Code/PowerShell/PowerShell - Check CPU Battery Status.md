@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Get-CimInstance`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell script that retrieves battery status information using WMI/CIM, including current charge percentage, charging status, and estimated time to full charge.
@@ -66,25 +57,21 @@ if ($b.timeToFullCharge) {
 Run the script directly in a PowerShell session to get current battery information:
 
 ```powershell
-.\Get-BatteryStatus.ps1
+./Get-BatteryStatus.ps1
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-09-18]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-18](2024-09-18.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Check CPU Battery Status]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

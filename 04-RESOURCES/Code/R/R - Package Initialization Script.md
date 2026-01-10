@@ -15,21 +15,12 @@ aliases:
 
 
 # R Package Initialization Script
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
-> - [[R Package Development - Advanced Patterns]]
-> - [[Guide - R httr2 API Client Package]]
-> - [[Guide - R Shiny App Package]]
+> - [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
+> - [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md)
+> - [Guide - R Shiny App Package](Guide - R Shiny App Package.md)
 
 This script provides a comprehensive template for initializing a production-grade R package with all standard configurations, testing infrastructure, linting, documentation, and GitHub integration.
 
@@ -106,7 +97,7 @@ if (FALSE) {
     "check",
     "",
     file = "dev/scripts/pkg_check.R",
-    sep = "\n",
+    sep = "/n",
     append = FALSE
   )
 }
@@ -200,7 +191,7 @@ if (FALSE) {
   # spellcheck
   usethis::use_spell_check()
   cat(
-    "if (requireNamespace(\"spelling\", quietly = TRUE)) {",
+    "if (requireNamespace(/"spelling/", quietly = TRUE)) {",
     "  spelling::spell_check_test(",
     "    vignettes = TRUE,",
     "    error = FALSE,",
@@ -209,7 +200,7 @@ if (FALSE) {
     "}",
     "",
     file = "tests/spelling.R",
-    sep = "\n",
+    sep = "/n",
     append = FALSE
   )
   spelling::update_wordlist()
@@ -221,7 +212,7 @@ if (FALSE) {
   usethis::use_covr_ignore("data-raw/")
   usethis::use_build_ignore("codecov.yml")
   usethis::use_build_ignore(".covrignore")
-  usethis::use_build_ignore("~\\$.*", escape = FALSE)
+  usethis::use_build_ignore("~//$.*", escape = FALSE)
 }
 
 # run tests
@@ -241,7 +232,7 @@ if (FALSE) {
     "skip = ['tryCatch', 'tribble', 'if']",
     "",
     file = "air.toml",
-    sep = "\n",
+    sep = "/n",
     append = FALSE
   )
   
@@ -254,10 +245,10 @@ if (FALSE) {
     "    trailing_blank_lines_linter = NULL",
     "  )",
     "exclusions: list()",
-    "encoding: \"UTF-8\"",
+    "encoding: /"UTF-8/"",
     "",
     file = ".lintr",
-    sep = "\n",
+    sep = "/n",
     append = FALSE
   )
   usethis::use_build_ignore(".lintr")
@@ -471,24 +462,19 @@ robust, production-grade R package.
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Environment and Initialization]]
-- [[R - Shared Roxygen2 Parameter Templates]]
-- [[R - Argument Validation Check Utilities]]
-- [[R Package Development - Advanced Patterns]]
-- [[Guide - R httr2 API Client Package]]
-- [[Guide - R Shiny App Package]]
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md)
+- [R - Shared Roxygen2 Parameter Templates](R - Shared Roxygen2 Parameter Templates.md)
+- [R - Argument Validation Check Utilities](R - Argument Validation Check Utilities.md)
+- [R Package Development - Advanced Patterns](R Package Development - Advanced Patterns.md)
+- [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md)
+- [Guide - R Shiny App Package](Guide - R Shiny App Package.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Package Initialization Script]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

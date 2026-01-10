@@ -39,11 +39,11 @@ key_insights:
 
 ```markdown
 > [!TIP] Insights to Extract
-> - [ ] {Concept 1} → [[Definition - {Term}]]
-> - [ ] {Concept 2} → [[Definition - {Term}]]
-> - [ ] {Insight 1} → [[{Slipbox Note}]]
-> - [ ] {Code example} → [[Code - {Lang} - {Desc}]]
-> - [ ] {Procedure} → [[Guide - {Topic}]]
+> - [ ] {Concept 1} → [Definition - {Term}](Definition - {Term}.md)
+> - [ ] {Concept 2} → [Definition - {Term}](Definition - {Term}.md)
+> - [ ] {Insight 1} → [{Slipbox Note}]({Slipbox Note}.md)
+> - [ ] {Code example} → [Code - {Lang} - {Desc}](Code - {Lang} - {Desc}.md)
+> - [ ] {Procedure} → [Guide - {Topic}](Guide - {Topic}.md)
 ```
 
 ## Quality Guidelines

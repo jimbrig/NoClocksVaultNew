@@ -56,7 +56,7 @@ For `complete` chats:
 - [ ] {file2}: Missing `topics`
 
 #### Broken Links
-- [ ] {file3}: Extracted note [[Note]] not found
+- [ ] {file3}: Extracted note [Note](Note.md) not found
 
 #### Pending Processing
 - [ ] {file4}: Ready for processing (X insights identified)
@@ -69,13 +69,4 @@ For `complete` chats:
 ```
 
 ## Dataview Query for Dashboard
-
-```dataview
-TABLE
-  provider AS "Provider",
-  extraction_status AS "Status",
-  length(extracted_notes) AS "Extracted"
-FROM "04-RESOURCES/Integrations/Chats"
-WHERE file.name != "_README"
-SORT extraction_status ASC
-```
+<!-- dynamic content -->

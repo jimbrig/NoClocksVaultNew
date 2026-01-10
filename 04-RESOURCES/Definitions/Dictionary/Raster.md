@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Raster
-
-```table-of-contents
-```
-
 ## Overview
 
 **Raster** is a type of spatial data in a GIS that represents geographic features as a grid of cells or pixels, each with a specific value, often used for continuous data such as elevation, temperature, or satellite imagery. Raster data excels at representing phenomena that vary continuously across space.
@@ -42,7 +38,7 @@ aliases:
 
 ## Common Formats
 
-- [[GeoTIFF]] / [[Cloud Optimized GeoTIFF (COG)|COG]]
+- [GeoTIFF](GeoTIFF.md) / [COG](Cloud Optimized GeoTIFF (COG).md)
 - JPEG2000
 - IMG (ERDAS)
 - NetCDF / HDF
@@ -53,15 +49,11 @@ aliases:
 
 ### See Also
 
-- [[Vector]]
-- [[Pixel]]
-- [[Resolution]]
-- [[Geographic Information System (GIS)]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
+- [Vector](Vector.md)
+- [Pixel](Pixel.md)
+- [Resolution](Resolution.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Raster]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Raster"
-```
-
+<!-- dynamic content -->

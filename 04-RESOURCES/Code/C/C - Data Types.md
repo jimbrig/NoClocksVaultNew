@@ -19,19 +19,10 @@ cssclasses:
 # Data Types
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-[[04-RESOURCES/Code/C/_README|C]] provides a variety of **data types** for storing different kinds of values. Understanding type sizes, ranges, and proper usage is fundamental to writing correct and efficient C programs.
+[C](04-RESOURCES/Code/C/README.md) provides a variety of **data types** for storing different kinds of values. Understanding type sizes, ranges, and proper usage is fundamental to writing correct and efficient C programs.
 
 ## Code
 
@@ -63,11 +54,11 @@ int main(void) {
     // boolean (C99+)
     bool flag = true;
     
-    printf("char: %c (%d)\n", c, c);
-    printf("int: %d\n", i);
-    printf("float: %f\n", f);
-    printf("double: %.15f\n", d);
-    printf("bool: %s\n", flag ? "true" : "false");
+    printf("char: %c (%d)/n", c, c);
+    printf("int: %d/n", i);
+    printf("float: %f/n", f);
+    printf("double: %.15f/n", d);
+    printf("bool: %s/n", flag ? "true" : "false");
     
     return 0;
 }
@@ -80,15 +71,15 @@ int main(void) {
 #include <stdint.h>
 
 int main(void) {
-    printf("char:        %zu bytes\n", sizeof(char));
-    printf("short:       %zu bytes\n", sizeof(short));
-    printf("int:         %zu bytes\n", sizeof(int));
-    printf("long:        %zu bytes\n", sizeof(long));
-    printf("long long:   %zu bytes\n", sizeof(long long));
-    printf("float:       %zu bytes\n", sizeof(float));
-    printf("double:      %zu bytes\n", sizeof(double));
-    printf("long double: %zu bytes\n", sizeof(long double));
-    printf("pointer:     %zu bytes\n", sizeof(void*));
+    printf("char:        %zu bytes/n", sizeof(char));
+    printf("short:       %zu bytes/n", sizeof(short));
+    printf("int:         %zu bytes/n", sizeof(int));
+    printf("long:        %zu bytes/n", sizeof(long));
+    printf("long long:   %zu bytes/n", sizeof(long long));
+    printf("float:       %zu bytes/n", sizeof(float));
+    printf("double:      %zu bytes/n", sizeof(double));
+    printf("long double: %zu bytes/n", sizeof(long double));
+    printf("pointer:     %zu bytes/n", sizeof(void*));
     
     return 0;
 }
@@ -114,15 +105,15 @@ int main(void) {
     uint64_t u64 = 18446744073709551615ULL;
     
     // use PRI macros for portable printing
-    printf("int32_t: %" PRId32 "\n", i32);
-    printf("uint64_t: %" PRIu64 "\n", u64);
+    printf("int32_t: %" PRId32 "/n", i32);
+    printf("uint64_t: %" PRIu64 "/n", u64);
     
     // size types
     size_t size = sizeof(int);
     ptrdiff_t diff = 10;
     
-    printf("size_t: %zu\n", size);
-    printf("ptrdiff_t: %td\n", diff);
+    printf("size_t: %zu/n", size);
+    printf("ptrdiff_t: %td/n", diff);
     
     return 0;
 }
@@ -143,7 +134,7 @@ int main(void) {
     int auto_sized[] = {10, 20, 30};
     int size = sizeof(auto_sized) / sizeof(auto_sized[0]);
     
-    printf("Array size: %d\n", size);
+    printf("Array size: %d/n", size);
     
     // multidimensional arrays
     int matrix[3][4] = {
@@ -156,7 +147,7 @@ int main(void) {
         for (int j = 0; j < 4; j++) {
             printf("%3d ", matrix[i][j]);
         }
-        printf("\n");
+        printf("/n");
     }
     
     return 0;
@@ -178,10 +169,10 @@ int main(void) {
     char str3[20] = "Buffer";
     
     // manual initialization
-    char str4[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+    char str4[6] = {'H', 'e', 'l', 'l', 'o', '/0'};
     
-    printf("str1: %s (length: %zu)\n", str1, strlen(str1));
-    printf("str2: %s\n", str2);
+    printf("str1: %s (length: %zu)/n", str1, strlen(str1));
+    printf("str2: %s/n", str2);
     
     // string operations
     char buffer[50];
@@ -190,12 +181,12 @@ int main(void) {
     strcat(buffer, str2);
     strcat(buffer, "!");
     
-    printf("Combined: %s\n", buffer);
+    printf("Combined: %s/n", buffer);
     
     // safer alternatives (C11)
     char safe[20];
     strncpy(safe, "Hello, World!", sizeof(safe) - 1);
-    safe[sizeof(safe) - 1] = '\0';
+    safe[sizeof(safe) - 1] = '/0';
     
     return 0;
 }
@@ -226,7 +217,7 @@ int main(void) {
     
     const int *const ptr3 = &x;  // const pointer to const int
     
-    printf("x = %d\n", x);
+    printf("x = %d/n", x);
     
     return 0;
 }
@@ -265,9 +256,9 @@ int main(void) {
     enum HttpStatus status = OK;
     Weekday today = WEDNESDAY;
     
-    printf("Color: %d\n", favorite);      // 2
-    printf("Status: %d\n", status);       // 200
-    printf("Day: %d\n", today);           // 3
+    printf("Color: %d/n", favorite);      // 2
+    printf("Status: %d/n", status);       // 200
+    printf("Day: %d/n", today);           // 3
     
     return 0;
 }
@@ -311,23 +302,19 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - Hello World and Program Structure]]
-- [[C - Pointers Basics]]
-- [[C - Structs and Unions]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - Hello World and Program Structure](C - Hello World and Program Structure.md)
+- [C - Pointers Basics](C - Pointers Basics.md)
+- [C - Structs and Unions](C - Structs and Unions.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Data Types]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

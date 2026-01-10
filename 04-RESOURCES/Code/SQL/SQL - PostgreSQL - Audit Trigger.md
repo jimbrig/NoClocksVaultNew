@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: SQL (PostgreSQL)
 > - **Type**: Trigger Function
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -132,18 +123,14 @@ ORDER BY action_tstamp DESC;
 
 ## Appendix
 
-*Note created on [[2024-06-04]] and last modified on [[2024-12-31]].*
+*Note created on [2024-06-04](2024-06-04.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/SQL/_README|SQL Code Index]]
+- [SQL Code Index](04-RESOURCES/Code/SQL/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[SQL - PostgreSQL - Audit Trigger]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

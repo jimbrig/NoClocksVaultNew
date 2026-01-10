@@ -16,15 +16,6 @@ publish: true
 ---
 
 # MOC - R
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -49,84 +40,58 @@ includeLinks: true
 - Statistical modeling
 
 ### Web Applications
-- Shiny applications (see [[MOC - R Shiny]])
+- Shiny applications (see [MOC - R Shiny](MOC - R Shiny.md))
 - Plumber APIs
 - htmlwidgets
 
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Development]] - Software development practices
-- [[MOC - Data Science]] - Data analysis context
+- [MOC - Development](MOC - Development.md) - Software development practices
+- [MOC - Data Science](MOC - Data Science.md) - Data analysis context
 
 ### Child/Specialized MOCs
-- [[MOC - R Shiny]] - Shiny web applications
-- [[MOC - Geospatial]] - R spatial packages (sf, terra, leaflet)
+- [MOC - R Shiny](MOC - R Shiny.md) - Shiny web applications
+- [MOC - Geospatial](MOC - Geospatial.md) - R spatial packages (sf, terra, leaflet)
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Python]] - Alternative for data science
-- [[MOC - Statistics]] - Statistical methods
+- [MOC - Python](MOC - Python.md) - Alternative for data science
+- [MOC - Statistics](MOC - Statistics.md) - Statistical methods
 
 ### Domain MOCs
-- [[MOC - Actuarial Science]] - Actuarial applications in R
-- [[MOC - Data Engineering]] - R in data pipelines (targets, arrow)
+- [MOC - Actuarial Science](MOC - Actuarial Science.md) - Actuarial applications in R
+- [MOC - Data Engineering](MOC - Data Engineering.md) - R in data pipelines (targets, arrow)
 
 ## Guides
 
 | Guide | Description |
 |-------|-------------|
-| [[Guide - R Coding Conventions]] | R style guide and best practices |
-| [[Guide - R Shiny App Package]] | Structuring Shiny apps as packages |
-| [[Guide - R httr2 API Client Package]] | Building API client packages |
+| [Guide - R Coding Conventions](Guide - R Coding Conventions.md) | R style guide and best practices |
+| [Guide - R Shiny App Package](Guide - R Shiny App Package.md) | Structuring Shiny apps as packages |
+| [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md) | Building API client packages |
 
 ## Lists
 
 | List | Description |
 |------|-------------|
-| [[List - R Geospatial Packages]] | Spatial analysis packages |
-| [[List - R Shiny Ecosystem]] | Shiny ecosystem tools |
+| [List - R Geospatial Packages](List - R Geospatial Packages.md) | Spatial analysis packages |
+| [List - R Shiny Ecosystem](List - R Shiny Ecosystem.md) | Shiny ecosystem tools |
 
 ## Code Snippets
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location"
-FROM "04-RESOURCES/Code/R"
-AND -"CHANGELOG"
-AND -"_README"
-SORT file.name ASC
-LIMIT 15
-```
-
+<!-- dynamic content -->
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/R").length`** individual notes with the `#Topic/R` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/R
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - R"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/R` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - R]] AND -"CHANGELOG" AND -"03-AREAS/MOC - R"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

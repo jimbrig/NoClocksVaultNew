@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Geographic Information System (GIS)
-
-```table-of-contents
-```
-
 ## Overview
 
 A **Geographic Information System (GIS)** is an integrated framework of hardware, software, data, and personnel designed to capture, store, manage, analyze, and visualize geographically referenced (spatial) information. GIS enables users to understand spatial relationships, patterns, and trends by linking location data with descriptive attributes.
@@ -70,14 +66,11 @@ A **Geographic Information System (GIS)** is an integrated framework of hardware
 
 ### See Also
 
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Multi-Criteria Decision Analysis (MCDA)]]
-- [[00-INBOX/GIS/GIS Data Sources]]
-- [[PostGIS]]
-- [[Coordinate Reference System (CRS)]]
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Multi-Criteria Decision Analysis (MCDA)](Multi-Criteria Decision Analysis (MCDA).md)
+- [00-INBOX/GIS/GIS Data Sources](00-INBOX/GIS/GIS Data Sources.md)
+- [PostGIS](PostGIS.md)
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Geographic Information System (GIS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Geographic Information System (GIS)"
-```
+<!-- dynamic content -->

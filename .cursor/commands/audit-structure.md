@@ -19,22 +19,13 @@ Notes should include standard sections based on type:
 ### 2. Missing Table of Contents
 
 Large notes (>50 lines) should have TOC:
-
-```table-of-contents
-title: Contents
-style: nestedList
-```
-
 ### 3. Missing Backlinks Section
 
 All permanent notes should end with:
 
 ```markdown
 ### Backlinks
-
-```dataview
-LIST FROM [[Note Title]] AND -"CHANGELOG"
-```
+<!-- dynamic content -->
 ```
 
 ### 4. Heading Hierarchy Issues

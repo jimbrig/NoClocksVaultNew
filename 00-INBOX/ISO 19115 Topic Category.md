@@ -1,6 +1,6 @@
 ---
-creation_date: [[2026-01-06]]
-modification_date: [[2026-01-06]]
+creation_date: [2026-01-06](2026-01-06.md)
+modification_date: [2026-01-06](2026-01-06.md)
 author: "Jimmy Briggs <jimmy.briggs@noclocks.dev>"
 title: "ISO 19115 Topic Category"
 description: 'High-level geospatial data thematic classification to assist in the grouping and search of available geospatial datasets, defined in ISO 19115:2003.'
@@ -21,15 +21,6 @@ source: https://apps.usgs.gov/thesaurus/term-simple.php?thcode=15&code=000
 
 > [!SOURCE] Source:
 > <https://apps.usgs.gov/thesaurus/term-simple.php?thcode=15&code=000>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Content
 
 > ISO 19115 Topic Category
@@ -59,7 +50,7 @@ includeLinks: true
 
 ## PDF
 
-![[ISO-19115-Metadata-Topic-Categories.pdf]]
+![ISO-19115-Metadata-Topic-Categories.pdf](ISO-19115-Metadata-Topic-Categories.pdf.md)
 
 ## JSON
 
@@ -203,21 +194,16 @@ includeLinks: true
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2026-01-06]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2026-01-06](2026-01-06.md).*
 
 ### See Also
 
-- [[WebClip - 2026-01-06 - ISO 19115 Topic Category]]
-- [[03-AREAS/MOC - Geospatial|Geospatial Map of Content]]
-- [[04-RESOURCES/Lists/List - GIS Standards Organizations]]
+- [WebClip - 2026-01-06 - ISO 19115 Topic Category](WebClip - 2026-01-06 - ISO 19115 Topic Category.md)
+- [Geospatial Map of Content](03-AREAS/MOC - Geospatial.md)
+- [04-RESOURCES/Lists/List - GIS Standards Organizations](04-RESOURCES/Lists/List - GIS Standards Organizations.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[ISO 19115 Topic Category]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

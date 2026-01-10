@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Association of American Geographers (AAG)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Association of American Geographers (AAG)** is a professional organization that advances geography research, education, and applications. Founded in 1904, AAG serves as the primary scholarly organization for geographers in the United States and internationally.
@@ -54,12 +50,8 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Cartography]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Cartography](Cartography.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Association of American Geographers (AAG)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Association of American Geographers (AAG)"
-```
-
+<!-- dynamic content -->

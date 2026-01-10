@@ -52,8 +52,8 @@ For each note, provide:
 ```yaml
 extraction_status: complete
 extracted_notes:
-  - "[[Definition - Term1]]"
-  - "[[Concept Note]]"
+  - "[Definition - Term1](Definition - Term1.md)"
+  - "[Concept Note](Concept Note.md)"
 ```
 
 ## Guidelines

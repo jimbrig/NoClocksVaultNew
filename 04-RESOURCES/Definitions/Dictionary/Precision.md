@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Precision
-
-```table-of-contents
-```
-
 ## Overview
 
 **Precision** is the level of detail or exactness in spatial data, often referring to the number of decimal places in coordinate values or the resolution of raster data. Precision describes the consistency of repeated measurements and should not be confused with accuracy (closeness to true value).
@@ -49,13 +45,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinates]]
-- [[Resolution]]
-- [[Geographic Information System (GIS)]]
+- [Coordinates](Coordinates.md)
+- [Resolution](Resolution.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Precision]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Precision"
-```
-
+<!-- dynamic content -->

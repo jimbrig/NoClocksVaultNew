@@ -69,7 +69,7 @@ let language = "";
 let languageKey = "";
 
 // step 1: try to detect from folder path (most reliable when in 04-RESOURCES/Code/{Language}/)
-const codePathMatch = folderPath.match(/04-RESOURCES\/Code\/([^\/]+)/i);
+const codePathMatch = folderPath.match(/04-RESOURCES//Code//([^//]+)/i);
 if (codePathMatch) {
   const folderLang = codePathMatch[1].toLowerCase();
   languageKey = languageAliases[folderLang] || folderLang;
@@ -80,9 +80,9 @@ if (codePathMatch) {
 
 // step 2: try to detect from filename prefix (e.g., "R - Script Name" or "PowerShell - Script")
 if (!language) {
-  const prefixMatch = fileName.match(/^([A-Za-z#\+]+)\s*-\s*/);
+  const prefixMatch = fileName.match(/^([A-Za-z#/+]+)/s*-/s*/);
   if (prefixMatch) {
-    const prefix = prefixMatch[1].toLowerCase().replace("#", "sharp").replace(/\+/g, "p");
+    const prefix = prefixMatch[1].toLowerCase().replace("#", "sharp").replace(//+/g, "p");
     languageKey = languageAliases[prefix] || prefix;
     if (languageConfig[languageKey]) {
       language = languageKey;
@@ -119,7 +119,7 @@ const config = languageConfig[language] || {
 
 // extract description from filename (remove language prefix if present)
 let description = fileName;
-const descMatch = fileName.match(/^[A-Za-z#\+]+\s*-\s*(.+)$/);
+const descMatch = fileName.match(/^[A-Za-z#/+]+/s*-/s*(.+)$/);
 if (descMatch) {
   description = descMatch[1].trim();
 }
@@ -144,7 +144,7 @@ tags:
   - ${config.tag}
   - Status/WIP
 aliases:
-  - ${aliases.join("\n  - ")}
+  - ${aliases.join("/n  - ")}
 publish: true
 permalink:
 description: 
@@ -158,13 +158,13 @@ cssclasses:
 > - **Language**: ${config.name}
 > - **Packages**: *List dependencies here*
 
-\`\`\`table-of-contents
+/`/`/`table-of-contents
 title: ## Contents
 style: nestedList
 minLevel: 2
 maxLevel: 4
 includeLinks: true
-\`\`\`
+/`/`/`
 
 ## Overview
 
@@ -175,17 +175,17 @@ Description of this code snippet/script/module.
 
 ## Code
 
-\`\`\`${config.codeBlock}
+/`/`/`${config.codeBlock}
 
-\`\`\`
+/`/`/`
 
 ## Usage
 
 How to use this code:
 
-\`\`\`${config.codeBlock}
+/`/`/`${config.codeBlock}
 
-\`\`\`
+/`/`/`
 
 ## Notes
 
@@ -195,18 +195,18 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[${creationDate}]] and last modified on [[${creationDate}]].*
+*Note created on [${creationDate}](${creationDate}.md) and last modified on [${creationDate}](${creationDate}.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/${config.name}/_README|${config.name} Code Index]]
-- [[03-AREAS/${config.moc}|${config.name} Map of Content]]
+- [${config.name} Code Index](04-RESOURCES/Code/${config.name}/README.md)
+- [${config.name} Map of Content](03-AREAS/${config.moc}.md)
 
 ### Backlinks
 
-\`\`\`dataview
-LIST FROM [[${fileName}]] AND -"CHANGELOG"
-\`\`\`
+/`/`/`dataview
+LIST FROM [${fileName}](${fileName}.md) AND -"CHANGELOG"
+/`/`/`
 
 ***
 

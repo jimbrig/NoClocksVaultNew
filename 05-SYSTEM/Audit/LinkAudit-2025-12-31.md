@@ -12,15 +12,6 @@ publish: false
 ---
 
 # Link Audit Report - 2025-12-31
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 3
-includeLinks: true
-```
-
 ## Executive Summary
 
 | Metric | Value |
@@ -40,13 +31,13 @@ These MOCs are referenced but don't exist:
 
 | Broken Link | Should Be | Source Files |
 |-------------|-----------|--------------|
-| `[[MOC - GIS]]` | `[[MOC - Geospatial]]` | Chat migration docs, MOC - Geospatial |
-| `[[MOC - Security]]` | Create new or remove | Glossary - IAM, Guide - Web Auth |
-| `[[MOC - RealEstate]]` | Create new or remove | MOC - Geospatial, List - Property Data |
-| `[[MOC - DevOps]]` | Create new or remove | List - Cloud Platforms, Docker Best Practices |
-| `[[MOC - DataEngineering]]` | `[[MOC - Data Engineering]]` | MOC - Geospatial |
-| `[[MOC - Technology]]` | Create new or remove | Code _README |
-| `[[03-AREAS/MOC - PowerShell]]` | `[[MOC - PowerShell]]` | PowerShell code notes |
+| `[MOC - GIS](MOC - GIS.md)` | `[MOC - Geospatial](MOC - Geospatial.md)` | Chat migration docs, MOC - Geospatial |
+| `[MOC - Security](MOC - Security.md)` | Create new or remove | Glossary - IAM, Guide - Web Auth |
+| `[MOC - RealEstate](MOC - RealEstate.md)` | Create new or remove | MOC - Geospatial, List - Property Data |
+| `[MOC - DevOps](MOC - DevOps.md)` | Create new or remove | List - Cloud Platforms, Docker Best Practices |
+| `[MOC - DataEngineering](MOC - DataEngineering.md)` | `[MOC - Data Engineering](MOC - Data Engineering.md)` | MOC - Geospatial |
+| `[MOC - Technology](MOC - Technology.md)` | Create new or remove | Code _README |
+| `[03-AREAS/MOC - PowerShell](03-AREAS/MOC - PowerShell.md)` | `[MOC - PowerShell](MOC - PowerShell.md)` | PowerShell code notes |
 
 ### Critical - Missing Definition Notes
 
@@ -54,45 +45,45 @@ These definitions are referenced but don't exist:
 
 | Missing Definition | Referenced In |
 |--------------------|---------------|
-| `[[Definition - JSON Web Token (JWT)]]` | Glossary - IAM, Guide - Web Auth |
-| `[[Definition - OAuth]]` | Glossary - IAM, Guide - Web Auth |
-| `[[Definition - OpenID Connect (OIDC)]]` | Glossary - IAM |
-| `[[Definition - Multi-Factor Authentication (MFA)]]` | Glossary - IAM |
-| `[[Definition - Shannon Entropy]]` | Definition - Information Theory |
+| `[Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md)` | Glossary - IAM, Guide - Web Auth |
+| `[Definition - OAuth](Definition - OAuth.md)` | Glossary - IAM, Guide - Web Auth |
+| `[Definition - OpenID Connect (OIDC)](Definition - OpenID Connect (OIDC).md)` | Glossary - IAM |
+| `[Definition - Multi-Factor Authentication (MFA)](Definition - Multi-Factor Authentication (MFA).md)` | Glossary - IAM |
+| `[Definition - Shannon Entropy](Definition - Shannon Entropy.md)` | Definition - Information Theory |
 
 ### Critical - Missing Meta/Philosophy Notes
 
 | Broken Link | Actual File | Source Files |
 |-------------|-------------|--------------|
-| `[[Vault Philosophy]]` | `[[05-SYSTEM/Meta/PHILOSOPHY]]` | Chat migration, PHILOSOPHY |
-| `[[Tag Taxonomy]]` | `[[TAGS]]` or `[[05-SYSTEM/Meta/TAGS]]` | Chat migration, TAGS |
-| `[[AI Setup]]` | `[[05-SYSTEM/Meta/AGENTS]]` or `[[AGENTS]]` | Chat migration, AGENTS |
+| `[Vault Philosophy](Vault Philosophy.md)` | `[05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)` | Chat migration, PHILOSOPHY |
+| `[Tag Taxonomy](Tag Taxonomy.md)` | `[TAGS](TAGS.md)` or `[05-SYSTEM/Meta/TAGS](05-SYSTEM/Meta/TAGS.md)` | Chat migration, TAGS |
+| `[AI Setup](AI Setup.md)` | `[05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md)` or `[AGENTS](AGENTS.md)` | Chat migration, AGENTS |
 
 ### High - Missing Obsidian Setup Notes
 
 These are referenced in README but don't exist:
 
-- `[[Obsidian - Setup]]`
-- `[[Obsidian - Folders]]`
-- `[[Obsidian - Scripts]]`
-- `[[Obsidian - Themes]]`
-- `[[Obsidian - CSS Snippets]]`
-- `[[Obsidian - Community Plugins]]`
-- `[[./05-SYSTEM/Obsidian/]]`
+- `[Obsidian - Setup](Obsidian - Setup.md)`
+- `[Obsidian - Folders](Obsidian - Folders.md)`
+- `[Obsidian - Scripts](Obsidian - Scripts.md)`
+- `[Obsidian - Themes](Obsidian - Themes.md)`
+- `[Obsidian - CSS Snippets](Obsidian - CSS Snippets.md)`
+- `[Obsidian - Community Plugins](Obsidian - Community Plugins.md)`
+- `[./05-SYSTEM/Obsidian/](./05-SYSTEM/Obsidian/.md)`
 
 ### Medium - Missing Code Notes
 
 | Missing Code Note | Referenced In |
 |-------------------|---------------|
-| `[[Code - R - httr2 API Client]]` | List - Property Data Platforms |
-| `[[Code - R - GDAL Geospatial Operations]]` | List - R Geospatial Packages |
-| `[[Code - R - New Function]]` | Chat migration (example text) |
+| `[Code - R - httr2 API Client](Code - R - httr2 API Client.md)` | List - Property Data Platforms |
+| `[Code - R - GDAL Geospatial Operations](Code - R - GDAL Geospatial Operations.md)` | List - R Geospatial Packages |
+| `[Code - R - New Function](Code - R - New Function.md)` | Chat migration (example text) |
 
 ### Medium - Missing Guide Notes
 
 | Missing Guide | Referenced In |
 |---------------|---------------|
-| `[[Guide - Inbox Processing]]` | AGENTS.md references it |
+| `[Guide - Inbox Processing](Guide - Inbox Processing.md)` | AGENTS.md references it |
 
 ### Low - Missing Tool/Technology Notes
 
@@ -101,23 +92,23 @@ These are mentioned in notes but don't have dedicated definition files (per vaul
 <details>
 <summary>Geospatial Tools (100+ references)</summary>
 
-- `[[GDAL]]`, `[[OGR]]`, `[[GEOS]]`, `[[PROJ]]`
-- `[[PostgreSQL]]`, `[[PostGIS]]` (PostGIS exists, PostgreSQL doesn't)
-- `[[Leaflet.js]]`, `[[Mapbox]]`, `[[OpenLayers]]`, `[[kepler.gl]]`
-- `[[pg_featureserv]]`, `[[pg_tileserv]]`, `[[pg_eventserv]]`, `[[pgSVG]]`
-- `[[PostgREST]]`, `[[pgAdmin]]`, `[[dbeaver]]`, `[[dbmate]]`
-- `[[Apache Airflow]]`, `[[Luigi]]`, `[[DAG]]`
-- `[[Data Build Tool (dbt)]]`, `[[Data Load Tool (dlt)]]`
-- Many R packages: `[[sf]]`, `[[terra]]`, `[[leaflet]]`, etc.
+- `[GDAL](GDAL.md)`, `[OGR](OGR.md)`, `[GEOS](GEOS.md)`, `[PROJ](PROJ.md)`
+- `[PostgreSQL](PostgreSQL.md)`, `[PostGIS](PostGIS.md)` (PostGIS exists, PostgreSQL doesn't)
+- `[Leaflet.js](Leaflet.js.md)`, `[Mapbox](Mapbox.md)`, `[OpenLayers](OpenLayers.md)`, `[kepler.gl](kepler.gl.md)`
+- `[pg_featureserv](pg_featureserv.md)`, `[pg_tileserv](pg_tileserv.md)`, `[pg_eventserv](pg_eventserv.md)`, `[pgSVG](pgSVG.md)`
+- `[PostgREST](PostgREST.md)`, `[pgAdmin](pgAdmin.md)`, `[dbeaver](dbeaver.md)`, `[dbmate](dbmate.md)`
+- `[Apache Airflow](Apache Airflow.md)`, `[Luigi](Luigi.md)`, `[DAG](DAG.md)`
+- `[Data Build Tool (dbt)](Data Build Tool (dbt).md)`, `[Data Load Tool (dlt)](Data Load Tool (dlt).md)`
+- Many R packages: `[sf](sf.md)`, `[terra](terra.md)`, `[leaflet](leaflet.md)`, etc.
 
 </details>
 
 <details>
 <summary>Cloud/DevOps Tools</summary>
 
-- `[[Docker]]`, `[[Docker Compose]]`
-- `[[Azure]]`, `[[Azure Storage]]`, `[[azcli]]`, `[[azcopy]]`
-- `[[Taskfile]]`, `[[Justfile]]`, `[[GNU Make]]`
+- `[Docker](Docker.md)`, `[Docker Compose](Docker Compose.md)`
+- `[Azure](Azure.md)`, `[Azure Storage](Azure Storage.md)`, `[azcli](azcli.md)`, `[azcopy](azcopy.md)`
+- `[Taskfile](Taskfile.md)`, `[Justfile](Justfile.md)`, `[GNU Make](GNU Make.md)`
 
 </details>
 
@@ -125,9 +116,9 @@ These are mentioned in notes but don't have dedicated definition files (per vaul
 
 These are template syntax and are working as intended:
 
-- `[[${creationDate}]]`, `[[${tp.file.title}]]`
-- `[[2025-12-31]]` variants
-- `[[Related Checklist]]`, `[[Related Guide]]`, `[[Related MOC]]`, etc.
+- `[${creationDate}](${creationDate}.md)`, `[${tp.file.title}](${tp.file.title}.md)`
+- `[2025-12-31](2025-12-31.md)` variants
+- `[Related Checklist](Related Checklist.md)`, `[Related Guide](Related Guide.md)`, `[Related MOC](Related MOC.md)`, etc.
 
 ### Journal Date Links (Expected)
 
@@ -184,7 +175,7 @@ Notes that don't link to anything else (potential isolation):
 ### Empty Link Target
 
 ```
-05-SYSTEM\Templates\Template-Insight.md:14
+05-SYSTEM/Templates/Template-Insight.md:14
 source_chat: "[[]]"
 ```
 
@@ -215,7 +206,7 @@ All embedded images were verified to exist:
 
 ### Embedded Base Files
 
-- `![[Images.base]]` in Assets/Images/_README - verify this works
+- `![Images.base](Images.base.md)` in Assets/Images/_README - verify this works
 
 ## 6. Link Quality Metrics
 
@@ -249,15 +240,15 @@ Create these definitions to fix broken links:
 ### Priority 3: Fix Meta/Philosophy References
 
 Update links in AGENTS.md and README.md:
-- `[[Vault Philosophy]]` → `[[PHILOSOPHY]]` or add alias
-- `[[Tag Taxonomy]]` → `[[TAGS]]` or add alias
-- `[[AI Setup]]` → `[[AGENTS]]` or add alias
+- `[Vault Philosophy](Vault Philosophy.md)` → `[PHILOSOPHY](PHILOSOPHY.md)` or add alias
+- `[Tag Taxonomy](Tag Taxonomy.md)` → `[TAGS](TAGS.md)` or add alias
+- `[AI Setup](AI Setup.md)` → `[AGENTS](AGENTS.md)` or add alias
 
 ### Priority 4: Clean Up README References
 
 Either create Obsidian setup notes or remove references:
-- `[[Obsidian - Setup]]`
-- `[[Obsidian - Folders]]`
+- `[Obsidian - Setup](Obsidian - Setup.md)`
+- `[Obsidian - Folders](Obsidian - Folders.md)`
 - etc.
 
 ### Priority 5: Fix Empty Link
@@ -288,12 +279,9 @@ Many "broken links" from the Dec 23 audit were in `quartz/node_modules/` README 
 
 ## See Also
 
-- [[05-SYSTEM/Audit/Broken Links Output 2025-12-23]]
-- [[05-SYSTEM/Audit/AuditLog-2025-12-31]]
-- [[05-SYSTEM/Audit/StructuralAnalysis-2025-12-31]]
+- [05-SYSTEM/Audit/Broken Links Output 2025-12-23](05-SYSTEM/Audit/Broken Links Output 2025-12-23.md)
+- [05-SYSTEM/Audit/AuditLog-2025-12-31](05-SYSTEM/Audit/AuditLog-2025-12-31.md)
+- [05-SYSTEM/Audit/StructuralAnalysis-2025-12-31](05-SYSTEM/Audit/StructuralAnalysis-2025-12-31.md)
 
 ## Backlinks
-
-```dataview
-LIST FROM [[LinkAudit-2025-12-31]] AND -"CHANGELOG"
-```
+<!-- dynamic content -->

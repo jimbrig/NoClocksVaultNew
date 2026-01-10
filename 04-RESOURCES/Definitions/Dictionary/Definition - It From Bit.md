@@ -15,21 +15,12 @@ aliases:
   - Wheeler's It From Bit
   - Information Ontology
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Definition - It From Bit
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **"It from Bit"** is a phrase coined by physicist John Archibald Wheeler proposing that information is fundamental to physics—that every physical entity derives its existence from binary choices and information, not the reverse. Wheeler argued that physical reality ("it") emerges from informational acts ("bit").
@@ -103,17 +94,13 @@ Wheeler's framework addresses "why is there something rather than nothing":
 
 ### See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - Bekenstein Bound]]
-- [[Definition - Mathematical Universe Hypothesis]]
-- [[Substrate Independence]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
+- [Definition - Mathematical Universe Hypothesis](Definition - Mathematical Universe Hypothesis.md)
+- [Substrate Independence](Substrate Independence.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Definition - It From Bit]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/Definition - It From Bit"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Census Tabulation Block (TABBLOCK)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Census Tabulation Block (TABBLOCK)** is the smallest geographic unit used by the U.S. Census Bureau for data collection and tabulation, typically bounded by visible features such as roads or rivers. There are approximately 8 million census blocks in the United States.
@@ -48,13 +44,9 @@ aliases:
 
 ### See Also
 
-- [[Block Group (BG)]]
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Federal Information Processing Standards (FIPS)]]
+- [Block Group (BG)](Block Group (BG).md)
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Census Tabulation Block (TABBLOCK)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Census Tabulation Block (TABBLOCK)"
-```
-
+<!-- dynamic content -->

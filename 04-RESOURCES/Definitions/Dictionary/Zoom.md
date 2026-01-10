@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Zoom
-
-```table-of-contents
-```
-
 ## Overview
 
 **Zoom** is the process of changing the scale of a map or spatial data view in a GIS, allowing users to focus on specific areas or see a broader context. In web mapping, zoom is typically expressed as discrete levels (0-22) with each level doubling the resolution.
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Scale]]
-- [[Geographic Information System (GIS)]]
-- [[Web Map Service (WMS)]]
+- [Scale](Scale.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Zoom]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Zoom"
-```
-
+<!-- dynamic content -->

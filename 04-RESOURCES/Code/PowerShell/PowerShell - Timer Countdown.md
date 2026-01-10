@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Get-Process`, `Stop-Process`, `Start-Process`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -74,7 +65,7 @@ function Start-FocusTime {
     # countdown timer
     $t = New-TimeSpan -Minutes $Minutes
     $origpos = $host.UI.RawUI.CursorPosition
-    $spinner = @('|', '/', '-', '\')
+    $spinner = @('|', '/', '-', '/')
     $spinnerPos = 0
     $d = (Get-Date) + $t
     $remain = ($d - (Get-Date))
@@ -120,18 +111,14 @@ Start-FocusTime -Minutes 45
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Timer Countdown]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

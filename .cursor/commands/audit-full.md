@@ -22,7 +22,7 @@ Use `mcp_repomix_pack_codebase` to generate a comprehensive vault analysis:
 
 ```json
 {
-  "directory": "N:\\obsidian\\NoClocksVaultNew",
+  "directory": "N://obsidian//NoClocksVaultNew",
   "includePatterns": "**/*.md",
   "ignorePatterns": "node_modules/**,quartz/quartz/**,.obsidian/**",
   "topFilesLength": 20
@@ -47,7 +47,7 @@ Use these tools for vault-specific operations:
 Use for pattern matching:
 - Find notes missing frontmatter: `grep` for `^---` pattern
 - Find missing tags: `grep` for `Status/` and `Type/` patterns
-- Find broken wikilinks: `grep` for `\[\[.*\]\]` patterns
+- Find broken wikilinks: `grep` for `/[/[.*/]/]` patterns
 
 ## Audit Process
 
@@ -80,7 +80,7 @@ Search for required tag patterns:
 - `Topic/` prefix for categorization
 
 ### Step 5: Audit Links
-- Extract all wikilinks with `\[\[([^\]|]+)`
+- Extract all wikilinks with `/[/[([^/]|]+)`
 - Compare against existing file list
 - Identify orphaned notes (no inlinks)
 
@@ -154,9 +154,9 @@ description: Full vault audit results for {{date}}
 ## Appendix
 
 ### Backlinks
-\`\`\`dataview
-LIST FROM [[AuditLog-{{date}}]] AND -"CHANGELOG"
-\`\`\`
+/`/`/`dataview
+LIST FROM [AuditLog-{{date}}](AuditLog-{{date}}.md) AND -"CHANGELOG"
+/`/`/`
 ```
 
 ## Audit Checklist
@@ -189,38 +189,13 @@ LIST FROM [[AuditLog-{{date}}]] AND -"CHANGELOG"
 ## Dataview Queries for Manual Verification
 
 ### Notes Missing Tags
-```dataview
-TABLE file.tags as Tags
-FROM "00-INBOX" OR "01-SLIPBOX" OR "02-PROJECTS" OR "03-AREAS" OR "04-RESOURCES"
-WHERE !contains(file.tags, "Status/") OR !contains(file.tags, "Type/")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Stale Inbox Items
-```dataview
-TABLE file.mtime as "Last Modified", (date(today) - file.mtime).days as "Days Old"
-FROM "00-INBOX"
-WHERE (date(today) - file.mtime).days > 7
-SORT file.mtime ASC
-```
-
+<!-- dynamic content -->
 ### Orphaned Notes
-```dataview
-TABLE length(file.inlinks) as Inlinks
-FROM "01-SLIPBOX" OR "04-RESOURCES/Definitions"
-WHERE length(file.inlinks) = 0
-SORT file.name ASC
-```
-
+<!-- dynamic content -->
 ### Recent Changes
-```dataview
-TABLE file.mtime as Modified, file.folder as Folder
-FROM ""
-WHERE file.name != "_README" AND file.name != "README"
-SORT file.mtime DESC
-LIMIT 20
-```
-
+<!-- dynamic content -->
 ## Issue Severity Classification
 
 | Severity | Description | Action |

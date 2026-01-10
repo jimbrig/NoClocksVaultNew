@@ -17,15 +17,6 @@ cssclasses:
 ---
 
 # Control Flow
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Control flow statements in Bash scripting allow you to control the execution of your script based on conditions and loops.
@@ -111,29 +102,25 @@ esac
 The conditions in these control flow statements are tested using test constructs:
 
 - `[ condition ]` - Traditional test syntax (POSIX compliant)
-- `[[ condition ]]` - Modern Bash syntax with more features (regex, pattern matching)
+- `[ condition ]( condition .md)` - Modern Bash syntax with more features (regex, pattern matching)
 
-The double bracket `[[ ]]` construct is preferred in Bash as it supports more complex conditions and regular expressions.
+The double bracket `[ ]( .md)` construct is preferred in Bash as it supports more complex conditions and regular expressions.
 
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[Bash - Check if Directory Exists]]
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash - Check if Directory Exists](Bash - Check if Directory Exists.md)
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Control Flow]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

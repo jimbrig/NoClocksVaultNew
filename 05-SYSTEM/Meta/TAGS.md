@@ -17,19 +17,10 @@ publish: false
 ---
 
 # Tag Taxonomy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About:
-> This document defines the complete tag taxonomy for this [[MOC - Obsidian|Obsidian]] Vault.  Tags are organized into three root-level categories: **Status**, **Type**, and **Topic**.
+> This document defines the complete tag taxonomy for this [Obsidian](MOC - Obsidian.md) Vault.  Tags are organized into three root-level categories: **Status**, **Type**, and **Topic**.
 
 The tagging system for this vault relies on the following foundational tag "types":
 
@@ -46,7 +37,7 @@ The tagging system for this vault relies on the following foundational tag "type
 
 ## Implementation
 
-Tags in Obsidian are defined in the note's [[YAML Ain't Markup Language (YAML)|YAML]] Frontmatter (Metadata) like so:
+Tags in Obsidian are defined in the note's [YAML](YAML Ain't Markup Language (YAML).md) Frontmatter (Metadata) like so:
 
 ```yaml
 tags:
@@ -234,25 +225,11 @@ tags:
 ## Dataview Queries
 
 ### Find all R code snippets
-
-```dataview
-LIST FROM #Type/Code AND #Topic/R
-```
-
+<!-- dynamic content -->
 ### Find all WIP notes
-
-```dataview
-TABLE file.mtime as "Modified"
-FROM #Status/WIP
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Find notes by combined topics
-
-```dataview
-LIST FROM #Topic/R AND #Topic/Shiny
-```
-
+<!-- dynamic content -->
 ## Adding New Tags
 
 When adding new tags:
@@ -265,15 +242,12 @@ When adding new tags:
 
 ## Related Notes
 
-- [[05-SYSTEM/Meta/PHILOSOPHY]]
-- [[05-SYSTEM/Meta/AGENTS]]
+- [05-SYSTEM/Meta/PHILOSOPHY](05-SYSTEM/Meta/PHILOSOPHY.md)
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Tag Taxonomy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Tag Taxonomy"
-```
+<!-- dynamic content -->

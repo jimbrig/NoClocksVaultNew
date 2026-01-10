@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Feature
-
-```table-of-contents
-```
-
 ## Overview
 
 **Feature** is a spatial object in a GIS that represents a real-world entity, such as a point, line, or polygon, along with its associated attributes. Features are the fundamental building blocks of vector GIS data and can represent anything from buildings and roads to administrative boundaries and natural phenomena.
@@ -45,16 +41,12 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Vector]]
-- [[Layer]]
-- [[Point]]
-- [[Polygon]]
-- [[LineString]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Vector](Vector.md)
+- [Layer](Layer.md)
+- [Point](Point.md)
+- [Polygon](Polygon.md)
+- [LineString](LineString.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Feature]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Feature"
-```
-
+<!-- dynamic content -->

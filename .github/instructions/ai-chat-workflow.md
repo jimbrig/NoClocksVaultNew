@@ -83,7 +83,7 @@ tags:
 aliases:
   - Clean term name
 publish: true
-source_chat: "[[04-RESOURCES/Integrations/Chats/{chat-file}]]"
+source_chat: "[04-RESOURCES/Integrations/Chats/{chat-file}](04-RESOURCES/Integrations/Chats/{chat-file}.md)"
 source_provider: Perplexity|ChatGPT|Claude|Cursor|Copilot
 confidence: high|medium|low
 ---

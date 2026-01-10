@@ -161,7 +161,7 @@ Here's the pattern I recommend:
 
 **Benefits**:
 - Files sort by type in file explorer
-- Wikilinks can use clean aliases: `[[Docker]]` resolves to `Tool - Docker.md`
+- Wikilinks can use clean aliases: `[Docker](Docker.md)` resolves to `Tool - Docker.md`
 - Consistent pattern across vault
 - Easy to search/filter by prefix
 
@@ -633,13 +633,13 @@ Perfect. That gives us a clean, logical structure:
 ```
 NoClocksVaultNew/
   00-INBOX/              # Quick capture entry point
-    _README.md
+    README.md
   
   01-SLIPBOX/            # Atomic, polished permanent notes (non-typed)
-    _README.md
+    README.md
   
   02-JOURNAL/            # Temporal notes
-    _README.md
+    README.md
     Daily/
       YYYY/
         MM-Month/
@@ -649,7 +649,7 @@ NoClocksVaultNew/
     Annual/
     
   03-AREAS/              # MOCs live here directly (global indices)
-    _README.md
+    README.md
     MOC - R.md
     MOC - GIS.md
     MOC - Development.md
@@ -657,7 +657,7 @@ NoClocksVaultNew/
     ...
     
   04-RESOURCES/          # Typed knowledge with dedicated locations
-    _README.md
+    README.md
     Code/
       R/
       PowerShell/
@@ -677,7 +677,7 @@ NoClocksVaultNew/
     Quotes/
     
   05-SYSTEM/             # Vault configuration and meta
-    _README.md
+    README.md
     Templates/
     Assets/
     Meta/
@@ -685,7 +685,7 @@ NoClocksVaultNew/
     Copilot/
     
   99-ARCHIVES/           # Inactive content
-    _README.md
+    README.md
     
   quartz/                # Quartz publishing (separate)
 ```
@@ -701,13 +701,13 @@ Let me update the comprehensive plan with this final structure:
 ```plaintext
 NoClocksVaultNew/
   00-INBOX/              # Quick capture entry point
-    _README.md
+    README.md
   
   01-SLIPBOX/            # Atomic, polished permanent notes (non-typed)
-    _README.md
+    README.md
   
   02-JOURNAL/            # Temporal notes
-    _README.md
+    README.md
     Daily/
       YYYY/
         MM-Month/
@@ -717,7 +717,7 @@ NoClocksVaultNew/
     Annual/
     
   03-AREAS/              # MOCs live here directly (global indices)
-    _README.md
+    README.md
     MOC - R.md
     MOC - GIS.md
     MOC - Development.md
@@ -725,7 +725,7 @@ NoClocksVaultNew/
     ...
     
   04-RESOURCES/          # Typed knowledge with dedicated locations
-    _README.md
+    README.md
     Code/
       R/
       PowerShell/
@@ -745,7 +745,7 @@ NoClocksVaultNew/
     Quotes/
     
   05-SYSTEM/             # Vault configuration and meta
-    _README.md
+    README.md
     Templates/
     Assets/
     Meta/
@@ -753,7 +753,7 @@ NoClocksVaultNew/
     Copilot/
     
   99-ARCHIVES/           # Inactive content
-    _README.md
+    README.md
     
   quartz/                # Quartz publishing (separate)
 ```
@@ -791,15 +791,6 @@ publish: false
 ---
 
 # Vault Philosophy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This document captures the core philosophy, structure decisions, and conventions that govern the No Clocks Knowledge Vault. It represents the culmination of deliberate thinking about how a knowledge base should be organized for maximum utility and minimal friction.
@@ -950,12 +941,12 @@ Every note uses a type prefix. Aliases in frontmatter provide clean wikilink res
 | List | `List - {Category}.md` | `List - DevOps Tools.md` | `DevOps Tools` |
 | Guide | `Guide - {Topic}.md` | `Guide - Local Dev Setup.md` | `Local Dev Setup` |
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` | `Deployment Checklist` |
-| Readme | `_README.md` | `_README.md` | `{Folder} Index` |
+| Readme | `README.md` | `README.md` | `{Folder} Index` |
 
 ### Benefits of Prefixing
 
 - Files sort by type in file explorer
-- Wikilinks can use clean aliases: `[[Docker]]` resolves to the right note
+- Wikilinks can use clean aliases: `[Docker](Docker.md)` resolves to the right note
 - Consistent pattern across vault
 - Easy to search/filter by prefix
 
@@ -1008,8 +999,8 @@ Daily notes serve dual purposes:
 
 ```markdown
 ## Quick Captures
-- Discovered [[New Tool]] - need to add to Lists
-- Idea about [[Concept]] -> creates inbox note for processing
+- Discovered [New Tool](New Tool.md) - need to add to Lists
+- Idea about [Concept](Concept.md) -> creates inbox note for processing
 ```
 
 ### 2. Activity Log
@@ -1018,8 +1009,8 @@ Even if not used as the entry point, daily notes log what happened:
 
 ```markdown
 ## Changes Made Today
-- Created [[Code - R - New Function]]
-- Updated [[MOC - R]] with new links
+- Created [Code - R - New Function](Code - R - New Function.md)
+- Updated [MOC - R](MOC - R.md) with new links
 
 ## Discoveries
 - Found useful article about X (link)
@@ -1094,21 +1085,17 @@ Project documentation belongs with the project. This vault is for cross-project 
 
 ## Related Notes
 
-- [[AI Setup]]
-- [[PLUGINS]]
-- [[Tag Taxonomy]]
-- [[AGENTS]]
+- [AI Setup](AI Setup.md)
+- [PLUGINS](PLUGINS.md)
+- [Tag Taxonomy](Tag Taxonomy.md)
+- [AGENTS](AGENTS.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Vault Philosophy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Vault Philosophy"
-```
-
+<!-- dynamic content -->
 ```
 
 Now let me update the README with a summary section and refresh the structure documentation:
@@ -1155,28 +1142,18 @@ Inside is a wealth of knowledge curated over our tenure as a business while purs
 The vault is structured loosely as a *[Zettelkasten](https://zettelkasten.de/overview/#the-introduction-to-the-zettelkasten-method)*, or a collection of interlinked *[Atomic Notes](https://zettelkasten.de/posts/create-zettel-from-reading-notes/)* about anything that has resonated with our work and was deemed worthy of including.
 
 Consider this a *[Digital Garden]()*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
-
-```table-of-contents
-title: Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## About
 
 Check out the [`05-SYSTEM/Obsidian`](./05-SYSTEM/Obsidian/) Folder for details about this Obsidian Vault and its setup.
 
 Some notes:
 
-- [[Obsidian - Setup]]
-- [[Obsidian - Folders]]
-- [[Obsidian - Scripts]]
-- [[Obsidian - Themes]]
-- [[Obsidian - CSS Snippets]]
-- [[Obsidian - Community Plugins]]
+- [Obsidian - Setup](Obsidian - Setup.md)
+- [Obsidian - Folders](Obsidian - Folders.md)
+- [Obsidian - Scripts](Obsidian - Scripts.md)
+- [Obsidian - Themes](Obsidian - Themes.md)
+- [Obsidian - CSS Snippets](Obsidian - CSS Snippets.md)
+- [Obsidian - Community Plugins](Obsidian - Community Plugins.md)
 
 The [Changelog](CHANGELOG.md) is also a good *Meta* resource.
 
@@ -1194,11 +1171,11 @@ This repository uses a three-branch workflow with [Quartz](https://quartz.jzhao.
 
 **How it works:**
 
-1. **develop branch**: The actual Obsidian vault content with `[[wikilinks]]` and `_README.md` files. This is where Obsidian Git syncs to.
+1. **develop branch**: The actual Obsidian vault content with `[wikilinks](wikilinks.md)` and `README.md` files. This is where Obsidian Git syncs to.
 
 2. **main branch**: Automatically generated from `develop` via GitHub Actions:
-   - `[[wikilinks]]` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
-   - `_README.md` files renamed to `README.md` for GitHub navigation
+   - `[wikilinks](wikilinks.md)` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
+   - `README.md` files renamed to `README.md` for GitHub navigation
    - Force pushed to maintain clean history
 
 3. **gh-pages branch**: [Quartz](https://quartz.jzhao.xyz/) static site deployed automatically:
@@ -1325,28 +1302,18 @@ Inside is a wealth of knowledge curated over our tenure as a business while purs
 The vault is structured loosely as a *[Zettelkasten](https://zettelkasten.de/overview/#the-introduction-to-the-zettelkasten-method)*, or a collection of interlinked *[Atomic Notes](https://zettelkasten.de/posts/create-zettel-from-reading-notes/)* about anything that has resonated with our work and was deemed worthy of including.
 
 Consider this a *[Digital Garden]()*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
-
-```table-of-contents
-title: Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## About
 
 Check out the [`05-SYSTEM/Obsidian`](./05-SYSTEM/Obsidian/) Folder for details about this Obsidian Vault and its setup.
 
 Some notes:
 
-- [[Obsidian - Setup]]
-- [[Obsidian - Folders]]
-- [[Obsidian - Scripts]]
-- [[Obsidian - Themes]]
-- [[Obsidian - CSS Snippets]]
-- [[Obsidian - Community Plugins]]
+- [Obsidian - Setup](Obsidian - Setup.md)
+- [Obsidian - Folders](Obsidian - Folders.md)
+- [Obsidian - Scripts](Obsidian - Scripts.md)
+- [Obsidian - Themes](Obsidian - Themes.md)
+- [Obsidian - CSS Snippets](Obsidian - CSS Snippets.md)
+- [Obsidian - Community Plugins](Obsidian - Community Plugins.md)
 
 The [Changelog](CHANGELOG.md) is also a good *Meta* resource.
 
@@ -1364,11 +1331,11 @@ This repository uses a three-branch workflow with [Quartz](https://quartz.jzhao.
 
 **How it works:**
 
-1. **develop branch**: The actual Obsidian vault content with `[[wikilinks]]` and `_README.md` files. This is where Obsidian Git syncs to.
+1. **develop branch**: The actual Obsidian vault content with `[wikilinks](wikilinks.md)` and `README.md` files. This is where Obsidian Git syncs to.
 
 2. **main branch**: Automatically generated from `develop` via GitHub Actions:
-   - `[[wikilinks]]` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
-   - `_README.md` files renamed to `README.md` for GitHub navigation
+   - `[wikilinks](wikilinks.md)` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
+   - `README.md` files renamed to `README.md` for GitHub navigation
    - Force pushed to maintain clean history
 
 3. **gh-pages branch**: [Quartz](https://quartz.jzhao.xyz/) static site deployed automatically:
@@ -1427,7 +1394,7 @@ CAPTURE → PROCESS → NAVIGATE → REFERENCE
 3. **Navigate**: MOCs provide global indices across topics
 4. **Reference**: Find what you need when you need it
 
-For detailed philosophy and conventions, see [[Vault Philosophy]].
+For detailed philosophy and conventions, see [Vault Philosophy](Vault Philosophy.md).
 
 ## Content
 
@@ -1530,28 +1497,18 @@ Inside is a wealth of knowledge curated over our tenure as a business while purs
 The vault is structured loosely as a *[Zettelkasten](https://zettelkasten.de/overview/#the-introduction-to-the-zettelkasten-method)*, or a collection of interlinked *[Atomic Notes](https://zettelkasten.de/posts/create-zettel-from-reading-notes/)* about anything that has resonated with our work and was deemed worthy of including.
 
 Consider this a *[Digital Garden]()*. It is a garden that needs to be maintained and cared for overtime to produce fruitful outcomes.
-
-```table-of-contents
-title: Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## About
 
 Check out the [`05-SYSTEM/Obsidian`](./05-SYSTEM/Obsidian/) Folder for details about this Obsidian Vault and its setup.
 
 Some notes:
 
-- [[Obsidian - Setup]]
-- [[Obsidian - Folders]]
-- [[Obsidian - Scripts]]
-- [[Obsidian - Themes]]
-- [[Obsidian - CSS Snippets]]
-- [[Obsidian - Community Plugins]]
+- [Obsidian - Setup](Obsidian - Setup.md)
+- [Obsidian - Folders](Obsidian - Folders.md)
+- [Obsidian - Scripts](Obsidian - Scripts.md)
+- [Obsidian - Themes](Obsidian - Themes.md)
+- [Obsidian - CSS Snippets](Obsidian - CSS Snippets.md)
+- [Obsidian - Community Plugins](Obsidian - Community Plugins.md)
 
 The [Changelog](CHANGELOG.md) is also a good *Meta* resource.
 
@@ -1569,11 +1526,11 @@ This repository uses a three-branch workflow with [Quartz](https://quartz.jzhao.
 
 **How it works:**
 
-1. **develop branch**: The actual Obsidian vault content with `[[wikilinks]]` and `_README.md` files. This is where Obsidian Git syncs to.
+1. **develop branch**: The actual Obsidian vault content with `[wikilinks](wikilinks.md)` and `README.md` files. This is where Obsidian Git syncs to.
 
 2. **main branch**: Automatically generated from `develop` via GitHub Actions:
-   - `[[wikilinks]]` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
-   - `_README.md` files renamed to `README.md` for GitHub navigation
+   - `[wikilinks](wikilinks.md)` converted to standard markdown links using [obsidian-export](https://github.com/zoni/obsidian-export)
+   - `README.md` files renamed to `README.md` for GitHub navigation
    - Force pushed to maintain clean history
 
 3. **gh-pages branch**: [Quartz](https://quartz.jzhao.xyz/) static site deployed automatically:
@@ -1602,9 +1559,9 @@ MOCs serve as structural index notes that aggregate related content across the v
 
 Current MOCs:
 
-- [[MOC - R]] - R programming ecosystem
-- [[MOC - GIS]] - Geographic Information Systems
-- [[MOC - PKM]] - Personal Knowledge Management
+- [MOC - R](MOC - R.md) - R programming ecosystem
+- [MOC - GIS](MOC - GIS.md) - Geographic Information Systems
+- [MOC - PKM](MOC - PKM.md) - Personal Knowledge Management
 
 ### Naming Conventions
 
@@ -1627,7 +1584,7 @@ Tags follow a flat, combinable structure:
 - **Type/**: `MOC`, `Code`, `Definition`, `List`, `Guide`, `Checklist`, `Daily`, etc.
 - **Topic/**: `R`, `Python`, `GIS`, `DevOps`, `Cloud`, `Business`, etc.
 
-See [[Vault Philosophy]] and [[Tag Taxonomy]] for complete documentation 
+See [Vault Philosophy](Vault Philosophy.md) and [Tag Taxonomy](Tag Taxonomy.md) for complete documentation 
 
 ## Structure
 
@@ -1666,7 +1623,7 @@ CAPTURE → PROCESS → NAVIGATE → REFERENCE
 3. **Navigate**: MOCs provide global indices across topics
 4. **Reference**: Find what you need when you need it
 
-For detailed philosophy and conventions, see [[Vault Philosophy]].
+For detailed philosophy and conventions, see [Vault Philosophy](Vault Philosophy.md).
 
 ## Content
 
@@ -1748,15 +1705,6 @@ publish: false
 ---
 
 # Tag Taxonomy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This document defines the complete tag taxonomy for the No Clocks Knowledge Vault. Tags are organized into three categories: Status, Type, and Topic.
@@ -1923,25 +1871,11 @@ tags:
 ## Dataview Queries
 
 ### Find all R code snippets
-
-```dataview
-LIST FROM #Type/Code AND #Topic/R
-```
-
+<!-- dynamic content -->
 ### Find all WIP notes
-
-```dataview
-TABLE file.mtime as "Modified"
-FROM #Status/WIP
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Find notes by combined topics
-
-```dataview
-LIST FROM #Topic/R AND #Topic/Shiny
-```
-
+<!-- dynamic content -->
 ## Adding New Tags
 
 When adding new tags:
@@ -1954,19 +1888,15 @@ When adding new tags:
 
 ## Related Notes
 
-- [[Vault Philosophy]]
-- [[AI Setup]]
+- [Vault Philosophy](Vault Philosophy.md)
+- [AI Setup](AI Setup.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Tag Taxonomy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Tag Taxonomy"
-```
-
+<!-- dynamic content -->
 ```
 
 Let me check if there's a _README in the Meta folder and update it:
@@ -1992,15 +1922,6 @@ publish: false
 ---
 
 # Meta
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -2010,26 +1931,16 @@ includeLinks: true
 
 | Document | Purpose |
 |----------|---------|
-| [[Vault Philosophy]] | Core philosophy, structure decisions, and conventions |
-| [[Tag Taxonomy]] | Complete tag hierarchy and usage guidelines |
-| [[AI Setup]] | AI tooling configuration (Cursor, Copilot, MCP) |
-| [[PLUGINS]] | Installed Obsidian plugins and their purposes |
+| [Vault Philosophy](Vault Philosophy.md) | Core philosophy, structure decisions, and conventions |
+| [Tag Taxonomy](Tag Taxonomy.md) | Complete tag hierarchy and usage guidelines |
+| [AI Setup](AI Setup.md) | AI tooling configuration (Cursor, Copilot, MCP) |
+| [PLUGINS](PLUGINS.md) | Installed Obsidian plugins and their purposes |
 
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** meta documents in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Document",
-  description AS "Description",
-  file.mday AS "Modified"
-FROM "05-SYSTEM/Meta"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  meta documents in this folder.*
+<!-- dynamic content -->
 ## Quick Reference
 
 ### Vault Structure
@@ -2064,19 +1975,15 @@ SORT file.name ASC
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[AGENTS]]
-- [[README]]
+- [AGENTS](AGENTS.md)
+- [README](README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -2177,10 +2084,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -2224,30 +2131,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -2280,14 +2169,14 @@ When creating notes intended for publication:
 - Use hyphens for multi-word names in system files
 - Prefix templates with `Template-`
 - Prefix MOCs with `MOC - `
-- Use `_README.md` for folder documentation (converted to `README.md` on main branch)
+- Use `README.md` for folder documentation (converted to `README.md` on main branch)
 
 ## AI-Specific Instructions
 
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -2416,10 +2305,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -2463,30 +2352,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -2519,14 +2390,14 @@ When creating notes intended for publication:
 - Use hyphens for multi-word names in system files
 - Prefix templates with `Template-`
 - Prefix MOCs with `MOC - `
-- Use `_README.md` for folder documentation (converted to `README.md` on main branch)
+- Use `README.md` for folder documentation (converted to `README.md` on main branch)
 
 ## AI-Specific Instructions
 
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -2655,10 +2526,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -2702,30 +2573,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -2766,7 +2619,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
 | Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Premature Optimization.md` |
 | Template | `Template-{Type}.md` | `Template-Definition.md` |
-| Readme | `_README.md` | (folder index, converted to `README.md` on main branch) |
+| Readme | `README.md` | (folder index, converted to `README.md` on main branch) |
 
 **Rules:**
 - Use Title Case for note names
@@ -2778,7 +2631,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -2907,10 +2760,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -2954,30 +2807,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -3018,7 +2853,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
 | Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Premature Optimization.md` |
 | Template | `Template-{Type}.md` | `Template-Definition.md` |
-| Readme | `_README.md` | (folder index, converted to `README.md` on main branch) |
+| Readme | `README.md` | (folder index, converted to `README.md` on main branch) |
 
 **Rules:**
 - Use Title Case for note names
@@ -3030,7 +2865,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -3185,10 +3020,10 @@ publish: true|false
 
 ## Linking Conventions
 
-- Use **wikilinks** for internal references: `[[Note Title]]`
-- Use **aliased links** for readability: `[[Note Title|Display Text]]`
-- Use **heading links** for specific sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use **wikilinks** for internal references: `[Note Title](Note Title.md)`
+- Use **aliased links** for readability: `[Display Text](Note Title.md)`
+- Use **heading links** for specific sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -3232,30 +3067,12 @@ content
 ### Dataview Queries
 
 The vault uses [Dataview](https://github.com/blacksmithgu/obsidian-dataview) for dynamic content:
+<!-- dynamic content -->
 
-```dataview
-LIST FROM [[Current Note]] AND -"CHANGELOG"
-```
-
-```dataview
-TABLE file.ctime as Created, file.mtime as Modified
-FROM "01-SLIPBOX"
-WHERE contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### Table of Contents
 
 Use the automatic TOC plugin:
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Quartz Publishing
 
 The vault publishes to Quartz with these considerations:
@@ -3296,7 +3113,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
 | Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Premature Optimization.md` |
 | Template | `Template-{Type}.md` | `Template-Definition.md` |
-| Readme | `_README.md` | (folder index, converted to `README.md` on main branch) |
+| Readme | `README.md` | (folder index, converted to `README.md` on main branch) |
 
 **Rules:**
 - Use Title Case for note names
@@ -3308,7 +3125,7 @@ Notes use type prefixes for organization, with aliases for clean wikilinks:
 When generating or modifying content:
 
 1. **Preserve frontmatter:** Always maintain existing YAML frontmatter structure
-2. **Use wikilinks:** Prefer `[[Note]]` over markdown links for internal references
+2. **Use wikilinks:** Prefer `[Note](Note.md)` over markdown links for internal references
 3. **Match conventions:** Follow existing tag and folder conventions
 4. **Templater awareness:** Recognize and preserve Templater syntax (don't execute it)
 5. **No emojis:** Avoid using emojis unless explicitly requested
@@ -3365,10 +3182,10 @@ When generating or modifying content:
 
 For more detailed documentation, see:
 
-- [[Vault Philosophy]] - Core philosophy, structure decisions, and conventions
-- [[Tag Taxonomy]] - Complete tag hierarchy and usage guidelines
-- [[AI Setup]] - AI tooling configuration (Cursor, Copilot, MCP)
-- [[PLUGINS]] - Installed Obsidian plugins and their purposes
+- [Vault Philosophy](Vault Philosophy.md) - Core philosophy, structure decisions, and conventions
+- [Tag Taxonomy](Tag Taxonomy.md) - Complete tag hierarchy and usage guidelines
+- [AI Setup](AI Setup.md) - AI tooling configuration (Cursor, Copilot, MCP)
+- [PLUGINS](PLUGINS.md) - Installed Obsidian plugins and their purposes
 
 ```
 
@@ -3399,7 +3216,7 @@ Complete tag reference:
 - Dataview query examples
 - Guidelines for adding new tags
 
-### 3. `05-SYSTEM/Meta/_README.md`
+### 3. `05-SYSTEM/Meta/README.md`
 Index for the Meta folder with quick reference tables
 
 ## Updated Files
@@ -3412,7 +3229,7 @@ Added:
 - Vault philosophy summary
 - Naming conventions table
 - Tag taxonomy overview
-- Link to [[Vault Philosophy]] for details
+- Link to [Vault Philosophy](Vault Philosophy.md) for details
 
 ### 5. `AGENTS.md`
 Updated to reflect new structure:
@@ -3499,7 +3316,7 @@ quartz/        → Quartz static site configuration
 | Guide | `Guide - {Topic}.md` | `Guide - Local Dev Setup.md` |
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` |
 | Quote | `Quote - {Author} - {Snippet}.md` | `Quote - Knuth - Optimization.md` |
-| Readme | `_README.md` | Folder index |
+| Readme | `README.md` | Folder index |
 
 Add clean aliases in frontmatter (e.g., `Definition - API.md` has alias `API`).
 
@@ -3545,10 +3362,10 @@ publish: true|false
 
 ## Linking Rules
 
-- Use wikilinks for internal references: `[[Note Title]]`
-- Use aliased links for readability: `[[Note Title|Display Text]]`
-- Use heading links for sections: `[[Note Title#Heading]]`
-- Embed content with `![[Note Title]]`
+- Use wikilinks for internal references: `[Note Title](Note Title.md)`
+- Use aliased links for readability: `[Display Text](Note Title.md)`
+- Use heading links for sections: `[Note Title](Note Title.md#Heading)`
+- Embed content with `![Note Title](Note Title.md)`
 - External links use standard markdown: `[text](url)`
 
 ## Templates
@@ -3624,11 +3441,11 @@ NoClocksVaultNew/
 ```
 NoClocksVaultNew/
   00-INBOX/
-    _README.md
+    README.md
   01-SLIPBOX/
-    _README.md
+    README.md
   02-JOURNAL/                    ← Move from 03-AREAS/Journal
-    _README.md
+    README.md
     Daily/
       YYYY/MM-Month/
     Weekly/
@@ -3636,15 +3453,15 @@ NoClocksVaultNew/
     Quarterly/
     Annual/
   03-AREAS/                      ← MOCs only
-    _README.md
+    README.md
     MOC - R.md
     MOC - GIS.md
     MOC - PKM.md
     (future MOCs)
   04-RESOURCES/
-    _README.md
+    README.md
     Code/
-      _README.md
+      README.md
       R/
       PowerShell/
       SQL/
@@ -3653,30 +3470,30 @@ NoClocksVaultNew/
       Docker/
       Git/
     Definitions/
-      _README.md
+      README.md
       Acronyms/
-        _README.md
+        README.md
       Dictionary/
-        _README.md
+        README.md
       Glossary/
-        _README.md
+        README.md
     Lists/                       ← NEW
-      _README.md
+      README.md
     Guides/                      ← NEW
-      _README.md
+      README.md
     Checklists/                  ← NEW
-      _README.md
+      README.md
     Quotes/                      ← NEW (optional)
-      _README.md
+      README.md
   05-SYSTEM/
-    _README.md
+    README.md
     Templates/
     Assets/
     Meta/
     Audit/
     Copilot/
   99-ARCHIVES/
-    _README.md
+    README.md
 ```
 
 ### Tasks
@@ -3684,14 +3501,14 @@ NoClocksVaultNew/
 - [ ] Move `03-AREAS/Journal/` to `02-JOURNAL/`
 - [ ] Remove `02-PROJECTS/` folder (or archive it)
 - [ ] Move MOCs from `03-AREAS/MOCs/` to `03-AREAS/` directly
-- [ ] Create `04-RESOURCES/Lists/` with `_README.md`
-- [ ] Create `04-RESOURCES/Guides/` with `_README.md`
-- [ ] Create `04-RESOURCES/Checklists/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Acronyms/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Dictionary/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Glossary/` with `_README.md`
+- [ ] Create `04-RESOURCES/Lists/` with `README.md`
+- [ ] Create `04-RESOURCES/Guides/` with `README.md`
+- [ ] Create `04-RESOURCES/Checklists/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Acronyms/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Dictionary/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Glossary/` with `README.md`
 - [ ] Move existing 96 Definitions into appropriate subfolders
-- [ ] Ensure all folders have `_README.md` files
+- [ ] Ensure all folders have `README.md` files
 
 ## 1.2 Templates
 
@@ -3743,7 +3560,7 @@ All templates must:
 - [x] `05-SYSTEM/Meta/Tag Taxonomy.md` - Complete tag hierarchy
 - [x] `05-SYSTEM/Meta/AI Setup.md` - AI tooling configuration
 - [x] `05-SYSTEM/Meta/PLUGINS.md` - Plugin list
-- [x] `05-SYSTEM/Meta/_README.md` - Meta folder index
+- [x] `05-SYSTEM/Meta/README.md` - Meta folder index
 
 ### To Verify
 
@@ -3945,7 +3762,7 @@ Before considering migration complete:
 
 ## Phase 1 Validation
 
-- [ ] All folders exist with `_README.md` files
+- [ ] All folders exist with `README.md` files
 - [ ] All templates are self-contained and correct
 - [ ] Meta documentation is complete and consistent
 - [ ] Cursor rules/prompts/commands are updated
@@ -4147,14 +3964,7 @@ publish: true
 4. Related Notes - Dataview query for topic
 
 ## Dataview Query Example
-
-```dataview
-TABLE file.ctime as Created, description
-FROM "01-SLIPBOX" OR "04-RESOURCES"
-WHERE contains(tags, "Topic/{Topic}")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ## Output Format
 
 Provide the complete MOC note content ready to save.
@@ -4275,15 +4085,15 @@ Curated collection of {category} tools, organized by {subcategory}.
 
 ## Notes
 
-- For {tool} configurations, see [[Code - {Tool} - Config]]
-- For setup guide, see [[Guide - {Topic}]]
+- For {tool} configurations, see [Code - {Tool} - Config](Code - {Tool} - Config.md)
+- For setup guide, see [Guide - {Topic}](Guide - {Topic}.md)
 
 ## Appendix
 
 ### See Also
 
-- [[Related List]]
-- [[Related MOC]]
+- [Related List](Related List.md)
+- [Related MOC](Related MOC.md)
 
 ### Backlinks
 
@@ -4357,7 +4167,7 @@ This guide walks through {what you'll accomplish}.
 
 - Requirement 1
 - Requirement 2
-- See [[List - {Related Tools}]] for tool options
+- See [List - {Related Tools}](List - {Related Tools}.md) for tool options
 
 ## Steps
 
@@ -4385,9 +4195,9 @@ Solution...
 
 ### See Also
 
-- [[Related Guide]]
-- [[Related Code Note]]
-- [[List - Related Tools]]
+- [Related Guide](Related Guide.md)
+- [Related Code Note](Related Code Note.md)
+- [List - Related Tools](List - Related Tools.md)
 
 ### Backlinks
 
@@ -4418,7 +4228,7 @@ Here's a comprehensive summary of what was completed:
 |------|---------|
 | `05-SYSTEM/Meta/Vault Philosophy.md` | Core philosophy, structure decisions, conventions |
 | `05-SYSTEM/Meta/Tag Taxonomy.md` | Complete tag hierarchy and usage guidelines |
-| `05-SYSTEM/Meta/_README.md` | Meta folder index |
+| `05-SYSTEM/Meta/README.md` | Meta folder index |
 | `.cursor/plans/vault-migration-plan.md` | Comprehensive two-phase migration plan |
 | `.cursor/prompts/create-list.md` | Prompt for creating List notes |
 | `.cursor/prompts/create-guide.md` | Prompt for creating Guide notes |
@@ -4506,15 +4316,6 @@ publish: true
 ---
 
 # Acronyms
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4527,34 +4328,21 @@ For example: `Definition - Application Programming Interface (API).md`
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** acronym definitions in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Acronym",
-  description AS "Description"
-FROM "04-RESOURCES/Definitions/Acronyms"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  acronym definitions in this folder.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Definitions/_README|Definitions Index]]
-- [[04-RESOURCES/Definitions/Dictionary/_README|Dictionary]]
+- [Definitions Index](04-RESOURCES/Definitions/README.md)
+- [Dictionary](04-RESOURCES/Definitions/Dictionary/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4578,15 +4366,6 @@ publish: true
 ---
 
 # Dictionary
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4599,34 +4378,21 @@ For example: `Definition - Normalization.md`
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** dictionary definitions in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Term",
-  description AS "Description"
-FROM "04-RESOURCES/Definitions/Dictionary"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  dictionary definitions in this folder.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Definitions/_README|Definitions Index]]
-- [[04-RESOURCES/Definitions/Acronyms/_README|Acronyms]]
+- [Definitions Index](04-RESOURCES/Definitions/README.md)
+- [Acronyms](04-RESOURCES/Definitions/Acronyms/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4650,15 +4416,6 @@ publish: true
 ---
 
 # Glossary
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4669,35 +4426,22 @@ Glossary notes collect related terms for a specific domain, such as GIS, Finance
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** glossary documents in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Glossary",
-  description AS "Description"
-FROM "04-RESOURCES/Definitions/Glossary"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  glossary documents in this folder.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Definitions/_README|Definitions Index]]
-- [[04-RESOURCES/Definitions/Acronyms/_README|Acronyms]]
-- [[04-RESOURCES/Definitions/Dictionary/_README|Dictionary]]
+- [Definitions Index](04-RESOURCES/Definitions/README.md)
+- [Acronyms](04-RESOURCES/Definitions/Acronyms/README.md)
+- [Dictionary](04-RESOURCES/Definitions/Dictionary/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Glossary/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4721,15 +4465,6 @@ publish: true
 ---
 
 # Checklists
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4742,34 +4477,21 @@ For example: `Checklist - Deployment.md` or `Checklist - Project Setup.md`
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** checklists in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Checklist",
-  description AS "Description"
-FROM "04-RESOURCES/Checklists"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  checklists in this folder.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Guides/_README|Guides]]
-- [[04-RESOURCES/Lists/_README|Lists]]
+- [Guides](04-RESOURCES/Guides/README.md)
+- [Lists](04-RESOURCES/Lists/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Checklists/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4796,15 +4518,6 @@ publish: false
 ---
 
 # Journal
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4832,53 +4545,25 @@ Daily notes serve dual purposes:
 2. **Activity logs** documenting what happened each day
 
 ### Recent Daily Notes
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Date",
-  file.mday AS "Modified"
-FROM "02-JOURNAL/Daily"
-WHERE file.name != "_README"
-SORT file.name DESC
-LIMIT 10
-```
-
+<!-- dynamic content -->
 ## Weekly Reviews
-
-```dataview
-LIST FROM "02-JOURNAL/Weekly"
-WHERE file.name != "_README"
-SORT file.name DESC
-LIMIT 5
-```
-
+<!-- dynamic content -->
 ## Monthly Reviews
-
-```dataview
-LIST FROM "02-JOURNAL/Monthly"
-WHERE file.name != "_README"
-SORT file.name DESC
-LIMIT 5
-```
-
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Templates/Temporal/Template-Daily|Daily Template]]
-- [[05-SYSTEM/Templates/Temporal/Template-Weekly|Weekly Template]]
-- [[05-SYSTEM/Templates/Temporal/Template-Monthly|Monthly Template]]
+- [Daily Template](05-SYSTEM/Templates/Temporal/Template-Daily.md)
+- [Weekly Template](05-SYSTEM/Templates/Temporal/Template-Weekly.md)
+- [Monthly Template](05-SYSTEM/Templates/Temporal/Template-Monthly.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"02-JOURNAL/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4903,15 +4588,6 @@ publish: false
 ---
 
 # Inbox
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -4928,35 +4604,21 @@ includeLinks: true
 ## Current Inbox Contents
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** notes in the inbox awaiting processing.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.ctime AS "Created",
-  file.mtime AS "Modified"
-FROM "00-INBOX"
-WHERE file.name != this.file.name AND file.name != "_index"
-SORT file.ctime DESC
-```
-
+> *Currently, there are  notes in the inbox awaiting processing.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[Vault Philosophy]]
-- [[MOC - PKM]]
+- [Vault Philosophy](Vault Philosophy.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"00-INBOX/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -4982,15 +4644,6 @@ publish: true
 ---
 
 # Slipbox
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -5015,34 +4668,21 @@ Notes that are:
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** atomic notes in the slipbox.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.mday AS "Modified"
-FROM "01-SLIPBOX"
-WHERE file.name != this.file.name
-SORT file.mtime DESC
-```
-
+> *Currently, there are  atomic notes in the slipbox.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[Vault Philosophy]]
-- [[MOC - PKM]]
+- [Vault Philosophy](Vault Philosophy.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"01-SLIPBOX/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -5066,15 +4706,6 @@ publish: false
 ---
 
 # Archives
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -5098,29 +4729,16 @@ Content is organized by source or date:
 ## Index
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** notes in the archives.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.mday AS "Archived"
-FROM "99-ARCHIVES"
-WHERE file.name != this.file.name
-SORT file.mtime DESC
-```
-
+> *Currently, there are  notes in the archives.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"99-ARCHIVES/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -5150,15 +4768,6 @@ publish: true
 ---
 
 # Areas - Maps of Content
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -5177,19 +4786,10 @@ MOCs serve as structural navigation notes that:
 MOCs use the prefix: `MOC - {Topic}.md`
 
 ## Current MOCs
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "MOC",
-  description AS "Description"
-FROM "03-AREAS"
-WHERE file.name != this.file.name AND startswith(file.name, "MOC")
-SORT file.name ASC
-```
-
+<!-- dynamic content -->
 ## Creating New MOCs
 
-Use the [[05-SYSTEM/Templates/Template-MOC|MOC Template]] to create new Maps of Content.
+Use the [MOC Template](05-SYSTEM/Templates/Template-MOC.md) to create new Maps of Content.
 
 MOCs should be created for topics with:
 - 5+ related notes across the vault
@@ -5200,19 +4800,15 @@ MOCs should be created for topics with:
 
 ## Appendix
 
-*Note created on [[2024-12-20]] and last modified on [[2024-12-20]].*
+*Note created on [2024-12-20](2024-12-20.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[Vault Philosophy]]
-- [[MOC - PKM]]
+- [Vault Philosophy](Vault Philosophy.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"03-AREAS/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -5237,15 +4833,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of tools and resources for **<% tp.file.title.replace("List - ", "") %>**.
@@ -5265,8 +4852,8 @@ Curated collection of tools and resources for **<% tp.file.title.replace("List -
 
 ## Notes
 
-- For related configurations, see [[Code - Tool - Config]]
-- For setup guides, see [[Guide - Topic]]
+- For related configurations, see [Code - Tool - Config](Code - Tool - Config.md)
+- For setup guides, see [Guide - Topic](Guide - Topic.md)
 
 ---
 
@@ -5276,15 +4863,11 @@ Curated collection of tools and resources for **<% tp.file.title.replace("List -
 
 ### See Also
 
-- [[Related List]]
-- [[Related MOC]]
+- [Related List](Related List.md)
+- [Related MOC](Related MOC.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>
@@ -5308,15 +4891,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This guide walks through **<% tp.file.title.replace("Guide - ", "") %>**.
@@ -5325,7 +4899,7 @@ This guide walks through **<% tp.file.title.replace("Guide - ", "") %>**.
 
 - Requirement 1
 - Requirement 2
-- See [[List - Related Tools]] for tool options
+- See [List - Related Tools](List - Related Tools.md) for tool options
 
 ## Steps
 
@@ -5374,16 +4948,12 @@ How to confirm the process completed successfully:
 
 ### See Also
 
-- [[Related Guide]]
-- [[Related Code Note]]
-- [[List - Related Tools]]
+- [Related Guide](Related Guide.md)
+- [Related Code Note](Related Code Note.md)
+- [List - Related Tools](List - Related Tools.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>
@@ -5406,15 +4976,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Actionable checklist for **<% tp.file.title.replace("Checklist - ", "") %>**.
@@ -5450,15 +5011,11 @@ Additional notes or context for using this checklist.
 
 ### See Also
 
-- [[Related Checklist]]
-- [[Related Guide]]
+- [Related Checklist](Related Checklist.md)
+- [Related Guide](Related Guide.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>
@@ -5484,15 +5041,6 @@ publish: true
 ---
 
 # Definitions
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -5511,41 +5059,28 @@ For acronyms: `Definition - {Full Name (ACRONYM)}.md`
 
 | Folder | Purpose | Example |
 |--------|---------|---------|
-| [[04-RESOURCES/Definitions/Acronyms/_README\|Acronyms/]] | Abbreviated terms | `Definition - Application Programming Interface (API).md` |
-| [[04-RESOURCES/Definitions/Dictionary/_README\|Dictionary/]] | General terms | `Definition - Normalization.md` |
-| [[04-RESOURCES/Definitions/Glossary/_README\|Glossary/]] | Domain glossaries | `Glossary - GIS Terms.md` |
+| [Acronyms/](04-RESOURCES/Definitions/Acronyms/_README/.md) | Abbreviated terms | `Definition - Application Programming Interface (API).md` |
+| [Dictionary/](04-RESOURCES/Definitions/Dictionary/_README/.md) | General terms | `Definition - Normalization.md` |
+| [Glossary/](04-RESOURCES/Definitions/Glossary/_README/.md) | Domain glossaries | `Glossary - GIS Terms.md` |
 
 ## All Definitions
 
 > [!TIP] Note Count
-> *Currently, there are **`$= dv.pages('"04-RESOURCES/Definitions"').length - 4`** definitions across all subfolders.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Term",
-  file.folder AS "Category"
-FROM "04-RESOURCES/Definitions"
-WHERE file.name != "_README"
-SORT file.name ASC
-```
-
+> *Currently, there are  definitions across all subfolders.*
+<!-- dynamic content -->
 ---
 
 ## Appendix
 
-*Note created on [[2024-04-22]] and last modified on [[2024-12-20]].*
+*Note created on [2024-04-22](2024-04-22.md) and last modified on [2024-12-20](2024-12-20.md).*
 
 ### See Also
 
-- [[MOC - GIS]]
-- [[MOC - PKM]]
+- [MOC - GIS](MOC - GIS.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/_README"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -5576,8 +5111,8 @@ All Phase 1 structural tasks are now complete:
 
 ```
 NoClocksVaultNew/
-  00-INBOX/           [16 notes]  - with _README.md
-  01-SLIPBOX/         [empty]     - with _README.md
+  00-INBOX/           [16 notes]  - with README.md
+  01-SLIPBOX/         [empty]     - with README.md
   02-JOURNAL/         [72 notes]  - moved from 03-AREAS/Journal
     2023/
     2024/
@@ -5587,18 +5122,18 @@ NoClocksVaultNew/
     MOC - PKM.md
     MOC - R.md
   04-RESOURCES/
-    Checklists/       [empty]     - with _README.md (new)
+    Checklists/       [empty]     - with README.md (new)
     Code/             [12 notes]
     Definitions/
       Acronyms/       [53 notes]  - reorganized
       Dictionary/     [42 notes]  - reorganized
-      Glossary/       [empty]     - with _README.md
+      Glossary/       [empty]     - with README.md
     Guides/           [7 notes]
     Lists/            [11 notes]
   05-SYSTEM/
     Meta/             [5 notes]   - Vault Philosophy, Tag Taxonomy, etc.
     Templates/        [24 notes]  - +3 new templates
-  99-ARCHIVES/        [empty]     - with _README.md
+  99-ARCHIVES/        [empty]     - with README.md
 ```
 
 ### Files Created/Updated
@@ -5606,18 +5141,18 @@ NoClocksVaultNew/
 **New files:**
 - `05-SYSTEM/Meta/Vault Philosophy.md`
 - `05-SYSTEM/Meta/Tag Taxonomy.md`
-- `05-SYSTEM/Meta/_README.md`
+- `05-SYSTEM/Meta/README.md`
 - `05-SYSTEM/Templates/Template-List.md`
 - `05-SYSTEM/Templates/Template-Guide.md`
 - `05-SYSTEM/Templates/Template-Checklist.md`
-- `04-RESOURCES/Definitions/Acronyms/_README.md`
-- `04-RESOURCES/Definitions/Dictionary/_README.md`
-- `04-RESOURCES/Definitions/Glossary/_README.md`
-- `04-RESOURCES/Checklists/_README.md`
-- `02-JOURNAL/_README.md`
-- `00-INBOX/_README.md`
-- `01-SLIPBOX/_README.md`
-- `99-ARCHIVES/_README.md`
+- `04-RESOURCES/Definitions/Acronyms/README.md`
+- `04-RESOURCES/Definitions/Dictionary/README.md`
+- `04-RESOURCES/Definitions/Glossary/README.md`
+- `04-RESOURCES/Checklists/README.md`
+- `02-JOURNAL/README.md`
+- `00-INBOX/README.md`
+- `01-SLIPBOX/README.md`
+- `99-ARCHIVES/README.md`
 - `.cursor/plans/vault-migration-plan.md`
 - `.cursor/prompts/create-list.md`
 - `.cursor/prompts/create-guide.md`
@@ -5625,8 +5160,8 @@ NoClocksVaultNew/
 **Updated files:**
 - `README.md`
 - `AGENTS.md`
-- `03-AREAS/_README.md`
-- `04-RESOURCES/Definitions/_README.md`
+- `03-AREAS/README.md`
+- `04-RESOURCES/Definitions/README.md`
 - `.cursor/rules/obsidian-vault.mdc`
 - `.cursor/prompts/create-definition.md`
 - `.cursor/prompts/create-moc.md`
@@ -5644,8 +5179,8 @@ Would you like me to proceed with validation checks, or are you ready to start P
 
 ```plaintext
 NoClocksVaultNew/
-  00-INBOX/           [16 notes]  - with _README.md
-  01-SLIPBOX/         [empty]     - with _README.md
+  00-INBOX/           [16 notes]  - with README.md
+  01-SLIPBOX/         [empty]     - with README.md
   02-JOURNAL/         [72 notes]  - moved from 03-AREAS/Journal
     2023/
     2024/
@@ -5655,18 +5190,18 @@ NoClocksVaultNew/
     MOC - PKM.md
     MOC - R.md
   04-RESOURCES/
-    Checklists/       [empty]     - with _README.md (new)
+    Checklists/       [empty]     - with README.md (new)
     Code/             [12 notes]
     Definitions/
       Acronyms/       [53 notes]  - reorganized
       Dictionary/     [42 notes]  - reorganized
-      Glossary/       [empty]     - with _README.md
+      Glossary/       [empty]     - with README.md
     Guides/           [7 notes]
     Lists/            [11 notes]
   05-SYSTEM/
     Meta/             [5 notes]   - Vault Philosophy, Tag Taxonomy, etc.
     Templates/        [24 notes]  - +3 new templates
-  99-ARCHIVES/        [empty]     - with _README.md
+  99-ARCHIVES/        [empty]     - with README.md
 ```
 
 ---
@@ -5724,15 +5259,6 @@ publish: false
 ---
 
 # Vault Philosophy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This document captures the core philosophy, structure decisions, and conventions that govern the No Clocks Knowledge Vault. It represents the culmination of deliberate thinking about how a knowledge base should be organized for maximum utility and minimal friction.
@@ -5883,12 +5409,12 @@ Every note uses a type prefix. Aliases in frontmatter provide clean wikilink res
 | List | `List - {Category}.md` | `List - DevOps Tools.md` | `DevOps Tools` |
 | Guide | `Guide - {Topic}.md` | `Guide - Local Dev Setup.md` | `Local Dev Setup` |
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` | `Deployment Checklist` |
-| Readme | `_README.md` | `_README.md` | `{Folder} Index` |
+| Readme | `README.md` | `README.md` | `{Folder} Index` |
 
 ### Benefits of Prefixing
 
 - Files sort by type in file explorer
-- Wikilinks can use clean aliases: `[[Docker]]` resolves to the right note
+- Wikilinks can use clean aliases: `[Docker](Docker.md)` resolves to the right note
 - Consistent pattern across vault
 - Easy to search/filter by prefix
 
@@ -5941,8 +5467,8 @@ Daily notes serve dual purposes:
 
 ```markdown
 ## Quick Captures
-- Discovered [[New Tool]] - need to add to Lists
-- Idea about [[Concept]] -> creates inbox note for processing
+- Discovered [New Tool](New Tool.md) - need to add to Lists
+- Idea about [Concept](Concept.md) -> creates inbox note for processing
 ```
 
 ### 2. Activity Log
@@ -5951,8 +5477,8 @@ Even if not used as the entry point, daily notes log what happened:
 
 ```markdown
 ## Changes Made Today
-- Created [[Code - R - New Function]]
-- Updated [[MOC - R]] with new links
+- Created [Code - R - New Function](Code - R - New Function.md)
+- Updated [MOC - R](MOC - R.md) with new links
 
 ## Discoveries
 - Found useful article about X (link)
@@ -6027,21 +5553,17 @@ Project documentation belongs with the project. This vault is for cross-project 
 
 ## Related Notes
 
-- [[AI Setup]]
-- [[PLUGINS]]
-- [[Tag Taxonomy]]
-- [[AGENTS]]
+- [AI Setup](AI Setup.md)
+- [PLUGINS](PLUGINS.md)
+- [Tag Taxonomy](Tag Taxonomy.md)
+- [AGENTS](AGENTS.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Vault Philosophy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Vault Philosophy"
-```
-
+<!-- dynamic content -->
 ```
 
 ```markdown
@@ -6064,16 +5586,6 @@ publish: true
 ---
 
 # MOC - PKM
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -6082,27 +5594,16 @@ debugInConsole: false
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/PKM").length`** individual notes with the `#Topic/PKM` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/PKM
-AND -"CHANGELOG"
-AND -"03-AREAS/MOCs/MOC - PKM"
-```
-
+> *Currently, there are  individual notes with the `#Topic/PKM` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - PKM]] AND -"CHANGELOG" AND -"03-AREAS/MOC - PKM"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6124,16 +5625,6 @@ aliases: GIS Map of Content
 ---
 
 # GIS Map of Content
-
-```table-of-contents
-title: Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -6142,27 +5633,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/GIS").length`**  individual notes with the `#Topic/GIS` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/GIS
-AND -"CHANGELOG"
-AND -"03-AREAS/MOCs/MOC - GIS"
-```
-
+> *Currently, there are   individual notes with the `#Topic/GIS` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2024-12-17]] and last modified on [[2024-12-17]].*
+*Note created on [2024-12-17](2024-12-17.md) and last modified on [2024-12-17](2024-12-17.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - GIS]] AND -"CHANGELOG" AND -"03-AREAS/MOC - GIS"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6338,7 +5818,7 @@ Each MOC should include:
 
 ## Appendix
 
-*Note created on [[2025-04-03]] and last modified on [[2025-04-03]].*
+*Note created on [2025-04-03](2025-04-03.md) and last modified on [2025-04-03](2025-04-03.md).*
 
 ***
 
@@ -6362,16 +5842,6 @@ publish: true
 ---
 
 # MOC - PKM
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -6380,27 +5850,16 @@ debugInConsole: false
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/PKM").length`** individual notes with the `#Topic/PKM` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/PKM
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - PKM"
-```
-
+> *Currently, there are  individual notes with the `#Topic/PKM` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - PKM]] AND -"CHANGELOG" AND -"03-AREAS/MOC - PKM"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6418,16 +5877,6 @@ aliases: GIS Map of Content
 ---
 
 # GIS Map of Content
-
-```table-of-contents
-title: Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -6436,27 +5885,16 @@ debugInConsole: false # Print debug info in Obsidian console
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/GIS").length`**  individual notes with the `#Topic/GIS` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/GIS
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - GIS"
-```
-
+> *Currently, there are   individual notes with the `#Topic/GIS` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2024-12-17]] and last modified on [[2024-12-17]].*
+*Note created on [2024-12-17](2024-12-17.md) and last modified on [2024-12-17](2024-12-17.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - GIS]] AND -"CHANGELOG" AND -"03-AREAS/MOC - GIS"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6481,16 +5919,6 @@ cssclasses:
 ---
 
 # R - Secure OTP Generation
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -6520,18 +5948,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
+- [R Map of Content](03-AREAS/MOC - R.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Secure OTP Generation]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6558,16 +5982,6 @@ cssclasses:
 ---
 
 # Async Plumber API in R
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -6626,7 +6040,7 @@ function(res, analysisId){
   )
   
   
-  executingFutures[[as.character(uniqueId)]] <<- f
+  executingFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- f
   
   return(resourceAcceptedResponse(res, uniqueId))
   
@@ -6647,7 +6061,7 @@ resourceAcceptedResponse <- function(res, uniqueId) {
 #' @get /queuedResource/<uniqueId>/status
 function(res, uniqueId){
 
-  executingFuture<-executingFutures[[uniqueId]]
+  executingFuture<-executingFutures[uniqueId](uniqueId.md)
   if(!is.null(executingFuture)){
     
     if(resolved(executingFuture)) {
@@ -6655,8 +6069,8 @@ function(res, uniqueId){
 	#executingFuture is no longer executing and has resolved
 
 	# move from executing to resolved list
-	executingFutures[[as.character(uniqueId)]] <<- NULL
-	completedFutures[[as.character(uniqueId)]] <<- executingFuture
+	executingFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- NULL
+	completedFutures[as.character(uniqueId)](as.character(uniqueId).md) <<- executingFuture
       
 	return(resourceCompletedRedirect(res, executingFuture))
       
@@ -6668,7 +6082,7 @@ function(res, uniqueId){
     }
   }
     
-  resolvedFuture <- completedFutures[[uniqueId]]
+  resolvedFuture <- completedFutures[uniqueId](uniqueId.md)
   
   if(is.null(resolvedFuture)) {
 	
@@ -6708,7 +6122,7 @@ function(res, uniqueId){
     return(list(message="{uniqueId} not provided. Format is GET /resource/{uniqueId}/result to retrieve completed resources"))
   }
   
-  f <- completedFutures[[as.character(uniqueId)]]
+  f <- completedFutures[as.character(uniqueId)](as.character(uniqueId).md)
   if(is.null(f)) {
     return(resourceNotFoundResponse(res, uniqueId))
   }
@@ -6734,18 +6148,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
+- [R Map of Content](03-AREAS/MOC - R.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Async Plumber API]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -6865,13 +6275,13 @@ cssclasses:
 
 # ${tp.file.title}
 
-\`\`\`table-of-contents
+/`/`/`table-of-contents
 title: ## Contents 
 style: nestedList
 minLevel: 1
 maxLevel: 4
 includeLinks: true
-\`\`\`
+/`/`/`
 
 ## Overview
 
@@ -6882,9 +6292,9 @@ Description of this code snippet/script/module.
 
 ## Code
 
-\`\`\`${codeBlockLang}
+/`/`/`${codeBlockLang}
 
-\`\`\`
+/`/`/`
 
 ## Usage
 
@@ -6902,17 +6312,17 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[${creationDate}]] and last modified on [[${creationDate}]].*
+*Note created on [${creationDate}](${creationDate}.md) and last modified on [${creationDate}](${creationDate}.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - ${info.name}|${info.name} Map of Content]]
+- [${info.name} Map of Content](03-AREAS/MOC - ${info.name}.md)
 
 ### Backlinks
 
-\`\`\`dataview
-LIST FROM [[${tp.file.title}]] AND -"CHANGELOG"
-\`\`\`
+/`/`/`dataview
+LIST FROM [${tp.file.title}](${tp.file.title}.md) AND -"CHANGELOG"
+/`/`/`
 
 ***
 
@@ -6947,18 +6357,9 @@ publish: false
 
 ## Navigation
 
-<< [[<% tp.date.now("YYYY-MM-DD", -1) %>|Yesterday]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>|Tomorrow]] >>
+<< [Yesterday](<% tp.date.now("YYYY-MM-DD", -1) %>.md) | [Tomorrow](<% tp.date.now("YYYY-MM-DD", 1) %>.md) >>
 
 ---
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 3
-includeLinks: true
-```
-
 ## Daily Journal
 
 > [!NOTE] Daily activity log and notes
@@ -6981,33 +6382,12 @@ includeLinks: true
 
 ## Appendix
 
-*Note created on [[<% tp.date.now("YYYY-MM-DD") %>]].*
+*Note created on [<% tp.date.now("YYYY-MM-DD") %>](<% tp.date.now("YYYY-MM-DD") %>.md).*
 
 ### Created Today
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location"
-FROM ""
-WHERE file.cday = date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.name != this.file.name
-SORT file.ctime ASC
-```
-
+<!-- dynamic content -->
 ### Modified Today
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location"  
-FROM ""
-WHERE file.mday = date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.cday != date("<% tp.date.now("YYYY-MM-DD") %>")
-  AND file.name != this.file.name
-SORT file.mtime ASC
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>
@@ -7196,18 +6576,9 @@ publish: true
 ---
 
 # R - Shiny Highcharter Helpers
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-Helper functions for [[Highcharter]] visualizations in Shiny applications. Includes:
+Helper functions for [Highcharter](Highcharter.md) visualizations in Shiny applications. Includes:
 - Chart options configuration
 - Export button customization  
 - Data label formatters (dollar, rate)
@@ -7326,15 +6697,15 @@ data_labels_rate_formatter <- function() {
 
 ```r
 tooltip_formatter_number <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>{point.y:,.0f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>{point.y:,.0f}<br/>'
 }
 
 tooltip_formatter_rate <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>{point.y:,.3f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>{point.y:,.3f}<br/>'
 }
 
 tooltip_formatter_dollar <- function() {
-  '<span style="color:{point.color};font-weight:bold">\u25CF {series.name}: </span>${point.y:,.0f}<br/>'
+  '<span style="color:{point.color};font-weight:bold">/u25CF {series.name}: </span>${point.y:,.0f}<br/>'
 }
 ```
 
@@ -7374,7 +6745,7 @@ tooltip_formatter <- function() {
         html_out += '<b>' + points[i].series.userOptions.my_metric + ':</b><br/>'
         last_metric = points[i].series.userOptions.my_metric
       }
-      html_out += '<span style=\"color:' + points[i].color + '\">\u25CF ' + 
+      html_out += '<span style=/"color:' + points[i].color + '/">/u25CF ' + 
                   points[i].series.userOptions.my_group + ': </span>' + ys[i] + '<br/>'
     }
 
@@ -7413,9 +6784,9 @@ highchart() |>
 
 ## See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
-- [[R - Shiny UI Helpers]]
-- [[R - Shiny DT Table Helpers]]
+- [R Map of Content](03-AREAS/MOC - R.md)
+- [R - Shiny UI Helpers](R - Shiny UI Helpers.md)
+- [R - Shiny DT Table Helpers](R - Shiny DT Table Helpers.md)
 
 ---
 
@@ -7446,15 +6817,6 @@ publish: true
 ---
 
 # List - Cloud Platforms
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **cloud computing platforms** for hosting, serverless compute, databases, and application deployment. Organized by tier and use case.
@@ -7534,7 +6896,7 @@ Traditional virtual private servers and infrastructure.
 |----------|-------------|-------|
 | ShinyApps.io | Managed Shiny hosting by Posit | [Site](https://www.shinyapps.io/) - [Docs](https://docs.posit.co/shinyapps.io/) |
 | Posit Connect | Enterprise Shiny/R hosting | [Site](https://posit.co/products/enterprise/connect/) |
-| Google Cloud Run | Container-based Shiny deployment | See [[R - Shiny Cloud Run Deployment]] |
+| Google Cloud Run | Container-based Shiny deployment | See [R - Shiny Cloud Run Deployment](R - Shiny Cloud Run Deployment.md) |
 
 ## CLI Tools
 
@@ -7550,9 +6912,9 @@ Traditional virtual private servers and infrastructure.
 
 ## See Also
 
-- [[List - Spatial Databases]]
-- [[List - Database GUIs]]
-- [[MOC - DevOps]]
+- [List - Spatial Databases](List - Spatial Databases.md)
+- [List - Database GUIs](List - Database GUIs.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 
@@ -7580,15 +6942,6 @@ publish: true
 ---
 
 # List - JavaScript Frameworks
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **JavaScript/TypeScript frameworks and libraries** for web development, including meta-frameworks, UI libraries, and component systems.
@@ -7705,8 +7058,8 @@ Pre-built UI component systems.
 
 ## See Also
 
-- [[List - GIS Web Mapping Libraries]]
-- [[MOC - Web Development]]
+- [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md)
+- [MOC - Web Development](MOC - Web Development.md)
 
 ---
 
@@ -7733,15 +7086,6 @@ publish: true
 ---
 
 # List - DevOps Tools
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **DevOps tools** for continuous integration, container orchestration, infrastructure as code, and automation.
@@ -7856,9 +7200,9 @@ Curated collection of **DevOps tools** for continuous integration, container orc
 
 ## See Also
 
-- [[List - Cloud Platforms]]
-- [[List - Command Line Tools]]
-- [[MOC - DevOps]]
+- [List - Cloud Platforms](List - Cloud Platforms.md)
+- [List - Command Line Tools](List - Command Line Tools.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 
@@ -7886,15 +7230,6 @@ publish: true
 ---
 
 # List - R Shiny Ecosystem
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **R Shiny packages, extensions, and tools** for building production-ready web applications. See the [Awesome Shiny Extensions](https://github.com/nanxstats/awesome-shiny-extensions) for a community-maintained list.
@@ -7971,7 +7306,7 @@ Curated collection of **R Shiny packages, extensions, and tools** for building p
 | mapview | Quick spatial visualization | [CRAN](https://cran.r-project.org/package=mapview) |
 | mapdeck | Deck.gl maps | [CRAN](https://cran.r-project.org/package=mapdeck) |
 
-See [[List - R Geospatial Packages]] for more spatial packages.
+See [List - R Geospatial Packages](List - R Geospatial Packages.md) for more spatial packages.
 
 ## Modules & Code Organization
 
@@ -8018,7 +7353,7 @@ See [[List - R Geospatial Packages]] for more spatial packages.
 | DBI | Database interface | [CRAN](https://cran.r-project.org/package=DBI) |
 | dbplyr | dplyr backend for databases | [CRAN](https://cran.r-project.org/package=dbplyr) |
 
-See [[List - R Database Packages]] for database packages.
+See [List - R Database Packages](List - R Database Packages.md) for database packages.
 
 ## Deployment
 
@@ -8027,7 +7362,7 @@ See [[List - R Database Packages]] for database packages.
 | ShinyApps.io | Managed hosting by Posit | [Site](https://www.shinyapps.io/) - [Docs](https://docs.posit.co/shinyapps.io/) |
 | Posit Connect | Enterprise deployment | [Site](https://posit.co/products/enterprise/connect/) |
 | Shiny Server (Open Source) | Self-hosted server | [Docs](https://posit.co/download/shiny-server/) |
-| Docker + Cloud Run | Containerized deployment | See [[R - Shiny Cloud Run Deployment]] |
+| Docker + Cloud Run | Containerized deployment | See [R - Shiny Cloud Run Deployment](R - Shiny Cloud Run Deployment.md) |
 | ShinyProxy | Container-based scaling | [Site](https://www.shinyproxy.io/) |
 
 ## Extensions & Utilities
@@ -8046,15 +7381,15 @@ See [[List - R Database Packages]] for database packages.
 
 ## Related Notes
 
-- [[R - Shiny UI Helpers]]
-- [[R - Shiny DT Table Helpers]]
-- [[R - Shiny Highcharter Helpers]]
+- [R - Shiny UI Helpers](R - Shiny UI Helpers.md)
+- [R - Shiny DT Table Helpers](R - Shiny DT Table Helpers.md)
+- [R - Shiny Highcharter Helpers](R - Shiny Highcharter Helpers.md)
 
 ## See Also
 
-- [[MOC - R]]
-- [[List - R Geospatial Packages]]
-- [[List - R Database Packages]]
+- [MOC - R](MOC - R.md)
+- [List - R Geospatial Packages](List - R Geospatial Packages.md)
+- [List - R Database Packages](List - R Database Packages.md)
 
 ---
 
@@ -8084,15 +7419,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Auth0 Identity Glossary](https://auth0.com/docs/glossary)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Comprehensive glossary of **identity and access management (IAM)** terms. Useful for understanding authentication, authorization, and security concepts across platforms.
@@ -8359,11 +7685,11 @@ Comprehensive glossary of **identity and access management (IAM)** terms. Useful
 
 ## See Also
 
-- [[Definition - JSON Web Token (JWT)]]
-- [[Definition - OAuth]]
-- [[Definition - OpenID Connect (OIDC)]]
-- [[Definition - Multi-Factor Authentication (MFA)]]
-- [[MOC - Security]]
+- [Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md)
+- [Definition - OAuth](Definition - OAuth.md)
+- [Definition - OpenID Connect (OIDC)](Definition - OpenID Connect (OIDC).md)
+- [Definition - Multi-Factor Authentication (MFA)](Definition - Multi-Factor Authentication (MFA).md)
+- [MOC - Security](MOC - Security.md)
 
 ---
 
@@ -8504,15 +7830,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[alex996/presentations/auth.md](https://github.com/alex996/presentations/blob/master/auth.md)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Understanding the difference between authentication and authorization:
@@ -8723,10 +8040,10 @@ hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt(12))
 
 ## See Also
 
-- [[Glossary - Identity and Access Management]]
-- [[Definition - JSON Web Token (JWT)]]
-- [[Definition - OAuth]]
-- [[MOC - Security]]
+- [Glossary - Identity and Access Management](Glossary - Identity and Access Management.md)
+- [Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md)
+- [Definition - OAuth](Definition - OAuth.md)
+- [MOC - Security](MOC - Security.md)
 
 ---
 
@@ -8756,18 +8073,9 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Prompt Engineering Guide - Few-Shot](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md#few-shot-prompting)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-While LLMs demonstrate remarkable [[Zero-Shot Prompting]] capabilities, they fall short on complex tasks. **Few-shot prompting** enables *in-context learning* by providing demonstrations in the prompt to steer the model toward better performance.
+While LLMs demonstrate remarkable [Zero-Shot Prompting](Zero-Shot Prompting.md) capabilities, they fall short on complex tasks. **Few-shot prompting** enables *in-context learning* by providing demonstrations in the prompt to steer the model toward better performance.
 
 The demonstrations serve as conditioning for subsequent examples where the model generates a response.
 
@@ -8815,17 +8123,17 @@ When we won the game, we all started to farduddle in celebration.
 
 | Technique | Description |
 |-----------|-------------|
-| [[Zero-Shot Prompting]] | No examples provided |
-| [[Chain-of-Thought Prompting]] | Include reasoning steps |
-| [[Self-Consistency]] | Sample multiple reasoning paths |
+| [Zero-Shot Prompting](Zero-Shot Prompting.md) | No examples provided |
+| [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md) | Include reasoning steps |
+| [Self-Consistency](Self-Consistency.md) | Sample multiple reasoning paths |
 
 ---
 
 ## See Also
 
-- [[Zero-Shot Prompting]]
-- [[Chain-of-Thought Prompting]]
-- [[MOC - Artificial Intelligence]]
+- [Zero-Shot Prompting](Zero-Shot Prompting.md)
+- [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md)
 
 ---
 
@@ -8854,15 +8162,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Prompt Engineering Guide - Zero-Shot](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md#zero-shot-prompting)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Modern LLMs, trained on large amounts of data and tuned to follow instructions, are capable of performing tasks **zero-shot** - without any examples provided.
@@ -8897,17 +8196,17 @@ The model correctly classifies sentiment without any prior examples.
 
 If zero-shot doesn't work, try:
 
-1. **[[Few-Shot Prompting]]** - Provide 1-5 examples
-2. **[[Chain-of-Thought Prompting]]** - Ask for step-by-step reasoning
+1. **[Few-Shot Prompting](Few-Shot Prompting.md)** - Provide 1-5 examples
+2. **[Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)** - Ask for step-by-step reasoning
 3. **Prompt refinement** - More specific instructions
 
 ---
 
 ## See Also
 
-- [[Few-Shot Prompting]]
-- [[Chain-of-Thought Prompting]]
-- [[MOC - Artificial Intelligence]]
+- [Few-Shot Prompting](Few-Shot Prompting.md)
+- [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md)
 
 ---
 
@@ -8936,15 +8235,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Best practices for writing Dockerfiles | Docker Documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Key practices for writing efficient, secure, and maintainable Dockerfiles.
@@ -9002,10 +8292,10 @@ COPY . .
 ### apt-get Best Practices
 
 ```dockerfile
-RUN apt-get update && apt-get install -y \
-    curl \
-    git \
-    vim \
+RUN apt-get update && apt-get install -y /
+    curl /
+    git /
+    vim /
   && rm -rf /var/lib/apt/lists/*
 ```
 
@@ -9066,7 +8356,7 @@ CMD ["--help"]
 ENV PATH="/usr/local/nginx/bin:$PATH"
 
 # App configuration
-ENV NODE_ENV=production \
+ENV NODE_ENV=production /
     PORT=3000
 ```
 
@@ -9111,8 +8401,8 @@ EOF
 
 ## See Also
 
-- [[List - DevOps Tools]]
-- [[MOC - DevOps]]
+- [List - DevOps Tools](List - DevOps Tools.md)
+- [MOC - DevOps](MOC - DevOps.md)
 
 ---
 
@@ -9143,15 +8433,6 @@ publish: true
 > [!SOURCE] Sources:
 > - *[Building a Second Brain](https://www.buildingasecondbrain.com/)*
 > - *Tiago Forte*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The PARA Method is an organizational system developed by **Tiago Forte** as part of his "Building a Second Brain" methodology. PARA stands for **Projects, Areas, Resources, and Archives** - the four main categories used to organize all digital information.
@@ -9260,15 +8541,15 @@ This vault adapts PARA for a **knowledge base** rather than task management:
 | Resources | `04-RESOURCES/` (Code, Definitions, Lists, Guides) |
 | Archives | `99-ARCHIVES/` |
 
-See [[Vault Philosophy]] for the rationale behind this adaptation.
+See [Vault Philosophy](Vault Philosophy.md) for the rationale behind this adaptation.
 
 ---
 
 ## See Also
 
-- [[Vault Philosophy]]
-- [[Zettelkasten Method]]
-- [[MOC - PKM]]
+- [Vault Philosophy](Vault Philosophy.md)
+- [Zettelkasten Method](Zettelkasten Method.md)
+- [MOC - PKM](MOC - PKM.md)
 
 ---
 

@@ -16,10 +16,6 @@ aliases:
 ---
 
 # Federal Information Processing Standards (FIPS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Federal Information Processing Standards (FIPS)** is a standardized set of numeric or alphanumeric codes issued by the National Institute of Standards and Technology (NIST) to ensure uniform identification of geographic entities such as states and counties. FIPS codes are widely used in government data systems, census products, and geographic databases.
@@ -49,13 +45,9 @@ aliases:
 
 ### See Also
 
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[US Census Bureau]]
-- [[Block Group (BG)]]
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [US Census Bureau](US Census Bureau.md)
+- [Block Group (BG)](Block Group (BG).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Federal Information Processing Standards (FIPS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Federal Information Processing Standards (FIPS)"
-```
-
+<!-- dynamic content -->

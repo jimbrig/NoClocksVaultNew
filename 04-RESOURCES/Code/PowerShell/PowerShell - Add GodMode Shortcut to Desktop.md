@@ -13,15 +13,6 @@ cssclasses:
 ---
 
 # Add God Mode Shortcut to Windows Desktop with PowerShell
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -50,8 +41,8 @@ $ErrorActionPreference = 'Stop'
 
 $Desktop = [Environment]::GetFolderPath("Desktop")
 
-If (!(Test-Path "$Desktop\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}")) { 
-    New-Item -Path "$Desktop\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}" -ItemType Directory | Out-Null
+If (!(Test-Path "$Desktop/GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}")) { 
+    New-Item -Path "$Desktop/GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}" -ItemType Directory | Out-Null
 }
 ```
 
@@ -59,29 +50,24 @@ If (!(Test-Path "$Desktop\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}")) {
 
 The resulting output from the script is the link on the desktop per below image:
 
-![[Pasted image 20251227174414.png]]
+![Pasted image 20251227174414.png](Pasted image 20251227174414.png.md)
 
 when opened:
 
-![[Pasted image 20251227174621.png]]
+![Pasted image 20251227174621.png](Pasted image 20251227174621.png.md)
 
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-27]] and last modified on [[2025-12-27]].*
+*Note created on [2025-12-27](2025-12-27.md) and last modified on [2025-12-27](2025-12-27.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code]]
+- [PowerShell Code](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Add GodMode Shortcut to Desktop]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

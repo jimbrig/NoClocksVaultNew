@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Tools**: `takeown`, `sudo`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell command leveraging the Windows `takeown` utility to take ownership of protected folders like WindowsApps.
@@ -38,41 +29,37 @@ PowerShell command leveraging the Windows `takeown` utility to take ownership of
 Take ownership of the WindowsApps folder:
 
 ```powershell
-sudo takeown /f "$Env:PROGRAMFILES\WindowsApps" /r
+sudo takeown /f "$Env:PROGRAMFILES/WindowsApps" /r
 ```
 
 ## Usage
 
 ```powershell
 # take ownership of a single folder
-takeown /f "C:\Path\To\Folder"
+takeown /f "C:/Path/To/Folder"
 
 # take ownership recursively
-takeown /f "C:\Path\To\Folder" /r
+takeown /f "C:/Path/To/Folder" /r
 
 # take ownership with admin privileges
-sudo takeown /f "$Env:PROGRAMFILES\WindowsApps" /r
+sudo takeown /f "$Env:PROGRAMFILES/WindowsApps" /r
 
 # grant full control after taking ownership
-icacls "C:\Path\To\Folder" /grant "$Env:USERNAME:F" /t
+icacls "C:/Path/To/Folder" /grant "$Env:USERNAME:F" /t
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-09-23]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-23](2024-09-23.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Take Ownership of a Folder]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

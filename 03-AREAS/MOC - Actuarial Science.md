@@ -13,15 +13,6 @@ publish: true
 ---
 
 # MOC - Actuarial Science
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -51,39 +42,24 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Statistics]] - Statistical foundations
-- [[MOC - Mathematics]] - Mathematical foundations
-- [[MOC - Finance]] - Financial applications
-- [[MOC - R]] - Actuarial computing in R
+- [MOC - Statistics](MOC - Statistics.md) - Statistical foundations
+- [MOC - Mathematics](MOC - Mathematics.md) - Mathematical foundations
+- [MOC - Finance](MOC - Finance.md) - Financial applications
+- [MOC - R](MOC - R.md) - Actuarial computing in R
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Actuarial Science").length`** individual notes with the `#Topic/Actuarial Science` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Actuarial Science
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Actuarial Science"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Actuarial Science` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Actuarial Science]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Actuarial Science"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

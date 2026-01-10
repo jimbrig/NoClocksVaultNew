@@ -14,10 +14,6 @@ aliases:
 ---
 
 # OpenStreetMap (OSM)
-
-```table-of-contents
-```
-
 ## Overview
 
 **OpenStreetMap (OSM)** is a collaborative project that creates a free, editable map of the world, providing geographic data contributed by volunteers. Founded in 2004, OSM operates under the Open Database License (ODbL), allowing anyone to use, share, and modify the data with attribution.
@@ -47,13 +43,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[GeoJSON]]
-- [[Web Map Service (WMS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [GeoJSON](GeoJSON.md)
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[OpenStreetMap (OSM)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/OpenStreetMap (OSM)"
-```
-
+<!-- dynamic content -->

@@ -21,15 +21,6 @@ publish: true
 ---
 
 # MOC - Business
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -60,42 +51,27 @@ includeLinks: true
 ## Related MOCs
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Finance]] - Financial management
-- [[MOC - Productivity]] - Operational efficiency
+- [MOC - Finance](MOC - Finance.md) - Financial management
+- [MOC - Productivity](MOC - Productivity.md) - Operational efficiency
 
 ### Technology MOCs
-- [[MOC - Development]] - Product development
-- [[MOC - Geospatial]] - Location intelligence and property data
-- [[MOC - Data Science]] - Business analytics
+- [MOC - Development](MOC - Development.md) - Product development
+- [MOC - Geospatial](MOC - Geospatial.md) - Location intelligence and property data
+- [MOC - Data Science](MOC - Data Science.md) - Business analytics
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Business").length`** individual notes with the `#Topic/Business` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Business
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Business"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Business` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Business]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Business"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

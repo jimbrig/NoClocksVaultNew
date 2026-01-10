@@ -10,8 +10,8 @@ These templates are installed with the GitHub Copilot Language Server at:
 ```
 
 Common installation locations:
-- **NPM Global Install**: `%APPDATA%\npm\node_modules\@github\copilot-language-server\dist\policy-templates\win32`
-- **Local NPM Install**: `.\node_modules\@github\copilot-language-server\dist\policy-templates\win32`
+- **NPM Global Install**: `%APPDATA%/npm/node_modules/@github/copilot-language-server/dist/policy-templates/win32`
+- **Local NPM Install**: `./node_modules/@github/copilot-language-server/dist/policy-templates/win32`
 
 ## Files
 
@@ -26,23 +26,23 @@ Common installation locations:
 1. **Open PowerShell as Administrator**
 2. **Navigate to the policy templates directory:**
    ```powershell
-   cd "[Language Server Installation Directory]\policy-templates\win32"
+   cd "[Language Server Installation Directory]/policy-templates/win32"
    ```
 3. **Execute the installation script:**
    ```powershell
-   .\Install-PolicyTemplates.ps1
+   ./Install-PolicyTemplates.ps1
    ```
 
 ### Option 2: Manual Installation
 
 1. **Copy ADMX file:**
    ```
-   Copy IDEGitHubCopilot.admx to C:\Windows\PolicyDefinitions\
+   Copy IDEGitHubCopilot.admx to C:/Windows/PolicyDefinitions/
    ```
 
 2. **Copy ADML file:**
    ```
-   Copy en-US\IDEGitHubCopilot.adml to C:\Windows\PolicyDefinitions\en-US\
+   Copy en-US/IDEGitHubCopilot.adml to C:/Windows/PolicyDefinitions/en-US/
    ```
 
 ### Option 3: Microsoft Intune Configuration
@@ -69,8 +69,8 @@ After installation:
 Controls whether GitHub Copilot can use Model Context Protocol (MCP) servers contributed by IDE extensions.
 
 **Registry Locations:**
-- **Machine Policy:** `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot\mcp.contributionPoint.enabled`
-- **User Policy:** `HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot\mcp.contributionPoint.enabled`
+- **Machine Policy:** `HKEY_LOCAL_MACHINE/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot/mcp.contributionPoint.enabled`
+- **User Policy:** `HKEY_CURRENT_USER/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot/mcp.contributionPoint.enabled`
 
 **Values:**
 - `1` (REG_DWORD) = Enable extension-contributed MCP servers
@@ -82,10 +82,10 @@ You can test the policies by setting registry values directly:
 
 ```cmd
 REM Enable extension-contributed MCP servers (machine-wide)
-reg add "HKLM\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot" /v "mcp.contributionPoint.enabled" /t REG_DWORD /d 1 /f
+reg add "HKLM/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot" /v "mcp.contributionPoint.enabled" /t REG_DWORD /d 1 /f
 
 REM Disable extension-contributed MCP servers (current user)
-reg add "HKCU\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot" /v "mcp.contributionPoint.enabled" /t REG_DWORD /d 0 /f
+reg add "HKCU/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot" /v "mcp.contributionPoint.enabled" /t REG_DWORD /d 0 /f
 ```
 
 ## Microsoft Intune Deployment
@@ -111,9 +111,9 @@ For cloud-based management with Microsoft Intune:
 ## Policy Precedence
 
 1. **Machine Policy** (highest precedence)
-   - `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot\`
+   - `HKEY_LOCAL_MACHINE/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot/`
 2. **User Policy** 
-   - `HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\IDEGitHubCopilot\`
+   - `HKEY_CURRENT_USER/SOFTWARE/Policies/Microsoft/IDEGitHubCopilot/`
 3. **Default Behavior** (lowest precedence)
    - Determined by application defaults when no policy is set
 

@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Georeference
-
-```table-of-contents
-```
-
 ## Overview
 
 **Georeference** is the process of assigning geographic coordinates to spatial data, allowing for accurate placement and analysis within a GIS. Georeferencing is commonly applied to scanned maps, aerial photographs, and satellite imagery to align them with real-world coordinates.
@@ -54,13 +50,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinate Reference System (CRS)]]
-- [[Geographic Information System (GIS)]]
-- [[Raster]]
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Raster](Raster.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Georeference]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Georeference"
-```
-
+<!-- dynamic content -->

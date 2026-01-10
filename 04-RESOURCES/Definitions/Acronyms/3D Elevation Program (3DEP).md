@@ -15,13 +15,9 @@ aliases:
 ---
 
 # 3D Elevation Program (3DEP)
-
-```table-of-contents
-```
-
 ## Overview
 
-**3D Elevation Program (3DEP)** is an initiative led by the [[United States Geological Survey (USGS)|USGS]] to provide high-resolution, three-dimensional elevation data for the entire United States. 3DEP aims to complete nationwide coverage with quality level 2 (QL2) LiDAR or better.
+**3D Elevation Program (3DEP)** is an initiative led by the [USGS](United States Geological Survey (USGS).md) to provide high-resolution, three-dimensional elevation data for the entire United States. 3DEP aims to complete nationwide coverage with quality level 2 (QL2) LiDAR or better.
 
 ## Key Concepts
 
@@ -53,13 +49,9 @@ aliases:
 
 ### See Also
 
-- [[United States Geological Survey (USGS)]]
-- [[Light Detection and Ranging (LIDAR)]]
-- [[Digital Elevation Model (DEM)]]
+- [United States Geological Survey (USGS)](United States Geological Survey (USGS).md)
+- [Light Detection and Ranging (LIDAR)](Light Detection and Ranging (LIDAR).md)
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[3D Elevation Program (3DEP)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/3D Elevation Program (3DEP)"
-```
-
+<!-- dynamic content -->

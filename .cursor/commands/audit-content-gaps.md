@@ -20,40 +20,15 @@ Folders with few or no notes:
 ### 2. Incomplete Notes
 
 Find notes that are drafts or need work:
-
-```dataview
-LIST
-FROM ""
-WHERE contains(tags, "Status/Draft") OR contains(tags, "Status/WIP")
-SORT file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### 3. Stale Content
 
 Notes not modified in a long time that may need review:
-
-```dataview
-TABLE file.mtime as "Last Modified"
-FROM ""
-WHERE file.mtime < date(today) - dur(180 days)
-AND !contains(file.path, "Archives")
-AND !contains(file.path, "Templates")
-SORT file.mtime ASC
-LIMIT 20
-```
-
+<!-- dynamic content -->
 ### 4. Topic Coverage Gaps
 
 Analyze Topic/ tag distribution to find underrepresented areas:
-
-```dataview
-TABLE length(rows) as Count
-FLATTEN tags as tag
-WHERE startswith(tag, "Topic/")
-GROUP BY tag
-SORT length(rows) DESC
-```
-
+<!-- dynamic content -->
 ### 5. Missing Definitions
 
 Find terms used but not defined:
@@ -64,14 +39,7 @@ Find terms used but not defined:
 ### 6. Inbox Backlog
 
 Notes stuck in inbox too long:
-
-```dataview
-TABLE file.ctime as "Created"
-FROM "00-INBOX"
-WHERE file.ctime < date(today) - dur(7 days)
-SORT file.ctime ASC
-```
-
+<!-- dynamic content -->
 ## Priority Content Areas
 
 ### High Priority

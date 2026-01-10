@@ -14,13 +14,9 @@ aliases:
 ---
 
 # Normalization
-
-```table-of-contents
-```
-
 ## Overview
 
-**Normalization** is the process of converting different units or scales into a common scale, often used in GIS and [[Multi-Criteria Decision Analysis (MCDA)|MCDA]] to enable comparison and combination of diverse criteria. Normalization ensures that variables with different ranges contribute proportionally to analysis.
+**Normalization** is the process of converting different units or scales into a common scale, often used in GIS and [MCDA](Multi-Criteria Decision Analysis (MCDA).md) to enable comparison and combination of diverse criteria. Normalization ensures that variables with different ranges contribute proportionally to analysis.
 
 ## Key Concepts
 
@@ -35,9 +31,9 @@ aliases:
 | Method | Formula | Range |
 |--------|---------|-------|
 | Min-Max | $(x - min) / (max - min)$ | 0-1 |
-| Z-Score | $(x - \mu) / \sigma$ | Unbounded |
+| Z-Score | $(x - /mu) / /sigma$ | Unbounded |
 | Max Scaling | $x / max$ | 0-1 |
-| Log Transform | $\log(x)$ | Varies |
+| Log Transform | $/log(x)$ | Varies |
 
 ## Applications
 
@@ -52,12 +48,8 @@ aliases:
 
 ### See Also
 
-- [[Multi-Criteria Decision Analysis (MCDA)]]
-- [[Geographic Information System (GIS)]]
+- [Multi-Criteria Decision Analysis (MCDA)](Multi-Criteria Decision Analysis (MCDA).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Normalization]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Normalization"
-```
-
+<!-- dynamic content -->

@@ -16,15 +16,6 @@ aliases: "FEMA FIRMette"
 
 > [!SOURCE] Source:
 > <https://map1.msc.fema.gov/help>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## What is a FIRM?
 
 The Flood Insurance Rate Map (FIRM) is the official flood map of a community on which FEMA has delineated both the [Special Flood Hazard Areas](https://www.fema.gov/glossary/special-flood-hazard-area-sfha) and the risk premium zones applicable to the community.
@@ -53,7 +44,7 @@ The following buttons are used to zoom in/out, reset the image, zoom to a select
 
 ![CLICK MAP TO ZOOM IN button](https://map1.msc.fema.gov/assets/img/help/Click_Map_To_Zoom_In.png) **CLICK MAP TO ZOOM IN** – Zooms the map to a location you click on at full map scale.
 
-\*\*Note to Users with Keyboard Only Navigation: The **CLICK MAP TO ZOOM IN** function will not work without the use of a mouse to select the desired point on the map. Keyboard Only users should instead zoom using the **Zoom In** function and pan by tabbing to the map and using the keyboard arrows to move the map left, right, up, and down to locate the desired area of interest.
+/*/*Note to Users with Keyboard Only Navigation: The **CLICK MAP TO ZOOM IN** function will not work without the use of a mouse to select the desired point on the map. Keyboard Only users should instead zoom using the **Zoom In** function and pan by tabbing to the map and using the keyboard arrows to move the map left, right, up, and down to locate the desired area of interest.
 
 **Pagination** – The MSC houses some older maps that are multi-page images. If you are viewing one of these maps you can utilize the functions in the top right of the FIRM view screen including the arrows to increase or decrease the page number you are viewing, scroll to select different pages, or jump to the first or last page.
 
@@ -75,7 +66,7 @@ The FIRMette creation tools allow you to specify aspects of the FIRMette output,
 2. #### Select Print Area
 	![Second step where users will move the print area box to the section of the map they are interested it.](https://map1.msc.fema.gov/assets/img/help/Select_Print_Area.png)
 	There are three selection boxes in the map view window. Their function is to help the user set the map’s printing area, the scale & north arrow, and the map title block, which combined create a FIRMette. Users can define the selected area by dragging the active box over to the area of interest. The active selection box is the green shaded area. Only one selection box can be active at a time. Switching between the selection boxes can be done by clicking on the associated step in the flow. For example, in the picture above, the print area is the active box. Selecting **Back** will take you back to the **Select a Page Size** step, selecting **Next** will take you to the **North Arrow** selection box.
-	\*\*Note to Users with Keyboard Only Navigation: Once you have navigated to the desired step, hold down the Control key to use the keyboard arrows to move the selected box to the desired location. Users accessing FIRMette Web from an operating system other than Windows may need to hold down the Shift key and the Control key to use the keyboard arrows.
+	/*/*Note to Users with Keyboard Only Navigation: Once you have navigated to the desired step, hold down the Control key to use the keyboard arrows to move the selected box to the desired location. Users accessing FIRMette Web from an operating system other than Windows may need to hold down the Shift key and the Control key to use the keyboard arrows.
 3. #### Scale and North Arrow
 	![Third step where user will move the scale and north area selection over the part of the map that contains the title block and scale area of the map.](https://map1.msc.fema.gov/assets/img/help/Scale_and_North_Arrow.png)
 4. #### Title Block
@@ -93,19 +84,14 @@ If you have any additional questions or require further assistance, please conta
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2025-12-30]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2025-12-30](2025-12-30.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Integrations/Clippings/_README|Web Clips]]
+- [Web Clips](04-RESOURCES/Integrations/Clippings/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[FIRMette Web - Help Page]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

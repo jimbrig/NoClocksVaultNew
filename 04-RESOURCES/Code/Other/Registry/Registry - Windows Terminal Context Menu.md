@@ -18,16 +18,6 @@ cssclasses:
 ---
 
 # Add Windows Terminal Context Menu Registry Code
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -44,7 +34,7 @@ Windows Registry Editor Version 5.00
 ; Add or Remove 'Open in Windows Terminal' in Windows 11
 ; https://www.majorgeeks.com/content/page/open_in_windows_terminal.html
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=-
 ```
 
@@ -57,7 +47,7 @@ Windows Registry Editor Version 5.00
 ; Add or Remove 'Open in Windows Terminal' in Windows 11
 ; https://www.majorgeeks.com/content/page/open_in_windows_terminal.html
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=""
 ```
 
@@ -70,7 +60,7 @@ Windows Registry Editor Version 5.00
 ; Add or Remove 'Open in Windows Terminal' in Windows 11
 ; https://www.majorgeeks.com/content/page/open_in_windows_terminal.html
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=-
 ```
 
@@ -83,13 +73,13 @@ Windows Registry Editor Version 5.00
 ; Add or Remove 'Open in Windows Terminal' in Windows 11
 ; https://www.majorgeeks.com/content/page/open_in_windows_terminal.html
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=""
 ```
 
 ## See Also
 
-- [[04-RESOURCES/Code/Other/Registry/_README|Windows Registry Code Index]]
-- [[MOC - Development]]
-- [[MOC - Computer Science]]
-- [[MOC - Windows]]
+- [Windows Registry Code Index](04-RESOURCES/Code/Other/Registry/README.md)
+- [MOC - Development](MOC - Development.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Windows](MOC - Windows.md)

@@ -16,10 +16,6 @@ aliases:
 ---
 
 # United States Geological Survey (USGS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **United States Geological Survey (USGS)** is a scientific agency of the U.S. government that studies landscape, natural resources, and natural hazards, providing valuable geographic and geological data. Founded in 1879, USGS is the primary federal source for science about Earth, its natural resources, ecosystems, and natural hazards.
@@ -48,14 +44,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Digital Elevation Model (DEM)]]
-- [[3D Elevation Program (3DEP)]]
-- [[Topography]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Digital Elevation Model (DEM)](Digital Elevation Model (DEM).md)
+- [3D Elevation Program (3DEP)](3D Elevation Program (3DEP).md)
+- [Topography](Topography.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[United States Geological Survey (USGS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/United States Geological Survey (USGS)"
-```
-
+<!-- dynamic content -->

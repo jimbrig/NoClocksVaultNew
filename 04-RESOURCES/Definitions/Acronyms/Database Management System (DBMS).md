@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Database Management System (DBMS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Database Management System (DBMS)** is software that enables the creation, management, and manipulation of databases, allowing users to store, retrieve, and analyze spatial and non-spatial data. In GIS, spatial DBMS extends traditional database capabilities with geometry storage, spatial indexing, and geographic queries.
@@ -47,12 +43,8 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[PostGIS]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [PostGIS](PostGIS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Database Management System (DBMS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Database Management System (DBMS)"
-```
-
+<!-- dynamic content -->

@@ -13,15 +13,6 @@ publish: true
 ---
 
 # MOC - Philosophy
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -46,38 +37,23 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Physics]] - Physical reality and its nature
-- [[MOC - Mathematics]] - Mathematical foundations
-- [[MOC - Information Theory]] - Information as fundamental
+- [MOC - Physics](MOC - Physics.md) - Physical reality and its nature
+- [MOC - Mathematics](MOC - Mathematics.md) - Mathematical foundations
+- [MOC - Information Theory](MOC - Information Theory.md) - Information as fundamental
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Philosophy").length`** individual notes with the `#Topic/Philosophy` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Philosophy
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Philosophy"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Philosophy` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Philosophy]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Philosophy"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

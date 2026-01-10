@@ -48,9 +48,9 @@ publish: true|false
 
 ### Linking
 
-- Wikilinks: `[[Note Title]]`
-- Aliased: `[[Note Title|Display Text]]`
-- Sections: `[[Note#Heading]]`
+- Wikilinks: `[Note Title](Note Title.md)`
+- Aliased: `[Display Text](Note Title.md)`
+- Sections: `[Note](Note.md#Heading)`
 
 ## Restrictions
 

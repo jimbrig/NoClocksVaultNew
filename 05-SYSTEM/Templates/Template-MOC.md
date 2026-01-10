@@ -16,16 +16,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -34,27 +24,16 @@ debugInConsole: false
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/<% topicName %>").length`** individual notes with the `#Topic/<% topicName %>` tag, including this note.*
-
-```dataview
-LIST
-FROM #Topic/<% topicName %>
-AND -"CHANGELOG"
-AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+> *Currently, there are  individual notes with the `#Topic/<% topicName %>` tag, including this note.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[<% tp.date.now("YYYY-MM-DD") %>]] and last modified on [[<% tp.date.now("YYYY-MM-DD") %>]].*
+*Note created on [<% tp.date.now("YYYY-MM-DD") %>](<% tp.date.now("YYYY-MM-DD") %>.md) and last modified on [<% tp.date.now("YYYY-MM-DD") %>](<% tp.date.now("YYYY-MM-DD") %>.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

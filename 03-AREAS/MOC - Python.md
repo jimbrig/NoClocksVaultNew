@@ -16,15 +16,6 @@ publish: true
 ---
 
 # MOC - Python
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -54,40 +45,25 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Data Science]] - Data analysis
-- [[MOC - Artificial Intelligence]] - AI/ML
-- [[MOC - Data Engineering]] - Data pipelines
-- [[MOC - Development]] - General programming
-- [[MOC - R]] - Alternative for statistics
+- [MOC - Data Science](MOC - Data Science.md) - Data analysis
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md) - AI/ML
+- [MOC - Data Engineering](MOC - Data Engineering.md) - Data pipelines
+- [MOC - Development](MOC - Development.md) - General programming
+- [MOC - R](MOC - R.md) - Alternative for statistics
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Python").length`** individual notes with the `#Topic/Python` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Python
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Python"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Python` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Python]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Python"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

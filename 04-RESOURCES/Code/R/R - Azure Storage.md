@@ -20,17 +20,8 @@ cssclasses:
 # Azure Storage in R
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/R/_README|R]]
-> - **Packages**: [[AzureStor]] and [[AzureRMR]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [R](04-RESOURCES/Code/R/README.md)
+> - **Packages**: [AzureStor](AzureStor.md) and [AzureRMR](AzureRMR.md)
 ## Overview
 
 > [!SOURCE] Sources:
@@ -40,7 +31,7 @@ Description of this code snippet/script/module.
 
 ## Code
 
-### [[Azure CLI]] Wrapper
+### [Azure CLI](Azure CLI.md) Wrapper
 
 ```R
 # azure cli ----------------------------------------------------------------------
@@ -120,9 +111,9 @@ az_get_subscription <- function(az) {
     if (res == 0) {
       cli::cli_abort("No subscription selected. Exiting.")
     }
-    selected_sub <- subs[[res]]
+    selected_sub <- subs[res](res.md)
   } else {
-    selected_sub <- subs[[1L]]
+    selected_sub <- subs[1L](1L.md)
     cli::cli_alert_info("Using Azure subscription: {.field {selected_sub$name}}.")
   }
   return(selected_sub)
@@ -141,9 +132,9 @@ az_get_resource_group <- function(az, sub = az_get_subscription(az)) {
     if (res == 0) {
       cli::cli_abort("No resource group selected. Exiting.")
     }
-    selected_rg <- rgs[[res]]
+    selected_rg <- rgs[res](res.md)
   } else {
-    selected_rg <- rgs[[1L]]
+    selected_rg <- rgs[1L](1L.md)
     cli::cli_alert_info("Using resource group: {.field {selected_rg$name}}.")
   }
   return(selected_rg)
@@ -162,9 +153,9 @@ az_get_resource <- function(az, rg = az_get_resource_group(az)) {
     if (res == 0) {
       cli::cli_abort("No resource selected. Exiting.")
     }
-    selected_res <- resources[[res]]
+    selected_res <- resources[res](res.md)
   } else {
-    selected_res <- resources[[1L]]
+    selected_res <- resources[1L](1L.md)
     cli::cli_alert_info("Using resource: {.field {selected_res$name}}.")
   }
   return(selected_res)
@@ -493,18 +484,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2026-01-05]] and last modified on [[2026-01-05]].*
+*Note created on [2026-01-05](2026-01-05.md) and last modified on [2026-01-05](2026-01-05.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Untitled]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2026

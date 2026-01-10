@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Polygon
-
-```table-of-contents
-```
-
 ## Overview
 
 **Polygon** is a spatial feature in a GIS that represents a closed area defined by a series of connected points, often used to represent land parcels, administrative boundaries, or other area-based features. Polygons consist of an exterior ring and optionally one or more interior rings (holes).
@@ -50,15 +46,11 @@ aliases:
 
 ### See Also
 
-- [[Feature]]
-- [[Point]]
-- [[LineString]]
-- [[MultiPolygon]]
-- [[Geographic Information System (GIS)]]
+- [Feature](Feature.md)
+- [Point](Point.md)
+- [LineString](LineString.md)
+- [MultiPolygon](MultiPolygon.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Polygon]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Polygon"
-```
-
+<!-- dynamic content -->

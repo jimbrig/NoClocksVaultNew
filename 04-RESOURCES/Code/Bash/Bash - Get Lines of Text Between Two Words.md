@@ -17,15 +17,6 @@ cssclasses:
 ---
 
 # Get Lines of Text Between Two Words
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -53,10 +44,10 @@ awk '/PATTERN1/,/PATTERN2/' file.txt | awk 'NR>2 {print last} {last=$0}'
 
 ```bash
 # extract content between latest version and previous version
-sed -n -e '/## \[2.0.0\]/,/## \[1.0.0\]/ p' CHANGELOG.md | sed -e '1d;$d'
+sed -n -e '/## /[2.0.0/]/,/## /[1.0.0/]/ p' CHANGELOG.md | sed -e '1d;$d'
 
 # or with awk
-awk '/## \[2.0.0\]/,/## \[1.0.0\]/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
+awk '/## /[2.0.0/]/,/## /[1.0.0/]/' CHANGELOG.md | awk 'NR>2 {print last} {last=$0}'
 ```
 
 ### Include Pattern Lines
@@ -88,20 +79,16 @@ awk '/PATTERN1/,/PATTERN2/' file.txt
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Bash/_README|Bash Code]]
-- [[Linux]]
-- [[Windows Subsystem for Linux (WSL)]]
+- [Bash Code](04-RESOURCES/Code/Bash/README.md)
+- [Linux](Linux.md)
+- [Windows Subsystem for Linux (WSL)](Windows Subsystem for Linux (WSL).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Bash - Get Lines of Text Between Two Words]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

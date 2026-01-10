@@ -23,15 +23,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `tibble`, `dplyr`, `lubridate`, `randomNames`, `checkmate`, `rlang`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 A function to simulate transactional actuarial claims/loss data for Property Casualty Insurance. Generates realistic claim transaction histories with configurable loss distributions.
@@ -129,8 +120,8 @@ simulate_claims <- function(
     lapply(function(x) if (length(x) == 0) 0 else x)
 
   for (i in seq_len(n_claims)) {
-    trans_lag[[i]] <- tibble::tibble(
-      trans_lag = trans_lag[[i]],
+    trans_lag[i](i.md) <- tibble::tibble(
+      trans_lag = trans_lag[i](i.md),
       claim_num = paste0("claim-", i)
     )
   }
@@ -211,18 +202,14 @@ claims_data |>
 
 ## Appendix
 
-*Note created on [[2024-12-13]] and last modified on [[2024-12-13]].*
+*Note created on [2024-12-13](2024-12-13.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Actuarial Claim Transactions Simulation]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

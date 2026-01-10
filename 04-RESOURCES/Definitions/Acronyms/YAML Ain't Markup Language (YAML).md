@@ -15,10 +15,6 @@ aliases:
 ---
 
 # YAML Ain't Markup Language (YAML)
-
-```table-of-contents
-```
-
 ## Overview
 
 **YAML Ain't Markup Language (YAML)** is a human-readable data serialization format often used for configuration files and data exchange in software applications, including GIS. YAML emphasizes readability and uses indentation to represent structure.
@@ -62,11 +58,7 @@ layers:
 
 ### See Also
 
-- [[JavaScript Object Notation (JSON)]]
+- [JavaScript Object Notation (JSON)](JavaScript Object Notation (JSON).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[YAML Ain't Markup Language (YAML)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/YAML Ain't Markup Language (YAML)"
-```
-
+<!-- dynamic content -->

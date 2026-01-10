@@ -15,21 +15,12 @@ aliases:
   - Shannon Information Theory
   - Shannon's Theory
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Definition - Information Theory
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **Information Theory** is the mathematical study of the quantification, storage, and communication of information, founded by Claude Shannon in his 1948 paper "A Mathematical Theory of Communication." It provides the theoretical foundation for digital communication, data compression, and cryptography.
@@ -54,7 +45,7 @@ His revolutionary insight was that regardless of the information's nature—text
 
 The fundamental measure of information content, mathematically expressed as:
 
-$$H = -\sum_i p_i \log_2 p_i$$
+$$H = -/sum_i p_i /log_2 p_i$$
 
 Where $p_i$ is the probability of each possible message. This measures the average "surprise" or uncertainty in a message source.
 
@@ -62,13 +53,13 @@ Where $p_i$ is the probability of each possible message. This measures the avera
 
 The maximum rate at which information can be transmitted over a noisy channel with arbitrarily low error probability:
 
-$$C = B \log_2(1 + S/N)$$
+$$C = B /log_2(1 + S/N)$$
 
 Where $B$ is bandwidth and $S/N$ is signal-to-noise ratio.
 
 ### Noisy-Channel Coding Theorem
 
-Shannon proved that for any channel with capacity $C$ and information rate $R$, if $R \leq C$, messages can be transmitted with arbitrarily small error probability through proper encoding and decoding.
+Shannon proved that for any channel with capacity $C$ and information rate $R$, if $R /leq C$, messages can be transmitted with arbitrarily small error probability through proper encoding and decoding.
 
 ## Profound Connections
 
@@ -76,7 +67,7 @@ Shannon proved that for any channel with capacity $C$ and information rate $R$, 
 
 Shannon entropy is mathematically identical to Boltzmann's thermodynamic entropy:
 
-$$S = k_B \ln W$$
+$$S = k_B /ln W$$
 
 This isn't coincidence—both measure uncertainty about system states. Boltzmann's constant $k_B$ acts as a conversion factor between information bits and physical energy units.
 
@@ -108,17 +99,13 @@ Information theory uniquely bridges:
 
 ### See Also
 
-- [[Definition - Shannon Entropy]]
-- [[Definition - It From Bit]]
-- [[Definition - Bekenstein Bound]]
-- [[Definition - Landauer Principle]]
+- [Definition - Shannon Entropy](Definition - Shannon Entropy.md)
+- [Definition - It From Bit](Definition - It From Bit.md)
+- [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
+- [Definition - Landauer Principle](Definition - Landauer Principle.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Definition - Information Theory]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/Definition - Information Theory"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

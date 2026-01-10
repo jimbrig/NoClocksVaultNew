@@ -13,15 +13,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Actionable checklist for **<% tp.file.title.replace("Checklist - ", "") %>**.
@@ -57,15 +48,11 @@ Additional notes or context for using this checklist.
 
 ### See Also
 
-- [[Related Checklist]]
-- [[Related Guide]]
+- [Related Checklist](Related Checklist.md)
+- [Related Guide](Related Guide.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

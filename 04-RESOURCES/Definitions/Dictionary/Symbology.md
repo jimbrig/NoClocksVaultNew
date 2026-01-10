@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Symbology
-
-```table-of-contents
-```
-
 ## Overview
 
 **Symbology** is the visual representation of spatial features in a GIS, including the use of colors, symbols, and styles to convey information about the data. Effective symbology communicates geographic patterns clearly and enables users to interpret spatial data at a glance.
@@ -46,13 +42,9 @@ aliases:
 
 ### See Also
 
-- [[Cartography]]
-- [[Layer]]
-- [[Geographic Information System (GIS)]]
+- [Cartography](Cartography.md)
+- [Layer](Layer.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Symbology]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Symbology"
-```
-
+<!-- dynamic content -->

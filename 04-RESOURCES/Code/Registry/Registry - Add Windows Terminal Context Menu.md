@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Windows Registry
 > - **OS**: Windows 11
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -43,7 +34,7 @@ Registry entries to add or remove the "Open in Windows Terminal" option from the
 ```registry
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=-
 ```
 
@@ -52,7 +43,7 @@ Windows Registry Editor Version 5.00
 ```registry
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=""
 ```
 
@@ -61,7 +52,7 @@ Windows Registry Editor Version 5.00
 ```registry
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=-
 ```
 
@@ -70,7 +61,7 @@ Windows Registry Editor Version 5.00
 ```registry
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Shell Extensions/Blocked]
 "{9F156763-7844-4DC4-B2B1-901F640F5155}"=""
 ```
 
@@ -84,18 +75,14 @@ Windows Registry Editor Version 5.00
 
 ## Appendix
 
-*Note created on [[2024-05-17]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-17](2024-05-17.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Registry/_README|Registry Code Index]]
+- [Registry Code Index](04-RESOURCES/Code/Registry/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Registry - Add Windows Terminal Context Menu]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

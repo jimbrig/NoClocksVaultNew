@@ -19,15 +19,6 @@ publish: true
 ---
 
 # MOC - Development
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -55,61 +46,46 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Computer Science]] - Theoretical foundations
+- [MOC - Computer Science](MOC - Computer Science.md) - Theoretical foundations
 
 ### Child/Specialized MOCs
-- [[MOC - Web Development]] - Web application development
-- [[MOC - R Shiny]] - R Shiny application development
-- [[MOC - Data Engineering]] - Data pipeline development
+- [MOC - Web Development](MOC - Web Development.md) - Web application development
+- [MOC - R Shiny](MOC - R Shiny.md) - R Shiny application development
+- [MOC - Data Engineering](MOC - Data Engineering.md) - Data pipeline development
 
 ### Language-Specific MOCs
-- [[MOC - R]] - R programming
-- [[MOC - Python]] - Python programming
-- [[MOC - JavaScript]] - JavaScript/TypeScript
-- [[MOC - PowerShell]] - PowerShell scripting
+- [MOC - R](MOC - R.md) - R programming
+- [MOC - Python](MOC - Python.md) - Python programming
+- [MOC - JavaScript](MOC - JavaScript.md) - JavaScript/TypeScript
+- [MOC - PowerShell](MOC - PowerShell.md) - PowerShell scripting
 
 ### Platform MOCs
-- [[MOC - Cloud]] - Cloud deployment
-- [[MOC - Linux]] - Linux systems
-- [[MOC - Windows]] - Windows development
+- [MOC - Cloud](MOC - Cloud.md) - Cloud deployment
+- [MOC - Linux](MOC - Linux.md) - Linux systems
+- [MOC - Windows](MOC - Windows.md) - Windows development
 
 ## Guides
 
 | Guide | Description |
 |-------|-------------|
-| [[Guide - Conventional Git Commits]] | Commit message conventions |
-| [[Guide - R Coding Conventions]] | R style guide |
-| [[Guide - JavaScript Coding Conventions]] | JavaScript style guide |
-| [[Guide - PowerShell Naming Conventions]] | PowerShell conventions |
+| [Guide - Conventional Git Commits](Guide - Conventional Git Commits.md) | Commit message conventions |
+| [Guide - R Coding Conventions](Guide - R Coding Conventions.md) | R style guide |
+| [Guide - JavaScript Coding Conventions](Guide - JavaScript Coding Conventions.md) | JavaScript style guide |
+| [Guide - PowerShell Naming Conventions](Guide - PowerShell Naming Conventions.md) | PowerShell conventions |
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Development OR #Topic/DevOps OR #Topic/Dev").length`** individual notes with development-related tags.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM (#Topic/Development OR #Topic/DevOps OR #Topic/Dev)
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Development"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with development-related tags.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Development]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Development"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

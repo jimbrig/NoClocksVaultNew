@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Pixel
-
-```table-of-contents
-```
-
 ## Overview
 
 **Pixel** is the smallest unit of a raster image in GIS, representing a specific area on the ground with a single value, such as color or elevation. The term is a contraction of "picture element" and forms the building blocks of all raster data.
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Raster]]
-- [[Resolution]]
-- [[Geographic Information System (GIS)]]
+- [Raster](Raster.md)
+- [Resolution](Resolution.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Pixel]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Pixel"
-```
-
+<!-- dynamic content -->

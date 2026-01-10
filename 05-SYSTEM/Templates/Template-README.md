@@ -65,7 +65,7 @@ author: Jimmy Briggs <jimmy.briggs@noclocks.dev>
 tags:
   - Type/Readme
   - Topic/Meta
-<% contextTags.map(t => `  - ${t}`).join("\n") %>
+<% contextTags.map(t => `  - ${t}`).join("/n") %>
   - Status/Ongoing
 aliases:
   - <% displayName %>
@@ -78,15 +78,6 @@ cssclasses:
 ---
 
 # <% displayName %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -95,33 +86,20 @@ includeLinks: true
 ## Index
 
 > [!tip] Note Count
-> *Currently, there are **`$= dv.pages('"' + dv.current().file.folder + '"').length - 1`** individual notes in this folder.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.mday AS "Modified"
-FROM "<% folderPath %>"
-WHERE file.name != this.file.name
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes in this folder.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[<% creationDate %>]] and last modified on [[<% creationDate %>]].*
+*Note created on [<% creationDate %>](<% creationDate %>.md) and last modified on [<% creationDate %>](<% creationDate %>.md).*
 
 ### See Also
 
-- [[<% folderPath.split("/").slice(0, -1).join("/") %>/_README|Parent Folder]]
+- [Parent Folder](<% folderPath.split("/").slice(0, -1).join("/") %>/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[_README]] AND -"CHANGELOG" AND -"<% folderPath %>/_README"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% year %>

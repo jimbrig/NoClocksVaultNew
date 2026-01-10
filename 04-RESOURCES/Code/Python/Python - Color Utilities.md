@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Modules**: `colorsys`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -121,18 +112,14 @@ print(hsl)  # (0.6, 0.92, 0.60)
 
 ## Appendix
 
-*Note created on [[2024-05-01]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-01](2024-05-01.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Color Utilities]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -157,15 +144,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: 
 > - **Packages**: 
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -195,18 +173,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Color Utilities]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

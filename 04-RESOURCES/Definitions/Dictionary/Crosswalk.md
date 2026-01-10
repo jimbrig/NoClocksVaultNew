@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Crosswalk
-
-```table-of-contents
-```
-
 ## Overview
 
 **Crosswalk** is a table or database that maps equivalent codes or identifiers from one system to another, often used in GIS to relate different geographic coding systems. Crosswalks enable data integration between datasets using different classification schemes.
@@ -53,12 +49,8 @@ aliases:
 
 ### See Also
 
-- [[Federal Information Processing Standards (FIPS)]]
-- [[ZIP Code Tabulation Area (ZCTA)]]
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
+- [ZIP Code Tabulation Area (ZCTA)](ZIP Code Tabulation Area (ZCTA).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Crosswalk]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Crosswalk"
-```
-
+<!-- dynamic content -->

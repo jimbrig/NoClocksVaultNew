@@ -15,21 +15,12 @@ aliases:
   - Information Substrate Independence
   - Medium Independence
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Substrate Independence
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **Substrate independence** is the property that information describes patterns and relationships that remain meaningful regardless of the physical medium carrying them. This characteristic is precisely what allows information theory to bridge seemingly incompatible domains of physics.
@@ -53,7 +44,7 @@ Quantum mechanics, general relativity, and thermodynamics all impose different c
 
 | Domain | Constant | What It Limits |
 |--------|----------|----------------|
-| Quantum Mechanics | $\hbar$ | Information via uncertainty |
+| Quantum Mechanics | $/hbar$ | Information via uncertainty |
 | Relativity | $c$ | Information propagation (causality) |
 | Gravity | $G$ | Information density (black holes) |
 | Thermodynamics | $k_B$ | Information erasure (entropy) |
@@ -62,7 +53,7 @@ These aren't separate constraints—they're **different facets of a unified info
 
 ### The Paradox of Fundamentality
 
-Calling information an "abstraction" might have it backwards. Wheeler's [[Definition - It From Bit|"It from Bit"]] suggests that:
+Calling information an "abstraction" might have it backwards. Wheeler's ["It from Bit"](Definition - It From Bit.md) suggests that:
 - Information is the fundamental reality
 - What we call "physical" matter is the abstraction
 - Particles, fields, and spacetime are patterns of information
@@ -99,24 +90,20 @@ The "abstraction" to information isn't moving away from physical reality—it ma
 
 ### See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - It From Bit]]
-- [[Black Hole Thermodynamics]]
-- [[Definition - Mathematical Universe Hypothesis]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - It From Bit](Definition - It From Bit.md)
+- [Black Hole Thermodynamics](Black Hole Thermodynamics.md)
+- [Definition - Mathematical Universe Hypothesis](Definition - Mathematical Universe Hypothesis.md)
 
 ### Related MOCs
 
-- [[MOC - Information Theory]] - Information theory foundations
-- [[MOC - Physics]] - Physical implications
-- [[MOC - Philosophy]] - Ontological considerations
-- [[MOC - Computer Science]] - Computational aspects
+- [MOC - Information Theory](MOC - Information Theory.md) - Information theory foundations
+- [MOC - Physics](MOC - Physics.md) - Physical implications
+- [MOC - Philosophy](MOC - Philosophy.md) - Ontological considerations
+- [MOC - Computer Science](MOC - Computer Science.md) - Computational aspects
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Substrate Independence]] AND -"CHANGELOG" AND -"01-SLIPBOX/Substrate Independence"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **COM Objects**: `WScript.Shell`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell script that reads Windows Explorer recent items (shortcuts) and displays the target files with their last access timestamps.
@@ -40,7 +31,7 @@ PowerShell script that reads Windows Explorer recent items (shortcuts) and displ
 $sh = New-Object -ComObject WScript.Shell
 
 # specify path
-$RecentItemsPath = "$Env:APPDATA\Microsoft\Windows\Recent"
+$RecentItemsPath = "$Env:APPDATA/Microsoft/Windows/Recent"
 
 # get recent items
 $RecentItems = Get-ChildItem -Path $RecentItemsPath -Filter "*.lnk" | 
@@ -62,28 +53,24 @@ $RecentItems | ForEach-Object {
 
 ```powershell
 # run script to see recent files
-.\Get-RecentItems.ps1
+./Get-RecentItems.ps1
 
 # export to file
-.\Get-RecentItems.ps1 | Out-File -FilePath "RecentItems.txt"
+./Get-RecentItems.ps1 | Out-File -FilePath "RecentItems.txt"
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-09-18]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-18](2024-09-18.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Review Explorer Recent Items]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

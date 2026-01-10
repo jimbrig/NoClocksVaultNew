@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Extent
-
-```table-of-contents
-```
-
 ## Overview
 
 **Extent** is the geographic area covered by a spatial dataset or map, typically defined by the minimum and maximum coordinates (bounding box) of the data. Extent describes the outer boundaries of where data exists and is fundamental to understanding data coverage and setting map views.
@@ -44,13 +40,9 @@ Example: (-74.25, 40.50, -73.70, 40.92)
 
 ### See Also
 
-- [[Bounding Box (BBOX)]]
-- [[Geographic Information System (GIS)]]
-- [[Scale]]
+- [Bounding Box (BBOX)](Bounding Box (BBOX).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Scale](Scale.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Extent]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Extent"
-```
-
+<!-- dynamic content -->

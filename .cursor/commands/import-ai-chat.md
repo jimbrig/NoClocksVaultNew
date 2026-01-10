@@ -48,15 +48,6 @@ key_insights:
 
 ```markdown
 # {Chat Title}
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Summary
 
 > [!ABSTRACT] Chat Summary
@@ -65,8 +56,8 @@ includeLinks: true
 ## Key Insights to Extract
 
 > [!TIP] Insights to Extract
-> - [ ] {Insight 1} → [[Target Note 1]]
-> - [ ] {Insight 2} → [[Target Note 2]]
+> - [ ] {Insight 1} → [Target Note 1](Target Note 1.md)
+> - [ ] {Insight 2} → [Target Note 2](Target Note 2.md)
 
 ## Extracted Notes
 

@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Scale
-
-```table-of-contents
-```
-
 ## Overview
 
 **Scale** is the ratio of a distance on a map to the corresponding distance on the ground, often expressed as a fraction or representative fraction (e.g., 1:10,000), indicating the level of detail and area covered by the map.
@@ -54,14 +50,10 @@ aliases:
 
 ### See Also
 
-- [[Cartography]]
-- [[Geographic Information System (GIS)]]
-- [[Resolution]]
-- [[Zoom]]
+- [Cartography](Cartography.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Resolution](Resolution.md)
+- [Zoom](Zoom.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Scale]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Scale"
-```
-
+<!-- dynamic content -->

@@ -21,15 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Get-DnsClientCache`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -59,7 +50,7 @@ function Get-DnsCacheReport {
     # countdown timer
     $t = New-TimeSpan -Minutes $Minutes
     $origpos = $host.UI.RawUI.CursorPosition
-    $spinner = @('|', '/', '-', '\')
+    $spinner = @('|', '/', '-', '/')
     $spinnerPos = 0
     $remain = $t
     $d = (Get-Date) + $t
@@ -131,25 +122,21 @@ function Get-DnsCacheReport {
 Get-DnsCacheReport -Minutes 5
 
 # gather DNS cache for 10 minutes and export to CSV
-Get-DnsCacheReport -Minutes 10 -CSVPath "C:\Reports\DNSCache.csv"
+Get-DnsCacheReport -Minutes 10 -CSVPath "C:/Reports/DNSCache.csv"
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - DNS Cache Report]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

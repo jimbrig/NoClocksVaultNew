@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Requirements**: Windows Terminal 1.4+
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Function that creates clickable ANSI hyperlinks in supported terminals like Windows Terminal 1.4+.
@@ -57,7 +48,7 @@ function Write-AnsiHyperlink {
         $e = "`e"
     }
 
-    "${e}]8;;{0}${e}`\{1}${e}]8;;${e}`\" -f $Uri.Uri, $Label
+    "${e}]8;;{0}${e}`/{1}${e}]8;;${e}`/" -f $Uri.Uri, $Label
 }
 ```
 
@@ -78,18 +69,14 @@ Write-Host "Visit $(Write-AnsiHyperlink -Uri 'https://docs.microsoft.com' -Label
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Write-ANSIHyperLink]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

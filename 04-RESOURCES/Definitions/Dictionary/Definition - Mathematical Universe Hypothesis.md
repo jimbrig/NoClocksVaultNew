@@ -15,21 +15,12 @@ aliases:
   - MUH
   - Tegmark Hypothesis
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Definition - Mathematical Universe Hypothesis
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The **Mathematical Universe Hypothesis (MUH)** is Max Tegmark's proposal that physical reality **IS** a mathematical structure, not merely described by one. The physical universe doesn't "use" mathematics—it literally is mathematics, specifically a mathematical structure encoding relationships and constraints.
@@ -76,7 +67,7 @@ The mathematical structure doesn't come "before" the physical universe temporall
 
 ## Connection to Wheeler
 
-This aligns with Wheeler's [[Definition - It From Bit|"It from Bit"]]: the physical world has at bottom an immaterial, mathematical source. Both propose that **information/mathematics is more fundamental than matter**.
+This aligns with Wheeler's ["It from Bit"](Definition - It From Bit.md): the physical world has at bottom an immaterial, mathematical source. Both propose that **information/mathematics is more fundamental than matter**.
 
 ---
 
@@ -86,16 +77,12 @@ This aligns with Wheeler's [[Definition - It From Bit|"It from Bit"]]: the physi
 
 ### See Also
 
-- [[Definition - It From Bit]]
-- [[Definition - Information Theory]]
-- [[Substrate Independence]]
+- [Definition - It From Bit](Definition - It From Bit.md)
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Substrate Independence](Substrate Independence.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Definition - Mathematical Universe Hypothesis]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/Definition - Mathematical Universe Hypothesis"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

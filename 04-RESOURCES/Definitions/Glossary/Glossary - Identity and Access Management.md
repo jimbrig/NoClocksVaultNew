@@ -19,15 +19,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Auth0 Identity Glossary](https://auth0.com/docs/glossary)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Comprehensive glossary of **identity and access management (IAM)** terms. Useful for understanding authentication, authorization, and security concepts across platforms.
@@ -294,11 +285,11 @@ Comprehensive glossary of **identity and access management (IAM)** terms. Useful
 
 ## See Also
 
-- [[Definition - JSON Web Token (JWT)]]
-- [[Definition - OAuth]]
-- [[Definition - OpenID Connect (OIDC)]]
-- [[Definition - Multi-Factor Authentication (MFA)]]
-- [[MOC - Security]]
+- [Definition - JSON Web Token (JWT)](Definition - JSON Web Token (JWT).md)
+- [Definition - OAuth](Definition - OAuth.md)
+- [Definition - OpenID Connect (OIDC)](Definition - OpenID Connect (OIDC).md)
+- [Definition - Multi-Factor Authentication (MFA)](Definition - Multi-Factor Authentication (MFA).md)
+- [MOC - Security](MOC - Security.md)
 
 ---
 

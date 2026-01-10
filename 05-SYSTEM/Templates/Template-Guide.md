@@ -14,15 +14,6 @@ publish: true
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This guide walks through **<% tp.file.title.replace("Guide - ", "") %>**.
@@ -31,7 +22,7 @@ This guide walks through **<% tp.file.title.replace("Guide - ", "") %>**.
 
 - Requirement 1
 - Requirement 2
-- See [[List - Related Tools]] for tool options
+- See [List - Related Tools](List - Related Tools.md) for tool options
 
 ## Steps
 
@@ -80,16 +71,12 @@ How to confirm the process completed successfully:
 
 ### See Also
 
-- [[Related Guide]]
-- [[Related Code Note]]
-- [[List - Related Tools]]
+- [Related Guide](Related Guide.md)
+- [Related Code Note](Related Code Note.md)
+- [List - Related Tools](List - Related Tools.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

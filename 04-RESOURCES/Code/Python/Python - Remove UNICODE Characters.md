@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Concept**: String Encoding
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple technique to remove non-ASCII characters (emojis, special symbols) from Python strings using encoding.
@@ -55,10 +46,10 @@ def remove_emoji(text: str) -> str:
     """Remove emoji characters using regex."""
     emoji_pattern = re.compile(
         "["
-        "\U0001F600-\U0001F64F"  # emoticons
-        "\U0001F300-\U0001F5FF"  # symbols & pictographs
-        "\U0001F680-\U0001F6FF"  # transport & map symbols
-        "\U0001F1E0-\U0001F1FF"  # flags
+        "/U0001F600-/U0001F64F"  # emoticons
+        "/U0001F300-/U0001F5FF"  # symbols & pictographs
+        "/U0001F680-/U0001F6FF"  # transport & map symbols
+        "/U0001F1E0-/U0001F1FF"  # flags
         "]+",
         flags=re.UNICODE
     )
@@ -69,18 +60,14 @@ def remove_emoji(text: str) -> str:
 
 ## Appendix
 
-*Note created on [[2024-04-23]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-23](2024-04-23.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Remove UNICODE Characters]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

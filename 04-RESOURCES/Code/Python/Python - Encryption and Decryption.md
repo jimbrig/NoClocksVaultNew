@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Modules**: `tkinter`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple GUI-based encryption tool using letter position swapping. This is a basic cipher for educational purposes.
@@ -99,18 +90,14 @@ Run the script and follow the GUI prompts to encrypt or decrypt messages.
 
 ## Appendix
 
-*Note created on [[2024-04-23]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-23](2024-04-23.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Encryption and Decryption]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

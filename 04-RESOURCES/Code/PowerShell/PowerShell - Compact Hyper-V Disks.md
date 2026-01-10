@@ -22,15 +22,6 @@ cssclasses:
 > - **Language**: PowerShell
 > - **Modules**: `Hyper-V`
 > - **Requires**: Administrator privileges
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -59,7 +50,7 @@ function Compress-VHDX {
 
     # check if specified VMName is valid
     if ($VMName) {
-        if (-not (Hyper-V\Get-VM -Name $VMName -ErrorAction SilentlyContinue)) {
+        if (-not (Hyper-V/Get-VM -Name $VMName -ErrorAction SilentlyContinue)) {
             Write-Warning ("Specified VM {0} was not found, aborting..." -f $VMName)
             return
         }
@@ -68,7 +59,7 @@ function Compress-VHDX {
     # validate if VMs are running
     if ($VMName) {
         foreach ($vm in $VMName) {
-            if ((Hyper-V\Get-VM -Name $VM).State -eq 'Running') {
+            if ((Hyper-V/Get-VM -Name $VM).State -eq 'Running') {
                 Write-Warning ("One or more specified VM(s) {0} are running, please shutdown first. Aborting..." -f $VM)
                 return
             }
@@ -77,10 +68,10 @@ function Compress-VHDX {
     
     # gather VHDXs
     if (-not ($VMName)) {
-        $vhds = Hyper-V\Get-VM | Hyper-V\Get-VMHardDiskDrive | Where-Object Path -Like '*.vhdx' | Sort-Object VMName, Path
+        $vhds = Hyper-V/Get-VM | Hyper-V/Get-VMHardDiskDrive | Where-Object Path -Like '*.vhdx' | Sort-Object VMName, Path
     }
     else {
-        $vhds = Hyper-V\Get-VM $VMName | Hyper-V\Get-VMHardDiskDrive | Where-Object Path -Like '*.vhdx' | Sort-Object Path
+        $vhds = Hyper-V/Get-VM $VMName | Hyper-V/Get-VMHardDiskDrive | Where-Object Path -Like '*.vhdx' | Sort-Object Path
     }
 
     if ($null -eq $vhds) {
@@ -89,7 +80,7 @@ function Compress-VHDX {
 
     # gather current size
     $oldsize = foreach ($vhd in $vhds) {
-        if ((Hyper-V\Get-VHD $vhd.path).VhdType -eq 'Dynamic') {
+        if ((Hyper-V/Get-VHD $vhd.path).VhdType -eq 'Dynamic') {
             [PSCustomObject]@{
                 VHD     = $vhd.Path
                 OldSize = [math]::round((Get-Item $vhd.Path).Length / 1GB, 3)
@@ -99,10 +90,10 @@ function Compress-VHDX {
 
     # compress all files
     foreach ($vhd in $vhds) {
-        if (-not (Hyper-V\Get-VM $vhd.VMName | Where-Object State -eq Running)) {
+        if (-not (Hyper-V/Get-VM $vhd.VMName | Where-Object State -eq Running)) {
             Write-Host ("`nProcessing {0} from VM {1}..." -f $vhd.Path, $vhd.VMName) -ForegroundColor Gray
             try {
-                Hyper-V\Mount-VHD -Path $vhd.Path -ReadOnly -ErrorAction Stop
+                Hyper-V/Mount-VHD -Path $vhd.Path -ReadOnly -ErrorAction Stop
                 Write-Host "Mounting VHDX" -ForegroundColor Green
             }
             catch {
@@ -111,17 +102,17 @@ function Compress-VHDX {
             }
 
             try {
-                Hyper-V\Optimize-VHD -Path $vhd.Path -Mode Full
+                Hyper-V/Optimize-VHD -Path $vhd.Path -Mode Full
                 Write-Host ("Compacting VHDX") -ForegroundColor Green
             }
             catch {
                 Write-Warning ("Error compacting {0}, dismounting..." -f $vhd.Path)
-                Hyper-V\Dismount-VHD $vhd.Path
+                Hyper-V/Dismount-VHD $vhd.Path
                 return
             }
 
             try { 
-                Hyper-V\Dismount-VHD $vhd.Path -ErrorAction Stop
+                Hyper-V/Dismount-VHD $vhd.Path -ErrorAction Stop
                 Write-Host ("Dismounting VHDX`n") -ForegroundColor Green
             }
             catch {
@@ -136,7 +127,7 @@ function Compress-VHDX {
 
     # report on new sizes
     $report = foreach ($vhd in $vhds) {
-        if ((Hyper-V\Get-VHD $vhd.path).VhdType -eq 'Dynamic') {
+        if ((Hyper-V/Get-VHD $vhd.path).VhdType -eq 'Dynamic') {
             [PSCustomObject]@{
                 'Old Size (GB)'        = ($oldsize | Where-Object VHD -eq $vhd.Path).OldSize
                 'New Size (GB)'        = [math]::round((Get-Item $vhd.Path).Length / 1GB, 3)
@@ -173,18 +164,14 @@ Compress-VHDX -VMName "VM1", "VM2"
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Compact Hyper-V Disks]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

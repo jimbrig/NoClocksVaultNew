@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Concepts**: Deferred Loading, Proxy Functions
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Lazy loading in PowerShell allows you to defer loading of resources, scripts, or modules until they are actually needed, optimizing performance and memory usage.
@@ -112,18 +103,14 @@ Choose the pattern that best fits your use case:
 
 ## Appendix
 
-*Note created on [[2024-10-06]] and last modified on [[2024-12-31]].*
+*Note created on [2024-10-06](2024-10-06.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Lazy Loading]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

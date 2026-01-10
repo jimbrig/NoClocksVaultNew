@@ -21,16 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `cli`, `crayon`, `glue`, `rlang`, `fs`, `here`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 A set of helper functions for providing verbose feedback to developers using console messages. These utilities wrap common message patterns with consistent styling using `cli` and `crayon` packages.
@@ -74,7 +64,7 @@ msg_value <- function(x) {
 
 #' @rdname feedback
 msg_done <- function(x) {
-  x <- glue::glue_collapse(x, "\n")
+  x <- glue::glue_collapse(x, "/n")
   x <- glue::glue(x, .envir = parent.frame())
   msg_bullet(x, crayon::green(cli::symbol$tick))
 }
@@ -88,7 +78,7 @@ msg_bullet <- function(x, bullet = cli::symbol$bullet) {
 
 #' @rdname feedback
 msg_err <- function(x) {
-  x <- glue::glue_collapse(x, "\n")
+  x <- glue::glue_collapse(x, "/n")
   x <- glue::glue(x, .envir = parent.frame())
   msg_bullet(x, crayon::red(cli::symbol$cross))
 }
@@ -104,7 +94,7 @@ msg_path <- function(x) {
 
 #' @rdname feedback
 msg_info <- function(x) {
-  x <- glue::glue_collapse(x, "\n")
+  x <- glue::glue_collapse(x, "/n")
   x <- glue::glue(x, .envir = parent.frame())
   msg_bullet(x, crayon::yellow(cli::symbol$info))
 }
@@ -154,7 +144,7 @@ inform <- function(...) {
 #' @export
 #' @return string
 indent <- function(x, first = "  ", indent = first) {
-  x <- gsub("\n", paste0("\n", indent), x)
+  x <- gsub("/n", paste0("/n", indent), x)
   paste0(first, x)
 }
 ```
@@ -179,18 +169,14 @@ msg_bullet("Run {msg_code('devtools::load_all()')}")
 
 ## Appendix
 
-*Note created on [[2024-06-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-06-23](2024-06-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Console Message Feedback Utilities]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

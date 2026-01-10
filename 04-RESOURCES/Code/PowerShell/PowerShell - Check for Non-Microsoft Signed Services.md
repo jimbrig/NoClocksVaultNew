@@ -22,15 +22,6 @@ cssclasses:
 > - **Language**: PowerShell
 > - **Modules**: `ImportExcel` (optional)
 > - **Cmdlets**: `Get-WmiObject`, `Get-AuthenticodeSignature`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -105,7 +96,7 @@ $total = foreach ($Computer in $ComputerName) {
             
             if ($null -ne $service.PathName) {
                 $servicepath = $service.PathName -replace '^(?:"(.+?)"|([^ ]+)).*', '$1$2'
-                $servicepath = "\\$($computer)\$($servicepath.Substring(0,1))$" + "$($servicepath.Substring(2))"
+                $servicepath = "//$($computer)/$($servicepath.Substring(0,1))$" + "$($servicepath.Substring(2))"
                 
                 if (Test-Path -Path $servicepath) {
                     if (-not ((Get-AuthenticodeSignature $($servicepath)).SignerCertificate.Subject -match 'O=Microsoft Corporation')) {
@@ -148,31 +139,27 @@ else {
 
 ```powershell
 # check local computer
-.\Get-NonMicrosoftServices.ps1
+./Get-NonMicrosoftServices.ps1
 
 # check multiple computers
-.\Get-NonMicrosoftServices.ps1 -ComputerName "Server1", "Server2"
+./Get-NonMicrosoftServices.ps1 -ComputerName "Server1", "Server2"
 
 # export to Excel
-.\Get-NonMicrosoftServices.ps1 -Filename "C:\Reports\Services.xlsx"
+./Get-NonMicrosoftServices.ps1 -Filename "C:/Reports/Services.xlsx"
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Check for Non-Microsoft Signed Services]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

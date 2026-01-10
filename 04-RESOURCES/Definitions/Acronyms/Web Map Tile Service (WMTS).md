@@ -15,18 +15,9 @@ publish: true
 ---
 
 # Web Map Tile Service (WMTS)
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-**Web Map Tile Service (WMTS)** is an [[Open Geospatial Consortium (OGC)]] standard for serving pre-rendered, cached map tiles. Unlike [[Web Map Service (WMS)]] which renders maps on-demand, WMTS serves pre-generated tiles for faster performance and better scalability.
+**Web Map Tile Service (WMTS)** is an [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md) standard for serving pre-rendered, cached map tiles. Unlike [Web Map Service (WMS)](Web Map Service (WMS).md) which renders maps on-demand, WMTS serves pre-generated tiles for faster performance and better scalability.
 
 ## Key Concepts
 
@@ -87,15 +78,15 @@ Common patterns:
 
 ## Modern Alternatives
 
-- [[OGC API - Tiles]] - Modern REST API replacement
-- [[Mapbox Vector Tile (MVT)]] - Vector tiles for dynamic styling
-- [[PMTiles]] - Single-file tile archive
+- [OGC API - Tiles](OGC API - Tiles.md) - Modern REST API replacement
+- [Mapbox Vector Tile (MVT)](Mapbox Vector Tile (MVT).md) - Vector tiles for dynamic styling
+- [PMTiles](PMTiles.md) - Single-file tile archive
 
 ## See Also
 
-- [[Web Map Service (WMS)]]
-- [[Open Geospatial Consortium (OGC)]]
-- [[List - GIS Standards Organizations]]
+- [Web Map Service (WMS)](Web Map Service (WMS).md)
+- [Open Geospatial Consortium (OGC)](Open Geospatial Consortium (OGC).md)
+- [List - GIS Standards Organizations](List - GIS Standards Organizations.md)
 
 ---
 
@@ -104,8 +95,4 @@ Common patterns:
 *Created: 2024-12-22 | Modified: 2024-12-22*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Web Map Tile Service (WMTS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Acronyms/Web Map Tile Service (WMTS)"
-```
-
+<!-- dynamic content -->

@@ -19,18 +19,9 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Prompt Engineering Guide - Few-Shot](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md#few-shot-prompting)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
-While LLMs demonstrate remarkable [[Zero-Shot Prompting]] capabilities, they fall short on complex tasks. **Few-shot prompting** enables *in-context learning* by providing demonstrations in the prompt to steer the model toward better performance.
+While LLMs demonstrate remarkable [Zero-Shot Prompting](Zero-Shot Prompting.md) capabilities, they fall short on complex tasks. **Few-shot prompting** enables *in-context learning* by providing demonstrations in the prompt to steer the model toward better performance.
 
 The demonstrations serve as conditioning for subsequent examples where the model generates a response.
 
@@ -78,17 +69,17 @@ When we won the game, we all started to farduddle in celebration.
 
 | Technique | Description |
 |-----------|-------------|
-| [[Zero-Shot Prompting]] | No examples provided |
-| [[Chain-of-Thought Prompting]] | Include reasoning steps |
-| [[Self-Consistency]] | Sample multiple reasoning paths |
+| [Zero-Shot Prompting](Zero-Shot Prompting.md) | No examples provided |
+| [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md) | Include reasoning steps |
+| [Self-Consistency](Self-Consistency.md) | Sample multiple reasoning paths |
 
 ---
 
 ## See Also
 
-- [[Zero-Shot Prompting]]
-- [[Chain-of-Thought Prompting]]
-- [[MOC - Artificial Intelligence]]
+- [Zero-Shot Prompting](Zero-Shot Prompting.md)
+- [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md)
 
 ---
 

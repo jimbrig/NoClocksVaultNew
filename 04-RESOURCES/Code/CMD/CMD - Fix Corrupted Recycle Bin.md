@@ -24,15 +24,6 @@ permalink:
 > [!info] Code Properties
 > - **Language**: CMD
 > - **Requires**: Administrator privileges
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -44,7 +35,7 @@ Command to fix a corrupted recycle bin in Windows by forcefully deleting the Rec
 
 ```cmd
 REM run as administrator
-rd /s /q "C:\$Recycle.bin"
+rd /s /q "C:/$Recycle.bin"
 ```
 
 ## Usage
@@ -60,18 +51,14 @@ rd /s /q "C:\$Recycle.bin"
 
 ## Appendix
 
-*Note created on [[2024-04-30]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-30](2024-04-30.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/CMD/_README|CMD Code Index]]
+- [CMD Code Index](04-RESOURCES/Code/CMD/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[CMD - Fix Corrupted Recycle Bin]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -81,15 +68,6 @@ LIST FROM [[CMD - Fix Corrupted Recycle Bin]] AND -"CHANGELOG"
 > [!info] Code Properties
 > - **Language**: 
 > - **Packages**: 
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -119,18 +97,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[CMD - Fix Corrupted Recycle Bin]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

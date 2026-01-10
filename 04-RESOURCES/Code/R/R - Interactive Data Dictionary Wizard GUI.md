@@ -17,17 +17,8 @@ cssclasses:
 # Interactive Data Dictionary Wizard GUI with R
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/R/_README|R]]
+> - **Language**: [R](04-RESOURCES/Code/R/README.md)
 > - **Packages**: `shiny`, `miniUI`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Description of this code snippet/script/module.
@@ -77,7 +68,7 @@ create_data_dictionary <- function(df, dataset_name = NULL) {
 
       lapply(seq_along(col_names), function(i) {
         col_name <- col_names[i]
-        col_type <- class(df[[col_name]])[1]
+        col_type <- class(df[col_name](col_name.md))[1]
 
         tagList(
           h5(strong(paste0("Column ", i, ": ", col_name, " (", col_type, ")"))),
@@ -109,15 +100,15 @@ create_data_dictionary <- function(df, dataset_name = NULL) {
 
       # Collect column metadata
       descriptions <- sapply(seq_along(col_names), function(i) {
-        input[[paste0("desc_", i)]] %||% ""
+        input[paste0("desc_", i)](paste0("desc_", i).md) %||% ""
       })
 
       mapped_names <- sapply(seq_along(col_names), function(i) {
-        input[[paste0("mapped_", i)]] %||% col_names[i]
+        input[paste0("mapped_", i)](paste0("mapped_", i).md) %||% col_names[i]
       })
 
       units <- sapply(seq_along(col_names), function(i) {
-        input[[paste0("unit_", i)]] %||% ""
+        input[paste0("unit_", i)](paste0("unit_", i).md) %||% ""
       })
 
       # Create metadata data frame
@@ -188,19 +179,19 @@ generate_roxygen_skeleton <- function(dataset_name, dataset_metadata, column_met
 
   # Format column descriptions as definition list
   format_str <- paste(
-    "\\describe{",
-    paste(sprintf("  \\item{%s}{%s%s}",
+    "//describe{",
+    paste(sprintf("  //item{%s}{%s%s}",
                   column_metadata$original_name,
                   column_metadata$description,
                   ifelse(column_metadata$unit != "",
                          paste0(" (", column_metadata$unit, ")"), "")),
-          collapse = "\n"),
+          collapse = "/n"),
     "}",
-    sep = "\n"
+    sep = "/n"
   )
 
   roxygen <- sprintf(
-    "#' %s\n#'\n#' %s\n#'\n#' @format A data frame with %d rows and %d variables:\n%s\n#'\n#' @source %s\n#'\n#' @examples\n#' data(%s)\n#' head(%s)\n\"%s\"",
+    "#' %s/n#'/n#' %s/n#'/n#' @format A data frame with %d rows and %d variables:/n%s/n#'/n#' @source %s/n#'/n#' @examples/n#' data(%s)/n#' head(%s)/n/"%s/"",
     dataset_metadata$title,
     dataset_metadata$description,
     dataset_metadata$n_rows,
@@ -286,11 +277,11 @@ this, in turn, will launch the interactive GUI to craft the data dictionary:
 
 Dataset Metadata:
 
-![[Pasted image 20251228132245.png]]
+![Pasted image 20251228132245.png](Pasted image 20251228132245.png.md)
 
 Column Metadata:
 
-![[Pasted image 20251228132306.png]]
+![Pasted image 20251228132306.png](Pasted image 20251228132306.png.md)
 
 Example output:
 
@@ -345,7 +336,7 @@ $dataset_metadata$n_cols
 
 
 $roxygen_doc
-[1] "#' mtcars\n#'\n#' Amazing Cars\n#'\n#' @format A data frame with 32 rows and 11 variables:\n\\describe{\n  \\item{mpg}{Miles per Gallon}\n  \\item{cyl}{}\n  \\item{disp}{}\n  \\item{hp}{}\n  \\item{drat}{}\n  \\item{wt}{}\n  \\item{qsec}{}\n  \\item{vs}{}\n  \\item{am}{}\n  \\item{gear}{}\n  \\item{carb}{}\n}\n#'\n#' @source https://example.com\n#'\n#' @examples\n#' data(dataset)\n#' head(dataset)\n\"dataset\""
+[1] "#' mtcars/n#'/n#' Amazing Cars/n#'/n#' @format A data frame with 32 rows and 11 variables:/n//describe{/n  //item{mpg}{Miles per Gallon}/n  //item{cyl}{}/n  //item{disp}{}/n  //item{hp}{}/n  //item{drat}{}/n  //item{wt}{}/n  //item{qsec}{}/n  //item{vs}{}/n  //item{am}{}/n  //item{gear}{}/n  //item{carb}{}/n}/n#'/n#' @source https://example.com/n#'/n#' @examples/n#' data(dataset)/n#' head(dataset)/n/"dataset/""
 
 $standard_metadata
 $standard_metadata$`dc:title`
@@ -387,18 +378,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-28]] and last modified on [[2025-12-28]].*
+*Note created on [2025-12-28](2025-12-28.md) and last modified on [2025-12-28](2025-12-28.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Interactive Data Dictionary Wizard GUI]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

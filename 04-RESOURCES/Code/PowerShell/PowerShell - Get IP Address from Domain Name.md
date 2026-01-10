@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Class**: `System.Net.Dns`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple PowerShell commands using .NET DNS class to resolve domain names to IP addresses and perform reverse lookups.
@@ -63,19 +54,15 @@ Write-Host "Hostname: $($hostInfo.HostName)"
 
 ## Appendix
 
-*Note created on [[2024-05-08]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-08](2024-05-08.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
-- [[PowerShell - Get Email DNS Records]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
+- [PowerShell - Get Email DNS Records](PowerShell - Get Email DNS Records.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Get IP Address from Domain Name]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

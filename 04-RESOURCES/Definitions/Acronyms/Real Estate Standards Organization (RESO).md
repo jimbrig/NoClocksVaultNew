@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Real Estate Standards Organization (RESO)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Real Estate Standards Organization (RESO)** is a non-profit trade organization that develops and promotes open standards for real estate data exchange and interoperability. RESO standards enable consistent data sharing between MLSs, brokerages, technology vendors, and other real estate industry participants.
@@ -46,12 +42,8 @@ aliases:
 
 ### See Also
 
-- [[Parcel]]
-- [[Geographic Information System (GIS)]]
+- [Parcel](Parcel.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Real Estate Standards Organization (RESO)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Real Estate Standards Organization (RESO)"
-```
-
+<!-- dynamic content -->

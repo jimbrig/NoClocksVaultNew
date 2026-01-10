@@ -16,10 +16,6 @@ aliases:
 ---
 
 # National Bureau of Economic Research (NBER)
-
-```table-of-contents
-```
-
 ## Overview
 
 **National Bureau of Economic Research (NBER)** is a private, non-profit research organization that conducts economic research and provides data on various economic indicators, including definitions and classifications of geographic areas for statistical purposes. Founded in 1920, NBER is known for its Business Cycle Dating Committee, which officially determines U.S. recession dates.
@@ -46,12 +42,8 @@ aliases:
 
 ### See Also
 
-- [[Office of Management and Budget (OMB)]]
-- [[US Census Bureau]]
+- [Office of Management and Budget (OMB)](Office of Management and Budget (OMB).md)
+- [US Census Bureau](US Census Bureau.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[National Bureau of Economic Research (NBER)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/National Bureau of Economic Research (NBER)"
-```
-
+<!-- dynamic content -->

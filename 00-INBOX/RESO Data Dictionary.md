@@ -17,19 +17,14 @@ aliases: RESO Data Dictionary
 
 ## Appendix
 
-*Note created on [[2026-01-06]] and last modified on [[2026-01-06]].*
+*Note created on [2026-01-06](2026-01-06.md) and last modified on [2026-01-06](2026-01-06.md).*
 
 ### See Also
 
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[RESO Data Dictionary]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2026

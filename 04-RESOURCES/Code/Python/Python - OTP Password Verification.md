@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Modules**: `smtplib`, `random`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple OTP (One-Time Password) generation and verification system using email delivery.
@@ -83,18 +74,14 @@ otp = generate_otp()
 
 ## Appendix
 
-*Note created on [[2024-04-23]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-23](2024-04-23.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - OTP Password Verification]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

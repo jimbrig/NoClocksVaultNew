@@ -20,19 +20,10 @@ cssclasses:
 # File I/O
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-[[04-RESOURCES/Code/C/_README|C]] provides file I/O operations through the `<stdio.h>` library. Files are accessed via **file pointers** (`FILE *`) and can be read or written in text or binary mode.
+[C](04-RESOURCES/Code/C/README.md) provides file I/O operations through the `<stdio.h>` library. Files are accessed via **file pointers** (`FILE *`) and can be read or written in text or binary mode.
 
 ## Code
 
@@ -75,18 +66,18 @@ int main(void) {
     }
     
     // write using fprintf
-    fprintf(file, "Hello, World!\n");
-    fprintf(file, "The answer is %d\n", 42);
+    fprintf(file, "Hello, World!/n");
+    fprintf(file, "The answer is %d/n", 42);
     
     // write using fputs
-    fputs("Another line\n", file);
+    fputs("Another line/n", file);
     
     // write single character
     fputc('X', file);
-    fputc('\n', file);
+    fputc('/n', file);
     
     fclose(file);
-    printf("File written successfully\n");
+    printf("File written successfully/n");
     
     return EXIT_SUCCESS;
 }
@@ -108,7 +99,7 @@ int main(void) {
     char buffer[256];
     
     // read line by line
-    printf("Contents:\n");
+    printf("Contents:/n");
     while (fgets(buffer, sizeof(buffer), file) != NULL) {
         printf("%s", buffer);
     }
@@ -137,13 +128,13 @@ int main(void) {
     
     while ((ch = fgetc(file)) != EOF) {
         char_count++;
-        if (ch == '\n') {
+        if (ch == '/n') {
             line_count++;
         }
     }
     
-    printf("Characters: %d\n", char_count);
-    printf("Lines: %d\n", line_count);
+    printf("Characters: %d/n", char_count);
+    printf("Lines: %d/n", line_count);
     
     fclose(file);
     return EXIT_SUCCESS;
@@ -169,7 +160,7 @@ int main(void) {
     
     // read formatted data
     while (fscanf(file, "%49s %d %lf", name, &age, &score) == 3) {
-        printf("Name: %s, Age: %d, Score: %.2f\n", name, age, score);
+        printf("Name: %s, Age: %d, Score: %.2f/n", name, age, score);
     }
     
     fclose(file);
@@ -218,7 +209,7 @@ int main(void) {
     
     // write
     if (write_records("records.bin", data, 3) != 0) {
-        fprintf(stderr, "Error writing records\n");
+        fprintf(stderr, "Error writing records/n");
         return EXIT_FAILURE;
     }
     
@@ -226,13 +217,13 @@ int main(void) {
     Record loaded[10];
     size_t count;
     if (read_records("records.bin", loaded, 10, &count) != 0) {
-        fprintf(stderr, "Error reading records\n");
+        fprintf(stderr, "Error reading records/n");
         return EXIT_FAILURE;
     }
     
-    printf("Read %zu records:\n", count);
+    printf("Read %zu records:/n", count);
     for (size_t i = 0; i < count; i++) {
-        printf("  ID: %d, Name: %s, Value: %.2f\n",
+        printf("  ID: %d, Name: %s, Value: %.2f/n",
                loaded[i].id, loaded[i].name, loaded[i].value);
     }
     
@@ -255,12 +246,12 @@ int main(void) {
     
     // get current position
     long pos = ftell(file);
-    printf("Initial position: %ld\n", pos);
+    printf("Initial position: %ld/n", pos);
     
     // seek to end
     fseek(file, 0, SEEK_END);
     long file_size = ftell(file);
-    printf("File size: %ld bytes\n", file_size);
+    printf("File size: %ld bytes/n", file_size);
     
     // seek back to beginning
     fseek(file, 0, SEEK_SET);
@@ -268,7 +259,7 @@ int main(void) {
     
     // seek relative to current position
     fseek(file, 10, SEEK_CUR);
-    printf("Position after +10: %ld\n", ftell(file));
+    printf("Position after +10: %ld/n", ftell(file));
     
     fclose(file);
     return EXIT_SUCCESS;
@@ -290,7 +281,7 @@ int main(void) {
     }
     
     time_t now = time(NULL);
-    fprintf(file, "[%s] Application started\n", ctime(&now));
+    fprintf(file, "[%s] Application started/n", ctime(&now));
     
     fclose(file);
     return EXIT_SUCCESS;
@@ -313,13 +304,13 @@ int main(void) {
         perror("fopen failed");
         
         // method 2: strerror with errno
-        fprintf(stderr, "Error: %s\n", strerror(errno));
+        fprintf(stderr, "Error: %s/n", strerror(errno));
         
         // method 3: check specific errors
         if (errno == ENOENT) {
-            fprintf(stderr, "File does not exist\n");
+            fprintf(stderr, "File does not exist/n");
         } else if (errno == EACCES) {
-            fprintf(stderr, "Permission denied\n");
+            fprintf(stderr, "Permission denied/n");
         }
         
         return EXIT_FAILURE;
@@ -329,9 +320,9 @@ int main(void) {
     char buffer[100];
     if (fgets(buffer, sizeof(buffer), file) == NULL) {
         if (feof(file)) {
-            printf("End of file reached\n");
+            printf("End of file reached/n");
         } else if (ferror(file)) {
-            fprintf(stderr, "Error reading file\n");
+            fprintf(stderr, "Error reading file/n");
         }
     }
     
@@ -378,23 +369,19 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - Hello World and Program Structure]]
-- [[C - Error Handling]]
-- [[C - Structs and Unions]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - Hello World and Program Structure](C - Hello World and Program Structure.md)
+- [C - Error Handling](C - Error Handling.md)
+- [C - Structs and Unions](C - Structs and Unions.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - File IO]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025
@@ -419,15 +406,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: 
 > - **Packages**: 
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -457,18 +435,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - File IO]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

@@ -15,15 +15,6 @@ description: High-level structural and connectedness analysis of the No Clocks K
 ---
 
 # Vault Structural Analysis - 2025-12-31
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Executive Summary
 
 This analysis examines the **knowledge architecture, connectedness, and information coherence** of the No Clocks Knowledge Vault. The vault demonstrates a well-designed Zettelkasten-inspired structure with strong domain specialization in **GIS/Geospatial** and **R Development**, but shows opportunities for deeper cross-domain linking and content depth in several secondary topics.
@@ -316,7 +307,7 @@ The vault excels at **curation** (lists, definitions) but underperforms at **syn
 **Problem:** MOC quality varies from exemplary (GIS) to placeholder (Business).
 
 **Action:**
-- [ ] Adopt [[MOC - Geospatial]] as the template for all MOCs
+- [ ] Adopt [MOC - Geospatial](MOC - Geospatial.md) as the template for all MOCs
 - [ ] Add "Related MOCs" section to all MOCs (currently variable)
 - [ ] Add "Core Concepts" or "Key Areas" manually curated section
 - [ ] Remove or archive truly empty MOCs (or mark as aspirational)
@@ -335,7 +326,7 @@ The vault excels at **curation** (lists, definitions) but underperforms at **syn
 
 **Action:**
 - [ ] Create explicit bridge notes that connect domains:
-  - "GIS + AI" → [[List - GIS AI Tools]] exists, needs slipbox synthesis
+  - "GIS + AI" → [List - GIS AI Tools](List - GIS AI Tools.md) exists, needs slipbox synthesis
   - "R + Shiny + GIS" → Create architecture pattern note
   - "Cloud + DevOps + GIS" → Cloud deployment patterns for spatial apps
   - "Statistics + GIS" → Spatial statistics overview
@@ -421,53 +412,24 @@ Track these metrics quarterly:
 ## Appendix
 
 ### Dataview: Notes with Highest Outlink Counts
-
-```dataview
-TABLE length(file.outlinks) as "Outlinks", file.folder as "Folder"
-FROM "01-SLIPBOX" OR "03-AREAS" OR "04-RESOURCES"
-WHERE length(file.outlinks) > 10
-SORT length(file.outlinks) DESC
-LIMIT 20
-```
-
+<!-- dynamic content -->
 ### Dataview: MOCs by Outlink Count
-
-```dataview
-TABLE length(file.outlinks) as "Links", description
-FROM "03-AREAS"
-WHERE contains(file.name, "MOC")
-SORT length(file.outlinks) DESC
-```
-
+<!-- dynamic content -->
 ### Dataview: Topic Tag Distribution
-
-```dataview
-TABLE length(rows) as "Count"
-FROM ""
-FLATTEN file.tags as tag
-WHERE startswith(tag, "#Topic/")
-GROUP BY tag
-SORT length(rows) DESC
-LIMIT 25
-```
-
+<!-- dynamic content -->
 ---
 
 ## See Also
 
-- [[AuditLog-2025-12-31]] - Technical audit with specific issues
-- [[PHILOSOPHY]] - Vault design principles
-- [[TAGS]] - Tag taxonomy documentation
-- [[MOC - PKM]] - Personal knowledge management concepts
+- [AuditLog-2025-12-31](AuditLog-2025-12-31.md) - Technical audit with specific issues
+- [PHILOSOPHY](PHILOSOPHY.md) - Vault design principles
+- [TAGS](TAGS.md) - Tag taxonomy documentation
+- [MOC - PKM](MOC - PKM.md) - Personal knowledge management concepts
 
 ---
 
 ## Backlinks
-
-```dataview
-LIST FROM [[StructuralAnalysis-2025-12-31]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ---
 
 *Analysis generated on 2025-12-31 via Cursor AI structural analysis command.*

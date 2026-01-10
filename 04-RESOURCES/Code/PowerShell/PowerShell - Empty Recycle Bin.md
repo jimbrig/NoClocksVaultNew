@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **API**: Shell32 (Windows API)
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell script that empties the Windows Recycle Bin using the Shell32 `SHEmptyRecycleBin` API function.
@@ -64,7 +55,7 @@ exit $res
 Run the script to silently empty the Recycle Bin without confirmation:
 
 ```powershell
-.\Empty-RecycleBin.ps1
+./Empty-RecycleBin.ps1
 ```
 
 To customize behavior, combine flags:
@@ -78,18 +69,14 @@ $dwFlags = $SHERB_NOCONFIRMATION -bor $SHERB_NOPROGRESSUI -bor $SHERB_NOSOUND
 
 ## Appendix
 
-*Note created on [[2024-09-18]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-18](2024-09-18.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Empty Recycle Bin]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024
@@ -114,15 +101,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: 
 > - **Packages**: 
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -152,18 +130,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Empty Recycle Bin]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

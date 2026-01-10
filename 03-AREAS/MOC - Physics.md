@@ -13,15 +13,6 @@ publish: true
 ---
 
 # MOC - Physics
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -51,38 +42,23 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Information Theory]] - Information-physics connections
-- [[MOC - Mathematics]] - Mathematical foundations
-- [[MOC - Computer Science]] - Computational physics
+- [MOC - Information Theory](MOC - Information Theory.md) - Information-physics connections
+- [MOC - Mathematics](MOC - Mathematics.md) - Mathematical foundations
+- [MOC - Computer Science](MOC - Computer Science.md) - Computational physics
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Physics").length`** individual notes with the `#Topic/Physics` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Physics
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Physics"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Physics` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Physics]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Physics"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

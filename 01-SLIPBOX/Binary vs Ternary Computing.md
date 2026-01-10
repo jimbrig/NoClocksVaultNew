@@ -15,21 +15,12 @@ aliases:
   - Why Binary Not Ternary
   - Radix Economy
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Binary vs Ternary Computing
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Binary is **not** the theoretically optimal choice for information representation—base-3 (ternary) is more efficient mathematically. Yet binary dominates all modern computing. This apparent paradox reveals a fascinating tension between mathematical optimality and physical practicality.
@@ -43,7 +34,7 @@ Binary is **not** the theoretically optimal choice for information representatio
 
 **Mathematical optimality favors ternary; physical reality favors binary.**
 
-The optimal base for information representation is Euler's number $e \approx 2.718$. For integer bases, base-3 achieves the minimum value of the radix economy function $\frac{b}{\ln(b)}$, making it theoretically most efficient by 5-6% over binary.
+The optimal base for information representation is Euler's number $e /approx 2.718$. For integer bases, base-3 achieves the minimum value of the radix economy function $/frac{b}{/ln(b)}$, making it theoretically most efficient by 5-6% over binary.
 
 Yet binary dominates because **physical switching devices naturally have two stable states**, and reliably distinguishing two states in noisy environments is far easier than distinguishing three.
 
@@ -99,22 +90,18 @@ Binary's dominance may reflect quantum mechanics' fundamental yes/no, measured/u
 
 ### See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - Margolus-Levitin Theorem]]
-- [[Definition - It From Bit]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - Margolus-Levitin Theorem](Definition - Margolus-Levitin Theorem.md)
+- [Definition - It From Bit](Definition - It From Bit.md)
 
 ### Related MOCs
 
-- [[MOC - Computer Science]] - Theoretical computation foundations
-- [[MOC - Information Theory]] - Information theory and physics
-- [[MOC - Physics]] - Physical constraints on computing
+- [MOC - Computer Science](MOC - Computer Science.md) - Theoretical computation foundations
+- [MOC - Information Theory](MOC - Information Theory.md) - Information theory and physics
+- [MOC - Physics](MOC - Physics.md) - Physical constraints on computing
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Binary vs Ternary Computing]] AND -"CHANGELOG" AND -"01-SLIPBOX/Binary vs Ternary Computing"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

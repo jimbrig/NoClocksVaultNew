@@ -1,1 +1,1 @@
-*Note created on [[<% tp.file.creation_date("YYYY-MM-DD") %>]] and last modified on [[<% tp.file.last_modified_date("YYYY-MM-DD") %>]].*
+*Note created on [<% tp.file.creation_date("YYYY-MM-DD") %>](<% tp.file.creation_date("YYYY-MM-DD") %>.md) and last modified on [<% tp.file.last_modified_date("YYYY-MM-DD") %>](<% tp.file.last_modified_date("YYYY-MM-DD") %>.md).*

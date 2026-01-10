@@ -16,15 +16,6 @@ publish: false
 ---
 
 # Vault Philosophy
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This document captures the core philosophy, structure decisions, and conventions that govern the No Clocks Knowledge Vault. It represents the culmination of deliberate thinking about how a knowledge base should be organized for maximum utility and minimal friction.
@@ -175,12 +166,12 @@ Every note uses a type prefix. Aliases in frontmatter provide clean wikilink res
 | List | `List - {Category}.md` | `List - DevOps Tools.md` | `DevOps Tools` |
 | Guide | `Guide - {Topic}.md` | `Guide - Local Dev Setup.md` | `Local Dev Setup` |
 | Checklist | `Checklist - {Topic}.md` | `Checklist - Deployment.md` | `Deployment Checklist` |
-| Readme | `_README.md` | `_README.md` | `{Folder} Index` |
+| Readme | `README.md` | `README.md` | `{Folder} Index` |
 
 ### Benefits of Prefixing
 
 - Files sort by type in file explorer
-- Wikilinks can use clean aliases: `[[Docker]]` resolves to the right note
+- Wikilinks can use clean aliases: `[Docker](Docker.md)` resolves to the right note
 - Consistent pattern across vault
 - Easy to search/filter by prefix
 
@@ -233,8 +224,8 @@ Daily notes serve dual purposes:
 
 ```markdown
 ## Quick Captures
-- Discovered [[New Tool]] - need to add to Lists
-- Idea about [[Concept]] -> creates inbox note for processing
+- Discovered [New Tool](New Tool.md) - need to add to Lists
+- Idea about [Concept](Concept.md) -> creates inbox note for processing
 ```
 
 ### 2. Activity Log
@@ -243,8 +234,8 @@ Even if not used as the entry point, daily notes log what happened:
 
 ```markdown
 ## Changes Made Today
-- Created [[Code - R - New Function]]
-- Updated [[MOC - R]] with new links
+- Created [Code - R - New Function](Code - R - New Function.md)
+- Updated [MOC - R](MOC - R.md) with new links
 
 ## Discoveries
 - Found useful article about X (link)
@@ -319,17 +310,14 @@ Project documentation belongs with the project. This vault is for cross-project 
 
 ## Related Notes
 
-- [[05-SYSTEM/Meta/AGENTS]]
-- [[PLUGINS]]
-- [[TAGS]]
-- [[AGENTS]]
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md)
+- [PLUGINS](PLUGINS.md)
+- [TAGS](TAGS.md)
+- [AGENTS](AGENTS.md)
 
 ## Appendix
 
 *Created: 2024-12-20 | Modified: 2024-12-20*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Vault Philosophy]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/Vault Philosophy"
-```
+<!-- dynamic content -->

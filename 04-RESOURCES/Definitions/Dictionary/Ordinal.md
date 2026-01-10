@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Ordinal
-
-```table-of-contents
-```
-
 ## Overview
 
 **Ordinal** refers to a type of categorical data that has a defined order or ranking among its categories, often used in GIS to represent qualitative attributes such as land use suitability or risk levels. Unlike interval data, the differences between ordinal values are not necessarily equal.
@@ -54,12 +50,8 @@ aliases:
 
 ### See Also
 
-- [[Thematic]]
-- [[Geographic Information System (GIS)]]
+- [Thematic](Thematic.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Ordinal]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Ordinal"
-```
-
+<!-- dynamic content -->

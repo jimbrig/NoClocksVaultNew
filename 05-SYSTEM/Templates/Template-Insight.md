@@ -17,15 +17,6 @@ confidence: <%* const conf = await tp.system.suggester(["High", "Medium", "Low"]
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **<% tp.file.title %>** ...
@@ -70,11 +61,7 @@ includeLinks: true
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

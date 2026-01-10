@@ -14,15 +14,6 @@ aliases: "Data Dictionary v2.0 Introduction - Data Dictionary 2.0 - RESO"
 
 > [!SOURCE] Source:
 > <https://ddwiki.reso.org/display/DDW20/Data+Dictionary+v2.0+Introduction>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Content
 
 ### Data Dictionary Purpose
@@ -69,19 +60,14 @@ Please send questions and/or suggestions to RESO at [info@reso.org](https://ddwi
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2026-01-06]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2026-01-06](2026-01-06.md).*
 
 ### See Also
 
-- [[00-INBOX/Clippings/_README|Web Clips]]
+- [Web Clips](00-INBOX/Clippings/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Data Dictionary v2.0 Introduction - Data Dictionary 2.0 - RESO]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

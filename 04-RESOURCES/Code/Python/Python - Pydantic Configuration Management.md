@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Packages**: `pydantic`, `pydantic-settings`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Environment-aware configuration management using Pydantic Settings with support for `.env` files, secrets, and environment-specific overrides.
@@ -117,18 +108,14 @@ print(config.env)
 
 ## Appendix
 
-*Note created on [[2024-04-15]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-15](2024-04-15.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Pydantic Configuration Management]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

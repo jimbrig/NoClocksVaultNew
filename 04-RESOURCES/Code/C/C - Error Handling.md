@@ -19,19 +19,10 @@ cssclasses:
 # Error Handling
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-[[04-RESOURCES/Code/C/_README|C]] does not have exceptions like modern languages. Instead, errors are handled through **return codes**, the global **errno** variable, and **assertions**. Understanding these patterns is essential for writing robust C programs.
+[C](04-RESOURCES/Code/C/README.md) does not have exceptions like modern languages. Instead, errors are handled through **return codes**, the global **errno** variable, and **assertions**. Understanding these patterns is essential for writing robust C programs.
 
 ## Code
 
@@ -53,7 +44,7 @@ int main(void) {
         perror("fopen");
         
         // strerror converts errno to string
-        fprintf(stderr, "Error code %d: %s\n", errno, strerror(errno));
+        fprintf(stderr, "Error code %d: %s/n", errno, strerror(errno));
         
         return EXIT_FAILURE;
     }
@@ -73,23 +64,23 @@ int main(void) {
 void demonstrate_errors(void) {
     // ENOENT - No such file or directory
     errno = ENOENT;
-    printf("ENOENT (%d): %s\n", ENOENT, strerror(ENOENT));
+    printf("ENOENT (%d): %s/n", ENOENT, strerror(ENOENT));
     
     // EACCES - Permission denied
     errno = EACCES;
-    printf("EACCES (%d): %s\n", EACCES, strerror(EACCES));
+    printf("EACCES (%d): %s/n", EACCES, strerror(EACCES));
     
     // ENOMEM - Out of memory
     errno = ENOMEM;
-    printf("ENOMEM (%d): %s\n", ENOMEM, strerror(ENOMEM));
+    printf("ENOMEM (%d): %s/n", ENOMEM, strerror(ENOMEM));
     
     // EINVAL - Invalid argument
     errno = EINVAL;
-    printf("EINVAL (%d): %s\n", EINVAL, strerror(EINVAL));
+    printf("EINVAL (%d): %s/n", EINVAL, strerror(EINVAL));
     
     // ERANGE - Result out of range
     errno = ERANGE;
-    printf("ERANGE (%d): %s\n", ERANGE, strerror(ERANGE));
+    printf("ERANGE (%d): %s/n", ERANGE, strerror(ERANGE));
 }
 
 int main(void) {
@@ -144,12 +135,12 @@ int main(void) {
     
     err = divide(10, 2, &result);
     if (err == ERR_SUCCESS) {
-        printf("10 / 2 = %d\n", result);
+        printf("10 / 2 = %d/n", result);
     }
     
     err = divide(10, 0, &result);
     if (err != ERR_SUCCESS) {
-        fprintf(stderr, "Error: %s\n", error_message(err));
+        fprintf(stderr, "Error: %s/n", error_message(err));
     }
     
     return EXIT_SUCCESS;
@@ -173,7 +164,7 @@ bool safe_parse_int(const char *str, int *out_value) {
     long val = strtol(str, &end, 10);
     
     // check for conversion errors
-    if (end == str || *end != '\0') {
+    if (end == str || *end != '/0') {
         return false;
     }
     
@@ -190,15 +181,15 @@ int main(void) {
     int value;
     
     if (safe_parse_int("42", &value)) {
-        printf("Parsed: %d\n", value);
+        printf("Parsed: %d/n", value);
     }
     
     if (!safe_parse_int("not_a_number", &value)) {
-        printf("Parse failed for 'not_a_number'\n");
+        printf("Parse failed for 'not_a_number'/n");
     }
     
     if (!safe_parse_int("99999999999999", &value)) {
-        printf("Parse failed for overflow\n");
+        printf("Parse failed for overflow/n");
     }
     
     return EXIT_SUCCESS;
@@ -226,11 +217,11 @@ void process_buffer(const char *buffer, size_t size) {
     assert(size > 0 && "size must be positive");
     
     // process...
-    printf("Processing %zu bytes\n", size);
+    printf("Processing %zu bytes/n", size);
 }
 
 int main(void) {
-    printf("5! = %d\n", factorial(5));
+    printf("5! = %d/n", factorial(5));
     
     char data[] = "Hello";
     process_buffer(data, sizeof(data));
@@ -262,14 +253,14 @@ int process_file(const char *filename) {
     
     buffer = malloc(1024);
     if (buffer == NULL) {
-        fprintf(stderr, "Memory allocation failed\n");
+        fprintf(stderr, "Memory allocation failed/n");
         goto cleanup;
     }
     
     // do work...
     if (fgets(buffer, 1024, file) == NULL) {
         if (ferror(file)) {
-            fprintf(stderr, "Read error\n");
+            fprintf(stderr, "Read error/n");
             goto cleanup;
         }
     }
@@ -328,7 +319,7 @@ void log_message(LogLevel level, const char *format, ...) {
     vfprintf(stderr, format, args);
     va_end(args);
     
-    fprintf(stderr, "\n");
+    fprintf(stderr, "/n");
 }
 
 int main(void) {
@@ -369,17 +360,17 @@ int main(void) {
     
     if (exception == NO_ERROR) {
         // try block
-        printf("10 / 2 = %d\n", safe_divide(10, 2));
-        printf("10 / 0 = %d\n", safe_divide(10, 0));  // triggers longjmp
-        printf("This won't print\n");
+        printf("10 / 2 = %d/n", safe_divide(10, 2));
+        printf("10 / 0 = %d/n", safe_divide(10, 0));  // triggers longjmp
+        printf("This won't print/n");
     } else {
         // catch block
         switch (exception) {
             case DIVIDE_BY_ZERO:
-                fprintf(stderr, "Caught: Division by zero\n");
+                fprintf(stderr, "Caught: Division by zero/n");
                 break;
             default:
-                fprintf(stderr, "Caught: Unknown exception\n");
+                fprintf(stderr, "Caught: Unknown exception/n");
         }
     }
     
@@ -415,22 +406,18 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - File IO]]
-- [[C - Memory Management]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - File IO](C - File IO.md)
+- [C - Memory Management](C - Memory Management.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Error Handling]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

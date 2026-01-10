@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Overlay
-
-```table-of-contents
-```
-
 ## Overview
 
 **Overlay** is a GIS operation that involves combining multiple layers of spatial data to analyze relationships and interactions between different features. Overlay operations are fundamental to spatial analysis, enabling users to answer questions about how different geographic phenomena relate to each other.
@@ -46,13 +42,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Layer]]
-- [[Geometry Engine - Open Source (GEOS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Layer](Layer.md)
+- [Geometry Engine - Open Source (GEOS)](Geometry Engine - Open Source (GEOS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Overlay]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Overlay"
-```
-
+<!-- dynamic content -->

@@ -32,7 +32,7 @@ Process an AI chat export and extract atomic knowledge notes.
 ## Required Fields for Extracted Notes
 
 ```yaml
-source_chat: "[[path/to/chat]]"
+source_chat: "[path/to/chat](path/to/chat.md)"
 source_provider: Perplexity|ChatGPT|Claude|Cursor|Copilot
 confidence: high|medium|low
 ```

@@ -19,21 +19,12 @@ cssclasses:
 # Hello World and Program Structure
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-Every [[04-RESOURCES/Code/C/_README|C]] program follows a fundamental structure consisting of **preprocessor directives**, **function declarations**, and a `main()` entry point. 
+Every [C](04-RESOURCES/Code/C/README.md) program follows a fundamental structure consisting of **preprocessor directives**, **function declarations**, and a `main()` entry point. 
 
-This note covers the essential building blocks of a [[04-RESOURCES/Code/C/_README|C]] program.
+This note covers the essential building blocks of a [C](04-RESOURCES/Code/C/README.md) program.
 
 ## Code
 
@@ -45,7 +36,7 @@ The simplest valid C program:
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, World!\n");
+    printf("Hello, World!/n");
     return 0;
 }
 ```
@@ -79,20 +70,20 @@ int main(int argc, char *argv[]) {
     // argc: argument count
     // argv: argument vector (array of strings)
     
-    printf("Program: %s\n", argv[0]);
-    printf("Version: %s\n", VERSION);
+    printf("Program: %s/n", argv[0]);
+    printf("Version: %s/n", VERSION);
     
     greet("World");
     
     int result = add(5, 3);
-    printf("5 + 3 = %d\n", result);
+    printf("5 + 3 = %d/n", result);
     
     return EXIT_SUCCESS;  // 0 indicates success
 }
 
 // function definitions
 void greet(const char *name) {
-    printf("Hello, %s!\n", name);
+    printf("Hello, %s!/n", name);
     counter++;
 }
 
@@ -109,10 +100,10 @@ Handling command line arguments:
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    printf("Number of arguments: %d\n", argc);
+    printf("Number of arguments: %d/n", argc);
     
     for (int i = 0; i < argc; i++) {
-        printf("argv[%d]: %s\n", i, argv[i]);
+        printf("argv[%d]: %s/n", i, argv[i]);
     }
     
     // alternative main signature (equivalent)
@@ -187,20 +178,16 @@ Standard pattern to prevent multiple inclusion:
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Hello World and Program Structure]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

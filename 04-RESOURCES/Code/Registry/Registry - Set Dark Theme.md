@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Windows Registry / CMD
 > - **OS**: Windows 10/11
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Registry entries to enable dark theme for Windows applications and system UI.
@@ -40,7 +31,7 @@ Registry entries to enable dark theme for Windows applications and system UI.
 ```registry
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Themes/Personalize]
 "ColorPrevalence"=dword:00000000
 "EnableTransparency"=dword:00000001
 "AppsUseLightTheme"=dword:00000000
@@ -50,9 +41,9 @@ Windows Registry Editor Version 5.00
 ### CMD Commands
 
 ```cmd
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v AppsUseLightTheme /t REG_DWORD /d 0 /f
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v EnableTransparency /t REG_DWORD /d 1 /f
+reg add "HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Themes/Personalize" /v AppsUseLightTheme /t REG_DWORD /d 0 /f
+reg add "HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Themes/Personalize" /v SystemUsesLightTheme /t REG_DWORD /d 0 /f
+reg add "HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Themes/Personalize" /v EnableTransparency /t REG_DWORD /d 1 /f
 ```
 
 ## Usage
@@ -69,18 +60,14 @@ Save the registry content to a `.reg` file and import it, or run the CMD command
 
 ## Appendix
 
-*Note created on [[2024-09-18]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-18](2024-09-18.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Registry/_README|Registry Code Index]]
+- [Registry Code Index](04-RESOURCES/Code/Registry/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Registry - Set Dark Theme]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

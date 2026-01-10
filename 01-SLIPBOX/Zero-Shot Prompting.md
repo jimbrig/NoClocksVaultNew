@@ -18,15 +18,6 @@ publish: true
 
 > [!SOURCE] Sources:
 > - *[Prompt Engineering Guide - Zero-Shot](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-advanced-usage.md#zero-shot-prompting)*
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Modern LLMs, trained on large amounts of data and tuned to follow instructions, are capable of performing tasks **zero-shot** - without any examples provided.
@@ -61,17 +52,17 @@ The model correctly classifies sentiment without any prior examples.
 
 If zero-shot doesn't work, try:
 
-1. **[[Few-Shot Prompting]]** - Provide 1-5 examples
-2. **[[Chain-of-Thought Prompting]]** - Ask for step-by-step reasoning
+1. **[Few-Shot Prompting](Few-Shot Prompting.md)** - Provide 1-5 examples
+2. **[Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)** - Ask for step-by-step reasoning
 3. **Prompt refinement** - More specific instructions
 
 ---
 
 ## See Also
 
-- [[Few-Shot Prompting]]
-- [[Chain-of-Thought Prompting]]
-- [[MOC - Artificial Intelligence]]
+- [Few-Shot Prompting](Few-Shot Prompting.md)
+- [Chain-of-Thought Prompting](Chain-of-Thought Prompting.md)
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md)
 
 ---
 

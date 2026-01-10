@@ -34,11 +34,11 @@ NoClocksVaultNew/
 ```
 NoClocksVaultNew/
   00-INBOX/
-    _README.md
+    README.md
   01-SLIPBOX/
-    _README.md
+    README.md
   02-JOURNAL/                    ← Move from 03-AREAS/Journal
-    _README.md
+    README.md
     Daily/
       YYYY/MM-Month/
     Weekly/
@@ -46,15 +46,15 @@ NoClocksVaultNew/
     Quarterly/
     Annual/
   03-AREAS/                      ← MOCs only
-    _README.md
+    README.md
     MOC - R.md
     MOC - GIS.md
     MOC - PKM.md
     (future MOCs)
   04-RESOURCES/
-    _README.md
+    README.md
     Code/
-      _README.md
+      README.md
       R/
       PowerShell/
       SQL/
@@ -63,30 +63,30 @@ NoClocksVaultNew/
       Docker/
       Git/
     Definitions/
-      _README.md
+      README.md
       Acronyms/
-        _README.md
+        README.md
       Dictionary/
-        _README.md
+        README.md
       Glossary/
-        _README.md
+        README.md
     Lists/                       ← NEW
-      _README.md
+      README.md
     Guides/                      ← NEW
-      _README.md
+      README.md
     Checklists/                  ← NEW
-      _README.md
+      README.md
     Quotes/                      ← NEW (optional)
-      _README.md
+      README.md
   05-SYSTEM/
-    _README.md
+    README.md
     Templates/
     Assets/
     Meta/
     Audit/
     Copilot/
   99-ARCHIVES/
-    _README.md
+    README.md
 ```
 
 ### Tasks
@@ -94,14 +94,14 @@ NoClocksVaultNew/
 - [ ] Move `03-AREAS/Journal/` to `02-JOURNAL/`
 - [ ] Remove `02-PROJECTS/` folder (or archive it)
 - [ ] Move MOCs from `03-AREAS/MOCs/` to `03-AREAS/` directly
-- [ ] Create `04-RESOURCES/Lists/` with `_README.md`
-- [ ] Create `04-RESOURCES/Guides/` with `_README.md`
-- [ ] Create `04-RESOURCES/Checklists/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Acronyms/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Dictionary/` with `_README.md`
-- [ ] Create `04-RESOURCES/Definitions/Glossary/` with `_README.md`
+- [ ] Create `04-RESOURCES/Lists/` with `README.md`
+- [ ] Create `04-RESOURCES/Guides/` with `README.md`
+- [ ] Create `04-RESOURCES/Checklists/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Acronyms/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Dictionary/` with `README.md`
+- [ ] Create `04-RESOURCES/Definitions/Glossary/` with `README.md`
 - [ ] Move existing 96 Definitions into appropriate subfolders
-- [ ] Ensure all folders have `_README.md` files
+- [ ] Ensure all folders have `README.md` files
 
 ## 1.2 Templates
 
@@ -153,7 +153,7 @@ All templates must:
 - [x] `05-SYSTEM/Meta/Tag Taxonomy.md` - Complete tag hierarchy
 - [x] `05-SYSTEM/Meta/AI Setup.md` - AI tooling configuration
 - [x] `05-SYSTEM/Meta/PLUGINS.md` - Plugin list
-- [x] `05-SYSTEM/Meta/_README.md` - Meta folder index
+- [x] `05-SYSTEM/Meta/README.md` - Meta folder index
 
 ### To Verify
 
@@ -355,7 +355,7 @@ Before considering migration complete:
 
 ## Phase 1 Validation
 
-- [ ] All folders exist with `_README.md` files
+- [ ] All folders exist with `README.md` files
 - [ ] All templates are self-contained and correct
 - [ ] Meta documentation is complete and consistent
 - [ ] Cursor rules/prompts/commands are updated

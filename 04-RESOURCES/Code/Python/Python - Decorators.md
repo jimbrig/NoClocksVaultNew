@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Concept**: Metaprogramming
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Decorators are functions that modify the behavior of other functions. They allow you to add functionality without changing the original function code - like adding superpowers to your functions.
@@ -98,18 +89,14 @@ process_data = my_timer(process_data)
 
 ## Appendix
 
-*Note created on [[2024-04-15]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-15](2024-04-15.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Decorators]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

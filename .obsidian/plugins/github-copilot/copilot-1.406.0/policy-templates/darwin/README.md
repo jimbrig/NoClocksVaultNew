@@ -78,7 +78,7 @@ You can verify the current settings with:
 
 ```bash
 # Check managed preferences
-defaults read /Library/Managed\ Preferences/IDEGitHubCopilot 2>/dev/null || echo "No managed settings found"
+defaults read /Library/Managed/ Preferences/IDEGitHubCopilot 2>/dev/null || echo "No managed settings found"
 ```
 
 ## How It Works

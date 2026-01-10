@@ -39,7 +39,7 @@ When given a chat to process:
 Every extracted note must include:
 
 ```yaml
-source_chat: "[[path/to/chat]]"
+source_chat: "[path/to/chat](path/to/chat.md)"
 source_provider: {Provider name}
 confidence: high|medium|low
 ```

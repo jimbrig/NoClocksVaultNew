@@ -9,15 +9,6 @@ aliases: ["Analyze Package Functions in R"]
 
 
 # Analyze Package Functions in R
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -91,7 +82,7 @@ analyze_loaded_package_functions <- function(package_path = ".") {
 
 # Helper function to extract the source file from the function's attributes
 .get_function_source_file <- function(func_name, ns) {
-  func <- ns[[func_name]]
+  func <- ns[func_name](func_name.md)
 
   # Check if the function has a "srcref" attribute to get its source file
   src_ref <- attr(func, "srcref")
@@ -117,25 +108,20 @@ analyze_loaded_package_functions(package_path = ".")
 
 Result:
 
-![[demo-analyze-r-package-functions.png]]
+![demo-analyze-r-package-functions.png](demo-analyze-r-package-functions.png.md)
 
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code]]
+- [R Code](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Analyze Package Functions]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

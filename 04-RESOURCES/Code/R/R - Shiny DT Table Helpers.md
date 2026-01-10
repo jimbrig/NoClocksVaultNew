@@ -21,16 +21,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: R
 > - **Packages**: `shiny`, `DT`, `htmltools`, `purrr`, `glue`, `dplyr`
-
-```table-of-contents
-title: ## Contents 
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-debugInConsole: false
-```
-
 ## Overview
 
 Collection of helper functions for creating feature-rich DataTables in Shiny applications, including download buttons, inline action buttons, and reusable table modules.
@@ -288,18 +278,14 @@ shiny::observeEvent(input$`my_table-table_cell_clicked`, {
 
 ## Appendix
 
-*Note created on [[2024-06-23]] and last modified on [[2024-12-13]].*
+*Note created on [2024-06-23](2024-06-23.md) and last modified on [2024-12-13](2024-12-13.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/R/_README|R Code Index]]
+- [R Code Index](04-RESOURCES/Code/R/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Shiny DT Table Helpers]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

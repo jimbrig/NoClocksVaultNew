@@ -15,10 +15,6 @@ aliases:
 ---
 
 # Geometry Engine - Open Source (GEOS)
-
-```table-of-contents
-```
-
 ## Overview
 
 **Geometry Engine - Open Source (GEOS)** is a C++ library for performing geometric operations on spatial data, such as calculating intersections, unions, and differences between geometric shapes. GEOS is a port of the Java Topology Suite (JTS) and provides the computational geometry backbone for many GIS applications including PostGIS, QGIS, and Shapely.
@@ -49,14 +45,10 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
-- [[Topology]]
-- [[PostGIS]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
+- [Topology](Topology.md)
+- [PostGIS](PostGIS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Geometry Engine - Open Source (GEOS)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Geometry Engine - Open Source (GEOS)"
-```
-
+<!-- dynamic content -->

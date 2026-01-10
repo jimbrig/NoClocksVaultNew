@@ -17,15 +17,6 @@ publish: true
 ---
 
 # List - JavaScript Frameworks
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of **JavaScript/TypeScript frameworks and libraries** for web development, including meta-frameworks, UI libraries, and component systems.
@@ -142,8 +133,8 @@ Pre-built UI component systems.
 
 ## See Also
 
-- [[List - GIS Web Mapping Libraries]]
-- [[MOC - Web Development]]
+- [List - GIS Web Mapping Libraries](List - GIS Web Mapping Libraries.md)
+- [MOC - Web Development](MOC - Web Development.md)
 
 ---
 

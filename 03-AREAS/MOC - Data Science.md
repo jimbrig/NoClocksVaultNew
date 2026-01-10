@@ -18,15 +18,6 @@ publish: true
 ---
 
 # MOC - Data Science
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -52,50 +43,35 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Computer Science]] - Computational foundations
-- [[MOC - Statistics]] - Statistical foundations
+- [MOC - Computer Science](MOC - Computer Science.md) - Computational foundations
+- [MOC - Statistics](MOC - Statistics.md) - Statistical foundations
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Data Engineering]] - Data infrastructure
-- [[MOC - Artificial Intelligence]] - AI/ML applications
+- [MOC - Data Engineering](MOC - Data Engineering.md) - Data infrastructure
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md) - AI/ML applications
 
 ### Language-Specific MOCs
-- [[MOC - R]] - R for statistical computing
-- [[MOC - Python]] - Python for data science
+- [MOC - R](MOC - R.md) - R for statistical computing
+- [MOC - Python](MOC - Python.md) - Python for data science
 
 ### Domain Applications
-- [[MOC - Geospatial]] - Spatial data science
-- [[MOC - Finance]] - Financial analytics
-- [[MOC - Business]] - Business intelligence
+- [MOC - Geospatial](MOC - Geospatial.md) - Spatial data science
+- [MOC - Finance](MOC - Finance.md) - Financial analytics
+- [MOC - Business](MOC - Business.md) - Business intelligence
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Data Science").length`** individual notes with the `#Topic/Data Science` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Data Science
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Data Science"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Data Science` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Data Science]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Data Science"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

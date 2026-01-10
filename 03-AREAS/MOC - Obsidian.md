@@ -17,15 +17,6 @@ publish: true
 ---
 
 # MOC - Obsidian
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -56,41 +47,26 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - PKM]] - Knowledge management methodology
-- [[MOC - Productivity]] - Productivity workflows
+- [MOC - PKM](MOC - PKM.md) - Knowledge management methodology
+- [MOC - Productivity](MOC - Productivity.md) - Productivity workflows
 
 ### Related Technology MOCs
-- [[MOC - Artificial Intelligence]] - AI integrations (Copilot, LLM workflows)
-- [[MOC - Development]] - Vault scripting and automation
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md) - AI integrations (Copilot, LLM workflows)
+- [MOC - Development](MOC - Development.md) - Vault scripting and automation
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Obsidian").length`** individual notes with the `#Topic/Obsidian` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Obsidian
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Obsidian"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Obsidian` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Obsidian]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Obsidian"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

@@ -14,39 +14,25 @@ aliases:
 
 > [!SOURCE] Source:
 > <https://www.fema.gov/sites/default/files/documents/fema_rm-firm-database-technical-reference-nov-2024.pdf>
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Content
 
 > [!SOURCE] Sources:
 > - *<https://www.fema.gov/sites/default/files/documents/fema_rm-firm-database-technical-reference-nov-2024.pdf>*
 
-![[FEMA_Flood-Insurance-Rate-Map-Database-Technical-Reference (November 2024).pdf]]
+![FEMA_Flood-Insurance-Rate-Map-Database-Technical-Reference (November 2024).pdf](FEMA_Flood-Insurance-Rate-Map-Database-Technical-Reference (November 2024).pdf.md)
 
 ***
 
 ## Appendix
 
-*Note created via the [Obsidian Web Clipper Browser Extension]() on [[2026-01-05]].*
+*Note created via the [Obsidian Web Clipper Browser Extension]() on [2026-01-05](2026-01-05.md).*
 
 ### See Also
 
-- [[00-INBOX/Clippings/_README|Web Clips]]
+- [Web Clips](00-INBOX/Clippings/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

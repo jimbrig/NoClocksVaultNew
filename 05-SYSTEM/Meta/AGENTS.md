@@ -8,15 +8,6 @@ aliases: ["Vault AI Setup", "AI Setup", "Agents", "Cursor Setup", "AI Agents Set
 ---
 
 # Vault Agentic AI Setup
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This note documents the AI tooling and configuration for the No Clocks Knowledge Vault. The vault leverages multiple AI assistants and tools to enhance note-taking, content generation, and knowledge management.
@@ -169,7 +160,7 @@ This file is automatically read by AI tools that support the AGENTS.md conventio
 When AI generates or modifies content:
 
 1. **Preserve frontmatter** - Maintain existing YAML structure
-2. **Use wikilinks** - Prefer `[[Note]]` over markdown links
+2. **Use wikilinks** - Prefer `[Note](Note.md)` over markdown links
 3. **Match tags** - Follow Status/Type/Topic conventions
 4. **No emojis** - Unless explicitly requested
 5. **Templater awareness** - Preserve Templater syntax in templates
@@ -177,8 +168,8 @@ When AI generates or modifies content:
 
 ## Related Notes
 
-- [[PLUGINS]]
-- [[Guide - PKM Organization]]
+- [PLUGINS](PLUGINS.md)
+- [Guide - PKM Organization](Guide - PKM Organization.md)
 
 ## Appendix
 
@@ -186,13 +177,10 @@ When AI generates or modifies content:
 
 ### See Also
 
-- [[AGENTS]]
+- [AGENTS](AGENTS.md)
 - [Cursor Documentation](https://docs.cursor.com/)
 - [MCP Protocol](https://modelcontextprotocol.io/)
 - [Obsidian Copilot](https://github.com/logancyang/obsidian-copilot)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[AI Setup]] AND -"CHANGELOG" AND -"05-SYSTEM/Meta/AI Setup"
-```
+<!-- dynamic content -->

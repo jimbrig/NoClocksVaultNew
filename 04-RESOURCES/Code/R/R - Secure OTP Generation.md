@@ -16,16 +16,6 @@ cssclasses:
 ---
 
 # R - Secure OTP Generation
-
-```table-of-contents
-title: ## Contents 
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-minLevel: 1 # Include headings from the specified level
-maxLevel: 4 # Include headings up to the specified level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -55,18 +45,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-20]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-20](2025-12-20.md).*
 
 ### See Also
 
-- [[03-AREAS/MOC - R|R Map of Content]]
+- [R Map of Content](03-AREAS/MOC - R.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Secure OTP Generation]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

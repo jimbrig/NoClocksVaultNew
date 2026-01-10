@@ -20,15 +20,6 @@ publish: true
 ---
 
 # MOC - Artificial Intelligence
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -58,39 +49,24 @@ includeLinks: true
 
 ## Related MOCs
 
-- [[MOC - Data Science]] - Data-driven AI
-- [[MOC - Computer Science]] - Computational foundations
-- [[MOC - Development]] - AI integration in apps
-- [[MOC - Python]] - Primary AI/ML language
+- [MOC - Data Science](MOC - Data Science.md) - Data-driven AI
+- [MOC - Computer Science](MOC - Computer Science.md) - Computational foundations
+- [MOC - Development](MOC - Development.md) - AI integration in apps
+- [MOC - Python](MOC - Python.md) - Primary AI/ML language
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/AI").length`** individual notes with the `#Topic/AI` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/AI
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Artificial Intelligence"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/AI` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Artificial Intelligence]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Artificial Intelligence"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

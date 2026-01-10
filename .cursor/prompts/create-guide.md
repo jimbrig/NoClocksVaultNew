@@ -50,7 +50,7 @@ This guide walks through {what you'll accomplish}.
 
 - Requirement 1
 - Requirement 2
-- See [[List - {Related Tools}]] for tool options
+- See [List - {Related Tools}](List - {Related Tools}.md) for tool options
 
 ## Steps
 
@@ -78,9 +78,9 @@ Solution...
 
 ### See Also
 
-- [[Related Guide]]
-- [[Related Code Note]]
-- [[List - Related Tools]]
+- [Related Guide](Related Guide.md)
+- [Related Code Note](Related Code Note.md)
+- [List - Related Tools](List - Related Tools.md)
 
 ### Backlinks
 

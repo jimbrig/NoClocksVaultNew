@@ -14,10 +14,6 @@ aliases:
 ---
 
 # QGIS
-
-```table-of-contents
-```
-
 ## Overview
 
 **QGIS** (formerly Quantum GIS) is a free and open-source Geographic Information System software that allows users to create, edit, visualize, analyze, and publish geospatial information on various operating systems. QGIS is one of the most widely used open-source GIS applications.
@@ -42,8 +38,8 @@ aliases:
 
 ## Core Dependencies
 
-- [[Geospatial Data Abstraction Library (GDAL)|GDAL/OGR]] for data access
-- [[Geometry Engine - Open Source (GEOS)|GEOS]] for geometry operations
+- [GDAL/OGR](Geospatial Data Abstraction Library (GDAL).md) for data access
+- [GEOS](Geometry Engine - Open Source (GEOS).md) for geometry operations
 - PROJ for coordinate transformations
 - Qt for user interface
 
@@ -53,13 +49,9 @@ aliases:
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[Geospatial Data Abstraction Library (GDAL)]]
-- [[Geometry Engine - Open Source (GEOS)]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Geospatial Data Abstraction Library (GDAL)](Geospatial Data Abstraction Library (GDAL).md)
+- [Geometry Engine - Open Source (GEOS)](Geometry Engine - Open Source (GEOS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[QGIS]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/QGIS"
-```
-
+<!-- dynamic content -->

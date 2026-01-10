@@ -15,13 +15,9 @@ aliases:
 ---
 
 # Core-Based Statistical Area (CBSA)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Core-Based Statistical Area (CBSA)** is a U.S. geographic area defined by the [[Office of Management and Budget (OMB)|Office of Management and Budget]] that consists of one or more counties anchored by an urban center of at least 10,000 people plus adjacent counties that are socioeconomically tied to the urban center. CBSAs are classified into Metropolitan Statistical Areas (MSAs) and Micropolitan Statistical Areas based on population size.
+**Core-Based Statistical Area (CBSA)** is a U.S. geographic area defined by the [Office of Management and Budget](Office of Management and Budget (OMB).md) that consists of one or more counties anchored by an urban center of at least 10,000 people plus adjacent counties that are socioeconomically tied to the urban center. CBSAs are classified into Metropolitan Statistical Areas (MSAs) and Micropolitan Statistical Areas based on population size.
 
 ## Key Concepts
 
@@ -50,13 +46,9 @@ aliases:
 
 ### See Also
 
-- [[Metropolitan Statistical Area (MSA)]]
-- [[Combined Statistical Area (CSA)]]
-- [[Office of Management and Budget (OMB)]]
+- [Metropolitan Statistical Area (MSA)](Metropolitan Statistical Area (MSA).md)
+- [Combined Statistical Area (CSA)](Combined Statistical Area (CSA).md)
+- [Office of Management and Budget (OMB)](Office of Management and Budget (OMB).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Core-Based Statistical Area (CBSA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Core-Based Statistical Area (CBSA)"
-```
-
+<!-- dynamic content -->

@@ -16,15 +16,6 @@ publish: true
 ---
 
 # MOC - PKM
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -33,8 +24,8 @@ includeLinks: true
 ## Core Areas
 
 ### Methodologies
-- [[Zettelkasten Method]] - Atomic note-taking
-- [[PARA Method]] - Folder organization system
+- [Zettelkasten Method](Zettelkasten Method.md) - Atomic note-taking
+- [PARA Method](PARA Method.md) - Folder organization system
 - Building a Second Brain (BASB)
 
 ### Tools
@@ -50,50 +41,35 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Productivity]] - Productivity context
+- [MOC - Productivity](MOC - Productivity.md) - Productivity context
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Obsidian]] - Obsidian-specific knowledge
+- [MOC - Obsidian](MOC - Obsidian.md) - Obsidian-specific knowledge
 
 ### Cross-Domain Applications
-- [[MOC - Development]] - Developer documentation
-- [[MOC - Data Science]] - Research knowledge management
+- [MOC - Development](MOC - Development.md) - Developer documentation
+- [MOC - Data Science](MOC - Data Science.md) - Research knowledge management
 
 ## Guides
 
 | Guide | Description |
 |-------|-------------|
-| [[Guide - PKM Organization]] | Organizing knowledge effectively |
-| [[Guide - AI Chat Processing Workflow]] | Processing AI conversations |
+| [Guide - PKM Organization](Guide - PKM Organization.md) | Organizing knowledge effectively |
+| [Guide - AI Chat Processing Workflow](Guide - AI Chat Processing Workflow.md) | Processing AI conversations |
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/PKM").length`** individual notes with the `#Topic/PKM` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/PKM
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - PKM"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/PKM` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-20]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-20](2025-12-20.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - PKM]] AND -"CHANGELOG" AND -"03-AREAS/MOC - PKM"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

@@ -14,13 +14,9 @@ aliases:
 ---
 
 # Topologically Integrated Geographic Encoding and Referencing (TIGER)
-
-```table-of-contents
-```
-
 ## Overview
 
-**Topologically Integrated Geographic Encoding and Referencing (TIGER)** is a digital geographic database developed by the [[US Census Bureau]] to support its mapping and geographic programs. Originally created for the 1990 decennial census, TIGER provides a comprehensive, topologically structured representation of geographic features across the United States, including roads, boundaries, water features, and address ranges.
+**Topologically Integrated Geographic Encoding and Referencing (TIGER)** is a digital geographic database developed by the [US Census Bureau](US Census Bureau.md) to support its mapping and geographic programs. Originally created for the 1990 decennial census, TIGER provides a comprehensive, topologically structured representation of geographic features across the United States, including roads, boundaries, water features, and address ranges.
 
 > [!NOTE] External Resources
 > - [Topologically Integrated Geographic Encoding and Referencing - Wikipedia](https://en.wikipedia.org/wiki/Topologically_Integrated_Geographic_Encoding_and_Referencing)
@@ -95,14 +91,11 @@ Nation
 
 ### See Also
 
-- [[Geographic Information System (GIS)]]
-- [[00-INBOX/GIS/GIS Data Sources]]
-- [[US Census Bureau]]
-- [[Coordinate Reference System (CRS)]]
-- [[Geocoding]]
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [00-INBOX/GIS/GIS Data Sources](00-INBOX/GIS/GIS Data Sources.md)
+- [US Census Bureau](US Census Bureau.md)
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Geocoding](Geocoding.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Topologically Integrated Geographic Encoding and Referencing (TIGER)"
-```
+<!-- dynamic content -->

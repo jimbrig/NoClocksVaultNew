@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Datum
-
-```table-of-contents
-```
-
 ## Overview
 
 **Datum** is a reference system used to define the position of geographic features on the Earth's surface, often used in conjunction with coordinate systems and projections in GIS. A geodetic datum defines the size and shape of the Earth (ellipsoid) and the origin and orientation of coordinate axes.
@@ -50,13 +46,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinate Reference System (CRS)]]
-- [[Projection]]
-- [[European Petroleum Survey Group (EPSG)]]
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Projection](Projection.md)
+- [European Petroleum Survey Group (EPSG)](European Petroleum Survey Group (EPSG).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Datum]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Datum"
-```
-
+<!-- dynamic content -->

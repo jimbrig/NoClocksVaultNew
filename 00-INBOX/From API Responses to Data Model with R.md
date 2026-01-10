@@ -9,15 +9,6 @@ aliases: From API Responses to Data Model with R
 
 
 # From API Responses to Data Model with R
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Converting complex nested JSON data from APIs into normalized relational data models is a common challenge in data engineering and analysis workflows. 
@@ -58,19 +49,14 @@ Once you've rectangled your JSON data using tibblify, **dm** enables you to orga
 
 ## Appendix
 
-*Note created on [[2025-12-29]] and last modified on [[2025-12-29]].*
+*Note created on [2025-12-29](2025-12-29.md) and last modified on [2025-12-29](2025-12-29.md).*
 
 ### See Also
 
 - 
 
 ### Backlinks
-
-```dataview
-LIST FROM [[From API Responses to Data Model with R]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

@@ -15,21 +15,12 @@ aliases:
   - Bekenstein Limit
   - Holographic Bound
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Definition - Bekenstein Bound
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 The **Bekenstein Bound** establishes that any region of space with radius $R$ and energy $E$ can contain at most a finite amount of information (entropy). This fundamental limit connects quantum mechanics, general relativity, and thermodynamics through a single equation.
@@ -43,14 +34,14 @@ The **Bekenstein Bound** establishes that any region of space with radius $R$ an
 
 The bound is expressed as:
 
-$$S \leq \frac{2\pi k_B R E}{\hbar c}$$
+$$S /leq /frac{2/pi k_B R E}{/hbar c}$$
 
 Where:
 - $S$ = entropy (information content)
 - $k_B$ = Boltzmann's constant (thermodynamics)
 - $R$ = radius of the bounding sphere
 - $E$ = total energy contained
-- $\hbar$ = reduced Planck constant (quantum mechanics)
+- $/hbar$ = reduced Planck constant (quantum mechanics)
 - $c$ = speed of light (relativity)
 
 This formula is remarkable because it **requires all fundamental physics constants**—it cannot be derived from any single theory.
@@ -61,7 +52,7 @@ This formula is remarkable because it **requires all fundamental physics constan
 
 For black holes, the Bekenstein-Hawking entropy formula directly combines all domains:
 
-$$S_{BH} = \frac{k_B c^3 A}{4 G \hbar}$$
+$$S_{BH} = /frac{k_B c^3 A}{4 G /hbar}$$
 
 Where $A$ is the event horizon area and $G$ is the gravitational constant. This shows that black hole entropy is proportional to **surface area**, not volume.
 
@@ -71,8 +62,8 @@ The Bekenstein bound led to the **holographic principle**: the maximum informati
 
 ### Quantitative Limits
 
-Combining the Bekenstein bound with [[Definition - Landauer Principle|Landauer's principle]] yields:
-- Maximum of approximately $1.4 \times 10^{30}$ bits per cubic meter storable in a black hole
+Combining the Bekenstein bound with [Landauer's principle](Definition - Landauer Principle.md) yields:
+- Maximum of approximately $1.4 /times 10^{30}$ bits per cubic meter storable in a black hole
 - These limits impose fundamental constraints on:
   - Quantum teleportation
   - Entanglement distribution
@@ -98,17 +89,13 @@ Combining the Bekenstein bound with [[Definition - Landauer Principle|Landauer's
 
 ### See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - Landauer Principle]]
-- [[Black Hole Thermodynamics]]
-- [[Definition - It From Bit]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - Landauer Principle](Definition - Landauer Principle.md)
+- [Black Hole Thermodynamics](Black Hole Thermodynamics.md)
+- [Definition - It From Bit](Definition - It From Bit.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Definition - Bekenstein Bound]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Dictionary/Definition - Bekenstein Bound"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

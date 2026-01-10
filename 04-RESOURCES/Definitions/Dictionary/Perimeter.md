@@ -12,10 +12,6 @@ aliases:
 ---
 
 # Perimeter
-
-```table-of-contents
-```
-
 ## Overview
 
 **Perimeter** is the total length of the boundary of a spatial feature, such as a polygon, often used in GIS analysis to measure the size or shape of geographic entities. Perimeter is calculated by summing the lengths of all edges forming the feature boundary.
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Polygon]]
-- [[Geographic Information System (GIS)]]
-- [[Vertices]]
+- [Polygon](Polygon.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Vertices](Vertices.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Perimeter]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Perimeter"
-```
-
+<!-- dynamic content -->

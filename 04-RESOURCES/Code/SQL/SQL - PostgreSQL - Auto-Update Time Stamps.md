@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: SQL (PostgreSQL)
 > - **Extensions**: `moddatetime`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Simple trigger using the `moddatetime` extension to automatically update timestamp columns when rows are modified.
@@ -72,18 +63,14 @@ UPDATE todos SET completed = true WHERE id = 1;
 
 ## Appendix
 
-*Note created on [[2024-05-30]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-30](2024-05-30.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/SQL/_README|SQL Code Index]]
+- [SQL Code Index](04-RESOURCES/Code/SQL/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[SQL - PostgreSQL - Auto-Update Time Stamps]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

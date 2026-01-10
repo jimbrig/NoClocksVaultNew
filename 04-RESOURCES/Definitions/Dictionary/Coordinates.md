@@ -14,10 +14,6 @@ aliases:
 ---
 
 # Coordinates
-
-```table-of-contents
-```
-
 ## Overview
 
 **Coordinates** are a set of values that define a specific location in space, typically represented as latitude and longitude in geographic coordinate systems. Coordinates enable precise positioning of features on the Earth's surface and form the foundation of all geospatial data.
@@ -51,13 +47,9 @@ aliases:
 
 ### See Also
 
-- [[Coordinate Reference System (CRS)]]
-- [[Geographic Information System (GIS)]]
-- [[Projection]]
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Projection](Projection.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Coordinates]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Coordinates"
-```
-
+<!-- dynamic content -->

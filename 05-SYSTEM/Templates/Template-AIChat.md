@@ -19,15 +19,6 @@ key_insights: []
 ---
 
 # <% tp.file.title %>
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Metadata
 
 | Field | Value |
@@ -45,9 +36,9 @@ includeLinks: true
 ## Key Insights
 
 > [!TIP] Insights to Extract
-> - [ ] Insight 1 → [[Target Note]]
-> - [ ] Insight 2 → [[Target Note]]
-> - [ ] Insight 3 → [[Target Note]]
+> - [ ] Insight 1 → [Target Note](Target Note.md)
+> - [ ] Insight 2 → [Target Note](Target Note.md)
+> - [ ] Insight 3 → [Target Note](Target Note.md)
 
 ## Extracted Notes
 
@@ -82,15 +73,11 @@ includeLinks: true
 
 ### See Also
 
-- [[04-RESOURCES/Integrations/Chats/_README|AI Chat Integration]]
-- [[Guide - AI Chat Processing Workflow]]
+- [AI Chat Integration](04-RESOURCES/Integrations/Chats/README.md)
+- [Guide - AI Chat Processing Workflow](Guide - AI Chat Processing Workflow.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[<% tp.file.title %>]] AND -"CHANGELOG" AND -"<% tp.file.folder(true) %>/<% tp.file.title %>"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | <% tp.date.now("YYYY") %>

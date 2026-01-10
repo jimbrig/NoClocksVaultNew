@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: Python
 > - **Packages**: `packaging`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -79,7 +70,7 @@ def main():
     check_working_directory_clean()
     
     new_version_str = args.new_version
-    if not re.match(r"^\d+\.\d+\.\d+$", new_version_str):
+    if not re.match(r"^/d+/./d+/./d+$", new_version_str):
         raise ValueError(f"Invalid version format: {new_version_str}")
     
     new_version = version.parse(new_version_str)
@@ -131,18 +122,14 @@ python versionbump.py 1.2.0
 
 ## Appendix
 
-*Note created on [[2024-04-29]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-29](2024-04-29.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/Python/_README|Python Code Index]]
+- [Python Code Index](04-RESOURCES/Code/Python/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Python - Version Bump Script]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

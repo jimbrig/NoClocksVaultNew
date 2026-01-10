@@ -20,15 +20,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Register-ScheduledTask`, `Start-ScheduledTask`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Function to execute a scriptblock as SYSTEM by setting up a temporary scheduled task. Supports both instant execution and execution at next boot.
@@ -60,7 +51,7 @@ function Invoke-SystemCommand {
         Only applicable with "-Wait"
     
     .EXAMPLE
-        Invoke-SystemCommand -Name 'WhoAmI' -ScriptBlock { whoami | Set-Content C:\temp\whoami.txt }
+        Invoke-SystemCommand -Name 'WhoAmI' -ScriptBlock { whoami | Set-Content C:/temp/whoami.txt }
     #>
     [CmdletBinding()]
     Param (
@@ -124,31 +115,27 @@ function Invoke-SystemCommand {
 
 ```powershell
 # run command as SYSTEM immediately
-Invoke-SystemCommand -Name 'WhoAmI' -ScriptBlock { whoami | Set-Content C:\temp\whoami.txt }
+Invoke-SystemCommand -Name 'WhoAmI' -ScriptBlock { whoami | Set-Content C:/temp/whoami.txt }
 
 # run command as SYSTEM and wait for completion
-Invoke-SystemCommand -Name 'GetServices' -ScriptBlock { Get-Service | Export-Csv C:\temp\services.csv } -Wait
+Invoke-SystemCommand -Name 'GetServices' -ScriptBlock { Get-Service | Export-Csv C:/temp/services.csv } -Wait
 
 # schedule command to run at next boot
-Invoke-SystemCommand -Name 'CleanupTask' -ScriptBlock { Remove-Item C:\temp\* -Force } -Mode OnBoot
+Invoke-SystemCommand -Name 'CleanupTask' -ScriptBlock { Remove-Item C:/temp/* -Force } -Mode OnBoot
 ```
 
 ***
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Invoke-SystemCommand]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

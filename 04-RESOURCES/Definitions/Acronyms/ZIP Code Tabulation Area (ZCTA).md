@@ -15,10 +15,6 @@ aliases:
 ---
 
 # ZIP Code Tabulation Area (ZCTA)
-
-```table-of-contents
-```
-
 ## Overview
 
 **ZIP Code Tabulation Area (ZCTA)** is a statistical geographic entity developed by the U.S. Census Bureau to approximate the delivery areas of U.S. Postal Service ZIP Codes. ZCTAs are built from census blocks and provide a geographic representation for areas that ZIP Codes (which are delivery routes, not areas) cannot precisely define.
@@ -54,13 +50,9 @@ aliases:
 
 ### See Also
 
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Block Group (BG)]]
-- [[US Census Bureau]]
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Block Group (BG)](Block Group (BG).md)
+- [US Census Bureau](US Census Bureau.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[ZIP Code Tabulation Area (ZCTA)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/ZIP Code Tabulation Area (ZCTA)"
-```
-
+<!-- dynamic content -->

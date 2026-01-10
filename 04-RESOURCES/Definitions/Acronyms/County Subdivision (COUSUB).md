@@ -15,10 +15,6 @@ aliases:
 ---
 
 # County Subdivision (COUSUB)
-
-```table-of-contents
-```
-
 ## Overview
 
 **County Subdivision (COUSUB)** is a geographic area defined by the U.S. Census Bureau that represents minor civil divisions within a county, such as towns, townships, or precincts. The type and nature of county subdivisions vary significantly by state based on local government structures.
@@ -45,13 +41,9 @@ aliases:
 
 ### See Also
 
-- [[Topologically Integrated Geographic Encoding and Referencing (TIGER)]]
-- [[Federal Information Processing Standards (FIPS)]]
-- [[Block Group (BG)]]
+- [Topologically Integrated Geographic Encoding and Referencing (TIGER)](Topologically Integrated Geographic Encoding and Referencing (TIGER).md)
+- [Federal Information Processing Standards (FIPS)](Federal Information Processing Standards (FIPS).md)
+- [Block Group (BG)](Block Group (BG).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[County Subdivision (COUSUB)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/County Subdivision (COUSUB)"
-```
-
+<!-- dynamic content -->

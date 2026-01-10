@@ -19,19 +19,10 @@ cssclasses:
 # Pointers Basics
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-**Pointers** are one of the most powerful and distinctive features of [[04-RESOURCES/Code/C/_README|C]]. A pointer is a variable that stores the **memory address** of another variable, enabling direct memory manipulation, efficient data structures, and dynamic memory allocation.
+**Pointers** are one of the most powerful and distinctive features of [C](04-RESOURCES/Code/C/README.md). A pointer is a variable that stores the **memory address** of another variable, enabling direct memory manipulation, efficient data structures, and dynamic memory allocation.
 
 ## Code
 
@@ -44,10 +35,10 @@ int main(void) {
     int value = 42;
     int *ptr = &value;  // ptr holds the address of value
     
-    printf("Value: %d\n", value);           // 42
-    printf("Address of value: %p\n", (void*)&value);
-    printf("Pointer ptr: %p\n", (void*)ptr);
-    printf("Dereferenced ptr: %d\n", *ptr); // 42
+    printf("Value: %d/n", value);           // 42
+    printf("Address of value: %p/n", (void*)&value);
+    printf("Pointer ptr: %p/n", (void*)ptr);
+    printf("Dereferenced ptr: %d/n", *ptr); // 42
     
     return 0;
 }
@@ -65,7 +56,7 @@ int main(void) {
     // * = dereference operator (get value at address)
     *p = 20;      // modifies x through the pointer
     
-    printf("x = %d\n", x);  // 20
+    printf("x = %d/n", x);  // 20
     
     return 0;
 }
@@ -80,17 +71,17 @@ int main(void) {
     int arr[] = {10, 20, 30, 40, 50};
     int *p = arr;  // points to first element
     
-    printf("*p     = %d\n", *p);       // 10
-    printf("*(p+1) = %d\n", *(p + 1)); // 20
-    printf("*(p+2) = %d\n", *(p + 2)); // 30
+    printf("*p     = %d/n", *p);       // 10
+    printf("*(p+1) = %d/n", *(p + 1)); // 20
+    printf("*(p+2) = %d/n", *(p + 2)); // 30
     
     p++;  // move to next element
-    printf("After p++: *p = %d\n", *p); // 20
+    printf("After p++: *p = %d/n", *p); // 20
     
     // pointer difference
     int *start = arr;
     int *end = &arr[4];
-    printf("Elements between: %td\n", end - start); // 4
+    printf("Elements between: %td/n", end - start); // 4
     
     return 0;
 }
@@ -105,7 +96,7 @@ void print_array(int *arr, int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);  // arr[i] is equivalent to *(arr + i)
     }
-    printf("\n");
+    printf("/n");
 }
 
 int main(void) {
@@ -120,7 +111,7 @@ int main(void) {
     for (int i = 0; i < size; i++) {
         printf("%d ", *(p + i));
     }
-    printf("\n");
+    printf("/n");
     
     return 0;
 }
@@ -136,13 +127,13 @@ int main(void) {
     int *p = &value;     // pointer to int
     int **pp = &p;       // pointer to pointer to int
     
-    printf("value = %d\n", value);
-    printf("*p = %d\n", *p);
-    printf("**pp = %d\n", **pp);
+    printf("value = %d/n", value);
+    printf("*p = %d/n", *p);
+    printf("**pp = %d/n", **pp);
     
     // modify through double pointer
     **pp = 200;
-    printf("value after **pp = 200: %d\n", value);
+    printf("value after **pp = 200: %d/n", value);
     
     return 0;
 }
@@ -159,20 +150,20 @@ int main(void) {
     
     // always check for NULL before dereferencing
     if (ptr != NULL) {
-        printf("Value: %d\n", *ptr);
+        printf("Value: %d/n", *ptr);
     } else {
-        printf("Pointer is NULL\n");
+        printf("Pointer is NULL/n");
     }
     
     // common pattern with dynamic allocation
     ptr = malloc(sizeof(int));
     if (ptr == NULL) {
-        fprintf(stderr, "Memory allocation failed\n");
+        fprintf(stderr, "Memory allocation failed/n");
         return EXIT_FAILURE;
     }
     
     *ptr = 42;
-    printf("Allocated value: %d\n", *ptr);
+    printf("Allocated value: %d/n", *ptr);
     
     free(ptr);
     ptr = NULL;  // good practice: set to NULL after freeing
@@ -200,14 +191,14 @@ int calculate(int a, int b, operation_fn op) {
 int main(void) {
     // direct function pointer usage
     int (*op)(int, int) = add;
-    printf("add(5, 3) = %d\n", op(5, 3));
+    printf("add(5, 3) = %d/n", op(5, 3));
     
     // using typedef
     operation_fn operations[] = {add, subtract, multiply};
     char *names[] = {"add", "subtract", "multiply"};
     
     for (int i = 0; i < 3; i++) {
-        printf("%s(10, 4) = %d\n", names[i], calculate(10, 4, operations[i]));
+        printf("%s(10, 4) = %d/n", names[i], calculate(10, 4, operations[i]));
     }
     
     return 0;
@@ -243,9 +234,9 @@ int main(void) {
 
 void print_value(void *ptr, char type) {
     switch (type) {
-        case 'i': printf("%d\n", *(int*)ptr); break;
-        case 'f': printf("%f\n", *(float*)ptr); break;
-        case 'c': printf("%c\n", *(char*)ptr); break;
+        case 'i': printf("%d/n", *(int*)ptr); break;
+        case 'f': printf("%f/n", *(float*)ptr); break;
+        case 'c': printf("%c/n", *(char*)ptr); break;
     }
 }
 
@@ -266,22 +257,18 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - Hello World and Program Structure]]
-- [[C - Memory Management]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - Hello World and Program Structure](C - Hello World and Program Structure.md)
+- [C - Memory Management](C - Memory Management.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Pointers Basics]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

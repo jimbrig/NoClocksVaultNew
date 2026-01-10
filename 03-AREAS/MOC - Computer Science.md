@@ -19,15 +19,6 @@ publish: true
 ---
 
 # MOC - Computer Science
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -50,55 +41,40 @@ includeLinks: true
 - Data structure implementations
 
 ### Programming Languages
-- See [[MOC - Development]] for language-specific content
+- See [MOC - Development](MOC - Development.md) for language-specific content
 
 ## Related MOCs
 
 ### Parent/Broader MOCs
-- [[MOC - Mathematics]] - Mathematical foundations
-- [[MOC - Science]] - Scientific context
+- [MOC - Mathematics](MOC - Mathematics.md) - Mathematical foundations
+- [MOC - Science](MOC - Science.md) - Scientific context
 
 ### Child/Specialized MOCs
-- [[MOC - Development]] - Practical programming
-- [[MOC - Data Engineering]] - Data systems
-- [[MOC - Artificial Intelligence]] - AI/ML
+- [MOC - Development](MOC - Development.md) - Practical programming
+- [MOC - Data Engineering](MOC - Data Engineering.md) - Data systems
+- [MOC - Artificial Intelligence](MOC - Artificial Intelligence.md) - AI/ML
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Information Theory]] - Theoretical connections
-- [[MOC - Physics]] - Computational physics
+- [MOC - Information Theory](MOC - Information Theory.md) - Theoretical connections
+- [MOC - Physics](MOC - Physics.md) - Computational physics
 
 ### Applications
-- [[MOC - Data Science]] - Applied computation
-- [[MOC - Web Development]] - Software applications
+- [MOC - Data Science](MOC - Data Science.md) - Applied computation
+- [MOC - Web Development](MOC - Web Development.md) - Software applications
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/Computer Science").length`** individual notes with the `#Topic/Computer Science` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/Computer Science
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - Computer Science"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/Computer Science` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - Computer Science]] AND -"CHANGELOG" AND -"03-AREAS/MOC - Computer Science"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

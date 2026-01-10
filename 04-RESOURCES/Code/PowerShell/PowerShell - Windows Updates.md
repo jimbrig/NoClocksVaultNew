@@ -21,15 +21,6 @@ cssclasses:
 > - **Language**: PowerShell
 > - **Modules**: `PSWindowsUpdate`
 > - **Requires**: Administrator privileges
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell script that uses the PSWindowsUpdate module to install all available Windows updates.
@@ -41,7 +32,7 @@ PowerShell script that uses the PSWindowsUpdate module to install all available 
 
 # transcript logging
 $TranscriptFile = "$((Get-Date).ToString('yyyy-MM-dd-HHmmss'))-WindowsUpdate.log"
-$TranscriptPath = Join-Path "$Env:TEMP\WindowsUpdate" $TranscriptFile
+$TranscriptPath = Join-Path "$Env:TEMP/WindowsUpdate" $TranscriptFile
 Start-Transcript -Path $TranscriptPath -ErrorAction Ignore | Out-Null
 
 # execution policy
@@ -67,7 +58,7 @@ Restart-Computer -Force
 
 ```powershell
 # run as administrator
-.\Install-WindowsUpdates.ps1
+./Install-WindowsUpdates.ps1
 
 # or run commands individually
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot
@@ -83,18 +74,14 @@ Get-WUHistory
 
 ## Appendix
 
-*Note created on [[2024-05-03]] and last modified on [[2024-12-31]].*
+*Note created on [2024-05-03](2024-05-03.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Windows Updates]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

@@ -55,18 +55,9 @@ Templates that should exist:
 Check if notes match their expected template:
 
 **Definitions:**
-```dataview
-LIST FROM "04-RESOURCES/Definitions"
-WHERE !contains(file.content, "## Overview") OR !contains(file.content, "### Backlinks")
-```
-
+<!-- dynamic content -->
 **Daily Notes:**
-```dataview
-LIST FROM "03-AREAS/Journal"
-WHERE contains(tags, "Type/Daily")
-AND !contains(file.content, "## Tasks")
-```
-
+<!-- dynamic content -->
 ### 5. Outdated Templates
 
 Templates needing updates:

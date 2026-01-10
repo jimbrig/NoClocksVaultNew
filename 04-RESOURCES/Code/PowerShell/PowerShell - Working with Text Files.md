@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: PowerShell
 > - **Cmdlets**: `Get-Content`, `Set-Content`, `Select-String`
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 PowerShell has built-in commands for interacting with text files. These commands provide powerful control over file operations with familiar aliases for users coming from Unix/Linux.
@@ -115,18 +106,14 @@ Get-Content app.log |
 
 ## Appendix
 
-*Note created on [[2024-09-25]] and last modified on [[2024-12-31]].*
+*Note created on [2024-09-25](2024-09-25.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Working with Text Files]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

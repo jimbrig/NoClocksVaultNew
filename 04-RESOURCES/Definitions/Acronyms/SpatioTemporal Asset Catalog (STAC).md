@@ -15,10 +15,6 @@ aliases:
 ---
 
 # SpatioTemporal Asset Catalog (STAC)
-
-```table-of-contents
-```
-
 ## Overview
 
 **SpatioTemporal Asset Catalog (STAC)** is a specification for organizing and sharing geospatial data in a standardized way, enabling easier discovery and access to spatial datasets. STAC provides a common language for describing geospatial assets and their metadata.
@@ -64,13 +60,9 @@ aliases:
 
 ### See Also
 
-- [[Cloud Optimized GeoTIFF (COG)]]
-- [[GeoJSON]]
-- [[Geographic Information System (GIS)]]
+- [Cloud Optimized GeoTIFF (COG)](Cloud Optimized GeoTIFF (COG).md)
+- [GeoJSON](GeoJSON.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[SpatioTemporal Asset Catalog (STAC)]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/SpatioTemporal Asset Catalog (STAC)"
-```
-
+<!-- dynamic content -->

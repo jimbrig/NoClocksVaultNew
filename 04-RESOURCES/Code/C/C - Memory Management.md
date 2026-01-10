@@ -19,19 +19,10 @@ cssclasses:
 # Memory Management
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-[[04-RESOURCES/Code/C/_README|C]] provides manual **memory management** through dynamic allocation functions in `<stdlib.h>`. Unlike languages with garbage collection, C requires explicit allocation and deallocation, giving developers fine-grained control over memory usage.
+[C](04-RESOURCES/Code/C/README.md) provides manual **memory management** through dynamic allocation functions in `<stdlib.h>`. Unlike languages with garbage collection, C requires explicit allocation and deallocation, giving developers fine-grained control over memory usage.
 
 ## Code
 
@@ -45,12 +36,12 @@ int main(void) {
     // allocate memory for a single integer
     int *num = malloc(sizeof(int));
     if (num == NULL) {
-        fprintf(stderr, "Memory allocation failed\n");
+        fprintf(stderr, "Memory allocation failed/n");
         return EXIT_FAILURE;
     }
     
     *num = 42;
-    printf("Value: %d\n", *num);
+    printf("Value: %d/n", *num);
     
     free(num);
     num = NULL;
@@ -71,7 +62,7 @@ int main(void) {
     // allocate array of n integers
     int *arr = malloc(n * sizeof(int));
     if (arr == NULL) {
-        fprintf(stderr, "Memory allocation failed\n");
+        fprintf(stderr, "Memory allocation failed/n");
         return EXIT_FAILURE;
     }
     
@@ -81,7 +72,7 @@ int main(void) {
     }
     
     for (int i = 0; i < n; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+        printf("arr[%d] = %d/n", i, arr[i]);
     }
     
     free(arr);
@@ -103,13 +94,13 @@ int main(void) {
     // calloc initializes all bytes to zero
     int *arr = calloc(n, sizeof(int));
     if (arr == NULL) {
-        fprintf(stderr, "Memory allocation failed\n");
+        fprintf(stderr, "Memory allocation failed/n");
         return EXIT_FAILURE;
     }
     
     // all values are 0
     for (int i = 0; i < n; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+        printf("arr[%d] = %d/n", i, arr[i]);
     }
     
     free(arr);
@@ -145,7 +136,7 @@ int main(void) {
     arr[4] = 50;
     
     for (int i = 0; i < capacity; i++) {
-        printf("arr[%d] = %d\n", i, arr[i]);
+        printf("arr[%d] = %d/n", i, arr[i]);
     }
     
     free(arr);
@@ -202,7 +193,7 @@ int main(void) {
         for (int j = 0; j < cols; j++) {
             printf("%3d ", matrix[i][j]);
         }
-        printf("\n");
+        printf("/n");
     }
     
     free_2d_array(matrix, rows);
@@ -231,12 +222,12 @@ int main(void) {
     
     char *copy = duplicate_string(original);
     if (copy == NULL) {
-        fprintf(stderr, "Failed to duplicate string\n");
+        fprintf(stderr, "Failed to duplicate string/n");
         return EXIT_FAILURE;
     }
     
-    printf("Original: %s\n", original);
-    printf("Copy: %s\n", copy);
+    printf("Original: %s/n", original);
+    printf("Copy: %s/n", copy);
     
     free(copy);
     return EXIT_SUCCESS;
@@ -286,22 +277,18 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - Pointers Basics]]
-- [[C - Data Types]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - Pointers Basics](C - Pointers Basics.md)
+- [C - Data Types](C - Data Types.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Memory Management]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

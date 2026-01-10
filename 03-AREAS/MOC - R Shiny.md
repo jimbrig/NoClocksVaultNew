@@ -20,15 +20,6 @@ publish: true
 ---
 
 # MOC - R Shiny
-
-```table-of-contents
-title: Contents 
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!NOTE] About
@@ -59,45 +50,30 @@ includeLinks: true
 ## Related MOCs
 
 ### Parent MOCs
-- [[MOC - R]] - R programming language (parent)
-- [[MOC - Web Development]] - Web technologies context
+- [MOC - R](MOC - R.md) - R programming language (parent)
+- [MOC - Web Development](MOC - Web Development.md) - Web technologies context
 
 ### Sibling MOCs (Same Level)
-- [[MOC - Databases]] - Database connectivity
-- [[MOC - Data Science]] - Data visualization apps
+- [MOC - Databases](MOC - Databases.md) - Database connectivity
+- [MOC - Data Science](MOC - Data Science.md) - Data visualization apps
 
 ### Related Technologies
-- [[MOC - Cloud]] - Deployment (shinyapps.io, Posit Connect)
-- [[MOC - Geospatial]] - Interactive mapping apps (leaflet, mapgl)
+- [MOC - Cloud](MOC - Cloud.md) - Deployment (shinyapps.io, Posit Connect)
+- [MOC - Geospatial](MOC - Geospatial.md) - Interactive mapping apps (leaflet, mapgl)
 
 ## Notes
 
 > [!NOTE]
-> *Currently, there are **`$= dv.pages("#Topic/R Shiny").length`** individual notes with the `#Topic/R Shiny` tag.*
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS "Note",
-  file.folder AS "Location",
-  join(filter(file.tags, (t) => startswith(t, "#Type/")), ", ") AS "Type"
-FROM #Topic/R Shiny
-AND -"CHANGELOG"
-AND -"03-AREAS/MOC - R Shiny"
-SORT file.name ASC
-```
-
+> *Currently, there are  individual notes with the `#Topic/R Shiny` tag.*
+<!-- dynamic content -->
 ***
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### Backlinks
-
-```dataview
-LIST FROM [[MOC - R Shiny]] AND -"CHANGELOG" AND -"03-AREAS/MOC - R Shiny"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

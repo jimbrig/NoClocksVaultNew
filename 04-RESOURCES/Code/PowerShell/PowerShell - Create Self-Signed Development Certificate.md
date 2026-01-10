@@ -22,15 +22,6 @@ cssclasses:
 > - **Language**: PowerShell
 > - **Cmdlets**: `New-SelfSignedCertificate`, `Export-Certificate`, `Set-AuthenticodeSignature`
 > - **Requires**: Administrator privileges
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -51,7 +42,7 @@ $CertName = "DevCert"
 # specify parameters
 $Params = @{
     Subject           = "CN=$CertName"
-    CertStoreLocation = "Cert:\CurrentUser\My"
+    CertStoreLocation = "Cert:/CurrentUser/My"
     KeyExportPolicy   = "Exportable"
     KeySpec           = "Signature"
     KeyLength         = 2048
@@ -64,7 +55,7 @@ $Params = @{
 $Cert = New-SelfSignedCertificate @Params
 
 # export certificate to local file
-Export-Certificate -Cert $Cert -FilePath ".\$CertName.cer"
+Export-Certificate -Cert $Cert -FilePath "./$CertName.cer"
 
 # sign a script
 Set-AuthenticodeSignature -FilePath "path/to/script.ps1" -Certificate $Cert
@@ -76,7 +67,7 @@ Set-AuthenticodeSignature -FilePath "path/to/library.dll" -Certificate $Cert
 To import the certificate to the Trusted Root Certification Authority:
 
 ```powershell
-certutil -addstore "Root" ".\$CertName.cer"
+certutil -addstore "Root" "./$CertName.cer"
 ```
 
 ## Usage
@@ -90,18 +81,14 @@ certutil -addstore "Root" ".\$CertName.cer"
 
 ## Appendix
 
-*Note created on [[2024-04-13]] and last modified on [[2024-12-31]].*
+*Note created on [2024-04-13](2024-04-13.md) and last modified on [2024-12-31](2024-12-31.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/PowerShell/_README|PowerShell Code Index]]
+- [PowerShell Code Index](04-RESOURCES/Code/PowerShell/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[PowerShell - Create Self-Signed Development Certificate]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

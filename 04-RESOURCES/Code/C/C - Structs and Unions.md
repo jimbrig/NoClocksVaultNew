@@ -20,19 +20,10 @@ cssclasses:
 # Structs and Unions
 
 > [!info] Code Properties
-> - **Language**: [[04-RESOURCES/Code/C/_README|C]]
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 1
-maxLevel: 4
-includeLinks: true
-```
-
+> - **Language**: [C](04-RESOURCES/Code/C/README.md)
 ## Overview
 
-[[04-RESOURCES/Code/C/_README|C]] allows creating custom **composite data types** using `struct` and `union`. Structures group related variables together, while unions allow storing different data types in the same memory location.
+[C](04-RESOURCES/Code/C/README.md) allows creating custom **composite data types** using `struct` and `union`. Structures group related variables together, while unions allow storing different data types in the same memory location.
 
 ## Code
 
@@ -65,8 +56,8 @@ int main(void) {
     // positional initializer
     struct Person person3 = {"Charlie", 35, 6.0f};
     
-    printf("%s is %d years old\n", person1.name, person1.age);
-    printf("%s is %.1f feet tall\n", person2.name, person2.height);
+    printf("%s is %d years old/n", person1.name, person1.age);
+    printf("%s is %.1f feet tall/n", person2.name, person2.height);
     
     return 0;
 }
@@ -103,8 +94,8 @@ int main(void) {
         .radius = 2.5
     };
     
-    printf("Point: (%.1f, %.1f)\n", p1.x, p1.y);
-    printf("Circle center: (%.1f, %.1f), radius: %.1f\n", 
+    printf("Point: (%.1f, %.1f)/n", p1.x, p1.y);
+    printf("Circle center: (%.1f, %.1f), radius: %.1f/n", 
            c.center.x, c.center.y, c.radius);
     
     return 0;
@@ -127,10 +118,10 @@ typedef struct {
 
 void print_book(const Book *book) {
     // arrow operator for pointer access
-    printf("Title: %s\n", book->title);
-    printf("Author: %s\n", book->author);
-    printf("Year: %d\n", book->year);
-    printf("Price: $%.2f\n", book->price);
+    printf("Title: %s/n", book->title);
+    printf("Author: %s/n", book->author);
+    printf("Year: %d/n", book->year);
+    printf("Price: $%.2f/n", book->price);
 }
 
 int main(void) {
@@ -138,7 +129,7 @@ int main(void) {
     Book book1 = {"The C Programming Language", "K&R", 1988, 59.99};
     print_book(&book1);
     
-    printf("\n");
+    printf("/n");
     
     // heap allocation
     Book *book2 = malloc(sizeof(Book));
@@ -168,11 +159,11 @@ typedef struct {
 } Student;
 
 void print_students(const Student students[], int count) {
-    printf("%-5s %-20s %s\n", "ID", "Name", "Score");
-    printf("%-5s %-20s %s\n", "---", "----", "-----");
+    printf("%-5s %-20s %s/n", "ID", "Name", "Score");
+    printf("%-5s %-20s %s/n", "---", "----", "-----");
     
     for (int i = 0; i < count; i++) {
-        printf("%-5d %-20s %.2f\n", 
+        printf("%-5d %-20s %.2f/n", 
                students[i].id, 
                students[i].name, 
                students[i].score);
@@ -230,12 +221,12 @@ int main(void) {
         }
     };
     
-    printf("Name: %s\n", emp.name);
-    printf("DOB: %02d/%02d/%d\n", 
+    printf("Name: %s/n", emp.name);
+    printf("DOB: %02d/%02d/%d/n", 
            emp.birth_date.month, 
            emp.birth_date.day, 
            emp.birth_date.year);
-    printf("Address: %s, %s, %s %s\n",
+    printf("Address: %s, %s, %s %s/n",
            emp.address.street,
            emp.address.city,
            emp.address.state,
@@ -260,14 +251,14 @@ typedef union {
 int main(void) {
     Data data;
     
-    printf("Size of union: %zu bytes\n", sizeof(Data));
+    printf("Size of union: %zu bytes/n", sizeof(Data));
     
     // only one member valid at a time
     data.i = 42;
-    printf("data.i = %d\n", data.i);
+    printf("data.i = %d/n", data.i);
     
     data.f = 3.14f;
-    printf("data.f = %f\n", data.f);
+    printf("data.f = %f/n", data.f);
     // data.i is now garbage
     
     return 0;
@@ -298,13 +289,13 @@ typedef struct {
 void print_value(const Value *v) {
     switch (v->type) {
         case TYPE_INT:
-            printf("Integer: %d\n", v->data.int_val);
+            printf("Integer: %d/n", v->data.int_val);
             break;
         case TYPE_FLOAT:
-            printf("Float: %f\n", v->data.float_val);
+            printf("Float: %f/n", v->data.float_val);
             break;
         case TYPE_STRING:
-            printf("String: %s\n", v->data.string_val);
+            printf("String: %s/n", v->data.string_val);
             break;
     }
 }
@@ -345,16 +336,16 @@ typedef struct {
 int main(void) {
     Flags status = {0};
     
-    printf("Size of Flags: %zu bytes\n", sizeof(Flags));
+    printf("Size of Flags: %zu bytes/n", sizeof(Flags));
     
     status.active = 1;
     status.ready = 1;
     status.mode = 5;
     status.priority = 10;
     
-    printf("Active: %u\n", status.active);
-    printf("Mode: %u\n", status.mode);
-    printf("Priority: %u\n", status.priority);
+    printf("Active: %u/n", status.active);
+    printf("Mode: %u/n", status.mode);
+    printf("Priority: %u/n", status.priority);
     
     return 0;
 }
@@ -389,8 +380,8 @@ struct Packed {
 };              // total: 8 bytes
 
 int main(void) {
-    printf("Padded: %zu bytes\n", sizeof(struct Padded));
-    printf("Packed: %zu bytes\n", sizeof(struct Packed));
+    printf("Padded: %zu bytes/n", sizeof(struct Padded));
+    printf("Packed: %zu bytes/n", sizeof(struct Packed));
     return 0;
 }
 ```
@@ -399,23 +390,19 @@ int main(void) {
 
 ## Appendix
 
-*Note created on [[2025-12-31]] and last modified on [[2025-12-31]].*
+*Note created on [2025-12-31](2025-12-31.md) and last modified on [2025-12-31](2025-12-31.md).*
 
 ### See Also
 
-- [[C - Data Types]]
-- [[C - Pointers Basics]]
-- [[C - Memory Management]]
-- [[04-RESOURCES/Code/C/_README|C Code Index]]
-- [[MOC - Computer Science]]
-- [[MOC - Development]]
+- [C - Data Types](C - Data Types.md)
+- [C - Pointers Basics](C - Pointers Basics.md)
+- [C - Memory Management](C - Memory Management.md)
+- [C Code Index](04-RESOURCES/Code/C/README.md)
+- [MOC - Computer Science](MOC - Computer Science.md)
+- [MOC - Development](MOC - Development.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[C - Structs and Unions]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

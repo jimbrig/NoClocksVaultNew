@@ -122,7 +122,7 @@ After cloning this vault, you'll need to configure these plugins with your crede
 
 ## Related Documentation
 
-- [[PLUGINS]] - Full plugin list with versions and descriptions
-- [[05-SYSTEM/Meta/AGENTS]] - AI tooling and MCP configuration
+- [PLUGINS](PLUGINS.md) - Full plugin list with versions and descriptions
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md) - AI tooling and MCP configuration
 - [`.obsidian/README.md`](../README.md) - Full `.obsidian` folder documentation
 

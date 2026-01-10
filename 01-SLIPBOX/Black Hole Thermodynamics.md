@@ -16,21 +16,12 @@ aliases:
   - Bekenstein-Hawking Entropy
   - Hawking Radiation
 publish: true
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics|Information Theory Chat]]"
+source_chat: "[Information Theory Chat](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 source_provider: Perplexity
 confidence: high
 ---
 
 # Black Hole Thermodynamics
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 **Black hole thermodynamics** represents the exceptional case in physics where quantum mechanics, general relativity, and thermodynamics **necessarily converge**. It's not a speculative unification attempt—it's a working theoretical framework where all three domains are already intertwined.
@@ -44,14 +35,14 @@ includeLinks: true
 
 Black holes provide the unique arena where quantum effects, gravitational spacetime curvature, and thermodynamic entropy become inseparable. The Bekenstein-Hawking entropy formula directly combines all fundamental constants:
 
-$$S_{BH} = \frac{k_B c^3 A}{4 G \hbar}$$
+$$S_{BH} = /frac{k_B c^3 A}{4 G /hbar}$$
 
 Where:
 - $k_B$ = Boltzmann's constant (thermodynamics)
 - $c$ = speed of light (relativity)
 - $A$ = event horizon area (general relativity)
 - $G$ = gravitational constant (gravity)
-- $\hbar$ = reduced Planck constant (quantum mechanics)
+- $/hbar$ = reduced Planck constant (quantum mechanics)
 
 **This formula cannot be derived from any single theory**—it requires all three frameworks simultaneously.
 
@@ -61,7 +52,7 @@ Where:
 
 Stephen Hawking demonstrated that black holes emit thermal radiation with temperature:
 
-$$T_H = \frac{\hbar c^3}{8 \pi G M k_B}$$
+$$T_H = /frac{/hbar c^3}{8 /pi G M k_B}$$
 
 This discovery emerged from applying **quantum field theory in curved spacetime**. It proved black holes aren't perfectly black but emit particles with a precise thermal spectrum.
 
@@ -71,7 +62,7 @@ The physics underlying Hawking radiation requires quantum vacuum fluctuations ne
 
 The **Generalized Second Law (GSL)** states that total entropy—environmental entropy plus black hole entropy—never decreases:
 
-$$\delta S_{total} = \delta S_{external} + \delta S_{BH} \geq 0$$
+$$/delta S_{total} = /delta S_{external} + /delta S_{BH} /geq 0$$
 
 This resolves apparent violations where matter with entropy falls into a black hole. The horizon area must increase to compensate, preserving thermodynamics but only when **gravitational entropy is properly accounted for**.
 
@@ -101,23 +92,19 @@ The fact that information theory provides the common language suggests something
 
 ### See Also
 
-- [[Definition - Bekenstein Bound]]
-- [[Definition - Information Theory]]
-- [[Definition - It From Bit]]
-- [[Definition - Landauer Principle]]
+- [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - It From Bit](Definition - It From Bit.md)
+- [Definition - Landauer Principle](Definition - Landauer Principle.md)
 
 ### Related MOCs
 
-- [[MOC - Physics]] - Physics foundations
-- [[MOC - Information Theory]] - Information-theoretic connections
-- [[MOC - Philosophy]] - Ontological implications
+- [MOC - Physics](MOC - Physics.md) - Physics foundations
+- [MOC - Information Theory](MOC - Information Theory.md) - Information-theoretic connections
+- [MOC - Philosophy](MOC - Philosophy.md) - Ontological implications
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Black Hole Thermodynamics]] AND -"CHANGELOG" AND -"01-SLIPBOX/Black Hole Thermodynamics"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

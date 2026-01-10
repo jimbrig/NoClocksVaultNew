@@ -167,7 +167,7 @@ Each MOC should include:
 
 ## Appendix
 
-*Note created on [[2025-04-03]] and last modified on [[2025-04-03]].*
+*Note created on [2025-04-03](2025-04-03.md) and last modified on [2025-04-03](2025-04-03.md).*
 
 ***
 

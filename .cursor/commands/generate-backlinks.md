@@ -14,10 +14,7 @@ Add this at the end of notes:
 
 ```markdown
 ### Backlinks
-
-```dataview
-LIST FROM [[{note_title}]] AND -"CHANGELOG" AND -"{current_folder}/{note_title}"
-```
+<!-- dynamic content -->
 ```
 
 ## Placement

@@ -13,15 +13,6 @@ publish: true
 ---
 
 # List - PowerShell Modules
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 Curated collection of tools and resources for **PowerShell Modules**.
@@ -252,16 +243,12 @@ Curated collection of tools and resources for **PowerShell Modules**.
 
 ### See Also
 
-- [[PowerShell - Profile Custom Setup]]
-- [[04-RESOURCES/Lists/_README|Lists]]
-- [[MOC - PowerShell]]
+- [PowerShell - Profile Custom Setup](PowerShell - Profile Custom Setup.md)
+- [Lists](04-RESOURCES/Lists/README.md)
+- [MOC - PowerShell](MOC - PowerShell.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[List - PowerShell Modules]] AND -"CHANGELOG" AND -"04-RESOURCES/Lists/List - PowerShell Modules"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

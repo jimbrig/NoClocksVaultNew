@@ -17,24 +17,15 @@ publish: true
 
 
 # R Package Development - Advanced Patterns
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This note documents opinionated and advanced patterns for building robust, production-grade R packages. These practices are project-type agnostic and apply to any R package regardless of its specific purpose.
 
 > [!TIP] Related Notes
 > For specialized package types, see:
-> - [[Guide - R httr2 API Client Package]] - httr2-based API client packages
-> - [[Guide - R Shiny App Package]] - Shiny application packages
-> - [[R - Package Initialization Script]] - Comprehensive initialization script
+> - [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md) - httr2-based API client packages
+> - [Guide - R Shiny App Package](Guide - R Shiny App Package.md) - Shiny application packages
+> - [R - Package Initialization Script](R - Package Initialization Script.md) - Comprehensive initialization script
 
 ## Development Workflow
 
@@ -413,25 +404,20 @@ Use `.Rmd.orig` for source files that need pre-computation.
 
 ## Appendix
 
-*Note created on [[2025-12-24]] and last modified on [[2025-12-24]].*
+*Note created on [2025-12-24](2025-12-24.md) and last modified on [2025-12-24](2025-12-24.md).*
 
 ### See Also
 
-- [[R - Package Initialization Script]] - Comprehensive initialization script
-- [[R - Package Environment and Initialization]] - Detailed `R/zzz.R` patterns
-- [[R - Shared Roxygen2 Parameter Templates]] - `R/aaa.R` patterns
-- [[R - Argument Validation Check Utilities]] - `check_*` function patterns
-- [[Guide - R httr2 API Client Package]] - API client package structure
-- [[Guide - R Shiny App Package]] - Shiny app package structure
-- [[MOC - R]]
+- [R - Package Initialization Script](R - Package Initialization Script.md) - Comprehensive initialization script
+- [R - Package Environment and Initialization](R - Package Environment and Initialization.md) - Detailed `R/zzz.R` patterns
+- [R - Shared Roxygen2 Parameter Templates](R - Shared Roxygen2 Parameter Templates.md) - `R/aaa.R` patterns
+- [R - Argument Validation Check Utilities](R - Argument Validation Check Utilities.md) - `check_*` function patterns
+- [Guide - R httr2 API Client Package](Guide - R httr2 API Client Package.md) - API client package structure
+- [Guide - R Shiny App Package](Guide - R Shiny App Package.md) - Shiny app package structure
+- [MOC - R](MOC - R.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R Package Development - Advanced Patterns]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

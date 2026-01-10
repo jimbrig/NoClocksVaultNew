@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Projection
-
-```table-of-contents
-```
-
 ## Overview
 
 **Projection** is a mathematical transformation that converts geographic coordinates (latitude and longitude) into a flat, two-dimensional representation of the Earth's surface, allowing for accurate mapping and analysis in a GIS. All projections introduce distortion in area, shape, distance, or direction.
@@ -52,14 +48,10 @@ aliases:
 
 ### See Also
 
-- [[Coordinate Reference System (CRS)]]
-- [[European Petroleum Survey Group (EPSG)]]
-- [[Datum]]
-- [[Geographic Information System (GIS)]]
+- [Coordinate Reference System (CRS)](Coordinate Reference System (CRS).md)
+- [European Petroleum Survey Group (EPSG)](European Petroleum Survey Group (EPSG).md)
+- [Datum](Datum.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Projection]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Projection"
-```
-
+<!-- dynamic content -->

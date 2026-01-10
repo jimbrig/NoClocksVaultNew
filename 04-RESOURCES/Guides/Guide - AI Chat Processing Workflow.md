@@ -17,15 +17,6 @@ publish: true
 ---
 
 # Guide - AI Chat Processing Workflow
-
-```table-of-contents
-title: Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 This guide walks through **processing AI LLM chat exports** and extracting valuable knowledge into atomic notes for your Zettelkasten. It covers the complete workflow from capture to archival across multiple AI providers.
@@ -113,10 +104,10 @@ As you read, update the "Key Insights" section:
 ## Key Insights
 
 > [!TIP] Insights to Extract
-> - [x] Shannon's information theory as physics bridge → [[Definition - Information Theory]]
-> - [x] Wheeler's "it from bit" concept → [[Wheeler It From Bit]]
-> - [ ] Bekenstein-Hawking entropy formula → [[Definition - Bekenstein Bound]]
-> - [ ] Landauer's principle → [[Definition - Landauer Principle]]
+> - [x] Shannon's information theory as physics bridge → [Definition - Information Theory](Definition - Information Theory.md)
+> - [x] Wheeler's "it from bit" concept → [Wheeler It From Bit](Wheeler It From Bit.md)
+> - [ ] Bekenstein-Hawking entropy formula → [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
+> - [ ] Landauer's principle → [Definition - Landauer Principle](Definition - Landauer Principle.md)
 ```
 
 ---
@@ -162,7 +153,7 @@ tags:
   - Type/Definition
   - Topic/Physics
   - Topic/InformationTheory
-source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding and quantum physics]]"
+source_chat: "[2025-12-31_Perplexity_Information theory computational encoding and quantum physics](2025-12-31_Perplexity_Information theory computational encoding and quantum physics.md)"
 ---
 
 # Definition - It From Bit
@@ -179,8 +170,8 @@ source_chat: "[[2025-12-31_Perplexity_Information theory computational encoding 
 
 ## See Also
 
-- [[Definition - Information Theory]]
-- [[Definition - Bekenstein Bound]]
+- [Definition - Information Theory](Definition - Information Theory.md)
+- [Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)
 ```
 
 ### Batch Processing with AI
@@ -206,9 +197,9 @@ After extraction, update the original chat note:
 
 ```yaml
 extracted_notes:
-  - "[[Definition - It From Bit]]"
-  - "[[Definition - Bekenstein Bound]]"
-  - "[[Landauer Principle and Computation]]"
+  - "[Definition - It From Bit](Definition - It From Bit.md)"
+  - "[Definition - Bekenstein Bound](Definition - Bekenstein Bound.md)"
+  - "[Landauer Principle and Computation](Landauer Principle and Computation.md)"
 ```
 
 3. Check off items in "Key Insights" section
@@ -243,17 +234,7 @@ If it doesn't exist:
 ### Dataview Dashboard
 
 Add to your daily note or PKM dashboard:
-
-```dataview
-TABLE 
-  provider AS "Provider",
-  extraction_status AS "Status",
-  length(extracted_notes) AS "Extracted"
-FROM "00-INBOX/Chats"
-WHERE file.name != "_README"
-SORT extraction_status ASC, file.mtime DESC
-```
-
+<!-- dynamic content -->
 ### QuickAdd Macro
 
 Create a QuickAdd macro for rapid insight capture:
@@ -309,7 +290,7 @@ Create a QuickAdd macro for rapid insight capture:
 **Solution**: 
 - Ensure proper fence syntax (triple backticks with language)
 - For LaTeX, use `$...$` for inline, `$$...$$` for block
-- Some exports use `\(...\)` which may need conversion
+- Some exports use `/(.../)` which may need conversion
 
 ### Duplicate Imports
 
@@ -337,17 +318,13 @@ Create a QuickAdd macro for rapid insight capture:
 
 ### See Also
 
-- [[04-RESOURCES/Integrations/Chats/_README|AI Chat Inbox]]
-- [[MOC - PKM]]
-- [[Guide - PKM Organization]]
-- [[05-SYSTEM/Meta/AGENTS]]
+- [AI Chat Inbox](04-RESOURCES/Integrations/Chats/README.md)
+- [MOC - PKM](MOC - PKM.md)
+- [Guide - PKM Organization](Guide - PKM Organization.md)
+- [05-SYSTEM/Meta/AGENTS](05-SYSTEM/Meta/AGENTS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Guide - AI Chat Processing Workflow]] AND -"CHANGELOG" AND -"04-RESOURCES/Guides/Guide - AI Chat Processing Workflow"
-```
-
+<!-- dynamic content -->
 ---
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2024

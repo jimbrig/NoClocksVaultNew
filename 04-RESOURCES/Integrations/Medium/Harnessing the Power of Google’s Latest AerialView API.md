@@ -28,8 +28,8 @@ Generating a new video is a simple process:
 ```bash
 curl -X POST -d '{
   "address": "POSTAL_ADDRESS"
-}' \
--H 'Content-Type: application/json' \
+}' /
+-H 'Content-Type: application/json' /
 "https://aerialview.googleapis.com/v1beta/videos:renderVideo?key=YOUR_API_KEY"
 ```
 

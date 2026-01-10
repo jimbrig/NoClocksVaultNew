@@ -7,7 +7,7 @@ Sync vault content and start the Quartz development server.
 Run the PowerShell script from the vault root:
 
 ```powershell
-.\.scripts\quartz.ps1
+./.scripts/quartz.ps1
 ```
 
 ## Script Options
@@ -23,16 +23,16 @@ Run the PowerShell script from the vault root:
 
 ```powershell
 # full workflow: sync, build, serve, open browser
-.\.scripts\quartz.ps1
+./.scripts/quartz.ps1
 
 # custom port without browser
-.\.scripts\quartz.ps1 -Port 3000 -NoBrowser
+./.scripts/quartz.ps1 -Port 3000 -NoBrowser
 
 # sync content only (for inspection/debugging)
-.\.scripts\quartz.ps1 -SyncOnly
+./.scripts/quartz.ps1 -SyncOnly
 
 # quick restart using existing content
-.\.scripts\quartz.ps1 -SkipSync
+./.scripts/quartz.ps1 -SkipSync
 ```
 
 ## What the Script Does
@@ -41,8 +41,8 @@ The script mirrors the GitHub Actions workflow (`quartz-deploy.yml`) for local d
 
 1. **Cleans** `quartz/content` directory
 2. **Syncs** vault content (excluding system folders)
-3. **Renames** `_README.md` → `index.md` in all directories
-4. **Fixes** `[[_README]]` links → `[[index]]`
+3. **Renames** `README.md` → `index.md` in all directories
+4. **Fixes** `[README](README.md)` links → `[index](index.md)`
 5. **Strips** Obsidian plugin blocks (dataview, table-of-contents)
 6. **Copies** favicons to static folder
 7. **Installs** npm dependencies (if needed)
@@ -74,14 +74,14 @@ These are excluded from sync (matching the GHA workflow):
 ```
 Quartz Local Development Server
 ================================
-Vault:   N:\obsidian\NoClocksVaultNew
-Quartz:  N:\obsidian\NoClocksVaultNew\quartz
-Content: N:\obsidian\NoClocksVaultNew\quartz\content
+Vault:   N:/obsidian/NoClocksVaultNew
+Quartz:  N:/obsidian/NoClocksVaultNew/quartz
+Content: N:/obsidian/NoClocksVaultNew/quartz/content
 
 [1/7] Cleaning quartz/content directory...
 [2/7] Syncing vault content...
 [3/7] Creating homepage...
-[4/7] Renaming _README.md files to index.md...
+[4/7] Renaming README.md files to index.md...
 [5/7] Fixing _README links...
 [6/7] Stripping Obsidian plugin blocks...
 [7/7] Setting up favicons...
@@ -102,20 +102,20 @@ Started a Quartz server listening at http://localhost:8080
 **Port in use**: Use a different port:
 
 ```powershell
-.\.scripts\quartz.ps1 -Port 3000
+./.scripts/quartz.ps1 -Port 3000
 ```
 
 **Dependencies missing**: Delete `quartz/node_modules` and re-run:
 
 ```powershell
-Remove-Item -Recurse -Force .\quartz\node_modules
-.\.scripts\quartz.ps1
+Remove-Item -Recurse -Force ./quartz/node_modules
+./.scripts/quartz.ps1
 ```
 
 **Quick iteration**: Skip sync for faster restarts:
 
 ```powershell
-.\.scripts\quartz.ps1 -SkipSync
+./.scripts/quartz.ps1 -SkipSync
 ```
 
 ## Related

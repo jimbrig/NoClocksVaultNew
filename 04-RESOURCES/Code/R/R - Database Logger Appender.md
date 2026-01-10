@@ -19,15 +19,6 @@ cssclasses:
 > [!info] Code Properties
 > - **Language**: 
 > - **Packages**: 
-
-```table-of-contents
-title: ## Contents
-style: nestedList
-minLevel: 2
-maxLevel: 4
-includeLinks: true
-```
-
 ## Overview
 
 > [!SOURCE] Sources:
@@ -57,18 +48,14 @@ Additional notes about the code.
 
 ## Appendix
 
-*Note created on [[2026-01-05]] and last modified on [[2026-01-05]].*
+*Note created on [2026-01-05](2026-01-05.md) and last modified on [2026-01-05](2026-01-05.md).*
 
 ### See Also
 
-- [[04-RESOURCES/Code/_README|Code Index]]
+- [Code Index](04-RESOURCES/Code/README.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[R - Database Logger Appender]] AND -"CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2026

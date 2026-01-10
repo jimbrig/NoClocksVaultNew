@@ -13,10 +13,6 @@ aliases:
 ---
 
 # Point
-
-```table-of-contents
-```
-
 ## Overview
 
 **Point** is a spatial feature in a GIS that represents a specific location in space, typically defined by a single set of coordinates (latitude and longitude). Points are the simplest geometry type and are used to represent discrete locations such as addresses, landmarks, or sample sites.
@@ -50,15 +46,11 @@ aliases:
 
 ### See Also
 
-- [[Feature]]
-- [[Coordinates]]
-- [[Geographic Information System (GIS)]]
-- [[Polygon]]
-- [[LineString]]
+- [Feature](Feature.md)
+- [Coordinates](Coordinates.md)
+- [Geographic Information System (GIS)](Geographic Information System (GIS).md)
+- [Polygon](Polygon.md)
+- [LineString](LineString.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[Point]] AND -"CHANGELOG" AND -"04-RESOURCES/Definitions/Point"
-```
-
+<!-- dynamic content -->

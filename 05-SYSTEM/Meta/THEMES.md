@@ -41,20 +41,15 @@ Currently set to [Dark Moss](.obsidian/themes/Dark%20Moss).
 
 ## Appendix
 
-*Note created on [[2025-12-23]] and last modified on [[2025-12-23]].*
+*Note created on [2025-12-23](2025-12-23.md) and last modified on [2025-12-23](2025-12-23.md).*
 
 ### See Also
 
-- [[05-SYSTEM/Meta/_README|Vault Meta]]
-- [[05-SYSTEM/Meta/PLUGINS|Vault Plugins]]
+- [Vault Meta](05-SYSTEM/Meta/README.md)
+- [Vault Plugins](05-SYSTEM/Meta/PLUGINS.md)
 
 ### Backlinks
-
-```dataview
-LIST FROM [[THEMES]] 
-WHERE file.name != "_README" AND file.name != this.file.name AND file.name != "CHANGELOG"
-```
-
+<!-- dynamic content -->
 ***
 
 (c) [No Clocks, LLC](https://github.com/noclocks) | 2025

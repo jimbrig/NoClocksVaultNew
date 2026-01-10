@@ -2,10 +2,13 @@
 # Track plugin configurations for reproducibility while protecting secrets
 
 # ============================================================================
-# ALWAYS IGNORE: Plugin Code (auto-downloaded from plugin repos)
+# Plugin Code: Now TRACKED for persistence across clones/pulls
 # ============================================================================
-*.js
-*.css
+# Previously ignored *.js and *.css but this caused plugins to not persist
+# after git operations. Now tracking them for reliability.
+# 
+# NOTE: This increases repo size but ensures plugins work immediately.
+# ============================================================================
 *.exe
 
 # ============================================================================

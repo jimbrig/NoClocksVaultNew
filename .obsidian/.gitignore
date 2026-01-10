@@ -18,7 +18,7 @@ cache/
 
 # ============================================================================
 # Plugin configurations are managed by .obsidian/plugins/.gitignore
-# - JS/CSS files are ignored (auto-downloaded)
+# - JS/CSS files are NOW TRACKED for persistence across git operations
 # - Safe data.json files are tracked (for reproducibility)
 # - data.json files with secrets are explicitly ignored
 # - data.json.example files document structure for secret-containing plugins

@@ -6,7 +6,7 @@
 # ============================================================================
 # Previously ignored *.js and *.css but this caused plugins to not persist
 # after git operations. Now tracking them for reliability.
-# 
+#
 # NOTE: This increases repo size but ensures plugins work immediately.
 # ============================================================================
 *.exe
@@ -18,48 +18,21 @@
 **/cache/
 
 # ============================================================================
-# ALWAYS IGNORE: Git Plugin Script
+# Plugin-specific secrets are managed by .gitignore files in each plugin folder
 # ============================================================================
-obsidian-git/obsidian_askpass.sh
-
-# ============================================================================
-# PLUGINS WITH SECRETS: Explicitly ignore data.json for these plugins
-# ============================================================================
-# These plugins store API keys, tokens, or cryptographic material in data.json
-# Create a data.json.example file in each to document the structure
-
-# copilot - stores OpenAI/Anthropic/Google/etc API keys
-copilot/data.json
-
-# obsidian-local-rest-api - stores API key, private key, and certificates
-obsidian-local-rest-api/data.json
-
-# obsidian-imgur-plugin - stores Imgur client ID and album IDs
-obsidian-imgur-plugin/data.json
-
-# smart-connections - stores API keys for AI services
-smart-connections/data.json
-
-# readwise-official - stores Readwise API token
-readwise-official/data.json
-
-# obsidian-raindrop-highlights - stores Raindrop API token
-obsidian-raindrop-highlights/data.json
-
-# github-copilot - stores GitHub auth tokens
-github-copilot/data.json
-
-# google-drive-sync - stores OAuth tokens
-google-drive-sync/data.json
-
-# obsidian-google-lookup - stores Google API key
-obsidian-google-lookup/data.json
-
-# medium-importer
-medium-importer/data.json
-
-# raindrop
-obsidian-raindrop/data.json
+# The following plugins have their own .gitignore to protect data.json:
+#   - copilot (OpenAI/Anthropic/Google API keys)
+#   - obsidian-local-rest-api (API key, private key, certificates)
+#   - obsidian-imgur-plugin (Imgur client ID, album IDs)
+#   - smart-connections (AI service API keys)
+#   - readwise-official (Readwise API token)
+#   - obsidian-raindrop-highlights (Raindrop API token)
+#   - github-copilot (GitHub auth tokens)
+#   - google-drive-sync (OAuth tokens)
+#   - obsidian-google-lookup (Google API key)
+#   - medium-importer (authentication tokens)
+#   - obsidian-raindrop (Raindrop API token)
+#   - obsidian-git (askpass script)
 
 # ============================================================================
 # TRACKED BY DEFAULT: All other data.json files are tracked
